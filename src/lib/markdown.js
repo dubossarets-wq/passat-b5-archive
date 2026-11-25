@@ -15,6 +15,6 @@ md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
   return defaultLink(tokens, idx, options, env, self);
 };
 
-export function renderMarkdown(source, specMap) {
-  return raw(expandSpecs(md.render(protectSpecs(source)), specMap));
+export function renderMarkdown(source) {
+  return raw(expandSpecs(md.render(protectSpecs(source))));
 }

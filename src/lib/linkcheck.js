@@ -1,5 +1,4 @@
-// Проверка, что ссылки открываются. Запросы идут только на адреса из вашего списка ссылок,
-// никакие данные архива в них не передаются.
+// Проверка, что ссылка открывается (для обслуживания справочника: npm run check-links).
 const UA = 'Mozilla/5.0 (compatible; PersonalArchiveLinkCheck/1.0)';
 const MANUAL = new Set([401, 403, 429, 451, 999]);
 
@@ -13,20 +12,11 @@ async function request(url, method, timeoutMs) {
       signal: ctrl.signal,
       headers: { 'User-Agent': UA, Accept: 'text/html,application/pdf;q=0.9,*/*;q=0.5', ...(method === 'GET' ? { Range: 'bytes=0-1023' } : {}) },
     });
-    // Тело не нужно.
-    try { await res.body?.cancel(); } catch { /* ignore */ }
+    try { await res.body?.cancel(); } catch { /* тело не нужно */ }
     return res;
   } finally {
     clearTimeout(timer);
   }
-}
-
-/** @returns {Promise<{ok:boolean, status:number|null, text:string}>} */
-export async function checkUrl(url, { timeoutMs = 12000 } = {}) {
-  const first = await checkOnce(url, timeoutMs);
-  // Один повтор при сетевой ошибке: сайты иногда обрывают соединение.
-  if (first.status == null && /^https?:\/\//i.test(url)) return checkOnce(url, timeoutMs);
-  return first;
 }
 
 async function checkOnce(url, timeoutMs) {
@@ -41,7 +31,7 @@ async function checkOnce(url, timeoutMs) {
     }
     return { ok: false, status: res.status, text: `${res.status}: страница не открывается` };
   } catch (e) {
-    // Сайт рвёт соединение в ответ на запрос робота: считаем блокировкой автопроверки, а не мёртвой ссылкой.
+    // Сайт рвёт соединение в ответ на запрос робота: это блокировка автопроверки, а не мёртвая ссылка.
     if (e.cause?.code === 'UND_ERR_SOCKET' || e.cause?.code === 'ECONNRESET') {
       return { ok: true, manual: true, status: null, text: 'соединение сброшено сайтом: автопроверка заблокирована, откройте вручную' };
     }
@@ -50,29 +40,10 @@ async function checkOnce(url, timeoutMs) {
   }
 }
 
-const job = { running: false, done: 0, total: 0, startedAt: null };
-export const linkCheckState = () => ({ ...job });
-
-/** Проверяет все ссылки в фоне и записывает результат в базу. */
-export function startLinkCheck(db, { onlyId = null, concurrency = 4 } = {}) {
-  if (job.running) return false;
-  const links = db.prepare(`SELECT id, url FROM links ${onlyId ? 'WHERE id = ?' : ''} ORDER BY id`).all(...(onlyId ? [onlyId] : []));
-  job.running = true;
-  job.done = 0;
-  job.total = links.length;
-  job.startedAt = Date.now();
-  let next = 0;
-  const upd = db.prepare('UPDATE links SET checked_at = ?, check_result = ? WHERE id = ?');
-  const worker = async () => {
-    while (next < links.length) {
-      const l = links[next++];
-      const r = await checkUrl(l.url);
-      upd.run(new Date().toISOString().slice(0, 10), r.text, l.id);
-      job.done++;
-    }
-  };
-  Promise.all(Array.from({ length: Math.min(concurrency, links.length) }, worker))
-    .catch((e) => console.error('Проверка ссылок:', e.message))
-    .finally(() => { job.running = false; });
-  return true;
+/** @returns {Promise<{ok:boolean, manual?:boolean, status:number|null, text:string}>} */
+export async function checkUrl(url, { timeoutMs = 12000 } = {}) {
+  const first = await checkOnce(url, timeoutMs);
+  // Один повтор при сетевой ошибке.
+  if (first.status == null && !first.manual && /^https?:\/\//i.test(url)) return checkOnce(url, timeoutMs);
+  return first;
 }

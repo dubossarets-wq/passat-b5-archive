@@ -1,6 +1,6 @@
-# Личные данные: база, файлы, резервные копии — не в git
-data/
-tmp/
 node_modules/
+dist/
+tmp/
+data/
 *.zip
 *.log

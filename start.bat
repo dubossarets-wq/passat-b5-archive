@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-title Архив Passat B5
+title Справочник Passat B5
 
 where node >nul 2>nul
 if errorlevel 1 (
@@ -29,5 +29,5 @@ if not exist node_modules (
 
 node --disable-warning=ExperimentalWarning src\main.js
 echo.
-echo Архив остановлен.
+echo Справочник остановлен.
 pause

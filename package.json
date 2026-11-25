@@ -1,8 +1,8 @@
 {
   "name": "passat-b5-archive",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Личный веб-архив по VW Passat B5 1.8 20V (ARG)",
+  "description": "Справочник по VW Passat B5 1.8 20V (ARG): коды ошибок, статьи, электросхемы, запчасти, регламент",
   "type": "module",
   "main": "src/main.js",
   "engines": {
@@ -10,22 +10,14 @@
   },
   "scripts": {
     "start": "node --disable-warning=ExperimentalWarning src/main.js",
+    "build": "node --disable-warning=ExperimentalWarning src/build.js",
     "test": "node --disable-warning=ExperimentalWarning --test --test-concurrency=1 \"tests/*.test.js\"",
-    "backup": "node --disable-warning=ExperimentalWarning src/cli/backup.js",
-    "restore": "node --disable-warning=ExperimentalWarning src/cli/restore.js",
-    "check-links": "node --disable-warning=ExperimentalWarning src/cli/check-links.js"
+    "check-links": "node --disable-warning=ExperimentalWarning src/cli/check-links.js --all"
   },
   "dependencies": {
-    "@fastify/cookie": "^11.1.5",
-    "@fastify/formbody": "^9.0.2",
-    "@fastify/multipart": "^10.1.9",
     "@fastify/static": "^10.1.12",
-    "archiver": "^8.0.0",
     "fastify": "^5.12.8",
     "markdown-it": "^15.0.3",
-    "pdfjs-dist": "^6.5.438",
-    "sharp": "^0.35.5",
-    "yaml": "^2.9.1",
-    "yauzl": "^3.4.0"
+    "yaml": "^2.9.1"
   }
 }

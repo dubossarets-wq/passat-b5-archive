@@ -1,51 +1,23 @@
-// Критичные параметры (моменты затяжки, объёмы, допуски, ГРМ). Значение показывается только
-// если у него есть официальный источник; иначе — «уточнить по официальной документации».
+// Критичные цифры (моменты затяжки, объёмы, допуски, установка ГРМ) в справочнике не приводятся.
+// В текстах на их месте стоит метка {{spec:ключ}} — она показывается как «уточнить по официальной документации».
 import { esc, raw } from './html.js';
 
 export const SPEC_MISSING = 'уточнить по официальной документации';
 const TOKEN = /\{\{spec:([a-z0-9_]+)\}\}/g;
+const SPEC_HTML = `<span class="spec-missing">${SPEC_MISSING}</span>`;
 
-export function loadSpecMap(db) {
-  const map = new Map();
-  for (const s of db.prepare('SELECT * FROM specs').all()) map.set(s.key, s);
-  return map;
-}
-
-export const specHasSource = (s) => Boolean(s && (s.source_url || s.source_document_id));
-export const specIsFilled = (s) => Boolean(s && s.value && specHasSource(s));
-
-export function specHtml(key, map) {
-  const s = map.get(key);
-  if (!specIsFilled(s)) {
-    return `<a class="spec spec-missing" href="/specs#${esc(key)}">${SPEC_MISSING}</a>`;
-  }
-  const unit = s.unit ? ` ${esc(s.unit)}` : '';
-  const flag = s.status === 'verified' ? '' : ' <small>(не проверено)</small>';
-  return `<a class="spec spec-ok" href="/specs#${esc(key)}"><b>${esc(s.value)}${unit}</b>${flag}</a>`;
-}
-
-// Обычный текст с токенами {{spec:...}} -> безопасный HTML.
-export function textWithSpecs(text, map) {
+// Обычный текст с метками -> безопасный HTML.
+export function textWithSpecs(text) {
   const src = String(text ?? '');
   let out = '';
   let pos = 0;
   for (const m of src.matchAll(TOKEN)) {
-    out += esc(src.slice(pos, m.index)) + specHtml(m[1], map);
+    out += esc(src.slice(pos, m.index)) + SPEC_HTML;
     pos = m.index + m[0].length;
   }
-  out += esc(src.slice(pos));
-  return raw(out);
+  return raw(out + esc(src.slice(pos)));
 }
 
-// Для Markdown: токены заменяются на безопасные метки до рендера и разворачиваются после.
-export function protectSpecs(md) {
-  return String(md ?? '').replace(TOKEN, (_m, key) => `§§SPEC:${key}§§`);
-}
-
-export function expandSpecs(html, map) {
-  return html.replace(/§§SPEC:([a-z0-9_]+)§§/g, (_m, key) => specHtml(key, map));
-}
-
-export function findSpecKeys(text) {
-  return [...String(text ?? '').matchAll(TOKEN)].map((m) => m[1]);
-}
+// Для Markdown: метки заменяются до рендера и разворачиваются после.
+export const protectSpecs = (md) => String(md ?? '').replace(TOKEN, '§§SPEC§§');
+export const expandSpecs = (html) => html.replace(/§§SPEC§§/g, SPEC_HTML);

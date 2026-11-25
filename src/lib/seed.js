@@ -1,12 +1,13 @@
-// Загрузка черновиков из папки seed/ в базу. Повторный запуск ничего не перезаписывает:
-// добавляются только отсутствующие записи (то, что вы правили руками, не затрагивается).
+// Сборка справочника из папки seed/. Вызывается при каждом запуске.
 import fs from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { paths } from '../config.js';
-import { tx, lastId, getSetting, setSetting } from '../db.js';
-import { normPart } from './stem.js';
-import { reindexAll } from './search.js';
+import { tx, lastId } from '../db.js';
+import { normPart } from '../../public/js/stem.js';
+
+export const SCHEME_KINDS = ['diagram', 'pinout', 'fuses', 'location', 'guide', 'official'];
+export const SCHEME_SOURCES = ['official', 'reference', 'forum', 'blog', 'video'];
 
 function readJson(file) {
   if (!fs.existsSync(file)) return null;
@@ -15,6 +16,7 @@ function readJson(file) {
 
 const asText = (v) => (Array.isArray(v) ? v.join(', ') : v == null ? null : String(v));
 const clean = (v) => (v == null || String(v).trim() === '' ? null : String(v).trim());
+const jsonFiles = (dir) => (fs.existsSync(dir) ? fs.readdirSync(dir).filter((x) => x.endsWith('.json')).sort() : []);
 
 function addSources(db, kind, id, sources) {
   const ins = db.prepare(
@@ -26,27 +28,18 @@ function addSources(db, kind, id, sources) {
   }
 }
 
-export function seedSystems(db) {
-  const list = readJson(path.join(paths.seed(), 'systems.json')) ?? [];
+export const systemIdBySlug = (db, slug) => (slug ? db.prepare('SELECT id FROM systems WHERE slug = ?').get(slug)?.id ?? null : null);
+
+function seedSystems(db, dir) {
+  const list = readJson(path.join(dir, 'systems.json')) ?? [];
   const ins = db.prepare('INSERT OR IGNORE INTO systems (slug, name, sort) VALUES (?, ?, ?)');
   list.forEach((s, i) => ins.run(s.slug, s.name, i + 1));
   return list.length;
 }
 
-export const systemIdBySlug = (db, slug) => (slug ? db.prepare('SELECT id FROM systems WHERE slug = ?').get(slug)?.id ?? null : null);
-
-export function seedSpecs(db) {
-  const list = readJson(path.join(paths.seed(), 'specs.json')) ?? [];
-  const ins = db.prepare('INSERT OR IGNORE INTO specs (key, name, system_id, unit) VALUES (?, ?, ?, ?)');
+function seedMaintenance(db, dir) {
   let n = 0;
-  for (const s of list) n += ins.run(s.key, s.name, systemIdBySlug(db, s.system), s.unit || null).changes;
-  return n;
-}
-
-export function seedMaintenance(db) {
-  const list = readJson(path.join(paths.seed(), 'maintenance.json')) ?? [];
-  let n = 0;
-  list.forEach((m, i) => {
+  (readJson(path.join(dir, 'maintenance.json')) ?? []).forEach((m, i) => {
     if (!m.key || !m.name) return;
     const res = db.prepare(
       `INSERT OR IGNORE INTO maintenance_items (key, name, system_id, interval_km, interval_months, note, status, sort)
@@ -61,18 +54,16 @@ export function seedMaintenance(db) {
   return n;
 }
 
-export function seedParts(db) {
-  const list = readJson(path.join(paths.seed(), 'parts.json')) ?? [];
+function seedParts(db, dir) {
   let n = 0;
-  for (const p of list) {
+  for (const p of readJson(path.join(dir, 'parts.json')) ?? []) {
     if (!p.oem || !p.name) continue;
     const norm = normPart(p.oem);
-    const key = `${norm}:${p.name}`;
     const item = p.maintenance_key ? db.prepare('SELECT id FROM maintenance_items WHERE key = ?').get(p.maintenance_key)?.id ?? null : null;
     const res = db.prepare(
       `INSERT OR IGNORE INTO parts (oem, oem_norm, name, system_id, maintenance_item_id, notes, status, seed_key)
        VALUES (?, ?, ?, ?, ?, ?, 'unverified', ?)`,
-    ).run(p.oem.trim(), norm, p.name.trim(), systemIdBySlug(db, p.system), item, clean(p.notes), key);
+    ).run(p.oem.trim(), norm, p.name.trim(), systemIdBySlug(db, p.system), item, clean(p.notes), `${norm}:${p.name}`);
     if (!res.changes) continue;
     const id = lastId(res);
     for (const a of p.analogs ?? []) {
@@ -86,13 +77,10 @@ export function seedParts(db) {
   return n;
 }
 
-export function seedCodes(db) {
-  const dir = path.join(paths.seed(), 'codes');
-  if (!fs.existsSync(dir)) return 0;
+function seedCodes(db, dir) {
   let n = 0;
-  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) {
-    const list = readJson(path.join(dir, f)) ?? [];
-    for (const c of list) {
+  for (const f of jsonFiles(path.join(dir, 'codes'))) {
+    for (const c of readJson(path.join(dir, 'codes', f)) ?? []) {
       if (!c.code || !c.title) continue;
       const res = db.prepare(
         `INSERT OR IGNORE INTO dtc_codes (code, vag, system_id, title, description, causes, checks, applies_to, status)
@@ -115,25 +103,21 @@ export function parseArticle(text) {
   return { meta: YAML.parse(m[1]) ?? {}, body: m[2].trim() };
 }
 
-export function seedArticles(db) {
-  const dir = path.join(paths.seed(), 'articles');
-  if (!fs.existsSync(dir)) return 0;
+function seedArticles(db, dir) {
+  const artDir = path.join(dir, 'articles');
+  if (!fs.existsSync(artDir)) return 0;
   let n = 0;
-  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.md')).sort()) {
+  for (const f of fs.readdirSync(artDir).filter((x) => x.endsWith('.md')).sort()) {
     let parsed;
     try {
-      parsed = parseArticle(fs.readFileSync(path.join(dir, f), 'utf8'));
+      parsed = parseArticle(fs.readFileSync(path.join(artDir, f), 'utf8'));
     } catch (e) {
       console.error(`Статья ${f}: не удалось разобрать заголовок (${e.message})`);
       continue;
     }
-    if (!parsed || !parsed.meta.title) {
-      console.error(`Статья ${f}: нет заголовка с названием, пропущена`);
-      continue;
-    }
+    if (!parsed || !parsed.meta.title) continue;
     const res = db.prepare(
-      `INSERT OR IGNORE INTO articles (title, system_id, body_md, applies_to, status, seed_key)
-       VALUES (?, ?, ?, ?, 'unverified', ?)`,
+      "INSERT OR IGNORE INTO articles (title, system_id, body_md, applies_to, status, seed_key) VALUES (?, ?, ?, ?, 'unverified', ?)",
     ).run(String(parsed.meta.title), systemIdBySlug(db, parsed.meta.system), parsed.body, asText(parsed.meta.applies_to), f);
     if (res.changes) {
       addSources(db, 'article', lastId(res), parsed.meta.sources);
@@ -143,14 +127,12 @@ export function seedArticles(db) {
   return n;
 }
 
-export function seedLinks(db) {
-  const list = readJson(path.join(paths.seed(), 'links.json')) ?? [];
+function seedLinks(db, dir) {
   const ins = db.prepare(
-    `INSERT OR IGNORE INTO links (title, url, category, description, applies_to, checked_at, check_result, status)
-     VALUES (?, ?, ?, ?, ?, ?, ?, 'unverified')`,
+    'INSERT OR IGNORE INTO links (title, url, category, description, applies_to, checked_at, check_result) VALUES (?, ?, ?, ?, ?, ?, ?)',
   );
   let n = 0;
-  for (const l of list) {
+  for (const l of readJson(path.join(dir, 'links.json')) ?? []) {
     if (!l.url || !l.title) continue;
     n += ins.run(l.title.trim(), l.url.trim(), l.category || 'reference', clean(l.description), asText(l.applies_to),
       clean(l.checked_at), clean(l.check_result)).changes;
@@ -158,26 +140,34 @@ export function seedLinks(db) {
   return n;
 }
 
-export function seedAll(db) {
-  const counts = {};
-  tx(db, () => {
-    counts.systems = seedSystems(db);
-    counts.specs = seedSpecs(db);
-    counts.maintenance = seedMaintenance(db);
-    counts.parts = seedParts(db);
-    counts.codes = seedCodes(db);
-    counts.articles = seedArticles(db);
-    counts.links = seedLinks(db);
-  });
-  reindexAll(db);
-  return counts;
+function seedSchemes(db, dir) {
+  const ins = db.prepare(
+    `INSERT OR IGNORE INTO schemes (title, url, system_id, kind, source_type, description, applies_to, checked_at, check_result, status)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'unverified')`,
+  );
+  let n = 0;
+  for (const f of jsonFiles(path.join(dir, 'schemes'))) {
+    for (const s of readJson(path.join(dir, 'schemes', f)) ?? []) {
+      if (!s.url || !s.title || !/^https?:\/\//.test(s.url)) continue;
+      n += ins.run(s.title.trim(), s.url.trim(), systemIdBySlug(db, s.system), SCHEME_KINDS.includes(s.kind) ? s.kind : 'diagram',
+        SCHEME_SOURCES.includes(s.source_type) ? s.source_type : 'reference', clean(s.description), asText(s.applies_to),
+        clean(s.accessed), clean(s.check_result)).changes;
+    }
+  }
+  return n;
 }
 
-// При первом запуске — загрузить всё; дальше только по кнопке в настройках.
-export function seedIfFirstRun(db) {
-  seedSystems(db);
-  if (getSetting(db, 'seeded') === '1') return null;
-  const counts = seedAll(db);
-  setSetting(db, 'seeded', '1');
+/** Загрузить весь справочник из seed/ в пустую базу. Возвращает количество записей по разделам. */
+export function seedAll(db, dir = paths.seed()) {
+  const counts = {};
+  tx(db, () => {
+    counts.systems = seedSystems(db, dir);
+    counts.maintenance = seedMaintenance(db, dir);
+    counts.parts = seedParts(db, dir);
+    counts.codes = seedCodes(db, dir);
+    counts.articles = seedArticles(db, dir);
+    counts.links = seedLinks(db, dir);
+    counts.schemes = seedSchemes(db, dir);
+  });
   return counts;
 }

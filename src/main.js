@@ -1,11 +1,10 @@
+// Просмотр справочника на своём компьютере: node src/main.js (или start.bat).
+// Данные берутся из папки seed/ при каждом запуске.
 import os from 'node:os';
-import { openDb, closeDb } from './db.js';
-import { config, paths } from './config.js';
+import { openDb } from './db.js';
+import { config } from './config.js';
 import { buildApp } from './server.js';
-import { seedIfFirstRun } from './lib/seed.js';
-import { autoBackup } from './lib/archive.js';
-import { reindexAll } from './lib/search.js';
-import { getSetting } from './db.js';
+import { seedAll } from './lib/seed.js';
 
 function lanAddresses() {
   const out = [];
@@ -15,54 +14,25 @@ function lanAddresses() {
       if (a.family === 'IPv4' && !a.internal && !a.address.startsWith('169.254.')) out.push(a.address);
     }
   }
-  const home = (ip) => /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.)/.test(ip);
-  return out.sort((a, b) => Number(home(b)) - Number(home(a)));
+  return out;
 }
 
 const db = openDb();
-console.log(`Данные: ${paths.data()}`);
+const c = seedAll(db);
+console.log(`Справочник: кодов ${c.codes}, статей ${c.articles}, схем ${c.schemes}, деталей ${c.parts}, ссылок ${c.links}.`);
 
-const seeded = seedIfFirstRun(db);
-if (seeded) {
-  console.log(`Первый запуск: загружены черновики — кодов ${seeded.codes}, статей ${seeded.articles}, ссылок ${seeded.links}, деталей ${seeded.parts}, позиций регламента ${seeded.maintenance}.`);
-} else if (db.prepare('SELECT COUNT(*) AS n FROM search_fts').get().n === 0) {
-  reindexAll(db);
-}
-
-try {
-  autoBackup(db);
-} catch (e) {
-  console.error('Автокопия базы не создана:', e.message);
-}
-
-const app = await buildApp({ logger: false });
-
+const app = await buildApp();
 try {
   await app.listen({ port: config.port, host: config.host });
 } catch (e) {
-  if (e.code === 'EADDRINUSE') {
-    console.error(`\nПорт ${config.port} уже занят. Возможно, архив уже запущен в другом окне.\nЧтобы запустить на другом порту: set PORT=8081 и снова start.bat`);
-  } else {
-    console.error('Не удалось запустить сервер:', e.message);
-  }
-  closeDb();
+  console.error(e.code === 'EADDRINUSE'
+    ? `\nПорт ${config.port} уже занят. Возможно, справочник уже открыт в другом окне.`
+    : `Не удалось запустить: ${e.message}`);
   process.exit(1);
 }
-
-console.log('\nАрхив запущен. Откройте в браузере:');
+console.log('\nСправочник открыт:');
 console.log(`  на этом компьютере:  http://localhost:${config.port}`);
-for (const ip of lanAddresses()) console.log(`  с телефона (Wi-Fi):  http://${ip}:${config.port}`);
-if (!getSetting(db, 'password_hash')) console.log('\nВход без пароля: архив открыт всем в вашей сети Wi-Fi. Пароль включается в Настройках.');
-console.log('\nНе закрывайте это окно, пока работаете. Остановить: Ctrl+C.');
+for (const ip of lanAddresses()) console.log(`  в домашней сети:     http://${ip}:${config.port}`);
+console.log('\nОстановить: Ctrl+C.');
 
-let stopping = false;
-async function stop() {
-  if (stopping) return;
-  stopping = true;
-  console.log('\nОстанавливаю…');
-  try { await app.close(); } catch { /* ignore */ }
-  closeDb();
-  process.exit(0);
-}
-process.on('SIGINT', stop);
-process.on('SIGTERM', stop);
+process.on('SIGINT', async () => { await app.close(); process.exit(0); });

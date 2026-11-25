@@ -3,9 +3,8 @@
   (base.css и шкалы slate, blue, red, amber, green). Здесь — компоненты на этих переменных.
   Размеры крупнее стандартных Radix: приложением пользуются в гараже, одной рукой.
 */
-html { -webkit-text-size-adjust: 100%; }
-html.dark { color-scheme: dark; }
-html.light { color-scheme: light; }
+/* Тема всегда светлая (по желанию владельца), независимо от настроек телефона. */
+html { -webkit-text-size-adjust: 100%; color-scheme: light; }
 * { box-sizing: border-box; }
 
 body.radix-themes {
@@ -174,6 +173,27 @@ details { margin: 0 0 var(--space-3); }
 /* просмотр PDF */
 .pdfbar { position: sticky; top: 0; background: var(--color-background); padding: var(--space-2) 0; display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center; z-index: 3; box-shadow: 0 1px 0 var(--gray-a5); }
 #pdf-pages canvas { display: block; width: 100%; height: auto; margin: var(--space-2) 0; border-radius: var(--radius-2); box-shadow: 0 0 0 1px var(--gray-a6); background: #fff; }
+
+/* строка поиска — единственное поле ввода */
+.searchbar { display: flex; gap: var(--space-2); margin: 0 0 var(--space-4); }
+.searchbar input[type="search"] { flex: 1 1 auto; min-height: 52px; font-size: var(--font-size-4); }
+.searchbar button { flex: none; width: 56px; padding: 0; }
+.searchbar button .ic { width: 1.4em; height: 1.4em; margin: 0; }
+
+/* плитки разделов на главной */
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--space-3); margin: 0 0 var(--space-4); }
+.tile { display: flex; flex-direction: column; gap: var(--space-1); padding: var(--space-4); border-radius: var(--radius-4);
+  background: var(--color-panel-solid); box-shadow: 0 0 0 1px var(--gray-a5), var(--shadow-1); text-decoration: none; color: var(--gray-12); }
+.tile:hover { box-shadow: 0 0 0 1px var(--accent-a7), var(--shadow-2); }
+.tile-ic { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: var(--radius-3); background: var(--accent-a3); color: var(--accent-a11); }
+.tile .t { font-weight: var(--font-weight-medium); }
+.tile .n { color: var(--gray-a11); font-size: var(--font-size-2); }
+
+.lead { font-size: var(--font-size-5); font-weight: var(--font-weight-medium); }
+.mono { font-family: var(--code-font-family); }
+.oem { font-size: var(--font-size-6); font-weight: var(--font-weight-bold); margin: 0 0 var(--space-2); }
+.pre { white-space: pre-wrap; }
+table.reg td:first-child { font-weight: var(--font-weight-medium); }
 
 /* карточки в несколько колонок, если места хватает */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-3); margin: 0 0 var(--space-3); }

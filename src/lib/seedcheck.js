@@ -124,6 +124,27 @@ export function validateSeed(dir = paths.seed()) {
     if (m.interval_km != null || m.interval_months != null) checkSources(w, m.sources, problems);
   }
 
+  // электросхемы: только ссылка + описание своими словами
+  const schDir = path.join(dir, 'schemes');
+  const seenUrls = new Set();
+  counts.schemes = 0;
+  if (fs.existsSync(schDir)) {
+    for (const f of fs.readdirSync(schDir).filter((x) => x.endsWith('.json'))) {
+      for (const s of JSON.parse(fs.readFileSync(path.join(schDir, f), 'utf8'))) {
+        counts.schemes++;
+        const w = `схема «${s.title}» (${f})`;
+        if (!/^https?:\/\//.test(s.url ?? '')) problems.push(`${w}: плохой адрес`);
+        if (seenUrls.has(s.url)) problems.push(`${w}: ссылка повторяется`);
+        seenUrls.add(s.url);
+        if (s.status !== 'unverified') problems.push(`${w}: статус должен быть unverified`);
+        if (!s.accessed || !DATE.test(String(s.accessed))) problems.push(`${w}: нет даты обращения`);
+        if (!s.applies_to) problems.push(`${w}: нет пометки, к чему относится`);
+        if (s.system && !systems.has(s.system)) problems.push(`${w}: неизвестная система ${s.system}`);
+        for (const hit of findCriticalNumbers(s.description)) problems.push(`${w}: похоже на критичную цифру «${hit}»`);
+      }
+    }
+  }
+
   // запчасти
   for (const p of read('parts.json') ?? []) {
     counts.parts++;

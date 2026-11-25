@@ -28,6 +28,9 @@ if (all && !fileArg) {
     for (const s of a?.meta.sources ?? []) add(s.url, `статья ${f}`);
   }
   for (const m of readJson(path.join(seed, 'maintenance.json'))) for (const s of m.sources ?? []) add(s.url, `регламент ${m.key}`);
+  for (const f of fs.existsSync(path.join(seed, 'schemes')) ? fs.readdirSync(path.join(seed, 'schemes')) : []) {
+    for (const s of readJson(path.join(seed, 'schemes', f))) add(s.url, `схема ${s.title}`);
+  }
   for (const p of readJson(path.join(seed, 'parts.json'))) {
     for (const s of p.sources ?? []) add(s.url, `деталь ${p.oem}`);
     for (const a of p.analogs ?? []) add(a.source_url, `аналог ${p.oem}`);
