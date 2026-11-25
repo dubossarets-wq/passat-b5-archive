@@ -133,7 +133,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/xR7eI0UDQYg/hqdefault.jpg",
-        "caption": "Превью видео: Блок комфорта с подключёнными разъёмами"
+        "caption": "Превью видео: Блок комфорта с подключёнными разъёмами",
+        "kind": "photo"
       }
     ]
   },
@@ -163,7 +164,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/1BITFLJpK7U/hqdefault.jpg",
-        "caption": "Превью видео: Блок комфорта в штатном месте под ковром"
+        "caption": "Превью видео: Блок комфорта в штатном месте под ковром",
+        "kind": "photo"
       }
     ]
   },
@@ -217,7 +219,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/WSuR0RGUsr8/hqdefault.jpg",
-        "caption": "Превью видео: Корпус блока вентиляторов с маркировкой клемм"
+        "caption": "Превью видео: Корпус блока вентиляторов с маркировкой клемм",
+        "kind": "photo"
       }
     ]
   },
@@ -283,7 +286,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/SlQ0Lxwhi8E/hqdefault.jpg",
-        "caption": "Превью видео: Синий разъём приборной панели"
+        "caption": "Превью видео: Синий разъём приборной панели",
+        "kind": "photo"
       }
     ]
   },
@@ -757,7 +761,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/OkxVtNyEacI/hqdefault.jpg",
-        "caption": "Превью видео: Датчик Холла и ЭБУ"
+        "caption": "Превью видео: Датчик Холла и ЭБУ",
+        "kind": "photo"
       }
     ]
   },
@@ -823,7 +828,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/7htPqujC0ok/hqdefault.jpg",
-        "caption": "Превью видео: Плата блока ABS с разъёмом"
+        "caption": "Превью видео: Плата блока ABS с разъёмом",
+        "kind": "photo"
       }
     ]
   },
@@ -889,7 +895,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/6MUc5ppCxJA/hqdefault.jpg",
-        "caption": "Превью видео: Плата блока комфорта с разъёмами"
+        "caption": "Превью видео: Плата блока комфорта с разъёмами",
+        "kind": "photo"
       }
     ]
   },
@@ -907,7 +914,8 @@
     "images": [
       {
         "src": "https://old.pinouts.ru/photos/thumb_car_audio_iso.jpg",
-        "caption": "Разъём ISO магнитолы"
+        "caption": "Разъём ISO магнитолы",
+        "kind": "photo"
       }
     ]
   },
@@ -1093,7 +1101,8 @@
     "images": [
       {
         "src": "https://connector.pinouts.ru/photos/car_audio_iso.jpg",
-        "caption": "Разъём ISO 20+8+8: фото и нумерация"
+        "caption": "Разъём ISO 20+8+8: фото и нумерация",
+        "kind": "photo"
       }
     ]
   },
@@ -1111,7 +1120,8 @@
     "images": [
       {
         "src": "https://wiki.ross-tech.com/wiki/images/8/81/DLC-VWPassat3Bb.jpg",
-        "caption": "Диагностический разъём Passat 3B"
+        "caption": "Диагностический разъём Passat 3B",
+        "kind": "photo"
       }
     ]
   },
@@ -1405,7 +1415,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/23bc1c9s-960.jpg",
-        "caption": "Авторская схема подключения парктроника Passat B5"
+        "caption": "Авторская схема подключения парктроника Passat B5",
+        "kind": "scheme"
       }
     ]
   },
@@ -1447,7 +1458,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/38b6gas-960.jpg",
-        "caption": "Авторская схема подключения мультируля Passat"
+        "caption": "Авторская схема подключения мультируля Passat",
+        "kind": "scheme"
       }
     ]
   },
@@ -1465,7 +1477,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/vlEeL06X-TP9Ql2witH0vqyQxvc-960.jpg",
-        "caption": "Таблица контактов разъёмов T23 и T15 блока комфорта (варианты 1J0/1C0) с цветами проводов, автор таблицы указан на картинке"
+        "caption": "Таблица контактов разъёмов T23 и T15 блока комфорта (варианты 1J0/1C0) с цветами проводов, автор таблицы указан на картинке",
+        "kind": "scheme"
       }
     ]
   },
@@ -1687,7 +1700,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/c176d56s-960.jpg",
-        "caption": "Разъёмы задних фонарей с подписанными контактами"
+        "caption": "Разъёмы задних фонарей с подписанными контактами",
+        "kind": "photo"
       }
     ]
   },
@@ -1729,7 +1743,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/7261b7u-960.jpg",
-        "caption": "Наклейка с распиновкой разъёма штатной магнитолы Beta"
+        "caption": "Наклейка с распиновкой разъёма штатной магнитолы Beta",
+        "kind": "scheme"
       }
     ]
   }

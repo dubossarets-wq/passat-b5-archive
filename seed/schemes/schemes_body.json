@@ -121,11 +121,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/9d491c4s-960.jpg",
-        "caption": "Карточка предохранителей (фото)"
+        "caption": "Карточка предохранителей (фото)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/3491c4s-960.jpg",
-        "caption": "Блок предохранителей на торце панели"
+        "caption": "Блок предохранителей на торце панели",
+        "kind": "photo"
       }
     ]
   },
@@ -143,7 +145,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/5fcf1c4s-960.jpg",
-        "caption": "Карточка предохранителей"
+        "caption": "Карточка предохранителей",
+        "kind": "scheme"
       }
     ]
   },
@@ -161,11 +164,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ax3zHu5QNKO7sbwU_qJi-_SBC7Q-960.jpg",
-        "caption": "Карточка предохранителей (1998)"
+        "caption": "Карточка предохранителей (1998)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/yW06hc3avv-GmLnMddQ3gXbeJeM-960.jpg",
-        "caption": "Блок предохранителей — фото"
+        "caption": "Блок предохранителей — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -207,7 +212,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/fxcPAxTl-3c/hqdefault.jpg",
-        "caption": "Превью видео: расположение блока предохранителей Passat 2000"
+        "caption": "Превью видео: расположение блока предохранителей Passat 2000",
+        "kind": "photo"
       }
     ]
   },
@@ -237,23 +243,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/bxJpQ2TUrPzR69Vs9apcSTHlgeY-960.jpg",
-        "caption": "Распиновка разъёмов блока комфорта T23/T15 с цветами проводов"
+        "caption": "Распиновка разъёмов блока комфорта T23/T15 с цветами проводов",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/6cLddlrgcmkv7OV77DreuKlWU7M-960.jpg",
-        "caption": "Таблица контактов блока комфорта"
+        "caption": "Таблица контактов блока комфорта",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/fONckFCVJcsRiIavZDsAhY2d-nk-960.jpg",
-        "caption": "Синий разъём T23 блока комфорта с номерами контактов"
+        "caption": "Синий разъём T23 блока комфорта с номерами контактов",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/QDaGPte9x7n55YQGiro8LpFQ6Y4-960.jpg",
-        "caption": "Коричневый разъём T15 блока комфорта с номерами контактов"
+        "caption": "Коричневый разъём T15 блока комфорта с номерами контактов",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/PiZ8n3D0H4gcqnkxB2ylDeV5F2g-960.jpg",
-        "caption": "Блок комфорта 1J0 959 799 AH"
+        "caption": "Блок комфорта 1J0 959 799 AH",
+        "kind": "photo"
       }
     ]
   },
@@ -271,19 +282,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/rYU0xCianwuwQRQurTTc6x_6hfw-960.jpg",
-        "caption": "VCDS: 01329 — шина комфорта в аварийном режиме"
+        "caption": "VCDS: 01329 — шина комфорта в аварийном режиме",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/GdOVOFKNezECKHqznbk34bR6fYM-960.jpg",
-        "caption": "Жгут в двери — проводка к разъёму"
+        "caption": "Жгут в двери — проводка к разъёму",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/V-Zpfw24Ptuo2H2wd2Ho6h_yEHQ-960.jpg",
-        "caption": "Разъём двери — фото"
+        "caption": "Разъём двери — фото",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/XPEhQYkkCU-pdWXU9XSuB72gIqA-960.jpg",
-        "caption": "Разъём с проводами"
+        "caption": "Разъём с проводами",
+        "kind": "photo"
       }
     ]
   },
@@ -301,15 +316,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/7aAAAgFhUuA-960.jpg",
-        "caption": "Провода в гофре двери"
+        "caption": "Провода в гофре двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/_aAAAgFhUuA-960.jpg",
-        "caption": "Разъём двери с проводами"
+        "caption": "Разъём двери с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ACAAAgFhUuA-960.jpg",
-        "caption": "Разъём — фото"
+        "caption": "Разъём — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -327,19 +345,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/e441b69s-960.jpg",
-        "caption": "Перебитые провода в гофре двери"
+        "caption": "Перебитые провода в гофре двери",
+        "kind": "photo"
       },
       {
         "src": "https://i-a.drive-data.ru/O5tzH1_0B2vW67g-BNLDZjKWClE-960.jpg",
-        "caption": "Жгут в гофре двери"
+        "caption": "Жгут в гофре двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/a81b69s-960.jpg",
-        "caption": "Жгут водительской двери"
+        "caption": "Жгут водительской двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2e01b69s-960.jpg",
-        "caption": "Бирка жгута двери"
+        "caption": "Бирка жгута двери",
+        "kind": "photo"
       }
     ]
   },
@@ -357,15 +379,18 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/zampas/11.JPG",
-        "caption": "Дверь без обшивки: моторчик и жгут"
+        "caption": "Дверь без обшивки: моторчик и жгут",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/zampas/18.JPG",
-        "caption": "Жгут и разъём в двери"
+        "caption": "Жгут и разъём в двери",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/zampas/10.JPG",
-        "caption": "Обшивка двери изнутри"
+        "caption": "Обшивка двери изнутри",
+        "kind": "photo"
       }
     ]
   },
@@ -383,19 +408,23 @@
     "images": [
       {
         "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/CircuitBoard.jpg",
-        "caption": "Замок двери: микровыключатель"
+        "caption": "Замок двери: микровыключатель",
+        "kind": "photo"
       },
       {
         "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/RemoveHarness1.jpg",
-        "caption": "Разъём замка двери"
+        "caption": "Разъём замка двери",
+        "kind": "photo"
       },
       {
         "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/AfterPinOut.jpg",
-        "caption": "Жгут задней двери и разъём"
+        "caption": "Жгут задней двери и разъём",
+        "kind": "photo"
       },
       {
         "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/AccessHole.jpg",
-        "caption": "Задняя дверь без обшивки"
+        "caption": "Задняя дверь без обшивки",
+        "kind": "photo"
       }
     ]
   },
@@ -413,7 +442,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/yATFu5tEBQE/hqdefault.jpg",
-        "caption": "Превью видео: ремонт жгута проводов в двери"
+        "caption": "Превью видео: ремонт жгута проводов в двери",
+        "kind": "photo"
       }
     ]
   },
@@ -443,19 +473,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/aEAAAgHoMOA-960.jpg",
-        "caption": "Разъём блока кнопок стеклоподъёмников"
+        "caption": "Разъём блока кнопок стеклоподъёмников",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/GEAAAgHoMOA-960.jpg",
-        "caption": "Плата блока кнопок"
+        "caption": "Плата блока кнопок",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/0UAAAgHoMOA-960.jpg",
-        "caption": "Плата блока кнопок — обе стороны"
+        "caption": "Плата блока кнопок — обе стороны",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/akAAAgJoMOA-960.jpg",
-        "caption": "Блок кнопок — задняя сторона"
+        "caption": "Блок кнопок — задняя сторона",
+        "kind": "photo"
       }
     ]
   },
@@ -473,23 +507,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/I8AAAgIItOA-960.jpg",
-        "caption": "Wiring diagram: folding mirrors via relay 79 / 361"
+        "caption": "Wiring diagram: folding mirrors via relay 79 / 361",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/cAAAAgMItOA-960.jpg",
-        "caption": "Esquema relé 361 — электроскладывание зеркал (T12/T8)"
+        "caption": "Esquema relé 361 — электроскладывание зеркал (T12/T8)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/SUAAAgPCtOA-960.jpg",
-        "caption": "Плата переключателя зеркал — какие контакты задействовать"
+        "caption": "Плата переключателя зеркал — какие контакты задействовать",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/O8AAAgLCtOA-960.jpg",
-        "caption": "Плата переключателя зеркал — доработка"
+        "caption": "Плата переключателя зеркал — доработка",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8cAAAgEItOA-960.jpg",
-        "caption": "Реле 361 с проводкой"
+        "caption": "Реле 361 с проводкой",
+        "kind": "photo"
       }
     ]
   },
@@ -519,19 +558,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/f01806s-960.jpg",
-        "caption": "Платы приборных панелей разных версий"
+        "caption": "Платы приборных панелей разных версий",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3ec5e28s-960.jpg",
-        "caption": "Приборная панель B5 — вид"
+        "caption": "Приборная панель B5 — вид",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7ec5e28s-960.jpg",
-        "caption": "Приборная панель без MFA"
+        "caption": "Приборная панель без MFA",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3c5e28s-960.jpg",
-        "caption": "Приборная панель с MFA"
+        "caption": "Приборная панель с MFA",
+        "kind": "photo"
       }
     ]
   },
@@ -549,7 +592,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/41140as-960.jpg",
-        "caption": "Приборная панель — задняя сторона с разъёмами"
+        "caption": "Приборная панель — задняя сторона с разъёмами",
+        "kind": "photo"
       }
     ]
   },
@@ -567,23 +611,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/f1f1df4s-960.jpg",
-        "caption": "Зелёный разъём приборной панели — контакт"
+        "caption": "Зелёный разъём приборной панели — контакт",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/c9f1df4s-960.jpg",
-        "caption": "Зелёный разъём приборной панели"
+        "caption": "Зелёный разъём приборной панели",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/4g9df4s-960.jpg",
-        "caption": "Разъём подрулевого переключателя (MFA)"
+        "caption": "Разъём подрулевого переключателя (MFA)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8109df4s-960.jpg",
-        "caption": "Проводка MFA к разъёмам"
+        "caption": "Проводка MFA к разъёмам",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/a31df4s-960.jpg",
-        "caption": "Бирка приборной панели 3B1 919 880"
+        "caption": "Бирка приборной панели 3B1 919 880",
+        "kind": "photo"
       }
     ]
   },
@@ -625,23 +674,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/HAAAAgA7l-A-960.jpg",
-        "caption": "Распиновка разъёма фары — записи автора"
+        "caption": "Распиновка разъёма фары — записи автора",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/VAAAAgA7l-A-960.jpg",
-        "caption": "Разъём фары (дорестайлинг)"
+        "caption": "Разъём фары (дорестайлинг)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ZAAAAgA7l-A-960.jpg",
-        "caption": "10-контактный разъём фары"
+        "caption": "10-контактный разъём фары",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/aAAAAgA7l-A-960.jpg",
-        "caption": "Разъёмы фар — переходники"
+        "caption": "Разъёмы фар — переходники",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/mAAAAgA7l-A-960.jpg",
-        "caption": "Переходник проводки фар"
+        "caption": "Переходник проводки фар",
+        "kind": "photo"
       }
     ]
   },
@@ -659,11 +713,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/3eebb62s-960.jpg",
-        "caption": "Регулятор корректора фар"
+        "caption": "Регулятор корректора фар",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2e3bb62s-960.jpg",
-        "caption": "Моторчик корректора фары и разъём"
+        "caption": "Моторчик корректора фары и разъём",
+        "kind": "photo"
       }
     ]
   },
@@ -681,27 +737,33 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74101",
-        "caption": "Разъём регулятора подсветки: 31, 58, 58d, G, 56b"
+        "caption": "Разъём регулятора подсветки: 31, 58, 58d, G, 56b",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74414",
-        "caption": "Разъём регулятора: номера контактов 1–5"
+        "caption": "Разъём регулятора: номера контактов 1–5",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74161",
-        "caption": "Разъём корректора: 3–2–1 = 58d, 58, 31"
+        "caption": "Разъём корректора: 3–2–1 = 58d, 58, 31",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74165",
-        "caption": "Разъём: 58d, 58, 31 и контакты 4–5"
+        "caption": "Разъём: 58d, 58, 31 и контакты 4–5",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74221",
-        "caption": "Разъём корректора фары: 31, G, 56b"
+        "caption": "Разъём корректора фары: 31, G, 56b",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74158",
-        "caption": "Регулятор 3B0 941 333"
+        "caption": "Регулятор 3B0 941 333",
+        "kind": "photo"
       }
     ]
   },
@@ -731,11 +793,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/86540b6s-960.jpg",
-        "caption": "Контактная группа переключателя света"
+        "caption": "Контактная группа переключателя света",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/6a540b6s-960.jpg",
-        "caption": "Переключатель света в разборе"
+        "caption": "Переключатель света в разборе",
+        "kind": "photo"
       }
     ]
   },
@@ -753,19 +817,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58814",
-        "caption": "Схема: ДХО через реле (рисунок автора)"
+        "caption": "Схема: ДХО через реле (рисунок автора)",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58815",
-        "caption": "Схема: подсветка приборки от габаритов и ACC"
+        "caption": "Схема: подсветка приборки от габаритов и ACC",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58812",
-        "caption": "Под панелью: реле и разъёмы"
+        "caption": "Под панелью: реле и разъёмы",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58813",
-        "caption": "Колодка: точка +ACC"
+        "caption": "Колодка: точка +ACC",
+        "kind": "photo"
       }
     ]
   },
@@ -795,11 +863,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/CAAAAgHfBOA-960.jpg",
-        "caption": "Перепиновка разъёма заднего фонаря (Rückleuchte — Kabelbaum)"
+        "caption": "Перепиновка разъёма заднего фонаря (Rückleuchte — Kabelbaum)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/eQAAAgHfBOA-960.jpg",
-        "caption": "Перепиновка разъёма заднего фонаря — вариант 2"
+        "caption": "Перепиновка разъёма заднего фонаря — вариант 2",
+        "kind": "scheme"
       }
     ]
   },
@@ -817,23 +887,28 @@
     "images": [
       {
         "src": "https://www.diyauto.com/images/imported/2014/02/362.jpg",
-        "caption": "Реле фар с колодками"
+        "caption": "Реле фар с колодками",
+        "kind": "photo"
       },
       {
         "src": "https://www.diyauto.com/images/imported/2014/02/349.jpg",
-        "caption": "Штатная релейная панель — места под реле"
+        "caption": "Штатная релейная панель — места под реле",
+        "kind": "photo"
       },
       {
         "src": "https://www.diyauto.com/images/imported/2014/02/367.jpg",
-        "caption": "Реле на релейной панели"
+        "caption": "Реле на релейной панели",
+        "kind": "photo"
       },
       {
         "src": "https://www.diyauto.com/images/imported/2014/02/365.jpg",
-        "caption": "Колодки реле с проводами"
+        "caption": "Колодки реле с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://www.diyauto.com/images/imported/2014/02/356.jpg",
-        "caption": "Предохранители цепи фар"
+        "caption": "Предохранители цепи фар",
+        "kind": "photo"
       }
     ]
   },
@@ -851,7 +926,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/dc443a6s-960.jpg",
-        "caption": "Датчик температуры Climatronic"
+        "caption": "Датчик температуры Climatronic",
+        "kind": "photo"
       }
     ]
   },
@@ -869,11 +945,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/1d7ffc2s-960.jpg",
-        "caption": "Climatronic: сервисный режим"
+        "caption": "Climatronic: сервисный режим",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3j22s-960.jpg",
-        "caption": "Climatronic: коды на дисплее"
+        "caption": "Climatronic: коды на дисплее",
+        "kind": "photo"
       }
     ]
   },
@@ -891,15 +969,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/lQDsm5KcTvtAJfVhVwqs73l3taM-960.jpg",
-        "caption": "Разъёмы климата с пометками"
+        "caption": "Разъёмы климата с пометками",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/lg0EvM8beEdwrUu2zAcRBoo_YVs-960.jpg",
-        "caption": "Разъём блока климата"
+        "caption": "Разъём блока климата",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/jAzRMIEW52MxUbpid-jxE7hRTJc-960.jpg",
-        "caption": "Панель снята: разъёмы климата"
+        "caption": "Панель снята: разъёмы климата",
+        "kind": "photo"
       }
     ]
   },
@@ -929,11 +1010,13 @@
     "images": [
       {
         "src": "https://vwts.ru/images/repair2/99737_01.jpg",
-        "caption": "Плата блока ABS"
+        "caption": "Плата блока ABS",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair2/99737_02.jpg",
-        "caption": "Плата блока ABS — повреждения"
+        "caption": "Плата блока ABS — повреждения",
+        "kind": "photo"
       }
     ]
   },
@@ -951,27 +1034,33 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/vA0h4Y2IRoKj8_rW_kX5U5dD4nE-960.jpg",
-        "caption": "Штекер магнитолы: назначение контактов 1–8"
+        "caption": "Штекер магнитолы: назначение контактов 1–8",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/vvg02TVKyYa_3jDyQWE5lj9yTnE-960.jpg",
-        "caption": "Разъём ISO 10487: питание и акустика"
+        "caption": "Разъём ISO 10487: питание и акустика",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/cvhDj1dI0w8Z27XN7zIVI8qydZ8-960.jpg",
-        "caption": "Штекер магнитолы: контакт S замка зажигания"
+        "caption": "Штекер магнитолы: контакт S замка зажигания",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/jFd3EVj2I_IS6Ll3Z9fWwzKndQM-960.jpg",
-        "caption": "Проводка: магнитола, контакт S, 12 В при зажигании"
+        "caption": "Проводка: магнитола, контакт S, 12 В при зажигании",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/Ozqe4EVjPz37NH-__8eiRmd9v7A-960.jpg",
-        "caption": "Сигнал скорости: синий штекер приборки — блок комфорта — магнитола"
+        "caption": "Сигнал скорости: синий штекер приборки — блок комфорта — магнитола",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2ShMInRSgV6zhQ1JrFpg8wQohcA-960.jpg",
-        "caption": "Выход скорости спидометра: синий разъём приборной панели"
+        "caption": "Выход скорости спидометра: синий разъём приборной панели",
+        "kind": "photo"
       }
     ]
   },
@@ -989,11 +1078,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ba09gds-960.jpg",
-        "caption": "Провода магнитолы: от замка, питание, антенна"
-      },
-      {
-        "src": "https://a1.drive-data.ru/a0f1gds-960.jpg",
-        "caption": "Схема подключения магнитолы"
+        "caption": "Провода магнитолы: от замка, питание, антенна",
+        "kind": "scheme"
       }
     ]
   },
@@ -1011,7 +1097,8 @@
     "images": [
       {
         "src": "https://passatb5.wikidot.com/local--files/antenna-base-and-wire-replacement/enfig_mast.jpg",
-        "caption": "Антенна на крыше"
+        "caption": "Антенна на крыше",
+        "kind": "photo"
       }
     ]
   },
@@ -1029,23 +1116,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/HQAAAgKMyOA-960.jpg",
-        "caption": "Схема штатного обогрева сидений Passat B5 (кнопки, F44, F5)"
+        "caption": "Схема штатного обогрева сидений Passat B5 (кнопки, F44, F5)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/MiAAAgGMyOA-960.jpg",
-        "caption": "Разъём кнопки обогрева"
+        "caption": "Разъём кнопки обогрева",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/54AAAgKMyOA-960.jpg",
-        "caption": "Разъём кнопки обогрева — провода"
+        "caption": "Разъём кнопки обогрева — провода",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/1AAAAgJMyOA-960.jpg",
-        "caption": "Нагревательный элемент сиденья"
+        "caption": "Нагревательный элемент сиденья",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/0UAAAgGMyOA-960.jpg",
-        "caption": "Проводка обогрева"
+        "caption": "Проводка обогрева",
+        "kind": "photo"
       }
     ]
   },
@@ -1075,15 +1167,18 @@
     "images": [
       {
         "src": "https://passatb5.wikidot.com/local--files/heated-seat-repair/DSC04223.jpg",
-        "caption": "Разъём подогрева сиденья"
+        "caption": "Разъём подогрева сиденья",
+        "kind": "photo"
       },
       {
         "src": "https://passatb5.wikidot.com/local--files/heated-seat-repair/DSC04224.jpg",
-        "caption": "Разъём под сиденьем"
+        "caption": "Разъём под сиденьем",
+        "kind": "photo"
       },
       {
         "src": "https://passatb5.wikidot.com/local--files/heated-seat-repair/DSC04208.jpg",
-        "caption": "Нагревательный элемент сиденья"
+        "caption": "Нагревательный элемент сиденья",
+        "kind": "photo"
       }
     ]
   },
@@ -1101,23 +1196,28 @@
     "images": [
       {
         "src": "https://vwts.ru/images/repair3/109369_06.jpg",
-        "caption": "Кнопка обогрева заднего стекла и разъём"
+        "caption": "Кнопка обогрева заднего стекла и разъём",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair3/109369_13.jpg",
-        "caption": "Разъёмы проводки обогрева"
+        "caption": "Разъёмы проводки обогрева",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair3/109369_17.jpg",
-        "caption": "Разъём с проводами"
+        "caption": "Разъём с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair3/109369_20.jpg",
-        "caption": "Разъёмы реле обогрева"
+        "caption": "Разъёмы реле обогрева",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair3/109369_02.jpg",
-        "caption": "Контакт обогрева на стекле"
+        "caption": "Контакт обогрева на стекле",
+        "kind": "photo"
       }
     ]
   },
@@ -1135,19 +1235,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/7.jpg",
-        "caption": "Реле стеклоочистителя: плата с отметками"
+        "caption": "Реле стеклоочистителя: плата с отметками",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/8.jpg",
-        "caption": "Реле стеклоочистителя: плата"
+        "caption": "Реле стеклоочистителя: плата",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/6.jpg",
-        "caption": "Реле стеклоочистителя Siemens"
+        "caption": "Реле стеклоочистителя Siemens",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/5.jpg",
-        "caption": "Релейная панель: реле 370, 377"
+        "caption": "Релейная панель: реле 370, 377",
+        "kind": "photo"
       }
     ]
   },
@@ -1165,11 +1269,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/iAAAAgKYVuA-960.jpg",
-        "caption": "Разъём подушки руля (звуковой сигнал)"
+        "caption": "Разъём подушки руля (звуковой сигнал)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/GmAAAgKYVuA-960.jpg",
-        "caption": "Реле 370"
+        "caption": "Реле 370",
+        "kind": "photo"
       }
     ]
   },
@@ -1187,23 +1293,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/5oAAAgIIpuA-960.jpg",
-        "caption": "Розетка фаркопа 13 контактов: назначение"
+        "caption": "Розетка фаркопа 13 контактов: назначение",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/UYAAAgIIpuA-960.jpg",
-        "caption": "Розетка 7 контактов: соответствие с прицепом"
+        "caption": "Розетка 7 контактов: соответствие с прицепом",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/0oAAAgIIpuA-960.jpg",
-        "caption": "Плата заднего фонаря с отметками"
+        "caption": "Плата заднего фонаря с отметками",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/NEAAAgIIpuA-960.jpg",
-        "caption": "Блок согласования UN-05"
+        "caption": "Блок согласования UN-05",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/i4AAAgIIpuA-960.jpg",
-        "caption": "Розетка фаркопа 13 контактов"
+        "caption": "Розетка фаркопа 13 контактов",
+        "kind": "photo"
       }
     ]
   },
@@ -1221,15 +1332,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/9GAAAgE1B-A-960.jpg",
-        "caption": "Розетка 7 контактов: распиновка"
+        "caption": "Розетка 7 контактов: распиновка",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/b8AAAgI1B-A-960.jpg",
-        "caption": "Проводка фаркопа в фонаре"
+        "caption": "Проводка фаркопа в фонаре",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/GeAAAgA1B-A-960.jpg",
-        "caption": "Проводка фаркопа"
+        "caption": "Проводка фаркопа",
+        "kind": "photo"
       }
     ]
   },
@@ -1259,7 +1373,8 @@
     "images": [
       {
         "src": "https://i-a.drive-data.ru/F2F7Z1JFUsPpz3Ke1B0EpXkaagM-960.jpg",
-        "caption": "Реле 51"
+        "caption": "Реле 51",
+        "kind": "photo"
       }
     ]
   },
@@ -1277,15 +1392,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/57598ds-960.jpg",
-        "caption": "Реле стартера на релейной панели"
+        "caption": "Реле стартера на релейной панели",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/f8f598ds-960.jpg",
-        "caption": "Реле ПТФ на релейной панели"
-      },
-      {
-        "src": "https://a1.drive-data.ru/1f0898ds-960.jpg",
-        "caption": "Релейная панель — номера мест"
+        "caption": "Реле ПТФ на релейной панели",
+        "kind": "photo"
       }
     ]
   },
@@ -1303,19 +1416,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ea91835s-960.jpg",
-        "caption": "Блок комфорта 1J0 959 799 AH"
+        "caption": "Блок комфорта 1J0 959 799 AH",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/d591835s-960.jpg",
-        "caption": "Блок комфорта в коробке с разъёмами"
+        "caption": "Блок комфорта в коробке с разъёмами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/da91835s-960.jpg",
-        "caption": "Блок комфорта — подключение"
+        "caption": "Блок комфорта — подключение",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/5191835s-960.jpg",
-        "caption": "VCDS: блок комфорта"
+        "caption": "VCDS: блок комфорта",
+        "kind": "photo"
       }
     ]
   },
@@ -1357,7 +1474,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/E687en3aJAurNv2LsTcLg1kfgMM-960.jpg",
-        "caption": "Таблица контактов блока комфорта"
+        "caption": "Таблица контактов блока комфорта",
+        "kind": "scheme"
       }
     ]
   },
@@ -1375,7 +1493,8 @@
     "images": [
       {
         "src": "https://r00.yaplakal.ru/pics/pics_original/5/2/0/13068025.jpg",
-        "caption": "Таблица контактов блока комфорта"
+        "caption": "Таблица контактов блока комфорта",
+        "kind": "scheme"
       }
     ]
   },
@@ -1393,7 +1512,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/0PLkV9pv7O8/hqdefault.jpg",
-        "caption": "Превью видео: перекладка проводов блока комфорта у рулевой колонки"
+        "caption": "Превью видео: перекладка проводов блока комфорта у рулевой колонки",
+        "kind": "photo"
       }
     ]
   },
@@ -1459,15 +1579,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/Hu4S5bzLSlCEymfynLlFT1IqrSQ-960.jpg",
-        "caption": "Жгут двери B5 GP"
+        "caption": "Жгут двери B5 GP",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/O6oWm7lDrgBINJgBUssE_ulAadg-960.jpg",
-        "caption": "Жгут двери"
+        "caption": "Жгут двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8A8pL6nhcP8T0cLhtZbe8RXQKJ4-960.jpg",
-        "caption": "Проводка в двери"
+        "caption": "Проводка в двери",
+        "kind": "photo"
       }
     ]
   },
@@ -1485,19 +1608,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/fc981c6s-960.jpg",
-        "caption": "Переключатель зеркал в разборе"
+        "caption": "Переключатель зеркал в разборе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/16441c6s-960.jpg",
-        "caption": "Плата блока двери"
+        "caption": "Плата блока двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/22a81c6s-960.jpg",
-        "caption": "Моторчик зеркала"
+        "caption": "Моторчик зеркала",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/58181c6s-960.jpg",
-        "caption": "Плата блока двери"
+        "caption": "Плата блока двери",
+        "kind": "photo"
       }
     ]
   },
@@ -1515,19 +1642,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/9873d01s-960.jpg",
-        "caption": "Подключение приборки на столе: питание и K-линия"
+        "caption": "Подключение приборки на столе: питание и K-линия",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/97d0301s-960.jpg",
-        "caption": "Приборка на столе"
+        "caption": "Приборка на столе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/9413d01s-960.jpg",
-        "caption": "Приборка на столе — работает"
+        "caption": "Приборка на столе — работает",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/cde3d01s-960.jpg",
-        "caption": "Плата приборной панели"
+        "caption": "Плата приборной панели",
+        "kind": "photo"
       }
     ]
   },
@@ -1557,11 +1688,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/3ca3eees-960.jpg",
-        "caption": "Модуль «комфортные поворотники» и разъём кнопки аварийки"
+        "caption": "Модуль «комфортные поворотники» и разъём кнопки аварийки",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/_oAAAgKOwuA-960.jpg",
-        "caption": "Разъём кнопки аварийки: COM, T1, T2, GND, +12В"
+        "caption": "Разъём кнопки аварийки: COM, T1, T2, GND, +12В",
+        "kind": "scheme"
       }
     ]
   },
@@ -1579,27 +1712,33 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/6f18a4cs-960.jpg",
-        "caption": "Разъём датчика положения кузова"
+        "caption": "Разъём датчика положения кузова",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/aa98a4cs-960.jpg",
-        "caption": "Синий разъём блока J431"
+        "caption": "Синий разъём блока J431",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8598a4cs-960.jpg",
-        "caption": "Блок J431 — разъём"
+        "caption": "Блок J431 — разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/a718a4cs-960.jpg",
-        "caption": "Розовый разъём — проводка корректора"
+        "caption": "Розовый разъём — проводка корректора",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/6c4a4cs-960.jpg",
-        "caption": "Проводка корректора: розовый разъём"
+        "caption": "Проводка корректора: розовый разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3298a4cs-960.jpg",
-        "caption": "Блок J431"
+        "caption": "Блок J431",
+        "kind": "photo"
       }
     ]
   },
@@ -1617,23 +1756,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/XlclcUEzfbY69uJKl8l75uaIEqc-960.jpg",
-        "caption": "Блок корректора фар 4Z7 907 357"
+        "caption": "Блок корректора фар 4Z7 907 357",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/NVR_Q21BXHXC-D4gCtqZ95d4C5s-960.jpg",
-        "caption": "Разъём блока корректора"
+        "caption": "Разъём блока корректора",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/YLNp1B2ELV91nUD-g83P2MmkTLw-960.jpg",
-        "caption": "Датчик положения кузова"
+        "caption": "Датчик положения кузова",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/nfpL22xCZinmDjg6UY6mymsnS5E-960.jpg",
-        "caption": "Разъём датчика"
+        "caption": "Разъём датчика",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/LBasq9LvppMlVyk3XUkq3szQp0k-960.jpg",
-        "caption": "Датчик кузова на рычаге"
+        "caption": "Датчик кузова на рычаге",
+        "kind": "photo"
       }
     ]
   },
@@ -1651,19 +1795,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/lGAAAgAnUuA-960.jpg",
-        "caption": "Разъём реле омывателя фар"
+        "caption": "Разъём реле омывателя фар",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/kSAAAgFHUuA-960.jpg",
-        "caption": "Подрулевые переключатели"
+        "caption": "Подрулевые переключатели",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/FgAAAgInUuA-960.jpg",
-        "caption": "Проводка омывателя"
+        "caption": "Проводка омывателя",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/GWAAAgAnUuA-960.jpg",
-        "caption": "Проводка в моторном отсеке"
+        "caption": "Проводка в моторном отсеке",
+        "kind": "photo"
       }
     ]
   },
@@ -1681,19 +1829,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/4942e26s-960.jpg",
-        "caption": "Плата заднего фонаря с отметками"
+        "caption": "Плата заднего фонаря с отметками",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/d4a2e26s-960.jpg",
-        "caption": "Плата заднего фонаря"
+        "caption": "Плата заднего фонаря",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/424ce26s-960.jpg",
-        "caption": "Разъём заднего фонаря"
+        "caption": "Разъём заднего фонаря",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/d462e26s-960.jpg",
-        "caption": "Доработка платы фонаря"
+        "caption": "Доработка платы фонаря",
+        "kind": "photo"
       }
     ]
   },
@@ -1711,7 +1863,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/-gAAAgMswuA-960.jpg",
-        "caption": "Подрулевой переключатель: контакты"
+        "caption": "Подрулевой переключатель: контакты",
+        "kind": "photo"
       }
     ]
   },
@@ -1729,15 +1882,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/6f97d404k232-960.jpg",
-        "caption": "Подрулевой переключатель снят"
+        "caption": "Подрулевой переключатель снят",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/6f97d404k22c-960.jpg",
-        "caption": "Подрулевой переключатель: разъём"
+        "caption": "Подрулевой переключатель: разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/6f97d404k261-960.jpg",
-        "caption": "Подрулевой переключатель"
+        "caption": "Подрулевой переключатель",
+        "kind": "photo"
       }
     ]
   },
@@ -1755,19 +1911,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/3b436aes-960.jpg",
-        "caption": "Подрулевой переключатель: контакты"
+        "caption": "Подрулевой переключатель: контакты",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/fa236aes-960.jpg",
-        "caption": "Подрулевой переключатель в разборе"
+        "caption": "Подрулевой переключатель в разборе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7436aes-960.jpg",
-        "caption": "Контакты переключателя"
+        "caption": "Контакты переключателя",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/d836aes-960.jpg",
-        "caption": "Бирка переключателя"
+        "caption": "Бирка переключателя",
+        "kind": "photo"
       }
     ]
   },
@@ -1797,15 +1957,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/66755c4s-960.jpg",
-        "caption": "Контактная группа замка зажигания"
+        "caption": "Контактная группа замка зажигания",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/34755c4s-960.jpg",
-        "caption": "Разъём замка зажигания"
+        "caption": "Разъём замка зажигания",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7c755c4s-960.jpg",
-        "caption": "Замок зажигания с разъёмами"
+        "caption": "Замок зажигания с разъёмами",
+        "kind": "photo"
       }
     ]
   },
@@ -1847,15 +2010,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/d8c58a6s-960.jpg",
-        "caption": "Схема подключения подогрева сидений Passat B5"
+        "caption": "Схема подключения подогрева сидений Passat B5",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/59718a6s-960.jpg",
-        "caption": "Кнопки подогрева"
+        "caption": "Кнопки подогрева",
+        "kind": "photo"
       },
       {
         "src": "https://i-a.drive-data.ru/VjzOBspTcMsNnofHMYYw-FDOlFo-960.jpg",
-        "caption": "Разъёмы кнопок подогрева"
+        "caption": "Разъёмы кнопок подогрева",
+        "kind": "photo"
       }
     ]
   },
@@ -1873,23 +2039,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/Sf7dH5L20fNLodLVYUW7Bd95Tro-960.jpg",
-        "caption": "Подключение догревателя: масса, плюс, реле"
+        "caption": "Подключение догревателя: масса, плюс, реле",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/NE5uUY8Ra-R7w_qIZVw_tfw2Kq0-960.jpg",
-        "caption": "Подключение: предохранитель и клемма 30"
+        "caption": "Подключение: предохранитель и клемма 30",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/XGefYogt2-VSof1ydemVrC8vtkw-960.jpg",
-        "caption": "Реле и масса"
+        "caption": "Реле и масса",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/oVKFO3avye0pLBMcc_-pVLQ0EyE-960.jpg",
-        "caption": "Электрический догреватель"
+        "caption": "Электрический догреватель",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/Ug3dIW0J0gvKJb2ERhyPQlxJDDI-960.jpg",
-        "caption": "Релейная панель: подключение"
+        "caption": "Релейная панель: подключение",
+        "kind": "photo"
       }
     ]
   },
@@ -1943,15 +2114,18 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/uops/acd232es-960.jpg",
-        "caption": "Датчик ABS"
+        "caption": "Датчик ABS",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/uops/92d232es-960.jpg",
-        "caption": "Разъём датчика ABS"
+        "caption": "Разъём датчика ABS",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/uops/ccd232es-960.jpg",
-        "caption": "Датчик ABS новый"
+        "caption": "Датчик ABS новый",
+        "kind": "photo"
       }
     ]
   },
@@ -1980,20 +2154,14 @@
     "status": "unverified",
     "images": [
       {
-        "src": "https://a1.drive-data.ru/muuuIVnGXcVUCBHLCQez1kGH0HM-960.jpg",
-        "caption": "Замок зажигания Passat B5: распиновка контактов (passat-b5.ru)"
-      },
-      {
         "src": "https://a1.drive-data.ru/6Isgzqyi15spuXgP28ZStZFYLp4-960.jpg",
-        "caption": "Схема подключения автозапуска"
-      },
-      {
-        "src": "https://a1.drive-data.ru/eE8GtBrzG5DOhWYrLvSR5rBj2vw-960.jpg",
-        "caption": "Модуль обхода иммобилайзера: подключение"
+        "caption": "Схема подключения автозапуска",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/AstWarnp9vwhRwVCxQEEm432s7k-960.jpg",
-        "caption": "Колодка сигнализации с проводами"
+        "caption": "Колодка сигнализации с проводами",
+        "kind": "photo"
       }
     ]
   },
@@ -2011,23 +2179,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/3433415s-960.jpg",
-        "caption": "Релейная панель: точки подключения автозапуска"
+        "caption": "Релейная панель: точки подключения автозапуска",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7fd3415s-960.jpg",
-        "caption": "Проводка в пороге: точки подключения"
+        "caption": "Проводка в пороге: точки подключения",
+        "kind": "photo"
       },
       {
         "src": "https://i-a.drive-data.ru/RUipSjmEBVzDEJNNaCzmDbr6nD8-960.jpg",
-        "caption": "Схема развязки концевиков диодами"
+        "caption": "Схема развязки концевиков диодами",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/add3415s-960.jpg",
-        "caption": "Замок зажигания: проводка"
+        "caption": "Замок зажигания: проводка",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/e633415s-960.jpg",
-        "caption": "Блок комфорта: точки подключения"
+        "caption": "Блок комфорта: точки подключения",
+        "kind": "photo"
       }
     ]
   },
@@ -2069,7 +2242,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/dR25-v9rgwo/hqdefault.jpg",
-        "caption": "Превью видео: чистка проводов массы на A4 B5"
+        "caption": "Превью видео: чистка проводов массы на A4 B5",
+        "kind": "photo"
       }
     ]
   },
@@ -2087,7 +2261,8 @@
     "images": [
       {
         "src": "https://i.imgur.com/cx3tXqF.png",
-        "caption": "Masse point (ground) — photo"
+        "caption": "Masse point (ground) — photo",
+        "kind": "photo"
       }
     ]
   }

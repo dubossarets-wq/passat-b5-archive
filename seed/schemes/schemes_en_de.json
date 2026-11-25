@@ -217,11 +217,13 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauten/kombiinstrument/MFA-KI-Stecker.jpg",
-        "caption": "Фото автора: синий и зелёный разъёмы щитка с проложенными проводами MFA"
+        "caption": "Фото автора: синий и зелёный разъёмы щитка с проложенными проводами MFA",
+        "kind": "photo"
       },
       {
         "src": "http://www.passatplus.de/umbauten/kombiinstrument/MFA-Lenkstock-Stecker.jpg",
-        "caption": "Фото автора: разъём подрулевого переключателя для MFA"
+        "caption": "Фото автора: разъём подрулевого переключателя для MFA",
+        "kind": "photo"
       }
     ]
   },
@@ -263,7 +265,8 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauten/ami-zv/ami-zv-1.jpg",
-        "caption": "Фото автора: разъём жгута в проёме двери с подключёнными проводами"
+        "caption": "Фото автора: разъём жгута в проёме двери с подключёнными проводами",
+        "kind": "photo"
       }
     ]
   },
@@ -401,11 +404,13 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauten/rueckleuchten/3BG-Adapter_links.jpg",
-        "caption": "Схема автора: соответствие контактов фонаря 3BG и жгута 3B, левая сторона"
+        "caption": "Схема автора: соответствие контактов фонаря 3BG и жгута 3B, левая сторона",
+        "kind": "scheme"
       },
       {
         "src": "http://www.passatplus.de/umbauten/rueckleuchten/3BG-Adapter_rechts.jpg",
-        "caption": "Схема автора: соответствие контактов, правая сторона"
+        "caption": "Схема автора: соответствие контактов, правая сторона",
+        "kind": "scheme"
       }
     ]
   },
@@ -471,7 +476,8 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauten/innenleuchte/adapter-1.jpg",
-        "caption": "Фото автора: самодельный переходник для плафона W8"
+        "caption": "Фото автора: самодельный переходник для плафона W8",
+        "kind": "scheme"
       }
     ]
   },
@@ -525,7 +531,8 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauten/ahk/AHK-Adapter.jpg",
-        "caption": "Схема автора: переходник между жгутом и платой фонаря, контакты 1–6"
+        "caption": "Схема автора: переходник между жгутом и платой фонаря, контакты 1–6",
+        "kind": "scheme"
       }
     ]
   },
@@ -555,11 +562,13 @@
     "images": [
       {
         "src": "http://www.passatplus.de/arbeitshilfen/elektrik/sicherungskasten-2.jpg",
-        "caption": "Рисунок нумерации гнёзд блока предохранителей в торце панели"
+        "caption": "Рисунок нумерации гнёзд блока предохранителей в торце панели",
+        "kind": "scheme"
       },
       {
         "src": "http://www.passatplus.de/arbeitshilfen/elektrik/sicherungskasten.jpg",
-        "caption": "Фото автора: блок предохранителей под крышкой"
+        "caption": "Фото автора: блок предохранителей под крышкой",
+        "kind": "photo"
       }
     ]
   },
@@ -577,11 +586,13 @@
     "images": [
       {
         "src": "http://www.passatplus.de/arbeitshilfen/elektrik/relaistraeger.jpg",
-        "caption": "Фото автора: релейный держатель под рулём с номерами реле"
+        "caption": "Фото автора: релейный держатель под рулём с номерами реле",
+        "kind": "photo"
       },
       {
         "src": "http://www.passatplus.de/arbeitshilfen/elektrik/schraubklemmen.jpg",
-        "caption": "Фото автора: силовые клеммы на лонжероне"
+        "caption": "Фото автора: силовые клеммы на лонжероне",
+        "kind": "photo"
       }
     ]
   },
@@ -599,7 +610,8 @@
     "images": [
       {
         "src": "http://www.passatplus.de/arbeitshilfen/elektrik/steuergeraet-2.jpg",
-        "caption": "Фото автора: открытая коробка ЭБУ в водоотводе с реле и предохранителями (на фото дизельный блок)"
+        "caption": "Фото автора: открытая коробка ЭБУ в водоотводе с реле и предохранителями (на фото дизельный блок)",
+        "kind": "photo"
       }
     ]
   },
@@ -641,11 +653,13 @@
     "images": [
       {
         "src": "https://connector.pinouts.ru/diagram/car_audio_iso.gif",
-        "caption": "Вид ISO-разъёма магнитолы с нумерацией"
+        "caption": "Вид ISO-разъёма магнитолы с нумерацией",
+        "kind": "scheme"
       },
       {
         "src": "https://old.pinouts.ru/images/upload/pinout_2042013727_1275592104_20080227093205_img2.jpg",
-        "caption": "Фото наклейки на корпусе магнитолы с назначением контактов ISO-разъёма"
+        "caption": "Фото наклейки на корпусе магнитолы с назначением контактов ISO-разъёма",
+        "kind": "scheme"
       }
     ]
   },
@@ -663,7 +677,8 @@
     "images": [
       {
         "src": "https://connector.pinoutguide.com/diagram/car_audio_iso.gif",
-        "caption": "Вид ISO-разъёма с нумерацией секций"
+        "caption": "Вид ISO-разъёма с нумерацией секций",
+        "kind": "scheme"
       }
     ]
   },
@@ -801,7 +816,8 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauten/frontscheibe/kabelbaum.jpg",
-        "caption": "Фото автора: самодельный жгут обогрева стекла"
+        "caption": "Фото автора: самодельный жгут обогрева стекла",
+        "kind": "photo"
       }
     ]
   },
@@ -819,7 +835,8 @@
     "images": [
       {
         "src": "http://www.passatplus.de/umbauteile/pdc/PDC-STG-Pins.jpg",
-        "caption": "Фото автора: разъёмы блока парктроника с нумерацией контактов"
+        "caption": "Фото автора: разъёмы блока парктроника с нумерацией контактов",
+        "kind": "photo"
       }
     ]
   },

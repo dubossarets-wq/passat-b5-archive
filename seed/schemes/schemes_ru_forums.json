@@ -5,11 +5,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/vA0h4Y2IRoKj8_rW_kX5U5dD4nE-960.jpg",
-        "caption": "Фото автора: разъём питания магнитолы с подписанными номерами контактов и их назначением"
+        "caption": "Фото автора: разъём питания магнитолы с подписанными номерами контактов и их назначением",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/SHKuid_vZlZDjfXlojIm8_WJhWw-960.jpg",
-        "caption": "Фото автора: тот же разъём с отмеченными плюсовыми и минусовым проводами"
+        "caption": "Фото автора: тот же разъём с отмеченными плюсовыми и минусовым проводами",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -27,19 +29,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/afdbbe9s-960.jpg",
-        "caption": "Фото автора: разъём нового лямбда-зонда Bosch 0 258 006 978"
+        "caption": "Фото автора: разъём нового лямбда-зонда Bosch 0 258 006 978",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ebdbbe9s-960.jpg",
-        "caption": "Фото автора: разъём лямбда-зонда с проводами, вид сбоку"
+        "caption": "Фото автора: разъём лямбда-зонда с проводами, вид сбоку",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/bb87be9s-960.jpg",
-        "caption": "Фото автора: моторный отсек 1.8, место разъёма лямбда-зонда за бачком ОЖ"
+        "caption": "Фото автора: моторный отсек 1.8, место разъёма лямбда-зонда за бачком ОЖ",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/9bdbbe9s-960.jpg",
-        "caption": "Фото автора: лямбда-зонд на приёмной трубе"
+        "caption": "Фото автора: лямбда-зонд на приёмной трубе",
+        "kind": "photo"
       }
     ],
     "system": "engine",
@@ -117,15 +123,18 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=229572&d=1612945681",
-        "caption": "Фото автора: разъёмы ЭБУ двигателя (две колодки)"
+        "caption": "Фото автора: разъёмы ЭБУ двигателя (две колодки)",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=229573&d=1612945681",
-        "caption": "Фото автора: шильдик ЭБУ Bosch 8D0 907 558 B"
+        "caption": "Фото автора: шильдик ЭБУ Bosch 8D0 907 558 B",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=229670&d=1613288921",
-        "caption": "Схема участника темы: сигнал тахометра от импульсов форсунок"
+        "caption": "Схема участника темы: сигнал тахометра от импульсов форсунок",
+        "kind": "scheme"
       }
     ],
     "system": "engine",
@@ -143,7 +152,8 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=120528&d=1399065430",
-        "caption": "Рисунок автора: провода датчика Холла — как должно быть и как у него"
+        "caption": "Рисунок автора: провода датчика Холла — как должно быть и как у него",
+        "kind": "scheme"
       }
     ],
     "system": "engine",
@@ -161,11 +171,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/6fa07g4k16c-960.jpg",
-        "caption": "Фото автора: замер на разъёме ДМРВ щупами мультиметра"
+        "caption": "Фото автора: замер на разъёме ДМРВ щупами мультиметра",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/6fa07g4k272-960.jpg",
-        "caption": "Фото автора: проверка ДМРВ мультиметром под капотом"
+        "caption": "Фото автора: проверка ДМРВ мультиметром под капотом",
+        "kind": "photo"
       }
     ],
     "system": "engine",
@@ -195,23 +207,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/XpPrjs_AarJEmD6CkVCRKoH1QvU-960.jpg",
-        "caption": "Фото автора: раздельные катушки AEB 058 905 105"
+        "caption": "Фото автора: раздельные катушки AEB 058 905 105",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/n9SvtxlGr4hJbX46ypyGAybCjaQ-960.jpg",
-        "caption": "Фото автора: разъём коммутатора с проводами"
+        "caption": "Фото автора: разъём коммутатора с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/_T0fREKeEQ4ph14qjyxXwdx9yCI-960.jpg",
-        "caption": "Фото автора: переходник проводки на катушки"
+        "caption": "Фото автора: переходник проводки на катушки",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/aMbGcwqEfjBZiLY_BphN8HRwcik-960.jpg",
-        "caption": "Фото автора: подпайка вместо разъёма штатной катушки ADR"
+        "caption": "Фото автора: подпайка вместо разъёма штатной катушки ADR",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/YkFgXrLNgEOZln3uv3HfKq7oOt4-960.jpg",
-        "caption": "Фото автора: раздельные катушки AEB установлены на ADR"
+        "caption": "Фото автора: раздельные катушки AEB установлены на ADR",
+        "kind": "photo"
       }
     ],
     "system": "ignition",
@@ -229,19 +246,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/D1vrVReLRUCU6zPbrIMN4QXnzHI-960.jpg",
-        "caption": "Фото автора: разъём модуля зажигания ADR"
+        "caption": "Фото автора: разъём модуля зажигания ADR",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/uErk6hnDiLA2tF0QLVrcO1dMXuQ-960.jpg",
-        "caption": "Фото автора: модуль зажигания ADR, вид снизу"
+        "caption": "Фото автора: модуль зажигания ADR, вид снизу",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/byXHs-a7idW4V1DdIT2ofYjm3JQ-960.jpg",
-        "caption": "Фото автора: модуль на столе с подключёнными проводами"
+        "caption": "Фото автора: модуль на столе с подключёнными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/-W5E3dA9IO2gzj_pvczkNVzmgdk-960.jpg",
-        "caption": "Фото автора: провода, подпаянные к модулю зажигания"
+        "caption": "Фото автора: провода, подпаянные к модулю зажигания",
+        "kind": "photo"
       }
     ],
     "system": "ignition",
@@ -259,7 +280,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/93d356as-960.jpg",
-        "caption": "Фото автора: соединение родной фишки модуля ADR с модулем ВАЗ"
+        "caption": "Фото автора: соединение родной фишки модуля ADR с модулем ВАЗ",
+        "kind": "photo"
       }
     ],
     "system": "ignition",
@@ -277,7 +299,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg",
-        "caption": "Схема автора: старая фишка ADR, коммутатор Hitachi и четыре катушки с цветами проводов"
+        "caption": "Схема автора: старая фишка ADR, коммутатор Hitachi и четыре катушки с цветами проводов",
+        "kind": "scheme"
       }
     ],
     "system": "ignition",
@@ -307,11 +330,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/81b9dc2s-960.jpg",
-        "caption": "Фото автора: зелёный разъём щитка приборов с проводами"
+        "caption": "Фото автора: зелёный разъём щитка приборов с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/1b9dc2s-960.jpg",
-        "caption": "Фото автора: синий разъём щитка приборов с проводами"
+        "caption": "Фото автора: синий разъём щитка приборов с проводами",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -365,15 +390,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/9873d01s-960.jpg",
-        "caption": "Схема автора: подключение щитка (синий разъём, пины 1, 9, 25) к питанию и K-линии OBD"
+        "caption": "Схема автора: подключение щитка (синий разъём, пины 1, 9, 25) к питанию и K-линии OBD",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/59e3d01s-960.jpg",
-        "caption": "Фото автора: синий разъём щитка с подключёнными проводами"
+        "caption": "Фото автора: синий разъём щитка с подключёнными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/9e3d01s-960.jpg",
-        "caption": "Фото автора: щиток на столе, подключён к ноутбуку через VAG-COM"
+        "caption": "Фото автора: щиток на столе, подключён к ноутбуку через VAG-COM",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -391,11 +419,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ff35d5cs-960.jpg",
-        "caption": "Фото автора: щиток подключён к адаптеру на столе для проверки"
+        "caption": "Фото автора: щиток подключён к адаптеру на столе для проверки",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/b395d5cs-960.jpg",
-        "caption": "Схема: разъём OBD под панелью и разъём в кабеле, пины 4, 7, 16"
+        "caption": "Схема: разъём OBD под панелью и разъём в кабеле, пины 4, 7, 16",
+        "kind": "scheme"
       }
     ],
     "system": "electrical",
@@ -413,19 +443,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/53e7928s-960.jpg",
-        "caption": "Фото автора: разъём подрулевого переключателя с добавленными проводами"
+        "caption": "Фото автора: разъём подрулевого переключателя с добавленными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/4be7928s-960.jpg",
-        "caption": "Фото автора: синий разъём щитка с добавленными проводами"
+        "caption": "Фото автора: синий разъём щитка с добавленными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/117928s-960.jpg",
-        "caption": "Фото автора: провода от подрулевого к разъёмам щитка"
+        "caption": "Фото автора: провода от подрулевого к разъёмам щитка",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3117928s-960.jpg",
-        "caption": "Фото автора: проводка под панелью"
+        "caption": "Фото автора: проводка под панелью",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -467,11 +501,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/bvxAiwOags32jfvc6p3w_g6Iot8-960.jpg",
-        "caption": "Фото автора: плата щитка, стрелками отмечены конденсаторы цепи катушки иммобилайзера"
+        "caption": "Фото автора: плата щитка, стрелками отмечены конденсаторы цепи катушки иммобилайзера",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8U_L8bhIVtnA_xuZCqOfAp1_TNo-960.jpg",
-        "caption": "Фото автора: выпаянные треснувшие конденсаторы 47 нФ"
+        "caption": "Фото автора: выпаянные треснувшие конденсаторы 47 нФ",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -489,11 +525,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/rwAAAgB0SuA-960.jpg",
-        "caption": "Фото автора: разъём жгута при прозвонке линии диагностики"
+        "caption": "Фото автора: разъём жгута при прозвонке линии диагностики",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ZDAAAgB0SuA-960.jpg",
-        "caption": "Фото автора: ЭБУ двигателя в моторном отсеке"
+        "caption": "Фото автора: ЭБУ двигателя в моторном отсеке",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -523,19 +561,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=70515&d=1350404600",
-        "caption": "Фото автора: провода под капотом (обведены)"
+        "caption": "Фото автора: провода под капотом (обведены)",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=70516&d=1350404622",
-        "caption": "Фото автора: прокладка провода у бачка"
+        "caption": "Фото автора: прокладка провода у бачка",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=70522&d=1350404767",
-        "caption": "Фото автора: разъём у бачка омывателя"
+        "caption": "Фото автора: разъём у бачка омывателя",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=70524&d=1350404786",
-        "caption": "Фото автора: датчик наружной температуры 8Z0 820 535"
+        "caption": "Фото автора: датчик наружной температуры 8Z0 820 535",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -565,27 +607,33 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=51862&d=1332780289",
-        "caption": "Фото участника: блок предохранителей в торце панели"
+        "caption": "Фото участника: блок предохранителей в торце панели",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=51863&d=1332780300",
-        "caption": "Фото участника: таблица предохранителей на крышке блока"
+        "caption": "Фото участника: таблица предохранителей на крышке блока",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58418&d=1337980181",
-        "caption": "Таблица участника: назначение предохранителей по цветам номиналов"
+        "caption": "Таблица участника: назначение предохранителей по цветам номиналов",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58455&d=1338052145",
-        "caption": "Фото участника: релейная плата под рулём с номерами реле"
+        "caption": "Фото участника: релейная плата под рулём с номерами реле",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=51903&d=1332795647",
-        "caption": "Фото участника: силовые предохранители 40/50 А на релейной плате"
+        "caption": "Фото участника: силовые предохранители 40/50 А на релейной плате",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58394&d=1337974142",
-        "caption": "Фото участника: расположение блока предохранителей и релейной платы"
+        "caption": "Фото участника: расположение блока предохранителей и релейной платы",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -603,23 +651,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/2368f8ds-960.jpg",
-        "caption": "Фото автора: реле у ЭБУ под капотом"
+        "caption": "Фото автора: реле у ЭБУ под капотом",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/12d70c6s-960.jpg",
-        "caption": "Фото автора: блок предохранителей"
+        "caption": "Фото автора: блок предохранителей",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ead70c6s-960.jpg",
-        "caption": "Фото автора: релейная плата (вид сбоку): реле 384, 167, 202, 377"
+        "caption": "Фото автора: релейная плата (вид сбоку): реле 384, 167, 202, 377",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/dad70c6s-960.jpg",
-        "caption": "Фото автора: реле 373, 381, 53, 370, 167, 202 крупно"
+        "caption": "Фото автора: реле 373, 381, 53, 370, 167, 202 крупно",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3ad70c6s-960.jpg",
-        "caption": "Фото автора: силовые предохранители на релейной плате"
+        "caption": "Фото автора: силовые предохранители на релейной плате",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -649,15 +702,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/QsROZWPRA-WgBITJSUEuiwyOLMU-960.jpg",
-        "caption": "Фото автора: реле 30 (165 906 381) со схемой контактов на корпусе"
+        "caption": "Фото автора: реле 30 (165 906 381) со схемой контактов на корпусе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/nD_SY6mfrX9JEW-KfDNwiAIPxdY-960.jpg",
-        "caption": "Фото автора: плата реле, кольцевая трещина пайки"
+        "caption": "Фото автора: плата реле, кольцевая трещина пайки",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/H5uDuuQHE2Xg50CYRmcaLG4jULg-960.jpg",
-        "caption": "Фото автора: реле в разборе"
+        "caption": "Фото автора: реле в разборе",
+        "kind": "photo"
       }
     ],
     "system": "fuel",
@@ -675,19 +731,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/5.jpg",
-        "caption": "Фото автора: релейная плата под рулём (реле 370, 372, 377)"
+        "caption": "Фото автора: релейная плата под рулём (реле 370, 372, 377)",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/6.jpg",
-        "caption": "Фото автора: реле стеклоочистителя 4B0 955 531 A"
+        "caption": "Фото автора: реле стеклоочистителя 4B0 955 531 A",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/7.jpg",
-        "caption": "Фото автора: плата реле, стрелкой — подгоревшие контакты"
+        "caption": "Фото автора: плата реле, стрелкой — подгоревшие контакты",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/rrrst/8.jpg",
-        "caption": "Фото автора: монтажная сторона платы реле"
+        "caption": "Фото автора: монтажная сторона платы реле",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -729,11 +789,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/mMHCwLwk65dIc0M6k5NNUHEFzgI-960.jpg",
-        "caption": "Фото автора: силовой кабель генератора с вопросами по подключению"
+        "caption": "Фото автора: силовой кабель генератора с вопросами по подключению",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/AXbLkLxvBmDuPC619VtwUMiYjY8-960.jpg",
-        "caption": "Фото автора: клеммы на стартере — плюс от АКБ и кабель генератора"
+        "caption": "Фото автора: клеммы на стартере — плюс от АКБ и кабель генератора",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -751,19 +813,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/6YfGYMu34Kh3I9hl5KDYemm7-to-960.jpg",
-        "caption": "Фото автора: регулятор напряжения на генераторе"
+        "caption": "Фото автора: регулятор напряжения на генераторе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/kzgZ4ehU6py3febUEkPc3wgzaQA-960.jpg",
-        "caption": "Фото автора: чёрный и синий провода у щитка (питание и индикация заряда)"
+        "caption": "Фото автора: чёрный и синий провода у щитка (питание и индикация заряда)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/iE5hreG7YsXnYskfe4Weo7VtXHg-960.jpg",
-        "caption": "Фото автора: два последовательных резистора в цепи индикации заряда"
+        "caption": "Фото автора: два последовательных резистора в цепи индикации заряда",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/iE_OKFRC5qf0kSooiLXHIzf_duM-960.jpg",
-        "caption": "Фото автора: элемент, врезанный в синий провод"
+        "caption": "Фото автора: элемент, врезанный в синий провод",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -781,23 +847,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/WygAAgBHL-A-960.jpg",
-        "caption": "Фото автора: две половины разъёма под капотом"
+        "caption": "Фото автора: две половины разъёма под капотом",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7AQAAgBHL-A-960.jpg",
-        "caption": "Фото автора: многоконтактный разъём в руке"
+        "caption": "Фото автора: многоконтактный разъём в руке",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/sC1u31FEQkkeFCRUeA4CdZhfhLo-960.jpg",
-        "caption": "Фото автора: разъём с колпачком 6X0 971 921 C"
+        "caption": "Фото автора: разъём с колпачком 6X0 971 921 C",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/zMGDuI12J71Fn7C93zoHtKktMqA-960.jpg",
-        "caption": "Фото автора: сравнение разъёмов (с выемкой и без)"
+        "caption": "Фото автора: сравнение разъёмов (с выемкой и без)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/WaJhjt7N04Kn-7lsEa7SP7x4Qc0-960.jpg",
-        "caption": "Фото автора: разъёмы с проводами"
+        "caption": "Фото автора: разъёмы с проводами",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -815,7 +886,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/-gAAAgMswuA-960.jpg",
-        "caption": "Фото автора: вскрытый переключатель стеклоочистителей с пронумерованными контактами"
+        "caption": "Фото автора: вскрытый переключатель стеклоочистителей с пронумерованными контактами",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -845,19 +917,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58813&d=1338322667",
-        "caption": "Фото участника: точка +ACC на релейной плате"
+        "caption": "Фото участника: точка +ACC на релейной плате",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58814&d=1338322724",
-        "caption": "Схема участника: ДХО через реле (габарит, ручник, зажигание)"
+        "caption": "Схема участника: ДХО через реле (габарит, ручник, зажигание)",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58815&d=1338322744",
-        "caption": "Схема участника: подсветка приборки от габаритов или от ACC через диоды"
+        "caption": "Схема участника: подсветка приборки от габаритов или от ACC через диоды",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=58812&d=1338322643",
-        "caption": "Фото участника: блок разъёмов в ногах водителя"
+        "caption": "Фото участника: блок разъёмов в ногах водителя",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -875,19 +951,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74101&d=1353443622",
-        "caption": "Фото участника: разъём регулятора подсветки, подписаны клеммы 31, 58, 58d, G, 56b"
+        "caption": "Фото участника: разъём регулятора подсветки, подписаны клеммы 31, 58, 58d, G, 56b",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74248&d=1353521713",
-        "caption": "Фото участника: правильная нумерация контактов разъёма"
+        "caption": "Фото участника: правильная нумерация контактов разъёма",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74165&d=1353486611",
-        "caption": "Фото участника: разъём с номерами контактов и клеммами"
+        "caption": "Фото участника: разъём с номерами контактов и клеммами",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=74899&d=1354138746",
-        "caption": "Фото участника: колодка разъёма регулятора"
+        "caption": "Фото участника: колодка разъёма регулятора",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -905,7 +985,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/d5c5f65s-1920.jpg",
-        "caption": "Простая схема подключения ПТФ через реле от управляющего провода переключателя"
+        "caption": "Простая схема подключения ПТФ через реле от управляющего провода переключателя",
+        "kind": "scheme"
       }
     ],
     "system": "electrical",
@@ -935,27 +1016,33 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/F0mhlIGmPLP0pXHmAS1fsEjU3Ds-960.jpg",
-        "caption": "Фото автора: 42-контактная колодка блока ABS"
+        "caption": "Фото автора: 42-контактная колодка блока ABS",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/JvnqAfYYOE2a9BDBAv_pYqVzZFA-960.jpg",
-        "caption": "Фото автора: пин 34 колодки ABS с подпаянным проводом"
+        "caption": "Фото автора: пин 34 колодки ABS с подпаянным проводом",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/XlclcUEzfbY69uJKl8l75uaIEqc-960.jpg",
-        "caption": "Фото автора: блок корректора фар Hella 4Z7 907 357"
+        "caption": "Фото автора: блок корректора фар Hella 4Z7 907 357",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/NVR_Q21BXHXC-D4gCtqZ95d4C5s-960.jpg",
-        "caption": "Фото автора: разъём блока корректора фар с проводами"
+        "caption": "Фото автора: разъём блока корректора фар с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/nfpL22xCZinmDjg6UY6mymsnS5E-960.jpg",
-        "caption": "Фото автора: разъём регулятора подсветки, 5 проводов"
+        "caption": "Фото автора: разъём регулятора подсветки, 5 проводов",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/CAo-Pj8PngJGOUMpBKShLKHYS0U-960.jpg",
-        "caption": "Фото автора: трёхконтактный разъём VAG с номерами контактов"
+        "caption": "Фото автора: трёхконтактный разъём VAG с номерами контактов",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -973,23 +1060,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/n6AAAgK-YeA-960.jpg",
-        "caption": "Фото автора: прокладка проводки корректора у релейной платы"
+        "caption": "Фото автора: прокладка проводки корректора у релейной платы",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/jiAAAgG-YeA-960.jpg",
-        "caption": "Фото автора: задний датчик положения кузова на месте"
+        "caption": "Фото автора: задний датчик положения кузова на месте",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/70AAAgB-YeA-960.jpg",
-        "caption": "Фото автора: проводка под капотом (стрелки)"
+        "caption": "Фото автора: проводка под капотом (стрелки)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/0OAAAgB-YeA-960.jpg",
-        "caption": "Фото автора: провода к фарам"
+        "caption": "Фото автора: провода к фарам",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/DgAAAgJ-YeA-960.jpg",
-        "caption": "Фото автора: разъём фары с подключением"
+        "caption": "Фото автора: разъём фары с подключением",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1007,23 +1099,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/5oAAAgIIpuA-960.jpg",
-        "caption": "Таблица: распиновка 13-контактной розетки фаркопа"
+        "caption": "Таблица: распиновка 13-контактной розетки фаркопа",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/UYAAAgIIpuA-960.jpg",
-        "caption": "Схема: распиновка 7-контактной розетки и вилки прицепа"
+        "caption": "Схема: распиновка 7-контактной розетки и вилки прицепа",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/i4AAAgIIpuA-960.jpg",
-        "caption": "Фото автора: штатная 13-контактная розетка"
+        "caption": "Фото автора: штатная 13-контактная розетка",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/q4AAAgIIpuA-960.jpg",
-        "caption": "Фото автора: переходник 13 на 7 контактов"
+        "caption": "Фото автора: переходник 13 на 7 контактов",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/NEAAAgIIpuA-960.jpg",
-        "caption": "Фото автора: реле UN-05 со схемой контактов"
+        "caption": "Фото автора: реле UN-05 со схемой контактов",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1041,7 +1138,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/23bc1c9s-960.jpg",
-        "caption": "Схема автора: разъёмы блока парктроника, коса датчиков и четыре датчика"
+        "caption": "Схема автора: разъёмы блока парктроника, коса датчиков и четыре датчика",
+        "kind": "scheme"
       }
     ],
     "system": "electrical",
@@ -1059,11 +1157,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ba09gds-960.jpg",
-        "caption": "Схема автора: подключение диода Шоттки к проводам магнитолы"
+        "caption": "Схема автора: подключение диода Шоттки к проводам магнитолы",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/3f71gds-960.jpg",
-        "caption": "Фото автора: диод с припаянными проводами"
+        "caption": "Фото автора: диод с припаянными проводами",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1081,15 +1181,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/7261b7u-960.jpg",
-        "caption": "Фото автора: распиновка разъёма штатной магнитолы с наклейки"
+        "caption": "Фото автора: распиновка разъёма штатной магнитолы с наклейки",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/ca61b7u-960.jpg",
-        "caption": "Фото автора: штекер новой магнитолы и штекер под штатный разъём"
+        "caption": "Фото автора: штекер новой магнитолы и штекер под штатный разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2a61b7u-960.jpg",
-        "caption": "Фото автора: самодельный переходник"
+        "caption": "Фото автора: самодельный переходник",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1107,7 +1210,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/a3bffc2s-960.jpg",
-        "caption": "Рисунок автора: подключение круиза через блок 451/452"
+        "caption": "Рисунок автора: подключение круиза через блок 451/452",
+        "kind": "scheme"
       }
     ],
     "system": "electrical",
@@ -1125,23 +1229,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/d8d8eaes-960.jpg",
-        "caption": "Фото автора: разъём жгута круиз-контроля из комплекта"
+        "caption": "Фото автора: разъём жгута круиз-контроля из комплекта",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/f3f8eaes-960.jpg",
-        "caption": "Фото автора: разъём T15 со стороны контактов"
+        "caption": "Фото автора: разъём T15 со стороны контактов",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3b04eaes-960.jpg",
-        "caption": "Фото автора: разъёмы у ЭБУ с добавленными проводами"
+        "caption": "Фото автора: разъёмы у ЭБУ с добавленными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/16e4eaes-960.jpg",
-        "caption": "Фото автора: подключение проводов к разъёму T15"
+        "caption": "Фото автора: подключение проводов к разъёму T15",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7894eaes-960.jpg",
-        "caption": "Фото автора: оранжевый разъём T10 ЭБУ с добавленным проводом"
+        "caption": "Фото автора: оранжевый разъём T10 ЭБУ с добавленным проводом",
+        "kind": "photo"
       }
     ],
     "system": "engine",
@@ -1159,7 +1268,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/4c579ees-960.jpg",
-        "caption": "Схема автора: кнопки подогрева, разъёмы сидений, питание и массы"
+        "caption": "Схема автора: кнопки подогрева, разъёмы сидений, питание и массы",
+        "kind": "scheme"
       }
     ],
     "system": "interior",
@@ -1201,11 +1311,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/141c5acs-960.jpg",
-        "caption": "Фото автора: плата концевиков замка двери с проводами"
+        "caption": "Фото автора: плата концевиков замка двери с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ea1c5acs-960.jpg",
-        "caption": "Фото автора: плата и моторчик замка в разборе"
+        "caption": "Фото автора: плата и моторчик замка в разборе",
+        "kind": "photo"
       }
     ],
     "system": "interior",
@@ -1223,7 +1335,8 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/zlzahl/edc7d24dfecc.png",
-        "caption": "Принципиальная схема блока комфорта 1C0 959 799 (плата, с пометками)"
+        "caption": "Принципиальная схема блока комфорта 1C0 959 799 (плата, с пометками)",
+        "kind": "scheme"
       }
     ],
     "system": "interior",
@@ -1241,7 +1354,8 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=76665&d=1355979409",
-        "caption": "Принципиальная схема блока комфорта 1C0 959 799 (плата, с пометками)"
+        "caption": "Принципиальная схема блока комфорта 1C0 959 799 (плата, с пометками)",
+        "kind": "scheme"
       }
     ],
     "system": "interior",
@@ -1283,15 +1397,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ACAAAgFhUuA-960.jpg",
-        "caption": "Фото автора: разъём двери с переломанными проводами"
+        "caption": "Фото автора: разъём двери с переломанными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7aAAAgFhUuA-960.jpg",
-        "caption": "Фото автора: замена проводов в гофре"
+        "caption": "Фото автора: замена проводов в гофре",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/_aAAAgFhUuA-960.jpg",
-        "caption": "Фото автора: разъём после ремонта"
+        "caption": "Фото автора: разъём после ремонта",
+        "kind": "photo"
       }
     ],
     "system": "interior",
@@ -1309,19 +1426,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/95feb69s-960.jpg",
-        "caption": "Фото автора: перебитый жгут в гофре"
+        "caption": "Фото автора: перебитый жгут в гофре",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2e01b69s-960.jpg",
-        "caption": "Фото автора: бирка жгута двери 3B0 971 120 BD"
+        "caption": "Фото автора: бирка жгута двери 3B0 971 120 BD",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/e441b69s-960.jpg",
-        "caption": "Фото автора: спаянные провода жгута"
+        "caption": "Фото автора: спаянные провода жгута",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2d81b69s-960.jpg",
-        "caption": "Фото автора: разъёмы жгута двери в ногах водителя"
+        "caption": "Фото автора: разъёмы жгута двери в ногах водителя",
+        "kind": "photo"
       }
     ],
     "system": "interior",
@@ -1339,15 +1460,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/Hu4S5bzLSlCEymfynLlFT1IqrSQ-960.jpg",
-        "caption": "Фото автора: жгут проводки двери"
+        "caption": "Фото автора: жгут проводки двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8A8pL6nhcP8T0cLhtZbe8RXQKJ4-960.jpg",
-        "caption": "Фото автора: разъёмы в стойке и под панелью"
+        "caption": "Фото автора: разъёмы в стойке и под панелью",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3TbuhUsctuTBvyPRiRqdjt9IJcQ-960.jpg",
-        "caption": "Фото автора: дверь с разъёмом блока"
+        "caption": "Фото автора: дверь с разъёмом блока",
+        "kind": "photo"
       }
     ],
     "system": "interior",
@@ -1365,15 +1489,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/9644af4s-960.jpg",
-        "caption": "Фото автора: блок управления двери с разъёмом"
+        "caption": "Фото автора: блок управления двери с разъёмом",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/d144af4s-960.jpg",
-        "caption": "Фото автора: разъём жгута задней двери"
+        "caption": "Фото автора: разъём жгута задней двери",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/1c95ae4s-960.jpg",
-        "caption": "Фото автора: несущая панель задней двери с проводкой"
+        "caption": "Фото автора: несущая панель задней двери с проводкой",
+        "kind": "photo"
       }
     ],
     "system": "interior",
@@ -1391,11 +1518,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/dc4ba26s-960.jpg",
-        "caption": "Фото автора: разъём двери, отмечен провод подсветки"
+        "caption": "Фото автора: разъём двери, отмечен провод подсветки",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/68ba26s-960.jpg",
-        "caption": "Фото автора: разъём проводки передней двери в стойке"
+        "caption": "Фото автора: разъём проводки передней двери в стойке",
+        "kind": "photo"
       }
     ],
     "system": "interior",
@@ -1413,7 +1542,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/GEAAAgF-ueA-1920.jpg",
-        "caption": "Схема автора от руки: рестайлинговые зеркала и джойстик на дорестайлинговой проводке, цвета проводов"
+        "caption": "Схема автора от руки: рестайлинговые зеркала и джойстик на дорестайлинговой проводке, цвета проводов",
+        "kind": "scheme"
       }
     ],
     "system": "body",
@@ -1443,19 +1573,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/16441c6s-960.jpg",
-        "caption": "Фото автора: плата блока двери, обведено место впайки микросхемы"
+        "caption": "Фото автора: плата блока двери, обведено место впайки микросхемы",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/65e81c6s-960.jpg",
-        "caption": "Фото автора: плата после впайки элементов"
+        "caption": "Фото автора: плата после впайки элементов",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/a0d81c6s-960.jpg",
-        "caption": "Фото автора: разъёмы зеркала"
+        "caption": "Фото автора: разъёмы зеркала",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/97781c6s-960.jpg",
-        "caption": "Фото автора: разъём привода складывания (обведён)"
+        "caption": "Фото автора: разъём привода складывания (обведён)",
+        "kind": "photo"
       }
     ],
     "system": "body",
@@ -1497,11 +1631,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/lg0EvM8beEdwrUu2zAcRBoo_YVs-960.jpg",
-        "caption": "Фото автора: разъём блока климата с проводами"
+        "caption": "Фото автора: разъём блока климата с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/lQDsm5KcTvtAJfVhVwqs73l3taM-960.jpg",
-        "caption": "Фото автора: подключение проводов на релейной плате (подписи)"
+        "caption": "Фото автора: подключение проводов на релейной плате (подписи)",
+        "kind": "photo"
       }
     ],
     "system": "climate",
@@ -1519,23 +1655,28 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/climcon/19.jpg",
-        "caption": "Рисунок автора: подключение реле вентилятора — было"
+        "caption": "Рисунок автора: подключение реле вентилятора — было",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/othr/bz/climcon/20.jpg",
-        "caption": "Рисунок автора: подключение реле вентилятора — стало"
+        "caption": "Рисунок автора: подключение реле вентилятора — стало",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/othr/bz/climcon/21.jpg",
-        "caption": "Фото автора: разъёмы релейной платы с отмеченным проводом"
+        "caption": "Фото автора: разъёмы релейной платы с отмеченным проводом",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/climcon/18.jpg",
-        "caption": "Фото автора: разъёмы под панелью"
+        "caption": "Фото автора: разъёмы под панелью",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/climcon/2.jpg",
-        "caption": "Фото автора: шильдик блока Climatronic 1J1 907 044"
+        "caption": "Фото автора: шильдик блока Climatronic 1J1 907 044",
+        "kind": "photo"
       }
     ],
     "system": "climate",
@@ -1565,7 +1706,8 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=91457&d=1368291307",
-        "caption": "Фото автора темы: разъём блока ABS"
+        "caption": "Фото автора темы: разъём блока ABS",
+        "kind": "photo"
       }
     ],
     "system": "brakes_abs",
@@ -1595,15 +1737,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/f84afaas-960.jpg",
-        "caption": "Фото автора: оранжевый и серый разъёмы ESP"
+        "caption": "Фото автора: оранжевый и серый разъёмы ESP",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/ffcafaas-960.jpg",
-        "caption": "Фото автора: разъёмы в ногах водителя"
+        "caption": "Фото автора: разъёмы в ногах водителя",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/636afaas-960.jpg",
-        "caption": "Фото автора: разъёмы под панелью"
+        "caption": "Фото автора: разъёмы под панелью",
+        "kind": "photo"
       }
     ],
     "system": "brakes_abs",
@@ -1633,27 +1778,33 @@
     "images": [
       {
         "src": "https://passatworld.ru/othr/bz/siga/851355w.jpg",
-        "caption": "Схема автора: обходчик иммобилайзера"
+        "caption": "Схема автора: обходчик иммобилайзера",
+        "kind": "scheme"
       },
       {
         "src": "https://passatworld.ru/othr/bz/siga/850766w.jpg",
-        "caption": "Фото автора: реле 384 на релейной плате"
+        "caption": "Фото автора: реле 384 на релейной плате",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/siga/850813w.jpg",
-        "caption": "Фото автора: разъёмы под рулевой колонкой"
+        "caption": "Фото автора: разъёмы под рулевой колонкой",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/siga/850765w.jpg",
-        "caption": "Фото автора: разъём замка зажигания"
+        "caption": "Фото автора: разъём замка зажигания",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/siga/850809w.jpg",
-        "caption": "Фото автора: реле блокировки стартера 53"
+        "caption": "Фото автора: реле блокировки стартера 53",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/othr/bz/siga/850781w.jpg",
-        "caption": "Фото автора: точка подключения в жгуте"
+        "caption": "Фото автора: точка подключения в жгуте",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1671,11 +1822,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/e633415s-960.jpg",
-        "caption": "Фото автора: блок комфорта 1J0 959 799 с разъёмами"
+        "caption": "Фото автора: блок комфорта 1J0 959 799 с разъёмами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/add3415s-960.jpg",
-        "caption": "Фото автора: разъём замка зажигания"
+        "caption": "Фото автора: разъём замка зажигания",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1705,19 +1858,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/726df2cs-960.jpg",
-        "caption": "Фото автора: красный 20-контактный разъём бортового компьютера"
+        "caption": "Фото автора: красный 20-контактный разъём бортового компьютера",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/d66df2cs-960.jpg",
-        "caption": "Фото автора: разобранный разъём"
+        "caption": "Фото автора: разобранный разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/fa6df2cs-960.jpg",
-        "caption": "Фото автора: разъёмы с проводами"
+        "caption": "Фото автора: разъёмы с проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/55edf2cs-960.jpg",
-        "caption": "Рукописная распиновка автора"
+        "caption": "Рукописная распиновка автора",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1747,19 +1904,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/b4AAAgH4peA-960.jpg",
-        "caption": "Распиновка серого 32-контактного разъёма и OBD с отмеченными +, − и K-line"
+        "caption": "Распиновка серого 32-контактного разъёма и OBD с отмеченными +, − и K-line",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/z4AAAgH4peA-960.jpg",
-        "caption": "Фото автора: синий разъём щитка с подключёнными проводами"
+        "caption": "Фото автора: синий разъём щитка с подключёнными проводами",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/AYAAAgH4peA-960.jpg",
-        "caption": "Фото автора: зелёный разъём щитка и подключение к OBD"
+        "caption": "Фото автора: зелёный разъём щитка и подключение к OBD",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/yEAAAgH4peA-960.jpg",
-        "caption": "Фото автора: подключение щитка на столе к блоку питания"
+        "caption": "Фото автора: подключение щитка на столе к блоку питания",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1777,27 +1938,33 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/4ab9bc1s-960.jpg",
-        "caption": "Таблица автора: соответствие пинов разъёмов ИММО1 и ИММО2"
+        "caption": "Таблица автора: соответствие пинов разъёмов ИММО1 и ИММО2",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/4c832bes-960.jpg",
-        "caption": "Таблица автора: распиновка 20-контактного красного разъёма БК"
+        "caption": "Таблица автора: распиновка 20-контактного красного разъёма БК",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/7a832bes-960.jpg",
-        "caption": "Фото автора: разъёмы щитка, отмечены провода расхода топлива и датчика температуры масла"
+        "caption": "Фото автора: разъёмы щитка, отмечены провода расхода топлива и датчика температуры масла",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/cc832bes-960.jpg",
-        "caption": "Фото автора: датчик температуры масла (отмечен)"
+        "caption": "Фото автора: датчик температуры масла (отмечен)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/62832bes-960.jpg",
-        "caption": "Фото автора: провода с бирками номеров пинов"
+        "caption": "Фото автора: провода с бирками номеров пинов",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/14832bes-960.jpg",
-        "caption": "Фото автора: перепиновка разъёмов"
+        "caption": "Фото автора: перепиновка разъёмов",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1815,7 +1982,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/c71653es-960.jpg",
-        "caption": "Фото автора: разъём на подрулевом переключателе"
+        "caption": "Фото автора: разъём на подрулевом переключателе",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1833,19 +2001,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/a731a4u/960.jpg",
-        "caption": "Таблица: распиновка разъёма магнитолы (Quadlock A–D)"
+        "caption": "Таблица: распиновка разъёма магнитолы (Quadlock A–D)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/aeb1a4u/960.jpg",
-        "caption": "Фото автора: разъёмы за магнитолой"
+        "caption": "Фото автора: разъёмы за магнитолой",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/371a4u/960.jpg",
-        "caption": "Фото автора: подключение к разъёму магнитолы"
+        "caption": "Фото автора: подключение к разъёму магнитолы",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/fc89a4u/960.jpg",
-        "caption": "Фото автора: разъём на новой магнитоле"
+        "caption": "Фото автора: разъём на новой магнитоле",
+        "kind": "photo"
       }
     ],
     "system": "electrical",
@@ -1863,19 +2035,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/af0d6ees-960.jpg",
-        "caption": "Фото автора: плата, стрелкой отмечен пин 8"
+        "caption": "Фото автора: плата, стрелкой отмечен пин 8",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/b91d6ees-960.jpg",
-        "caption": "Фото автора: наклейка с распиновкой, обведены CLOCK, DATA, ENA"
+        "caption": "Фото автора: наклейка с распиновкой, обведены CLOCK, DATA, ENA",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/a39d6ees-960.jpg",
-        "caption": "Фото автора: наклейка с распиновкой магнитолы Concert"
+        "caption": "Фото автора: наклейка с распиновкой магнитолы Concert",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/5a436ees-960.jpg",
-        "caption": "Фото автора: разъёмы щитка с подключёнными проводами"
+        "caption": "Фото автора: разъёмы щитка с подключёнными проводами",
+        "kind": "photo"
       }
     ],
     "system": "electrical",

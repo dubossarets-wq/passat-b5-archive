@@ -61,11 +61,8 @@
     "images": [
       {
         "src": "https://www.ross-tech.com/vag-com/images/B5-Euro-DLC.jpg",
-        "caption": "Diagnostic connector (DLC) between front seats near parking brake, under rubber cover"
-      },
-      {
-        "src": "https://www.ross-tech.com/vag-com/cars/applications/96a6.gif",
-        "caption": "DLC between front seats, under plastic cover"
+        "caption": "Diagnostic connector (DLC) between front seats near parking brake, under rubber cover",
+        "kind": "photo"
       }
     ]
   },
@@ -83,11 +80,13 @@
     "images": [
       {
         "src": "https://connector.pinouts.ru/diagram/car_obd2.gif",
-        "caption": "Нумерация контактов разъёма OBD-II (16 pin)"
+        "caption": "Нумерация контактов разъёма OBD-II (16 pin)",
+        "kind": "scheme"
       },
       {
         "src": "https://pinouts.ru/photos/thumb_car_obd2.jpg",
-        "caption": "Разъём OBD-II — фото"
+        "caption": "Разъём OBD-II — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -117,7 +116,8 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=211749",
-        "caption": "Путь K-линии: диагностический разъём (7) — приборная панель (25 → 5) — ЭБУ (17)"
+        "caption": "Путь K-линии: диагностический разъём (7) — приборная панель (25 → 5) — ЭБУ (17)",
+        "kind": "scheme"
       }
     ]
   },
@@ -243,23 +243,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/aK7n7745KYP9CeVGYMJ-zq66HZQ-960.jpg",
-        "caption": "Схема подключения раздельных катушек через коммутатор Hitachi (вид сверху, таблица проводов)"
-      },
-      {
-        "src": "https://a1.drive-data.ru/QC_a49DGFwe7KCyUkJTierejKwM-960.jpg",
-        "caption": "Разъём модуля зажигания: 5 V coil A, 12 V, 5 V coil B, масса"
+        "caption": "Схема подключения раздельных катушек через коммутатор Hitachi (вид сверху, таблица проводов)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/XpPrjs_AarJEmD6CkVCRKoH1QvU-960.jpg",
-        "caption": "Катушки AEB, подготовленные к установке"
+        "caption": "Катушки AEB, подготовленные к установке",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/AlHq6UH4byOyGVEkrcJBNUeb46Q-960.jpg",
-        "caption": "Переходник проводки к катушке"
+        "caption": "Переходник проводки к катушке",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/YkFgXrLNgEOZln3uv3HfKq7oOt4-960.jpg",
-        "caption": "Катушки установлены на ADR"
+        "caption": "Катушки установлены на ADR",
+        "kind": "photo"
       }
     ]
   },
@@ -277,23 +277,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ZfWj_MxX3-Jnn8j8LFtQS9CeU0k-960.jpg",
-        "caption": "Схема подключения катушек TFSI без коммутатора"
+        "caption": "Схема подключения катушек TFSI без коммутатора",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/7hTjcFgp4rz70Xi-rFieXOQtdaI-960.jpg",
-        "caption": "Схема проводки катушек — рисунок от руки"
-      },
-      {
-        "src": "https://a1.drive-data.ru/pgc0GnfNBtO76i2LyS8JeWvEGGg-960.jpg",
-        "caption": "Разъём родной катушки ADR с отметками контактов"
+        "caption": "Схема проводки катушек — рисунок от руки",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/2MZN5Cp-RqqR3V65ulLt4Y_J_LU-960.jpg",
-        "caption": "Катушки TFSI на ADR — проводка"
+        "caption": "Катушки TFSI на ADR — проводка",
+        "kind": "photo"
       },
       {
         "src": "https://i-a.drive-data.ru/-pfRH952obpZBXM6A0PYWeuZMjM-960.jpg",
-        "caption": "Бирка ЭБУ 8D0 907 558 F (Bosch)"
+        "caption": "Бирка ЭБУ 8D0 907 558 F (Bosch)",
+        "kind": "photo"
       }
     ]
   },
@@ -323,15 +323,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/eae2becs-960.jpg",
-        "caption": "Реле 30 (под крышкой ЭБУ)"
+        "caption": "Реле 30 (под крышкой ЭБУ)",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/dee2becs-960.jpg",
-        "caption": "Реле 165 906 381"
+        "caption": "Реле 165 906 381",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/4ce2becs-960.jpg",
-        "caption": "Реле — фото"
+        "caption": "Реле — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -349,15 +352,18 @@
     "images": [
       {
         "src": "https://vwts.ru/images/repair6/204570_01.jpg",
-        "caption": "Где расположен датчик (стрелки)"
+        "caption": "Где расположен датчик (стрелки)",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair6/204570_02.jpg",
-        "caption": "Разъём датчика"
+        "caption": "Разъём датчика",
+        "kind": "photo"
       },
       {
         "src": "https://vwts.ru/images/repair6/204570_05.jpg",
-        "caption": "Новый датчик температуры ОЖ — разъём"
+        "caption": "Новый датчик температуры ОЖ — разъём",
+        "kind": "photo"
       }
     ]
   },
@@ -375,7 +381,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/b6jfnYKPpA8/hqdefault.jpg",
-        "caption": "Превью видео: расположение реле бензонасоса Passat 2000 1.8T"
+        "caption": "Превью видео: расположение реле бензонасоса Passat 2000 1.8T",
+        "kind": "photo"
       }
     ]
   },
@@ -393,7 +400,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/jM6XkkeUEEA/hqdefault.jpg",
-        "caption": "Превью видео: блок предохранителей и реле Passat B5"
+        "caption": "Превью видео: блок предохранителей и реле Passat B5",
+        "kind": "photo"
       }
     ]
   },
@@ -411,15 +419,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ea34f34s-960.jpg",
-        "caption": "Клапан N80 — фото"
+        "caption": "Клапан N80 — фото",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/84b4f34s-960.jpg",
-        "caption": "Разъём клапана N80"
+        "caption": "Разъём клапана N80",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/2b34f34s-960.jpg",
-        "caption": "Клапан на месте"
+        "caption": "Клапан на месте",
+        "kind": "photo"
       }
     ]
   },
@@ -437,11 +448,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/dd096f4s-960.jpg",
-        "caption": "Термовыключатель вентилятора на радиаторе"
+        "caption": "Термовыключатель вентилятора на радиаторе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/fd096f4s-960.jpg",
-        "caption": "Термовыключатель F18 снятый"
+        "caption": "Термовыключатель F18 снятый",
+        "kind": "photo"
       }
     ]
   },
@@ -459,11 +472,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/zMAAAgGyS-A-960.jpg",
-        "caption": "Разъём термовыключателя на радиаторе"
+        "caption": "Разъём термовыключателя на радиаторе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/QCAAAgCyS-A-960.jpg",
-        "caption": "Термовыключатель F18"
+        "caption": "Термовыключатель F18",
+        "kind": "photo"
       }
     ]
   },
@@ -481,19 +496,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/FVIlmE-3VdL0610R67sxdLnsLC8-960.jpg",
-        "caption": "Регулятор генератора Bosch и разъём"
+        "caption": "Регулятор генератора Bosch и разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/C6t1iIie6bdnRIWQMefIS_53RXM-960.jpg",
-        "caption": "Генератор Bosch 140A — бирка"
+        "caption": "Генератор Bosch 140A — бирка",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/TPGEZZtCC7v7dpj25LRmJOr3tNs-960.jpg",
-        "caption": "Генератор — выводы"
+        "caption": "Генератор — выводы",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/7cLn8fzXxEp9MM0EQq3L7sDaiNs-960.jpg",
-        "caption": "Генераторы рядом: старый и новый"
+        "caption": "Генераторы рядом: старый и новый",
+        "kind": "photo"
       }
     ]
   },
@@ -511,11 +530,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/9pFXtOQmPydATbWdbSsx1HUOu4M-960.jpg",
-        "caption": "Замер падения напряжения на массе"
+        "caption": "Замер падения напряжения на массе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/Yp5A8BJbxwViKhBLoeM6ZUBdlKs-960.jpg",
-        "caption": "Проверка массы мультиметром"
+        "caption": "Проверка массы мультиметром",
+        "kind": "photo"
       }
     ]
   },
@@ -533,19 +554,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/ebdbbe9s-960.jpg",
-        "caption": "Разъём лямбда-зонда"
+        "caption": "Разъём лямбда-зонда",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/afdbbe9s-960.jpg",
-        "caption": "Разъём нового лямбда-зонда"
+        "caption": "Разъём нового лямбда-зонда",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/9bdbbe9s-960.jpg",
-        "caption": "Лямбда-зонд на выпускном коллекторе"
+        "caption": "Лямбда-зонд на выпускном коллекторе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/73dbbe9s-960.jpg",
-        "caption": "Лямбда-зонд снятый"
+        "caption": "Лямбда-зонд снятый",
+        "kind": "photo"
       }
     ]
   },
@@ -575,15 +600,18 @@
     "images": [
       {
         "src": "https://passatworld.ru/krscripts/proxyimg/imgcache/2013/04/1879d3a08463-1.jpg",
-        "caption": "Датчик положения селектора F125 — контакты"
+        "caption": "Датчик положения селектора F125 — контакты",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=61386",
-        "caption": "Место установки F125 на АКПП"
+        "caption": "Место установки F125 на АКПП",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/krscripts/proxyimg/imgcache/2013/04/53f7cde0739f-1.jpg",
-        "caption": "F125 на коробке — фото"
+        "caption": "F125 на коробке — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -649,7 +677,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/AfZvvp0cXzo/hqdefault.jpg",
-        "caption": "Превью видео: проверка ДМРВ мультиметром"
+        "caption": "Превью видео: проверка ДМРВ мультиметром",
+        "kind": "photo"
       }
     ]
   },
@@ -691,11 +720,13 @@
     "images": [
       {
         "src": "https://ia2.mycliplister.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/f4156303e9eb4e6c9001ce9dd5edaf35?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Knock sensor signal — oscillogram"
+        "caption": "Knock sensor signal — oscillogram",
+        "kind": "photo"
       },
       {
         "src": "https://ia2.mycliplister.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/22f82b0121ad4bf39b7a7e5dc9c57e76?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Knock sensor with connector"
+        "caption": "Knock sensor with connector",
+        "kind": "photo"
       }
     ]
   },
@@ -713,19 +744,23 @@
     "images": [
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10006054a_customresolution.jpg",
-        "caption": "Inductive crankshaft sensor and reluctor wheel — diagram"
+        "caption": "Inductive crankshaft sensor and reluctor wheel — diagram",
+        "kind": "photo"
       },
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/62b0499451ce46878f4848094518dcf6?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Inductive crankshaft sensor signal — oscillogram"
+        "caption": "Inductive crankshaft sensor signal — oscillogram",
+        "kind": "photo"
       },
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/da6a1b312f7845418bba1db9284ee16c?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Hall-type crankshaft sensor signal — oscillogram"
+        "caption": "Hall-type crankshaft sensor signal — oscillogram",
+        "kind": "photo"
       },
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/c3d33f3e832f43718f033f003db56d55?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Crankshaft sensor"
+        "caption": "Crankshaft sensor",
+        "kind": "photo"
       }
     ]
   },
@@ -743,15 +778,18 @@
     "images": [
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/da6a1b312f7845418bba1db9284ee16c?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Camshaft sensor (Hall) signal — oscillogram"
+        "caption": "Camshaft sensor (Hall) signal — oscillogram",
+        "kind": "photo"
       },
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/91ad3ca2f6d34f798dfae314ba026cb0?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Camshaft position sensor"
+        "caption": "Camshaft position sensor",
+        "kind": "photo"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/01_sensor_im_fahrzeug_customresolution.jpg",
-        "caption": "Camshaft sensor installed"
+        "caption": "Camshaft sensor installed",
+        "kind": "photo"
       }
     ]
   },
@@ -769,7 +807,8 @@
     "images": [
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/s13_customresolution.jpg",
-        "caption": "Air mass sensor signal — oscillogram"
+        "caption": "Air mass sensor signal — oscillogram",
+        "kind": "photo"
       }
     ]
   },
@@ -787,11 +826,13 @@
     "images": [
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/s4-en_customresolution.jpg",
-        "caption": "Coolant temperature sensor (NTC) circuit: 5 V, control unit"
+        "caption": "Coolant temperature sensor (NTC) circuit: 5 V, control unit",
+        "kind": "scheme"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/e081_customresolution.jpg",
-        "caption": "Coolant temperature sensor"
+        "caption": "Coolant temperature sensor",
+        "kind": "photo"
       }
     ]
   },
@@ -809,27 +850,33 @@
     "images": [
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10032082a_en_customresolution.jpg",
-        "caption": "Wideband lambda sensor — design and circuit"
+        "caption": "Wideband lambda sensor — design and circuit",
+        "kind": "scheme"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10032087a_en_customresolution.jpg",
-        "caption": "Lambda sensor signal: old vs new probe"
+        "caption": "Lambda sensor signal: old vs new probe",
+        "kind": "photo"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10032088a_en_customresolution.jpg",
-        "caption": "Lambda sensor signal comparison"
+        "caption": "Lambda sensor signal comparison",
+        "kind": "photo"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10032091a_customresolution.jpg",
-        "caption": "Lambda sensor heater check with multimeter"
+        "caption": "Lambda sensor heater check with multimeter",
+        "kind": "photo"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10032102a_customresolution.jpg",
-        "caption": "Lambda sensor signal on oscilloscope"
+        "caption": "Lambda sensor signal on oscilloscope",
+        "kind": "photo"
       },
       {
         "src": "https://www.hella.com/techworld/assetsfs/images/10032080a_customresolution.jpg",
-        "caption": "Lambda sensor"
+        "caption": "Lambda sensor",
+        "kind": "photo"
       }
     ]
   },
@@ -847,11 +894,13 @@
     "images": [
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/f6825b0ea8134db89d5704841ffc4011?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Throttle potentiometer — internal design"
+        "caption": "Throttle potentiometer — internal design",
+        "kind": "photo"
       },
       {
         "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/b92257be33d94a3b82ce203a4d576844?quality=90&strip=yes&format=webp&x=800",
-        "caption": "Throttle potentiometer signal curve"
+        "caption": "Throttle potentiometer signal curve",
+        "kind": "photo"
       }
     ]
   },
@@ -869,19 +918,23 @@
     "images": [
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3671/image?1721627719",
-        "caption": "Fuel pump circuit: relay, fuse, pump — check points"
+        "caption": "Fuel pump circuit: relay, fuse, pump — check points",
+        "kind": "scheme"
       },
       {
         "src": "https://www.ms-motorservice.com/Articles/media/corporate_content/technipedia/1928_Bei_Problemen_mit_Kraftstoffpumpen/3670/image-thumb__3670__small-stage/P3.6fe02e90.jpg?1721648009",
-        "caption": "Measuring voltage at fuel pump connector"
+        "caption": "Measuring voltage at fuel pump connector",
+        "kind": "photo"
       },
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3673/image?1721642782",
-        "caption": "Voltage measurement at fuel pump"
+        "caption": "Voltage measurement at fuel pump",
+        "kind": "photo"
       },
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3675/image?1721648699",
-        "caption": "Corroded fuel pump contacts"
+        "caption": "Corroded fuel pump contacts",
+        "kind": "photo"
       }
     ]
   },
@@ -899,23 +952,28 @@
     "images": [
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3414/image?1775048573",
-        "caption": "Air mass sensor connector — pin numbering 1–5"
+        "caption": "Air mass sensor connector — pin numbering 1–5",
+        "kind": "scheme"
       },
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3411/image?1775048646",
-        "caption": "Air mass sensor — design"
+        "caption": "Air mass sensor — design",
+        "kind": "photo"
       },
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3412/image?1775048632",
-        "caption": "Air mass sensor — cutaway: sensor element"
+        "caption": "Air mass sensor — cutaway: sensor element",
+        "kind": "photo"
       },
       {
         "src": "https://www.ms-motorservice.com/_assets/thumbnail/3413/image?1775048618",
-        "caption": "Contaminated air mass sensor element"
+        "caption": "Contaminated air mass sensor element",
+        "kind": "photo"
       },
       {
         "src": "https://www.ms-motorservice.com/Articles/media/corporate_content/technipedia/0079_Luftmassensensor/3410/image-thumb__3410__small-stage/Pic3.eb8d9be8.jpg?1775048602",
-        "caption": "Air mass sensor protective grid"
+        "caption": "Air mass sensor protective grid",
+        "kind": "photo"
       }
     ]
   },
@@ -1077,11 +1135,13 @@
     "images": [
       {
         "src": "https://connector.pinoutguide.com/diagram/car_obd2.gif",
-        "caption": "Нумерация контактов разъёма OBD-II"
+        "caption": "Нумерация контактов разъёма OBD-II",
+        "kind": "scheme"
       },
       {
         "src": "https://pinoutguide.com/photos/thumb_car_obd2.jpg",
-        "caption": "Разъём OBD-II — фото"
+        "caption": "Разъём OBD-II — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -1099,19 +1159,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/oYAAAgFLc-A-960.jpg",
-        "caption": "Схема подключения: коммутатор — раздельные катушки (E1–E4), масса, 12 В"
+        "caption": "Схема подключения: коммутатор — раздельные катушки (E1–E4), масса, 12 В",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/goAAAgFLc-A-960.jpg",
-        "caption": "Жгут катушек"
+        "caption": "Жгут катушек",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/YoAAAgFLc-A-960.jpg",
-        "caption": "Раздельные катушки на APT"
+        "caption": "Раздельные катушки на APT",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3QAAAgFLc-A-960.jpg",
-        "caption": "Катушка зажигания"
+        "caption": "Катушка зажигания",
+        "kind": "photo"
       }
     ]
   },
@@ -1129,19 +1193,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/uErk6hnDiLA2tF0QLVrcO1dMXuQ-960.jpg",
-        "caption": "Модуль зажигания ADR — снят"
+        "caption": "Модуль зажигания ADR — снят",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/-W5E3dA9IO2gzj_pvczkNVzmgdk-960.jpg",
-        "caption": "Модуль зажигания в ремонте"
+        "caption": "Модуль зажигания в ремонте",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/Aeipoq91AhV6RkXqWYfC1Dhs75g-960.jpg",
-        "caption": "Модуль зажигания с катушкой"
+        "caption": "Модуль зажигания с катушкой",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/D1vrVReLRUCU6zPbrIMN4QXnzHI-960.jpg",
-        "caption": "Модуль зажигания — фото"
+        "caption": "Модуль зажигания — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -1159,27 +1227,28 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/AgAAAgK7w-A-960.jpg",
-        "caption": "Схема проводки катушек — цветной рисунок от руки"
+        "caption": "Схема проводки катушек — цветной рисунок от руки",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg",
-        "caption": "Схема подключения катушек AEB через коммутатор Hitachi"
+        "caption": "Схема подключения катушек AEB через коммутатор Hitachi",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/bAAAAgG7w-A-960.jpg",
-        "caption": "Схема проводки — рисунок от руки"
-      },
-      {
-        "src": "https://a1.drive-data.ru/cgAAAgG7w-A-960.jpg",
-        "caption": "Разъём модуля зажигания: 5 V coil A, 12 V, 5 V coil B, масса"
+        "caption": "Схема проводки — рисунок от руки",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/xwAAAgObw-A-960.jpg",
-        "caption": "Коммутатор зажигания"
+        "caption": "Коммутатор зажигания",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/4wAAAgBbw-A-960.jpg",
-        "caption": "Катушка AEB 058 905 105"
+        "caption": "Катушка AEB 058 905 105",
+        "kind": "photo"
       }
     ]
   },
@@ -1197,11 +1266,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/PsZvG9_g0zKyVWAQz87PtQNE4EY-960.jpg",
-        "caption": "Схема подключения раздельных катушек через коммутатор Hitachi (вид сверху)"
+        "caption": "Схема подключения раздельных катушек через коммутатор Hitachi (вид сверху)",
+        "kind": "scheme"
       },
       {
         "src": "https://a1.drive-data.ru/_mSmDPKldi-pPp3aQQ3DGN1g4Pg-960.jpg",
-        "caption": "Раздельные катушки установлены"
+        "caption": "Раздельные катушки установлены",
+        "kind": "photo"
       }
     ]
   },
@@ -1219,19 +1290,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/kAAAAgPS32A-960.jpg",
-        "caption": "Модуль зажигания ВАЗ — контакты A, B, C, D"
+        "caption": "Модуль зажигания ВАЗ — контакты A, B, C, D",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/oAAAAgPS32A-960.jpg",
-        "caption": "Плата ЭБУ Motronic с пометками"
+        "caption": "Плата ЭБУ Motronic с пометками",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/bEAAAgOy32A-960.jpg",
-        "caption": "Модуль ВАЗ на двигателе"
+        "caption": "Модуль ВАЗ на двигателе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/UUAAAgOy32A-960.jpg",
-        "caption": "ЭБУ — фото"
+        "caption": "ЭБУ — фото",
+        "kind": "photo"
       }
     ]
   },
@@ -1249,15 +1324,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/5acf165s-960.jpg",
-        "caption": "Разъёмы датчиков на двигателе: зелёный и розовый"
+        "caption": "Разъёмы датчиков на двигателе: зелёный и розовый",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/3acf165s-960.jpg",
-        "caption": "Разъёмы датчика Холла и форсунок — цветные колодки"
+        "caption": "Разъёмы датчика Холла и форсунок — цветные колодки",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/5ccf165s-960.jpg",
-        "caption": "Разъёмы датчиков на ADR"
+        "caption": "Разъёмы датчиков на ADR",
+        "kind": "photo"
       }
     ]
   },
@@ -1275,11 +1353,13 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/1a871f4s-960.jpg",
-        "caption": "Датчик температуры ОЖ Bosch — новый"
+        "caption": "Датчик температуры ОЖ Bosch — новый",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/c1871f4s-960.jpg",
-        "caption": "Место установки датчика температуры"
+        "caption": "Место установки датчика температуры",
+        "kind": "photo"
       }
     ]
   },
@@ -1297,7 +1377,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/jjxxBTibwuh58M7jngjbq-UXfVQ-960.jpg",
-        "caption": "Разъём ДМРВ"
+        "caption": "Разъём ДМРВ",
+        "kind": "photo"
       }
     ]
   },
@@ -1315,19 +1396,23 @@
     "images": [
       {
         "src": "https://passatworld.ru/remont/adr1/2.jpg",
-        "caption": "ADR: дроссельный узел — подписи (тросик газа, вакуумные шланги)"
+        "caption": "ADR: дроссельный узел — подписи (тросик газа, вакуумные шланги)",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/remont/adr1/4.jpg",
-        "caption": "Электрический разъём дроссельного узла"
+        "caption": "Электрический разъём дроссельного узла",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/remont/adr1/8.jpg",
-        "caption": "Дроссельный узел в разборе: мотор ХХ и потенциометр"
+        "caption": "Дроссельный узел в разборе: мотор ХХ и потенциометр",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/remont/adr1/7.jpg",
-        "caption": "Дроссельный узел снят"
+        "caption": "Дроссельный узел снят",
+        "kind": "photo"
       }
     ]
   },
@@ -1357,19 +1442,23 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/2f5955es-960.jpg",
-        "caption": "ЭБУ Motronic 4B0 907 557 A — бирка"
+        "caption": "ЭБУ Motronic 4B0 907 557 A — бирка",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/6cd955es-960.jpg",
-        "caption": "Плата ЭБУ 4B0 907 557 A"
+        "caption": "Плата ЭБУ 4B0 907 557 A",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/62c555es-960.jpg",
-        "caption": "Подключение к разъёму ЭБУ на столе"
+        "caption": "Подключение к разъёму ЭБУ на столе",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/47c555es-960.jpg",
-        "caption": "VCDS: ошибки двигателя"
+        "caption": "VCDS: ошибки двигателя",
+        "kind": "photo"
       }
     ]
   },
@@ -1387,15 +1476,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/4a5d909s-960.jpg",
-        "caption": "Разъём ЭБУ с проводкой при замене"
+        "caption": "Разъём ЭБУ с проводкой при замене",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/665d909s-960.jpg",
-        "caption": "Жгут проводки к дроссельному узлу"
+        "caption": "Жгут проводки к дроссельному узлу",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/23a3909s-960.jpg",
-        "caption": "Коробка ЭБУ: проводка"
+        "caption": "Коробка ЭБУ: проводка",
+        "kind": "photo"
       }
     ]
   },
@@ -1413,15 +1505,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/3wAAAgOgt-A-960.jpg",
-        "caption": "Колодки и реле в коробке ЭБУ"
+        "caption": "Колодки и реле в коробке ЭБУ",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/8wAAAgOgt-A-960.jpg",
-        "caption": "Разъёмы проводки ЭБУ"
+        "caption": "Разъёмы проводки ЭБУ",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/mQAAAgGgt-A-960.jpg",
-        "caption": "Проводка в моторном отсеке"
+        "caption": "Проводка в моторном отсеке",
+        "kind": "photo"
       }
     ]
   },
@@ -1439,7 +1534,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/HQAAAgNgtuA-960.jpg",
-        "caption": "Клапан N80 — где стоит"
+        "caption": "Клапан N80 — где стоит",
+        "kind": "photo"
       }
     ]
   },
@@ -1457,7 +1553,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/fc066c9s-960.jpg",
-        "caption": "Втягивающее реле стартера: фишка"
+        "caption": "Втягивающее реле стартера: фишка",
+        "kind": "photo"
       }
     ]
   },
@@ -1475,15 +1572,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/71dcd1ds-960.jpg",
-        "caption": "Генератор: выводы и разъём"
+        "caption": "Генератор: выводы и разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/505cd1ds-960.jpg",
-        "caption": "Генератор Valeo 120A: разъём"
+        "caption": "Генератор Valeo 120A: разъём",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/c71cd1ds-960.jpg",
-        "caption": "Генератор — вид сзади"
+        "caption": "Генератор — вид сзади",
+        "kind": "photo"
       }
     ]
   },
@@ -1501,15 +1601,18 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/d4c14b4s-960.jpg",
-        "caption": "Разъём датчика скорости G22"
+        "caption": "Разъём датчика скорости G22",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/9cc14b4s-960.jpg",
-        "caption": "Датчик скорости G22 снятый"
+        "caption": "Датчик скорости G22 снятый",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/44c14b4s-960.jpg",
-        "caption": "Место датчика G22 на КПП"
+        "caption": "Место датчика G22 на КПП",
+        "kind": "photo"
       }
     ]
   },
@@ -1551,7 +1654,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/6e23209s-960.jpg",
-        "caption": "VCDS: 17978 — ЭБУ заблокирован иммобилайзером"
+        "caption": "VCDS: 17978 — ЭБУ заблокирован иммобилайзером",
+        "kind": "photo"
       }
     ]
   },
@@ -1569,7 +1673,8 @@
     "images": [
       {
         "src": "https://a1.drive-data.ru/H7Y0Xi1I4zColn4pyNg5CS_gLog-960.jpg",
-        "caption": "Адаптер ELM327 для чтения ошибок"
+        "caption": "Адаптер ELM327 для чтения ошибок",
+        "kind": "photo"
       }
     ]
   },
@@ -1611,15 +1716,18 @@
     "images": [
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=144450",
-        "caption": "Релейная панель: реле 267, 214, 381, 370, 202, 377"
+        "caption": "Релейная панель: реле 267, 214, 381, 370, 202, 377",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=144460",
-        "caption": "Реле на релейной панели — проверка"
+        "caption": "Реле на релейной панели — проверка",
+        "kind": "photo"
       },
       {
         "src": "https://passatworld.ru/attachment.php?attachmentid=144471",
-        "caption": "Реле в разборе"
+        "caption": "Реле в разборе",
+        "kind": "photo"
       }
     ]
   },
@@ -1649,15 +1757,18 @@
     "images": [
       {
         "src": "https://www.passatworld.com/attachments/imported-photos-01610-2-jpg.100031/?auto=webp&fit=bounds&format=pjpg&height=1920&optimize=high&width=1920",
-        "caption": "Релейная панель: реле 384, 373, 370, 377"
+        "caption": "Релейная панель: реле 384, 373, 370, 377",
+        "kind": "photo"
       },
       {
         "src": "https://www.passatworld.com/attachments/lower_relay_panel-jpg.100110/?auto=webp&fit=bounds&format=pjpg&height=1920&optimize=high&width=1920",
-        "caption": "Колодка в коробке под панелью — проблемное место"
+        "caption": "Колодка в коробке под панелью — проблемное место",
+        "kind": "photo"
       },
       {
         "src": "https://www.passatworld.com/attachments/imported-photos-01616-jpg.100071/?auto=webp&fit=bounds&format=pjpg&height=1920&optimize=high&width=1920",
-        "caption": "Жгут проводки панели"
+        "caption": "Жгут проводки панели",
+        "kind": "photo"
       }
     ]
   },
@@ -1711,7 +1822,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/-N5A98b2EKs/hqdefault.jpg",
-        "caption": "Превью видео: датчик Холла Passat B5"
+        "caption": "Превью видео: датчик Холла Passat B5",
+        "kind": "photo"
       }
     ]
   },
@@ -1729,7 +1841,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/WWSa7wvGKNk/hqdefault.jpg",
-        "caption": "Превью видео: диагностика ДМРВ VW Passat"
+        "caption": "Превью видео: диагностика ДМРВ VW Passat",
+        "kind": "photo"
       }
     ]
   },
@@ -1747,7 +1860,8 @@
     "images": [
       {
         "src": "https://i.ytimg.com/vi/F6EHcbHNRLM/hqdefault.jpg",
-        "caption": "Превью видео: Audi A4 coil pack failure test"
+        "caption": "Превью видео: Audi A4 coil pack failure test",
+        "kind": "photo"
       }
     ]
   }
