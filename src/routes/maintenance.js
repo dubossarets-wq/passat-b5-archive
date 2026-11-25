@@ -39,8 +39,8 @@ ${r.status === 'overdue' || r.status === 'soon' || r.status === 'ok' ? h`<p>${du
       flash: flash(req),
       body: h`${backLink('/menu', 'Меню')}${pageTitle('Регламент и напоминания')}
 <p class="muted">Считается от последней записи журнала, где отмечена эта позиция. Пробег сейчас: ${rem.currentKm != null ? fmtKm(rem.currentKm) : 'не указан'}. «Скоро» — за ${fmt(rem.soonKm)} км или ${rem.soonDays} дн. (меняется в <a href="/settings">настройках</a>).</p>
-${active.map(card)}
-${off.length ? h`<h2>Отключено</h2>${off.map(card)}` : ''}
+<div class="cards">${active.map(card)}</div>
+${off.length ? h`<h2>Отключено</h2><div class="cards">${off.map(card)}</div>` : ''}
 <details><summary class="btn ghost">Добавить свою позицию</summary>
 <form method="post" action="/maintenance" style="margin-top:12px">
 ${field('Название', textInput('name', { required: true }))}

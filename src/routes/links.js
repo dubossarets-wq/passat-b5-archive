@@ -1,5 +1,6 @@
 import { getDb } from '../db.js';
 import { h, raw, fmtDate, txt } from '../lib/html.js';
+import { icon } from '../lib/icons.js';
 import { page, pageTitle, backLink } from '../views/layout.js';
 import { field, textInput, selectInput, statusBadge, confirmForm } from '../lib/ui.js';
 import { flash, go } from '../lib/web.js';
@@ -32,7 +33,7 @@ ${state.running
         ? h`<p class="msg ok">Проверка идёт: ${state.done} из ${state.total}. Страница обновляется сама.</p>`
         : h`<form method="post" action="/links/check" class="inline"><button class="btn ghost" type="submit">Проверить, что ссылки открываются</button></form>${bad ? h` <span class="st st-overdue">не открываются: ${bad}</span>` : ''}`}
 ${groups.length ? groups.map(([label, list]) => h`<h2>${label}</h2><ul class="list">${list.map((l) => h`<li><div class="item">
-<a class="t" href="${l.url}" target="_blank" rel="noopener noreferrer">${l.title}</a>
+<a class="t" href="${l.url}" target="_blank" rel="noopener noreferrer">${l.title} ${icon('external')}</a>
 ${l.description ? h`<span class="s">${l.description}</span>` : ''}
 <span class="s">${l.applies_to ? `Относится к: ${l.applies_to} · ` : ''}${l.check_result ? h`проверено ${fmtDate(l.checked_at)}: ${l.check_result}` : 'не проверялась'}</span>
 <span class="s">${l.url}</span>

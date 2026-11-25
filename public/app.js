@@ -1,3 +1,15 @@
+// Боковая панель (компьютер): подсветить раздел, в котором мы сейчас находимся.
+(function () {
+  var best = null;
+  var p = location.pathname;
+  document.querySelectorAll('.side nav a').forEach(function (a) {
+    var h = a.getAttribute('href');
+    var hit = h === '/' ? p === '/' : p === h || p.indexOf(h + '/') === 0;
+    if (hit && (!best || h.length > best.getAttribute('href').length)) best = a;
+  });
+  if (best) { best.classList.add('on'); best.setAttribute('aria-current', 'page'); }
+})();
+
 // Минимум скриптов: подтверждения, автоотправка фильтров, печать, добавление строк деталей.
 document.addEventListener('submit', (e) => {
   const msg = e.target.getAttribute && e.target.getAttribute('data-confirm');

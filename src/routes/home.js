@@ -1,6 +1,7 @@
 import { getDb } from '../db.js';
 import { h, fmtKm, fmtDate, today, int } from '../lib/html.js';
-import { page, pageTitle } from '../views/layout.js';
+import { page, pageTitle, ICON_FOR } from '../views/layout.js';
+import { icon } from '../lib/icons.js';
 import { getVehicle, currentOdometer, getReminders } from '../lib/vehicle.js';
 import { reminderBadge, field, textInput } from '../lib/ui.js';
 import { flash, go } from '../lib/web.js';
@@ -57,10 +58,10 @@ ${field('Новое показание, км', textInput('km', { inputmode: 'num
 </form>
 </section>
 
-<div class="actions"><a class="btn" href="/journal/quick">Быстрая запись с фото</a><a class="btn ghost" href="/journal/new">Подробная запись</a></div>
+<div class="actions"><a class="btn" href="/journal/quick">${icon('camera')} Быстрая запись с фото</a><a class="btn ghost" href="/journal/new">Подробная запись</a></div>
 
 <h2>Что требует внимания</h2>
-${attention.length ? attention.map(reminderCard) : h`<p class="empty">${rem.list.length === 0 ? 'Регламент пуст.' : 'Просроченного и скорого нет.'}</p>`}
+${attention.length ? h`<div class="cards">${attention.map(reminderCard)}</div>` : h`<p class="empty">${rem.list.length === 0 ? 'Регламент пуст.' : 'Просроченного и скорого нет.'}</p>`}
 ${nodata ? h`<p class="muted">Ещё у ${nodata} позиций регламента нет записи о последней замене: <a href="/maintenance">открыть регламент</a>.</p>` : ''}
 
 <h2>Последние записи</h2>
@@ -100,7 +101,7 @@ ${recent.length ? h`<ul class="list">${recent.map((r) => h`<li><a class="item" h
       active: 'menu',
       flash: flash(req),
       body: h`${pageTitle('Меню')}
-<nav class="menu">${items.map(([href, label]) => h`<a href="${href}">${label}</a>`)}</nav>
+<nav class="menu">${items.map(([href, label]) => h`<a href="${href}">${ICON_FOR[href] ? icon(ICON_FOR[href]) : ''}${label}</a>`)}</nav>
 ${hasPassword() ? h`<form method="post" action="/logout" style="margin-top:20px"><button class="btn ghost" type="submit">Выйти</button></form>` : ''}`,
     }));
   });

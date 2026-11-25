@@ -1,6 +1,7 @@
 // Небольшие элементы интерфейса, общие для страниц.
 import { h, raw, fmtDate } from './html.js';
 import { STATUS_LABEL } from './reminders.js';
+import { icon } from './icons.js';
 
 export function field(label, control, hint = '') {
   return h`<label class="f"><span class="fl">${label}</span>${control}${hint ? h`<small class="hint">${hint}</small>` : ''}</label>`;
@@ -30,8 +31,11 @@ export function statusBadge(status) {
     : h`<span class="badge unverified">не проверено</span>`;
 }
 
+// Значок дублирует цвет статуса: просрочено, скоро, в норме.
+const STATUS_ICON = { overdue: 'warn', soon: 'clock', ok: 'check' };
+
 export function reminderBadge(status) {
-  return h`<span class="st st-${status}">${STATUS_LABEL[status] ?? status}</span>`;
+  return h`<span class="st st-${status}">${STATUS_ICON[status] ? icon(STATUS_ICON[status]) : ''} ${STATUS_LABEL[status] ?? status}</span>`;
 }
 
 // Кнопка «отметить проверенным / не проверенным» для любого факта.
@@ -44,7 +48,7 @@ export function verifyForm(kind, id, status, back) {
 }
 
 export function confirmForm(action, label, message, extra = '', cls = 'btn danger') {
-  return h`<form method="post" action="${action}" class="inline" data-confirm="${message}">${raw(extra)}<button class="${cls}" type="submit">${label}</button></form>`;
+  return h`<form method="post" action="${action}" class="inline" data-confirm="${message}">${raw(extra)}<button class="${cls}" type="submit">${String(label).startsWith('Удалить') ? icon('trash') : ''}${label}</button></form>`;
 }
 
 export function sourcesBlock(sources, { title = 'Источники' } = {}) {

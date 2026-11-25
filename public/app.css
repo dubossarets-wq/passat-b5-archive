@@ -41,10 +41,20 @@ code { font-family: var(--code-font-family); font-size: .9em; background: var(--
   box-shadow: 0 -1px 0 var(--gray-a6);
 }
 .tabs a {
-  display: flex; align-items: center; justify-content: center; min-height: 52px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-height: 58px;
   border-radius: var(--radius-3); text-decoration: none; color: var(--gray-a11);
-  font-weight: var(--font-weight-medium); font-size: var(--font-size-3);
+  font-weight: var(--font-weight-medium); font-size: var(--font-size-2);
 }
+
+/* иконки Radix Icons: наследуют цвет текста */
+.ic { flex: none; vertical-align: -0.2em; }
+.btn .ic, button .ic { margin-right: -2px; }
+.menu a { display: flex; align-items: center; gap: var(--space-3); }
+.menu a .ic { color: var(--accent-a11); width: 1.3em; height: 1.3em; }
+.side nav a { display: flex; align-items: center; gap: var(--space-3); }
+.side nav a .ic { color: var(--gray-a10); }
+.side nav a.on .ic { color: var(--accent-a11); }
+.st .ic { vertical-align: -0.18em; }
 .tabs a.on { background: var(--accent-a3); color: var(--accent-a11); }
 
 /* кнопки: solid, soft (ghost) и красная soft (danger) */
@@ -103,7 +113,7 @@ legend { font-weight: var(--font-weight-medium); padding: 0 var(--space-2); }
 .item .t { font-weight: var(--font-weight-medium); display: block; }
 .item .s { color: var(--gray-a11); font-size: var(--font-size-3); display: block; }
 .item .snip { color: var(--gray-12); font-size: var(--font-size-3); display: block; margin-top: 2px; }
-.menu a { display: block; padding: var(--space-4) var(--space-1); font-weight: var(--font-weight-medium); text-decoration: none; color: var(--gray-12); border-bottom: 1px solid var(--gray-a5); }
+.menu a { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-4) var(--space-1); font-weight: var(--font-weight-medium); text-decoration: none; color: var(--gray-12); border-bottom: 1px solid var(--gray-a5); }
 .menu a:hover { background: var(--gray-a2); }
 dl.kv { display: grid; grid-template-columns: minmax(110px, 38%) 1fr; gap: var(--space-2) var(--space-3); margin: 0 0 var(--space-3); }
 dl.kv dt { color: var(--gray-a11); }
@@ -165,11 +175,64 @@ details { margin: 0 0 var(--space-3); }
 .pdfbar { position: sticky; top: 0; background: var(--color-background); padding: var(--space-2) 0; display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center; z-index: 3; box-shadow: 0 1px 0 var(--gray-a5); }
 #pdf-pages canvas { display: block; width: 100%; height: auto; margin: var(--space-2) 0; border-radius: var(--radius-2); box-shadow: 0 0 0 1px var(--gray-a6); background: #fff; }
 
+/* карточки в несколько колонок, если места хватает */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--space-3); margin: 0 0 var(--space-3); }
+.cards .card { margin: 0; }
+
+/* боковая панель: на телефоне её нет */
+.side { display: none; }
+
+/* КОМПЬЮТЕР и планшет в ширину: боковая панель вместо нижнего меню, контент шире */
+@media (min-width: 900px) {
+  body.radix-themes { padding-bottom: 0; }
+  body.has-side { padding-left: 264px; }
+  .tabs { display: none; }
+  .side {
+    display: flex; flex-direction: column; gap: var(--space-3);
+    position: fixed; top: 0; bottom: 0; left: 0; width: 264px; overflow-y: auto;
+    padding: var(--space-4); background: var(--color-panel-solid); box-shadow: 1px 0 0 var(--gray-a6);
+  }
+  .side .brand { display: block; text-decoration: none; color: var(--gray-12); font-size: var(--font-size-5); font-weight: var(--font-weight-bold); line-height: 1.2; }
+  .side .brand small { display: block; margin-top: 2px; font-size: var(--font-size-2); font-weight: var(--font-weight-regular); color: var(--gray-a11); }
+  .side-search input { min-height: 40px; }
+  .side .btn.block { min-height: 44px; }
+  .side nav { display: flex; flex-direction: column; gap: 2px; }
+  .side nav a { display: flex; align-items: center; gap: var(--space-3); padding: 9px var(--space-3); border-radius: var(--radius-3); text-decoration: none; color: var(--gray-a12); font-size: var(--font-size-3); }
+  .side nav a:hover { background: var(--gray-a3); }
+  .side nav a.on { background: var(--accent-a3); color: var(--accent-a11); font-weight: var(--font-weight-medium); }
+
+  .wrap { max-width: 1000px; padding: var(--space-6) var(--space-6) var(--space-7); }
+  /* мышь вместо пальца: элементы чуть компактнее, шрифт обычный */
+  @media (pointer: fine) {
+    body.radix-themes { font-size: var(--font-size-3); line-height: var(--line-height-3); }
+    .btn, button, input, select { min-height: 40px; }
+    .btn.small, button.small { min-height: 34px; }
+    .checks label { min-height: 36px; }
+    .list > li > a.item, .list > li > .item { min-height: 0; padding: var(--space-3); border-radius: var(--radius-3); }
+    .menu a { padding: var(--space-3); }
+  }
+  /* длинные формы не растягиваем на весь экран */
+  .wrap form:not(.filter):not(.inline):not(.side-search) { max-width: 680px; }
+  .btn.block { display: inline-flex; width: auto; min-width: 220px; }
+  .filter { display: flex; flex-wrap: wrap; align-items: center; }
+  .filter > input { flex: 2 1 280px; width: auto; }
+  .filter > .row { flex: 2 1 340px; }
+  .filter > select { flex: 1 1 200px; width: auto; }
+  .filter > button { flex: 0 0 auto; }
+  h1 { font-size: var(--font-size-8); line-height: var(--line-height-8); }
+  .pdfbar { top: 0; }
+  #pdf-pages canvas { margin-inline: auto; }
+}
+/* широкий экран: списки в две колонки там, где это удобно */
+@media (min-width: 1280px) {
+  .wrap { max-width: 1100px; }
+}
+
 /* печать: всегда светлая, без панелей */
 .print-only { display: none; }
 @media print {
-  .tabs, .noprint, .actions, .back { display: none !important; }
-  body.radix-themes { padding: 0; font-size: 12pt; background: #fff !important; color: #000 !important; }
+  .tabs, .side, .noprint, .actions, .back { display: none !important; }
+  body.radix-themes, body.has-side { padding: 0 !important; font-size: 12pt; background: #fff !important; color: #000 !important; }
   .wrap { max-width: none; padding: 0; }
   h1, h2, h3, dl.kv dd, td, th, .item .t { color: #000 !important; }
   .muted, small, dl.kv dt, .item .s { color: #444 !important; }

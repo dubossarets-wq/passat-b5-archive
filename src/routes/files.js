@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import { getDb } from '../db.js';
 import { h, today } from '../lib/html.js';
+import { icon } from '../lib/icons.js';
 import { page, pageTitle, backLink } from '../views/layout.js';
 import { absFile, absThumb, makeThumb, isInlineMime, isImage, deleteFile } from '../lib/files.js';
 import { go, safeBack } from '../lib/web.js';
@@ -78,7 +79,7 @@ export default function register(app) {
 <button class="btn small ghost" type="button" id="pdf-zoom-out" aria-label="Уменьшить">−</button>
 <button class="btn small ghost" type="button" id="pdf-zoom-in" aria-label="Увеличить">+</button>
 <span id="pdf-info" class="muted">Загрузка…</span>
-<a class="btn small ghost" href="/files/${f.id}?download=1">Скачать</a>
+<a class="btn small ghost" href="/files/${f.id}?download=1">${icon('download')} Скачать</a>
 </div>
 <div id="pdf-scroll" style="overflow-x:auto"><div id="pdf-pages" data-src="/files/${f.id}"></div></div>
 <p id="pdf-error" class="msg err" hidden></p>

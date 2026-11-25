@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { getDb, getSetting, setSetting, openDb } from '../db.js';
 import { h } from '../lib/html.js';
+import { icon } from '../lib/icons.js';
 import { page, pageTitle, backLink } from '../views/layout.js';
 import { field, textInput, selectInput, confirmForm } from '../lib/ui.js';
 import { flash, go, readForm, discardForm } from '../lib/web.js';
@@ -40,7 +41,7 @@ ${field('«Скоро» за, дней', textInput('soon_days', { value: getSett
 <h2>Резервная копия</h2>
 <p>В архиве сейчас: записей журнала — ${counts.records}, документов — ${counts.docs}, файлов — ${counts.files}.</p>
 <p>ZIP содержит базу и все файлы. Храните его не только на этом компьютере.</p>
-<p><a class="btn" href="/settings/export">Скачать весь архив (ZIP)</a></p>
+<p><a class="btn" href="/settings/export">${icon('download')} Скачать весь архив (ZIP)</a></p>
 
 <h2>Восстановление из ZIP</h2>
 <p class="muted">Текущие данные не удаляются: они переносятся в папку <code>data/backups/before-restore-…</code>.</p>
