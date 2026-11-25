@@ -1,0 +1,861 @@
+[
+  {
+    "title": "DRIVE2: разгрузочное реле и переключатель света Passat B5",
+    "url": "https://www.drive2.ru/l/553954300112406389/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Автор разбирает переключатель света Passat B5 и показывает, как разгрузить его контакты реле ближнего света и реле ПТФ.",
+    "applies_to": "Passat B5 / Skoda Superb I",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/hyAAAgPQDeA-960.jpg",
+        "caption": "Схема автора: реле ближнего света и реле ПТФ, подключённые к выводам переключателя света",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: мультируль от B6/B7/Golf 7 на Passat B5 — схемы подключения",
+    "url": "https://www.drive2.ru/l/543844840450818236/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Пост об установке мультифункционального руля на B5 с цветной схемой подключения блоков, таблицей контактов блока комфорта и схемой разъёмов подушки.",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/G4AAAgHpSeA-960.jpg",
+        "caption": "Цветная схема подключения мультируля: блок, приборная панель, подрулевой переключатель, магнитола",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/UoAAAgO5SeA-960.jpg",
+        "caption": "Таблица контактов разъёмов блока комфорта 1J0 / 1C0 (T23, T15) с назначением сигналов",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/c8AAAgMKyeA-960.jpg",
+        "caption": "Схема разъёмов руля: подушка, кнопки, LIN, массы",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: приборная панель 3B1 919 890 A и AFIS — распиновка подключения",
+    "url": "https://www.drive2.ru/l/587032282800327486/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Владелец ставит приборку с AFIS и рисует, какие контакты разъёмов приборки соединить с подрулевым переключателем.",
+    "applies_to": "Passat B5 (приборки 919/920)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ATc8uSFjNe8ba0b21JZbO7yhBkI-960.jpg",
+        "caption": "Соответствие контактов 23, 24, 25 приборки и разъёма переключателя, вывод на минус",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/FRplIFWW5kFVsBVSFY8xD-8TpBY-960.jpg",
+        "caption": "Схема подключения AFIS к приборке 920/919: кнопки, +12 В, K-line, ENA, DATA, CLOCK",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: установка круиз-контроля на Passat B5 2.8 — разъём ЭБУ",
+    "url": "https://www.drive2.ru/l/7438574/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Установка круиза на V6 2.8: автор отмечает задействованные контакты 15-контактного разъёма и цвета проводов.",
+    "applies_to": "Passat B5 2.8 V6",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ed6888as-960.jpg",
+        "caption": "Рисунок 15-контактного разъёма с контактами 7, 8, 9, 10 и цветами проводов",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: установка круиз-контроля на Passat B5 1.8 — схема от руки",
+    "url": "https://www.drive2.ru/l/7131311/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Владелец 1.8 рисует от руки соединение разъёма переключателя круиза с разъёмом к ЭБУ.",
+    "applies_to": "Passat B5 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ebc7db2s-960.jpg",
+        "caption": "Схема автора на клетчатой бумаге: провода от переключателя круиза к разъёмам",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: круиз-контроль на Passat Variant B5 1.8 — разъёмы T10 и T15",
+    "url": "https://www.drive2.ru/l/10156792/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Нарисованы оба разъёма, участвующие в установке круиза, с нумерацией контактов и отмеченными гнёздами.",
+    "applies_to": "Passat B5 Variant 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/92ba836s-960.jpg",
+        "caption": "10-контактный разъём переключателя круиза: нумерация 1–10, занятые гнёзда",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/e2ba836s-960.jpg",
+        "caption": "15-контактный разъём к ЭБУ: контакты 7, 8, 9, 10 с цветами проводов",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: мультируль и декодер для Android-магнитолы на основе реле 452",
+    "url": "https://www.drive2.ru/l/546524900043522964/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Автор рисует подключение мультируля Passat B5+ через блок 452 (1J0 907 487 B) с круизом, питанием и декодером кнопок.",
+    "applies_to": "Passat B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/A6AAAgLFqeA-960.jpg",
+        "caption": "Схема подключения мультируля через реле 452: круиз, питание, руль, декодер",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: StarLine A93 на Passat B5+ — складывание зеркал",
+    "url": "https://www.drive2.ru/l/487009160265728159/",
+    "system": "body",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "При установке сигнализации автор делает складывание зеркал на двух реле и рисует схему.",
+    "applies_to": "Passat B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/97a1ca5s-960.jpg",
+        "caption": "Схема автора: мотор складывания зеркал, два реле, выходы джойстика и сигнализации",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: подключение розетки фаркопа на Passat B5",
+    "url": "https://www.drive2.ru/l/507949634094629758/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Таблица назначения контактов 7-контактной розетки прицепа с рисунком гнезда.",
+    "applies_to": "Passat B5 (фаркоп)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/doAAAgKZMOA-960.jpg",
+        "caption": "Таблица контактов 7-контактной розетки: L, 54G, 31, R, 58R, 54, 58L и рисунок гнезда",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: подключение электронной педали газа (Passat B5 4.2)",
+    "url": "https://www.drive2.ru/l/526116040086652218/",
+    "system": "engine",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Схема переделки проводки к электронной педали газа: разъёмы ЭБУ и педали, сечения проводов.",
+    "applies_to": "Passat B5 Variant 4.2 (W8)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/B0AAAgLEsuA-960.jpg",
+        "caption": "Схема автора: разъём ЭБУ, ответные части, педаль газа, сечения 0,35 и 0,5",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: электровентилятор от W8 вместо гидромуфты",
+    "url": "https://www.drive2.ru/l/623619356848304452/",
+    "system": "cooling",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Вентилятор W8 на 1.8: две скорости через реле и термовыключатель, отдельные предохранители.",
+    "applies_to": "Passat B5 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/OB2zuD6mYskYxM38hJkZMpk-i0k-960.jpg",
+        "caption": "Схема подключения вентилятора: термовыключатель, два реле, предохранители 40 А",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: ДХО через три пятиконтактных реле",
+    "url": "https://www.drive2.ru/l/9113084/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "ДХО гаснут при включении габаритов и при поднятом ручнике; схема нарисована автором от руки.",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/f8dd446s-960.jpg",
+        "caption": "Схема автора от руки: три реле, габариты, ручник, генератор",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: штатная магнитола Gamma 5 и приборка 3B0 919 890 J — разъёмы",
+    "url": "https://www.drive2.ru/l/551842688031261734/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Нумерация контактов цветных разъёмов приборки и разъёма магнитолы для передачи данных на дисплей приборки.",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/dSAAAgARFeA-960.jpg",
+        "caption": "Синий, зелёный и жёлтый мини-ISO разъёмы с нумерацией контактов",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/lyAAAgARFeA-960.jpg",
+        "caption": "Рисунок 20-контактного разъёма: нумерация 1–10 и 11–20",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: плафон от W8 с люком — переходник",
+    "url": "https://www.drive2.ru/l/9622256/",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Схема переходника для установки плафона W8: перекрёстное соединение контактов двух 5-контактных разъёмов.",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/981a766s-960.jpg",
+        "caption": "Схема переходника: соответствие контактов 1–5 двух разъёмов",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: адаптер Galletto / K-line своими руками (Audi A4 B5)",
+    "url": "https://www.drive2.ru/l/544899546979762184/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Владелец A4 B5 собирает универсальный диагностический адаптер на FT232RL и L9637D и выкладывает принципиальную схему.",
+    "applies_to": "VAG с K-line (Audi A4 B5, Passat B5)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/SwAAAgF78eA-960.jpg",
+        "caption": "Принципиальная схема адаптера: FT232RL, L9637D, переключатель Galletto/K-line",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: ПТФ с функцией ДХО на Audi A4 B5",
+    "url": "https://www.drive2.ru/l/700204464891500816/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "ДХО на ПТФ через пятиконтактное реле: питание от возбуждения генератора, отключение от габаритов.",
+    "applies_to": "Audi A4 B5 (принцип подходит для Passat B5)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/w1ENK_8hD0JKs47l3SybB_BiAzI-960.jpg",
+        "caption": "Схема реле: + от габаритов, возбуждение генератора, масса, + ДХО",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: установка фаркопа на Audi A4 B5 — электрика",
+    "url": "https://www.drive2.ru/l/2927979/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Схема соединения проводов от разъёмов левого и правого фонарей с 7-контактной розеткой прицепа.",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9cdd464s-960.jpg",
+        "caption": "Фишки левого и правого фонарей и 7-контактная розетка: соответствие проводов по цветам",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: установка ПТФ на Passat B5 — схема через реле",
+    "url": "https://www.drive2.ru/l/1789530/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Простая схема подключения передних ПТФ через реле с предохранителем 15 А от штатного провода переключателя.",
+    "applies_to": "Passat B5 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ece1db8s-960.jpg",
+        "caption": "Схема: реле, предохранитель 15 А, управляющий провод ПТФ, левая и правая ПТФ",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: выключатели — схема выключателя света",
+    "url": "http://www.passatplus.de/umbauteile/schalter/schalter.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Немецкий сайт энтузиаста Passat 3B/3BG: внутренние схемы выключателя света 1C0 941 531 и разъём с подписанными клеммами.",
+    "applies_to": "Passat B5 / B5+ (3B, 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauteile/schalter/1C094153120H_tech.gif",
+        "caption": "Схема контактов выключателя света 1C0 941 531 (E1, E23, L9)",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/schalter/1C0941531A20H_tech.gif",
+        "caption": "Схема выключателя света с контролькой противотуманки K17",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/stecker/1J0972999.jpg",
+        "caption": "Разъём выключателя света: контакты 1–17 с обозначениями XZ, TFL, 56, 58, NSL, 31, 30",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: выключатели — блоки стеклоподъёмников",
+    "url": "http://www.passatplus.de/umbauteile/schalter/schalter2.htm",
+    "system": "body",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "Схемы внутренних цепей выключателей: стеклоподъёмник T5, блоки кнопок водительской и пассажирской двери с подсветкой.",
+    "applies_to": "Passat B5 (3B), Golf IV, Superb I",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauteile/schalter/3U0919281_tech.gif",
+        "caption": "Схема выключателя 3U0 919 281 с подсветкой (контакты 1–6)",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/schalter/3B0959855B01C_tech.gif",
+        "caption": "Схема выключателя стеклоподъёмника 3B0 959 855 B: T5/1–T5/4",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/schalter/1J3959857B_tech.gif",
+        "caption": "Схема блока выключателей 1J3 959 857 B с легендой контактов",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/schalter/1J4959857D_tech.gif",
+        "caption": "Схема блока выключателей водителя 1J4 959 857 D",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: подрулевые переключатели — разъёмы",
+    "url": "http://www.passatplus.de/umbauteile/schalter/schalter4.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Разъёмы подрулевых переключателей с нанесёнными номерами и обозначениями клемм.",
+    "applies_to": "Passat B5 (3B, 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauteile/stecker/8L0971978.jpg",
+        "caption": "Разъём переключателя поворотов и света: клеммы 49a, P, L, 30, 56a, R, PR, PL, 56b, 56",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/stecker/8L0972974.jpg",
+        "caption": "Разъём переключателя стеклоочистителя: клеммы INT, 53, 53a, 53b, 53c, 53e, HW, 31",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: разъёмы приборной панели и навигации",
+    "url": "http://www.passatplus.de/umbauteile/stecker/stecker4.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Разъёмы приборки и навигации Passat 3B с нумерацией контактов.",
+    "applies_to": "Passat B5 (3B)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauteile/stecker/4A0972643.jpg",
+        "caption": "Синий, зелёный и жёлтый разъёмы с нумерацией контактов",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/stecker/3B7035447_vorne.jpg",
+        "caption": "8-контактный разъём 3B7 035 447, вид спереди с нумерацией 1–8",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauteile/stecker/3B7035447_hinten.jpg",
+        "caption": "8-контактный разъём 3B7 035 447, вид сзади с нумерацией",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: светодиодный третий стоп-сигнал",
+    "url": "http://www.passatplus.de/umbauteile/rueckleuchten/3bremsleuchte.htm",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "Схема светодиодного третьего стоп-сигнала: диод, резисторы и цепочки светодиодов.",
+    "applies_to": "Passat B5 (3B, 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauteile/rueckleuchten/1J6945131C_tech.gif",
+        "caption": "Схема LED стоп-сигнала: 1N4004, резисторы 88,7 и 39,2 Ом, 150 мА",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: переделка подсветки выключателя света",
+    "url": "http://www.passatplus.de/umbauten/beleuchtung/lichtschalter/index.htm",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "Автор переделывает подсветку выключателя света на светодиоды и выкладывает свои схемы.",
+    "applies_to": "Passat B5 (3B, 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/beleuchtung/lichtschalter/stromlaufplan-1.gif",
+        "caption": "Схема переделки подсветки выключателя света, часть 1",
+        "kind": "scheme"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauten/beleuchtung/lichtschalter/stromlaufplan-2.gif",
+        "caption": "Схема переделки подсветки выключателя света, часть 2",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: переделка выключателей (подсветка и мигание)",
+    "url": "http://www.passatplus.de/umbauten/schalter/schalterumbau.htm",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "Схема доработки выключателя с подсветкой и мигающим индикатором.",
+    "applies_to": "Passat B5 (3B, 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/schalter/wls.gif",
+        "caption": "Схема доработки: подсветка, вход «Blinker», +12 В, масса",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: дополнительные приборы — вольтметр",
+    "url": "http://www.passatplus.de/umbauten/zusatzinstrumente/zusatzinstrumente.htm",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "Схема подключения цифрового вольтметра RB-1212D к бортовой сети Passat.",
+    "applies_to": "Passat B5 (3B, 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/zusatzinstrumente/voltmeter/voltmeter_4.gif",
+        "caption": "Схема вольтметра RB-1212D: зажигание, масса, постоянный плюс, подсветка",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "passatplus.de: крышка багажника 3BG на 3B — реле управления",
+    "url": "http://www.passatplus.de/umbauten/heckklappe/heckklappe.htm",
+    "system": "body",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "При установке крышки багажника Variant 3BG на 3B автор рисует схему управляющего реле с цветами проводов.",
+    "applies_to": "Passat B5 Variant (3B / 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/heckklappe/Heckklappenrelais.gif",
+        "caption": "Схема реле крышки багажника: J, V53, E234, цвета проводов",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: катушки TFSI на V6 30V — схема переходника",
+    "url": "https://www.drive2.ru/l/501869059915121293/",
+    "system": "ignition",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Автор переводит V6 на катушки TFSI и рисует схему соединения разъёмов с назначением контактов.",
+    "applies_to": "Passat B5 2.8 V6 30V",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/6f6ffg4k4bd-960.jpg",
+        "caption": "Цветная схема: разъёмы катушек, +12 В, массы, сигналы с ЭБУ",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: Bluetooth от B6 в Audi A4 B5 — интеграция",
+    "url": "https://www.drive2.ru/l/605637119053948788/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Подключение штатного блока громкой связи к магнитоле, приборке и мультирулю на Audi A4 B5.",
+    "applies_to": "Audi A4 B5, Audi A6 C5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/nWnQoibwaokdhdPQ9HJWs9CfC24-960.jpg",
+        "caption": "Цветная схема подключения блока Bluetooth, реле руля, магнитолы и микрофона",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: ремонт подогрева сидений Passat B5",
+    "url": "https://www.drive2.ru/l/627523722638545955/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Схема подключения кнопок подогрева сидений: подсветка, питание 12 В, массы, датчик температуры.",
+    "applies_to": "Passat B5 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/mUTBSCPVi2TLF3-fIbsLLwG7FWU-960.jpg",
+        "caption": "Схема кнопок подогрева: подсветка, 12 В, массы, датчик (контакты 1–6)",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: центральный замок на Audi A4 B5 — схемы подключения",
+    "url": "https://www.drive2.ru/l/592378932968361084/",
+    "system": "body",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Установка электрического центрального замка вместо пневматики: схема активаторов и привода багажника.",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/iVQ4zfgYwuysW1lSh_5lCbCrbME-960.jpg",
+        "caption": "Схема подключения активаторов дверей к блоку ЦЗ",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/O9eaP7v0eOKKDqKBhOULdw-gxmQ-960.jpg",
+        "caption": "Цветная схема подключения привода замка багажника через реле и предохранитель",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: кнопка отключения штатного парктроника Passat B5",
+    "url": "https://www.drive2.ru/l/475680891964752262/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Автор рисует две схемы отключения штатного парктроника кнопкой через реле.",
+    "applies_to": "Passat B5 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/3fc93c9s-960.jpg",
+        "caption": "Схема отключения парктроника: блок, реле, задний ход, кнопка",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7b333c9s-960.jpg",
+        "caption": "Второй вариант схемы с отдельным реле и питанием после зажигания",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "DRIVE2: подключение би-LED линз при управлении минусом",
+    "url": "https://www.drive2.ru/l/664451095535311949/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Схема подключения светодиодных линз в фарах Passat B5 через реле, когда переключение идёт по минусу.",
+    "applies_to": "Passat B5 1.9",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/PoSuL6mnZ8uhfiuFBWFwW2usFpU-960.jpg",
+        "caption": "Схема: фишка фары, реле, линза, ближний и дальний",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: распиновка разъёма OBD-II",
+    "url": "https://commons.wikimedia.org/wiki/File:OBD-II_female_connector_pinout.svg",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Рисунок 16-контактного разъёма OBD-II с нумерацией контактов (лицензия CC0). У Passat B5: 4/5 масса, 7 K-line, 16 +12 В.",
+    "applies_to": "Все автомобили с OBD-II, в т. ч. Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/OBD-II_female_connector_pinout.svg/960px-OBD-II_female_connector_pinout.svg.png",
+        "caption": "Разъём OBD-II (гнездо): нумерация контактов 1–16",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: разъём OBD-II тип A с цветовой разметкой",
+    "url": "https://commons.wikimedia.org/wiki/File:OBD-II_type_A_female_connector_pinout.svg",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Разъём OBD-II тип A с цветовой разметкой групп контактов (лицензия CC0).",
+    "applies_to": "Все автомобили с OBD-II",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/OBD-II_type_A_female_connector_pinout.svg/960px-OBD-II_type_A_female_connector_pinout.svg.png",
+        "caption": "Разъём OBD-II тип A: цветом выделены контакты питания, массы и линий связи",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: схема разъёма OBD",
+    "url": "https://commons.wikimedia.org/wiki/File:OBD-connector-pinout.png",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Простой рисунок гнезда OBD с нумерацией 1–16 (общественное достояние).",
+    "applies_to": "Все автомобили с OBD-II",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/OBD-connector-pinout.png",
+        "caption": "Гнездо OBD: нумерация 1–8 и 9–16",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: распиновка ISO-разъёма магнитолы",
+    "url": "https://commons.wikimedia.org/wiki/File:ISO_10487_connector_pinout.svg",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Распиновка разъёмов ISO 10487 A и B (питание и динамики) с подписями (CC BY-SA 3.0).",
+    "applies_to": "Магнитолы с ISO-разъёмом, в т. ч. Passat B5 (Gamma, Beta)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ISO_10487_connector_pinout.svg/960px-ISO_10487_connector_pinout.svg.png",
+        "caption": "ISO 10487: разъём A (питание) и B (динамики) с назначением контактов",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: разъём ISO 10487-2 (A, B, C)",
+    "url": "https://commons.wikimedia.org/wiki/File:ISO_10487-2-1995_connector.svg",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Цветной рисунок блоков A, B и C разъёма ISO 10487 со стороны штекера (CC BY-SA 4.0).",
+    "applies_to": "Магнитолы с ISO-разъёмом",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/ISO_10487-2-1995_connector.svg/960px-ISO_10487-2-1995_connector.svg.png",
+        "caption": "ISO 10487-2: блоки A, B, C с нумерацией контактов",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: блоки ISO-разъёма A–D",
+    "url": "https://commons.wikimedia.org/wiki/File:ISO_10487_connectors.png",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Схема всех блоков ISO-разъёма магнитолы A, B, C1–C3 и D (CC BY-SA 3.0).",
+    "applies_to": "Магнитолы с ISO-разъёмом",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/ISO_10487_connectors.png",
+        "caption": "ISO 10487: блоки A, B, C1–C3, D с нумерацией",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: 7-контактная розетка прицепа ISO 1185",
+    "url": "https://commons.wikimedia.org/wiki/File:ISO1185.svg",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Рисунок 7-контактной розетки прицепа 12 В по ISO 1185 с цветами контактов (CC BY-SA 3.0).",
+    "applies_to": "Фаркоп Passat B5 с 7-контактной розеткой",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/ISO1185.svg/960px-ISO1185.svg.png",
+        "caption": "Розетка ISO 1185: контакты 1–7 с цветовой маркировкой",
+        "kind": "scheme"
+      }
+    ]
+  },
+  {
+    "title": "Wikimedia Commons: 13-контактная розетка прицепа",
+    "url": "https://commons.wikimedia.org/wiki/File:Trailercontact13pin.svg",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Рисунок 13-контактной розетки прицепа (ISO 11446) с цветами контактов (общественное достояние).",
+    "applies_to": "Фаркоп Passat B5 с 13-контактной розеткой",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Trailercontact13pin.svg/960px-Trailercontact13pin.svg.png",
+        "caption": "Розетка 13 контактов: нумерация 1–13 с цветами",
+        "kind": "scheme"
+      }
+    ]
+  }
+]
