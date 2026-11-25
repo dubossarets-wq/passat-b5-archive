@@ -50,6 +50,19 @@
       }
     ],
     "notes": "Назначение контактов взято из справочных таблиц OBD-II для Audi и VW. Сайты pinouts.ru и pinoutguide.com — одно семейство, поэтому как независимые источники их считать нельзя. Контакт 1 (зажигание) есть только в таблице pinoutguide; в таблице pinouts.ru его нет. Контакты 2/10 (J1850) и 6/14 (CAN) есть в стандарте, но в таблице VW помечены «не используется?» — на B5 2000 г. источники их не подтверждают, поэтому в распиновку не внесены. По pinouts.ru, модели VAG 1996–2001 общаются по ISO 9141 (K-линия); у Audi A4 1.8 20V 1997 г. стоит пометка KW1281. Место разъёма взято из Ross-Tech: фото подписано «B5-Euro», в самой подписи Passat не назван. Цвета проводов в источниках не указаны.\n\nКонтакт 5 как массу называет только один из двух отчётов. Цвет провода K-линии — из распиновки блока комфорта, где серо-белый провод T23/11 назван общей точкой с приборкой T32/25 и диагностическим T16/7. Номер предохранителя — по спискам предохранителей.",
+    "images": [
+      {
+        "src": "https://pinoutguide.com/visual/gen/volkswagen_obd2.jpg",
+        "caption": "Распиновка 16-контактного разъёма OBD-II VW: нумерация гнёзд и таблица сигналов (pinouts.ru / pinoutguide.com)",
+        "source_url": "https://pinoutguide.com/CarElectronics/volkswagen_obd2_pinout.shtml",
+        "kind": "scheme"
+      }
+    ],
+    "photo": {
+      "src": "https://www.ross-tech.com/vag-com/images/B5-Euro-DLC.jpg",
+      "caption": "Диагностический разъём OBD-II (16 контактов) между передними сиденьями у ручника, B5 (европейская версия)",
+      "source_url": "https://www.ross-tech.com/vag-com/cars/dlc.html"
+    },
     "sources": [
       {
         "url": "https://pinouts.ru/CarElectronics/audi_obd_ii_interface.shtml",
@@ -167,6 +180,33 @@
       }
     ],
     "notes": "Путь через реле в панели приборов описал один участник PassatWorld (kalex) и сказал, что так на всех B5 1996–2005. Другой участник предположил, что реле замыкается после того, как принят ключ и включено зажигание; это не подтверждено. Номера контактов реле и цвета проводов в источниках не названы. Для проверки блока на столе участник vwts.ru перечислил клемму 30, массу, K-линию и клемму 15 (тема о дизельном B5; номера контактов дизельного блока сюда не переносились). Владелец Audi с блоком Motronic M3.8.2 подключал на столе тот же набор: питание, массу и диагностику. Путь K-линии подтверждён только одним источником.",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/62c555es-960.jpg",
+        "caption": "Подключение блока Motronic M3.8.2 на столе: провода питания, массы и диагностики в разъёме ЭБУ",
+        "source_url": "https://www.drive2.ru/b/460315766722396237/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://a1.drive-data.ru/2f5955es-960.jpg",
+      "caption": "Блок управления двигателем Motronic M3.8.2: Audi 4B0 907 557 A / Bosch 0 261 204 256 (ориентир, не блок ARG)",
+      "source_url": "https://www.drive2.ru/b/460315766722396237/"
+    },
+    "part_numbers": [
+      {
+        "number": "4B0 907 557 A",
+        "brand": "VAG",
+        "note": "ЭБУ Motronic M3.8.2 с Audi, на котором владелец проверял подключение на столе; для ARG не подтверждено",
+        "source_url": "https://www.drive2.ru/b/460315766722396237/"
+      },
+      {
+        "number": "0 261 204 256",
+        "brand": "Bosch",
+        "note": "Bosch-номер того же блока 4B0 907 557 A; для ARG не подтверждено",
+        "source_url": "https://www.drive2.ru/b/460315766722396237/"
+      }
+    ],
     "sources": [
       {
         "url": "https://passatworld.ru/showthread.php/246836-Pomogite-s-raspinovkoj-ebu-dvigatelya",
@@ -235,17 +275,57 @@
       {
         "src": "https://a1.drive-data.ru/D1vrVReLRUCU6zPbrIMN4QXnzHI-960.jpg",
         "caption": "Трёхконтактный разъём модуля зажигания ADR (снятый модуль)",
-        "source_url": "https://www.drive2.ru/l/610701194733575170/"
+        "source_url": "https://www.drive2.ru/l/610701194733575170/",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/Aeipoq91AhV6RkXqWYfC1Dhs75g-960.jpg",
         "caption": "Модуль зажигания снизу: подписаны выводы катушек пар цилиндров 1–4 и 2–3",
-        "source_url": "https://www.drive2.ru/l/610701194733575170/"
+        "source_url": "https://www.drive2.ru/l/610701194733575170/",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/5QAAAgI7w-A-960.jpg",
         "caption": "Ответная фишка, вырезанная из старой катушки ADR, подключена к штатному жгуту",
-        "source_url": "https://www.drive2.ru/l/559524151140811609/"
+        "source_url": "https://www.drive2.ru/l/559524151140811609/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://www.mecatechnic.com/media/products/44669/129061/original_GC32016.jpg",
+      "caption": "Сдвоенная катушка зажигания с выходными каскадами (аналог RIDEX к 058 905 101 A): трёхконтактный разъём и болт массы",
+      "source_url": "https://www.mecatechnic.com/en-GB/p/ridex-ignition-coil-for-volkswagen-passat-b5-18_GC32016"
+    },
+    "part_numbers": [
+      {
+        "number": "058 905 101 A",
+        "brand": "VAG",
+        "note": "Сдвоенная катушка с выходными каскадами; VW Classic Parts: Passat B5 1997–2000, моторы ADR, APT, ARG, AFY — подходит ARG по источнику",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905101A"
+      },
+      {
+        "number": "058 905 101 A",
+        "brand": "VAG",
+        "note": "Mecatechnic (аналог RIDEX, номер RIDEX не указан): Passat B5 1.8 ADR, APT, ARG, AFY — подходит ARG по источнику",
+        "source_url": "https://www.mecatechnic.com/en-GB/p/ridex-ignition-coil-for-volkswagen-passat-b5-18_GC32016"
+      },
+      {
+        "number": "138435",
+        "brand": "Hitachi",
+        "note": "Аналог 058 905 101 A; Winparts: Passat B5 3B2/3B5 1.8 ADR/APT/ARG",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
+      },
+      {
+        "number": "ZSE162",
+        "brand": "BERU",
+        "note": "Кросс-номер на странице Hitachi 138435 (Winparts)",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
+      },
+      {
+        "number": "5DA 749 475-351",
+        "brand": "HELLA",
+        "note": "Кросс-номер на странице Hitachi 138435 (Winparts)",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
       }
     ],
     "sources": [
@@ -359,6 +439,37 @@
       }
     ],
     "notes": "Предохранитель цепи питания модуля и номера контактов ЭБУ для ADR/ARG в открытых источниках не найдены, поэтому они не указаны. Для 1.8T AEB с индивидуальными катушками номера контактов есть в отдельной распиновке «aeb-ecu-pinout-partial», но к ARG они не относятся. Без массы модуля может выйти из строя выходной каскад зажигания в ЭБУ (Passat B5 1.8 125 л.с., Motronic 3).",
+    "photo": {
+      "src": "https://static.winparts.net/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p7282567_900_900.jpg",
+      "caption": "Сдвоенная катушка зажигания Hitachi 138435 (аналог 058 905 101 A) для ADR/APT/ARG",
+      "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
+    },
+    "part_numbers": [
+      {
+        "number": "058 905 101 A",
+        "brand": "VAG",
+        "note": "Сдвоенная катушка с выходными каскадами; VW Classic Parts: Passat B5 1997–2000, моторы ADR, APT, ARG, AFY — подходит ARG по источнику",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905101A"
+      },
+      {
+        "number": "138435",
+        "brand": "Hitachi",
+        "note": "Аналог 058 905 101 A; Winparts: Passat B5 3B2/3B5 1.8 ADR/APT/ARG",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
+      },
+      {
+        "number": "ZSE162",
+        "brand": "BERU",
+        "note": "Кросс-номер на странице Hitachi 138435 (Winparts)",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
+      },
+      {
+        "number": "5DA 749 475-351",
+        "brand": "HELLA",
+        "note": "Кросс-номер на странице Hitachi 138435 (Winparts)",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.drive2.ru/l/610701194733575170/",
@@ -486,7 +597,51 @@
       {
         "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg",
         "caption": "Авторская схема жгута: старая фишка ADR → коммутатор → 4 катушки, массы и питание (автор sanys1986)",
-        "source_url": "https://www.drive2.ru/l/559524151140811609/"
+        "source_url": "https://www.drive2.ru/l/559524151140811609/",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/AgAAAgK7w-A-960.jpg",
+        "caption": "Рукописная схема подключения коммутатора и четырёх катушек с цветами проводов (автор meinstrim)",
+        "source_url": "https://www.drive2.ru/l/559524151140811609/",
+        "kind": "scheme"
+      },
+      {
+        "src": "https://a1.drive-data.ru/bAAAAgG7w-A-960.jpg",
+        "caption": "Рукописная схема: старая фишка ADR — коммутатор — катушки, общая масса (автор PUTEEC)",
+        "source_url": "https://www.drive2.ru/l/559524151140811609/",
+        "kind": "scheme"
+      }
+    ],
+    "photo": {
+      "src": "https://a1.drive-data.ru/XpPrjs_AarJEmD6CkVCRKoH1QvU-960.jpg",
+      "caption": "Индивидуальные катушки AEB 058 905 105 (BERU 0 040 100 013) для переделки",
+      "source_url": "https://www.drive2.ru/l/665028888895692910/"
+    },
+    "part_numbers": [
+      {
+        "number": "058 905 105",
+        "brand": "VAG",
+        "note": "Катушка AEB; VW Classic Parts: моторы AGU, ANB, AEB, APU, AJH — на ARG штатно не ставится, только для переделки",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905105"
+      },
+      {
+        "number": "0 040 100 013",
+        "brand": "BERU",
+        "note": "Маркировка BERU на катушке 058 905 105 (фото в отчёте о переделке Passat B5 1996)",
+        "source_url": "https://www.drive2.ru/l/665028888895692910/"
+      },
+      {
+        "number": "8D0 905 351",
+        "brand": "VAG",
+        "note": "Коммутатор (выходной каскад) для AEB/ANB/APU; VW Classic Parts",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/8D0905351"
+      },
+      {
+        "number": "4D0 905 351",
+        "brand": "VAG",
+        "note": "Коммутатор, вариант номера; VW Classic Parts",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/4D0905351"
       }
     ],
     "sources": [
@@ -550,7 +705,27 @@
       {
         "src": "https://a1.drive-data.ru/c45fef6s-960.jpg",
         "caption": "Коробка ЭБУ под капотом: реле «30» (J271) рядом с реле «373» и предохранителем",
-        "source_url": "https://www.drive2.ru/l/10497445/"
+        "source_url": "https://www.drive2.ru/l/10497445/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://www.mecatechnic.com/media/products/30799/96226/original_GC30412.jpg",
+      "caption": "Реле бензонасоса № 208 / 372 (4D0 951 253), место 4 на панели реле",
+      "source_url": "https://www.mecatechnic.com/en-GB/p/fuel-pump-relay-208-372-for-passat-3b_GC30412"
+    },
+    "part_numbers": [
+      {
+        "number": "4D0 951 253",
+        "brand": "VAG",
+        "note": "Реле бензонасоса № 208 или 372; Mecatechnic: Passat 3B2/3B5 1.8 125 л.с. ADR, APT, ARG — подходит ARG по источнику",
+        "source_url": "https://www.mecatechnic.com/en-GB/p/fuel-pump-relay-208-372-for-passat-3b_GC30412"
+      },
+      {
+        "number": "165 906 381",
+        "brand": "VAG",
+        "note": "Реле питания ЭБУ «30» (J271) в той же цепочке; VW Classic Parts (Passat B5 в карточке не назван, на B5 1.8 2000 — по отчёту владельца)",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/165906381"
       }
     ],
     "sources": [
@@ -639,11 +814,38 @@
       {
         "src": "https://a1.drive-data.ru/f85fef6s-960.jpg",
         "caption": "Реле J271 «30» (165 906 381): маркировка выводов 87, 30, 86, 85, 86A на корпусе",
-        "source_url": "https://www.drive2.ru/l/10497445/"
+        "source_url": "https://www.drive2.ru/l/10497445/",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/c45fef6s-960.jpg",
         "caption": "Место реле «30» в коробке ЭБУ под капотом",
+        "source_url": "https://www.drive2.ru/l/10497445/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://a1.drive-data.ru/dee2becs-960.jpg",
+      "caption": "Реле «30» J271 VAG 165 906 381 со схемой выводов 30, 87, 85, 86, 86A на корпусе",
+      "source_url": "https://www.drive2.ru/b/1398191/"
+    },
+    "part_numbers": [
+      {
+        "number": "165 906 381",
+        "brand": "VAG",
+        "note": "Реле питания блока двигателя, код «30»; VW Classic Parts",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/165906381"
+      },
+      {
+        "number": "165 906 381",
+        "brand": "VAG",
+        "note": "Стоит на Passat B5 1.8 2000 г. (отчёт владельца) — подходит нашей машине по источнику",
+        "source_url": "https://www.drive2.ru/l/10497445/"
+      },
+      {
+        "number": "107 265 015",
+        "brand": "Hans Pries",
+        "note": "Аналог 165 906 381, поставлен владельцем Passat B5 1.8 2000",
         "source_url": "https://www.drive2.ru/l/10497445/"
       }
     ],
@@ -711,6 +913,20 @@
       {
         "src": "https://a1.drive-data.ru/ebdbbe9s-960.jpg",
         "caption": "Разъём нового четырёхпроводного зонда Bosch 0 258 006 978",
+        "source_url": "https://www.drive2.ru/l/478343084493505179/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://a1.drive-data.ru/73dbbe9s-960.jpg",
+      "caption": "Лямбда-зонд из отчёта о замене на Passat B5 1.8 125 л.с. 2000 (новый зонд — Bosch 0 258 006 978)",
+      "source_url": "https://www.drive2.ru/l/478343084493505179/"
+    },
+    "part_numbers": [
+      {
+        "number": "0 258 006 978",
+        "brand": "Bosch",
+        "note": "Поставлен на Passat B5 1.8 125 л.с. 2000 (вероятно ARG) — по отчёту владельца",
         "source_url": "https://www.drive2.ru/l/478343084493505179/"
       }
     ],
@@ -783,6 +999,45 @@
       }
     ],
     "notes": "Назначение контактов взято из открытой статьи MS Motorservice (Pierburg) про аналоговые расходомеры. Она не привязана к конкретной машине, поэтому для этой распиновки источник один. Ответная фишка на Passat B5 1.8 — 1J0 973 999 A (5 контактов), защитные колпачки 6X0 971 921 C (прямой), 6H0 971 921 B (угловой), 4A0 906 102. Цвета проводов в доступных источниках не найдены. Англоязычные форумы по A4 B5 дают разные цвета и назначения, но открыть их не удалось (сайт закрыт для автоматического доступа). Пост drive2 с похожей распиновкой не использован: в нём скриншот платной базы.",
+    "images": [
+      {
+        "src": "https://www.ms-motorservice.com/Articles/media/corporate_content/technipedia/0079_Luftmassensensor/3414/image-thumb__3414__image/Pic5.9ca4167e.jpg",
+        "caption": "Нумерация контактов 1–5 разъёма аналогового расходомера (MS Motorservice / Pierburg)",
+        "source_url": "https://www.ms-motorservice.com/int/en/technipedia/air-mass-sensors-489",
+        "kind": "scheme"
+      }
+    ],
+    "photo": {
+      "src": "https://www.mecatechnic.com/media/products/46788/96868/original_GC44032.jpg",
+      "caption": "Расходомер воздуха в сборе 06B 133 471 для Passat 3B2/3B5 1.8 ADR/APT/ARG",
+      "source_url": "https://www.mecatechnic.com/en-GB/p/air-flow-meter-for-passat-4-3b2-3b5_GC44032"
+    },
+    "part_numbers": [
+      {
+        "number": "06B 133 471",
+        "brand": "VAG",
+        "note": "Mecatechnic: Passat 3B2/3B5 1.8 125 л.с. ADR, APT, ARG с шасси 3B-X-400001 — подходит ARG и 3B-Y по источнику",
+        "source_url": "https://www.mecatechnic.com/en-GB/p/air-flow-meter-for-passat-4-3b2-3b5_GC44032"
+      },
+      {
+        "number": "1J0 973 999 A",
+        "brand": "VAG",
+        "note": "Ответная фишка расходомера, 5 контактов (Passat B5 1.8, отчёт владельца)",
+        "source_url": "https://www.drive2.ru/l/573331818162425424/"
+      },
+      {
+        "number": "6X0 971 921 C",
+        "brand": "VAG",
+        "note": "Защитный колпачок фишки расходомера (прямой)",
+        "source_url": "https://www.drive2.ru/l/573331818162425424/"
+      },
+      {
+        "number": "4A0 906 102",
+        "brand": "VAG",
+        "note": "Защитный чехол фишки расходомера",
+        "source_url": "https://www.drive2.ru/l/573331818162425424/"
+      }
+    ],
     "sources": [
       {
         "url": "https://www.ms-motorservice.com/en/technipedia/post/air-mass-sensors/",
@@ -834,6 +1089,37 @@
       }
     ],
     "notes": "Назначение контактов в открытых источниках не установлено. Участники PassatWorld называют для проверки обмотки разные пары: «2–1» и «2–3». Масса датчика идёт отдельным проводом, не через болт крепления. Разъём серый, стоит под расширительным бачком; это подтверждают два независимых источника. Перед заменой датчика советуют проверить этот разъём.",
+    "photo": {
+      "src": "https://autosupply.co.za/wp-content/uploads/2021/09/SEN_CKP1004_img1.jpg",
+      "caption": "Датчик оборотов коленвала G28 (аналог к VAG 078 906 433 A) с серой трёхконтактной фишкой",
+      "source_url": "https://autosupply.co.za/product/vw-078906433a-crankshaft-position-sensor-senckp-1004/"
+    },
+    "part_numbers": [
+      {
+        "number": "078 906 433 A",
+        "brand": "VAG",
+        "note": "Autosupply: Passat B5 3B2/3B5 1998–2000 и 3BG; мотор не указан — для ARG не подтверждено",
+        "source_url": "https://autosupply.co.za/product/vw-078906433a-crankshaft-position-sensor-senckp-1004/"
+      },
+      {
+        "number": "078 906 433 A",
+        "brand": "VAG",
+        "note": "Оригинальный номер датчика на Passat B5 1.8 2003 (отчёт о замене G28)",
+        "source_url": "https://www.drive2.ru/l/533953908725252323/"
+      },
+      {
+        "number": "0 281 002 222",
+        "brand": "Bosch",
+        "note": "По словам автора, оригинальный датчик фактически Bosch 0 281 002 222 (Passat B5 1.8 2003)",
+        "source_url": "https://www.drive2.ru/l/533953908725252323/"
+      },
+      {
+        "number": "138159",
+        "brand": "Hitachi",
+        "note": "Кросс-номер к 078 906 433 A (Autosupply)",
+        "source_url": "https://autosupply.co.za/product/vw-078906433a-crankshaft-position-sensor-senckp-1004/"
+      }
+    ],
     "sources": [
       {
         "url": "https://passatworld.ru/archive/index.php/t-205179.html",
@@ -885,6 +1171,25 @@
       }
     ],
     "notes": "Назначение контактов — по замерам одного владельца с APT на PassatWorld. В первом сообщении он же писал иначе (питание на контактах 1 и 3), поэтому распиновку надо сверять. Владелец ADR на drive2 пишет только, что на двух из трёх проводов есть напряжение, а третий — масса; номера контактов он не называет. Цвета проводов в источниках не указаны. Ошибки по G40 нередко вызывает неправильная установка ГРМ, а не проводка (по итогам обеих тем).",
+    "photo": {
+      "src": "https://www.mecatechnic.com/media/products/72657/131662/original_GC73042.jpg",
+      "caption": "Датчик Холла распредвала G40 (058 905 161 B) с трёхконтактным разъёмом",
+      "source_url": "https://www.mecatechnic.com/en-GB/p/hall-transmitter-for-camshaft-rotation-speed-sensor_GC73043"
+    },
+    "part_numbers": [
+      {
+        "number": "058 905 161 B",
+        "brand": "VAG",
+        "note": "Mecatechnic: Passat 3B2/3B5 1.8 125 л.с. ADR, APT, ARG (также AFY, AEB, ANB, APU) — подходит ARG по источнику",
+        "source_url": "https://www.mecatechnic.com/en-GB/p/hall-transmitter-for-camshaft-rotation-speed-sensor_GC73043"
+      },
+      {
+        "number": "0 232 101 024",
+        "brand": "Bosch",
+        "note": "Поставлен владельцем Passat B5 1.8T 1998 (150 л.с.) вместо G40; для ARG не подтверждено",
+        "source_url": "https://www.drive2.ru/l/558573898216506220/"
+      }
+    ],
     "sources": [
       {
         "url": "https://passatworld.ru/showthread.php/213234-Problemy-s-datchikom-Holla-(polozheniya-raspredvala)-G40",
@@ -962,6 +1267,26 @@
       {
         "src": "https://a1.drive-data.ru/1a871f4s-960.jpg",
         "caption": "Новый датчик детонации Bosch с разъёмом синего цвета",
+        "source_url": "https://www.drive2.ru/l/4040401/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://a1.drive-data.ru/8e871f4s-960.jpg",
+      "caption": "Снятый датчик детонации Siemens с синей фишкой (Passat B5 1.8T AEB 1998)",
+      "source_url": "https://www.drive2.ru/l/4040401/"
+    },
+    "part_numbers": [
+      {
+        "number": "054 905 377 G",
+        "brand": "VAG",
+        "note": "Oemwolf: Passat 3B 1998–2000 (местный рынок), замена 054 905 377; мотор не указан — для ARG/AEB не подтверждено",
+        "source_url": "https://oemwolf.com/oem-parts/054905377g.html"
+      },
+      {
+        "number": "0 261 231 036",
+        "brand": "Bosch",
+        "note": "Поставлен владельцем Passat B5 1.8T AEB 1998; для ARG не подтверждено",
         "source_url": "https://www.drive2.ru/l/4040401/"
       }
     ],
@@ -1083,6 +1408,11 @@
       }
     ],
     "notes": "Список составил владелец A4 1.8T AEB 1998 г. для установки другого блока: часть он прозвонил сам, часть угадал. Лямбду пометил «??», а датчик дросселя и датчик распредвала — как догадки (датчик дросселя потом подтвердил). Второй участник подтвердил контакт 76 (зелёный/серый). Для цилиндров 1–4 он дал 70, 78, 70 и 71, то есть для третьего канала указал 70 вместо 77, и в теме это не решено. Контакт 73 с чёрно-зелёным проводом у форсунки цилиндра 1 независимо назван и на PassatWorld — для блока Simos 1.6 AHL. У AEB индивидуальные катушки, у ARG — сдвоенная, поэтому каналы зажигания к ARG не переносить. Цвета записаны как «основной/полоса» так, как их дал источник.",
+    "photo": {
+      "src": "https://a1.drive-data.ru/2f5955es-960.jpg",
+      "caption": "Блок управления двигателем Bosch Motronic M3.8.2 (Audi 4B0 907 557 A, Bosch 0 261 204 256). То же семейство Motronic, что и у AEB, но не блок AEB и не ARG",
+      "source_url": "https://www.drive2.ru/b/460315766722396237/"
+    },
     "sources": [
       {
         "url": "https://www.msextra.com/forums/viewtopic.php?t=19455",
@@ -1182,6 +1512,25 @@
       }
     ],
     "notes": "Принцип описан на PassatWorld: с зажиганием на форсунки приходит +12 В, а ЭБУ открывает каждую форсунку, замыкая её отдельный провод на массу (драйвер внутри блока). Провода у форсунок отдельные, их четыре. Откуда берётся плюс (реле насоса, клемма 15, номер предохранителя), открытые источники для 1.8 не называют. На форумах встречаются оба варианта, поэтому узел питания оставлен без предохранителя. Контакт 73 с чёрно-зелёным проводом у цилиндра 1 подтверждают два независимых источника (Simos 1.6 AHL и AEB). Контакты 80/58/65 и их цвета даёт только список MSExtra для AEB.",
+    "photo": {
+      "src": "https://www.volkswagen-classic-parts.com/catalog/en_de/media/intern/ClassicParts/D9E875D83E554611_001.jpg",
+      "caption": "Форсунка VW 058 133 551 (фото каталога VW Classic Parts, с его же значком)",
+      "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058133551"
+    },
+    "part_numbers": [
+      {
+        "number": "058 133 551",
+        "brand": "VAG",
+        "note": "Passat B5 1997–2000. В описании указан мотор AEB, а в таблице применимости — группа 1.6–1.8 л, где есть ADR, APT, ARG. Для ARG вероятно подходит; сверять по номеру на своей форсунке",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058133551"
+      },
+      {
+        "number": "058 133 551 A",
+        "brand": "VAG",
+        "note": "Passat B5 с ADR до шасси 3B-W-050 000. Нашей машине (3B-Y, ARG) по шасси не подходит",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058133551A"
+      }
+    ],
     "sources": [
       {
         "url": "https://passatworld.ru/archive/index.php/t-153519.html",
@@ -1233,12 +1582,39 @@
       {
         "src": "https://a1.drive-data.ru/p0cMbs49X4NDlJDAHQodMF_R3SY-960.jpg",
         "caption": "Трёхконтактная фишка термовыключателя со следами прежнего ремонта проводов",
-        "source_url": "https://www.drive2.ru/l/681838222661127674/"
+        "source_url": "https://www.drive2.ru/l/681838222661127674/",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/dd096f4s-960.jpg",
         "caption": "Термовыключатель (жёлтый) внизу радиатора",
+        "source_url": "https://www.drive2.ru/l/4025723/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://www.heritagepartscentre.com/media/catalog/product/1/9/191959481c_1_1.jpg",
+      "caption": "Трёхконтактный двухступенчатый термовыключатель вентилятора Meyle 100 959 0003 (191 959 481 C — по магазину то же, что 191 959 481 A)",
+      "source_url": "https://www.heritagepartscentre.com/us/191959481c-radiator-fan-switch-3-pin-including-seal-95-84-102-91c.html"
+    },
+    "part_numbers": [
+      {
+        "number": "191 959 481 A",
+        "brand": "VAG",
+        "note": "Passat B5 1.8 1998 г. с кондиционером (3 контакта), по отчёту владельца. Для ARG 2000 г. отдельно не подтверждено",
         "source_url": "https://www.drive2.ru/l/4025723/"
+      },
+      {
+        "number": "191 959 481 C84",
+        "brand": "VAG",
+        "note": "Passat Variant B5 1.8 1998 г., номер из списка деталей поста",
+        "source_url": "https://www.drive2.ru/l/485422839864755068/"
+      },
+      {
+        "number": "100 959 0003",
+        "brand": "Meyle",
+        "note": "Аналог 191 959 481 C; Heritage пишет, что он такой же, как 191 959 481 A. В применимости магазина Golf 2/3, Corrado, T3 и др. — Passat B5 не указан",
+        "source_url": "https://www.heritagepartscentre.com/us/191959481c-radiator-fan-switch-3-pin-including-seal-95-84-102-91c.html"
       }
     ],
     "sources": [
@@ -1323,11 +1699,68 @@
       {
         "src": "https://a1.drive-data.ru/MWw1UWomjGwrUXuq1dxN99mIqS0-960.jpg",
         "caption": "Разъём L/DFM и силовой вывод B2+ на генераторе Bosch 078 903 016 AB",
-        "source_url": "https://www.drive2.ru/l/665960999878145011/"
+        "source_url": "https://www.drive2.ru/l/665960999878145011/",
+        "kind": "photo"
       },
       {
         "src": "https://a1.drive-data.ru/505cd1ds-960.jpg",
         "caption": "Генератор Valeo 06B 903 016 AE с фишкой L/DFM и выводом B+",
+        "source_url": "https://www.drive2.ru/l/499787134647927180/",
+        "kind": "photo"
+      },
+      {
+        "src": "https://a1.drive-data.ru/c71cd1ds-960.jpg",
+        "caption": "Генератор Valeo «первого типа» — по автору, с выводами B+, D+ и W",
+        "source_url": "https://www.drive2.ru/l/499787134647927180/",
+        "kind": "photo"
+      },
+      {
+        "src": "https://a1.drive-data.ru/71dcd1ds-960.jpg",
+        "caption": "Генератор Bosch с двумя силовыми выводами (B1+/B2+) и фишкой L/DFM",
+        "source_url": "https://www.drive2.ru/l/499787134647927180/",
+        "kind": "photo"
+      },
+      {
+        "src": "https://a1.drive-data.ru/h6uoR6I13FpbDqadvrJfxQeNDNA-960.jpg",
+        "caption": "Старый генератор Valeo: вывод с маркировкой D+ на корпусе",
+        "source_url": "https://www.drive2.ru/l/665960999878145011/",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://a1.drive-data.ru/7cLn8fzXxEp9MM0EQq3L7sDaiNs-960.jpg",
+      "caption": "Генераторы Passat B5 1.8: слева Bosch 140 А (078 903 016 AB), справа штатный Valeo 90 А",
+      "source_url": "https://www.drive2.ru/l/665960999878145011/"
+    },
+    "part_numbers": [
+      {
+        "number": "06B 903 016 A",
+        "brand": "VAG",
+        "note": "90 А. По карточке Mapco применимость — Passat B5 / B5 Variant 1.8 ADR, APT, ARG (до 11/2000): для ARG подходит по источнику",
+        "source_url": "https://www.mapco.com/en/carparts/29629/mapco-13728-alternateur/"
+      },
+      {
+        "number": "06B 903 016 AE",
+        "brand": "VAG",
+        "note": "Генератор Valeo с выводом B+ и фишкой L/DFM; Passat B5 1.8 2000 г. (по отчёту владельца)",
+        "source_url": "https://www.drive2.ru/l/499787134647927180/"
+      },
+      {
+        "number": "078 903 016 AB",
+        "brand": "VAG",
+        "note": "Bosch 140 А. Владелец ADR 1997 г. поставил его вместо штатного — это замена, а не штатный номер для ARG",
+        "source_url": "https://www.drive2.ru/l/665960999878145011/"
+      },
+      {
+        "number": "13728",
+        "brand": "Mapco",
+        "note": "Аналог 06B 903 016 A/D, 90 А; Passat B5 1.8 ADR/APT/ARG",
+        "source_url": "https://www.mapco.com/en/carparts/29629/mapco-13728-alternateur/"
+      },
+      {
+        "number": "SG12B075",
+        "brand": "Valeo",
+        "note": "Номер Valeo для генератора 06B 903 016 AE (по списку деталей поста)",
         "source_url": "https://www.drive2.ru/l/499787134647927180/"
       }
     ],
@@ -1402,7 +1835,45 @@
       {
         "src": "https://a1.drive-data.ru/fc066c9s-960.jpg",
         "caption": "Стартер на месте: посередине — вывод управляющего провода втягивающего реле",
-        "source_url": "https://www.drive2.ru/l/475454117691523126"
+        "source_url": "https://www.drive2.ru/l/475454117691523126",
+        "kind": "photo"
+      },
+      {
+        "src": "https://a1.drive-data.ru/57598ds-960.jpg",
+        "caption": "Реле стартера «53» на панели реле — подпись владельца (Passat Variant B5 2001)",
+        "source_url": "https://www.drive2.ru/l/494847303782236876/",
+        "kind": "photo"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=144460&d=1432648082",
+        "caption": "Панель реле под рулём: реле 105 (185) и 53, о которых идёт речь в теме о реле стартера",
+        "source_url": "https://passatworld.ru/showthread.php/218726-Rele-startera-gde-ono",
+        "kind": "photo"
+      }
+    ],
+    "photo": {
+      "src": "https://static.winparts.net/engine-parts-accessories/starter-motor-alternator/starter-motor/c834/starter-dw-r-12v1-1kw-bosch/p8372593_900_900.jpg",
+      "caption": "Стартер Bosch DW(R) 12 В 1,1 кВт для Passat B5 1.8 ADR/APT/ARG (OE 058 911 023 B / BX)",
+      "source_url": "https://www.winparts.co.uk/engine-parts-accessories/starter-motor-alternator/starter-motor/c834/starter-dw-r-12v1-1kw-bosch/p495642.html"
+    },
+    "part_numbers": [
+      {
+        "number": "058 911 023 BX",
+        "brand": "VAG",
+        "note": "Обменный стартер производства Bosch; по VW Classic Parts — Passat B5, в списке моторов есть ARG: для ARG подходит по источнику",
+        "source_url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058911023BX"
+      },
+      {
+        "number": "058 911 023 B",
+        "brand": "VAG",
+        "note": "В списке OE карточки Winparts: Passat B5 3B2/3B5 1.8 ADR/APT/ARG, 1996–2000",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/starter-motor-alternator/starter-motor/c834/starter-dw-r-12v1-1kw-bosch/p495642.html"
+      },
+      {
+        "number": "0 986 016 330",
+        "brand": "Bosch",
+        "note": "Кросс-номер Bosch на той же карточке Winparts (Passat B5 1.8 ADR/APT/ARG)",
+        "source_url": "https://www.winparts.co.uk/engine-parts-accessories/starter-motor-alternator/starter-motor/c834/starter-dw-r-12v1-1kw-bosch/p495642.html"
       }
     ],
     "sources": [
