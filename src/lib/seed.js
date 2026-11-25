@@ -179,6 +179,16 @@ function seedSchemes(db, dir) {
 
 export const DIAGRAM_TYPES = ['pinout', 'circuit'];
 
+// Номера деталей, к которым подходит схема: только с источником.
+export function cleanPartNumbers(list) {
+  if (!Array.isArray(list)) return null;
+  const out = list
+    .filter((p) => p && clean(p.number) && /^https?:\/\//i.test(String(p.source_url ?? '')))
+    .slice(0, 12)
+    .map((p) => ({ number: clean(p.number), brand: clean(p.brand) ?? '', note: clean(p.note) ?? '', source_url: clean(p.source_url) }));
+  return out.length ? JSON.stringify(out) : null;
+}
+
 function seedDiagrams(db, dir) {
   let n = 0;
   for (const f of jsonFiles(path.join(dir, 'diagrams'))) {
@@ -188,10 +198,10 @@ function seedDiagrams(db, dir) {
         ? { component: d.component ?? '', location: d.location ?? '', pins: Array.isArray(d.pins) ? d.pins : [] }
         : { paths: Array.isArray(d.paths) ? d.paths : [] };
       const res = db.prepare(
-        `INSERT OR IGNORE INTO diagrams (slug, type, title, system_id, applies_to, data, notes, images, status)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'unverified')`,
+        `INSERT OR IGNORE INTO diagrams (slug, type, title, system_id, applies_to, data, notes, images, photo, part_numbers, status)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'unverified')`,
       ).run(String(d.id).toLowerCase().replace(/[^a-z0-9-]+/g, '-'), d.type, d.title.trim(), systemIdBySlug(db, d.system), asText(d.applies_to),
-        JSON.stringify(data), clean(d.notes), cleanImages(d.images));
+        JSON.stringify(data), clean(d.notes), cleanImages(d.images), cleanImages(d.photo ? [d.photo] : null), cleanPartNumbers(d.part_numbers));
       if (res.changes) {
         addSources(db, 'diagram', lastId(res), d.sources);
         n++;

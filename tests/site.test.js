@@ -18,25 +18,32 @@ before(async () => {
   seedAll(db);
   // Пример собственной схемы и ссылки с картинкой — чтобы проверить отрисовку независимо от наполнения.
   diagramId = Number(db.prepare(
-    "INSERT INTO diagrams (slug, type, title, data, images) VALUES ('test-obd', 'pinout', 'Тестовый разъём OBD', ?, ?)",
+    "INSERT INTO diagrams (slug, type, title, data, images, photo, part_numbers) VALUES ('test-obd', 'pinout', 'Тестовый разъём OBD', ?, ?, ?, ?)",
   ).run(JSON.stringify({ component: 'Разъём OBD', pins: [{ pin: '7', signal: 'K-линия', wire: 'серо-оранжевый', to: 'блоки' }, { pin: '16', signal: '+12 В', wire: '', to: 'предохранитель' }] }),
-    JSON.stringify([{ src: 'https://example.org/obd.jpg', caption: 'фото разъёма' }])).lastInsertRowid);
+    JSON.stringify([{ src: 'https://example.org/obd.jpg', caption: 'фото разъёма' }]),
+    JSON.stringify([{ src: 'https://example.org/part.jpg', caption: 'сам разъём' }]),
+    JSON.stringify([{ number: '1J0 972 977', brand: 'VAG', note: 'Passat B5', source_url: 'https://example.org/p' }])).lastInsertRowid);
   db.prepare("INSERT INTO schemes (title, url, kind, images) VALUES ('Тест с картинкой', 'https://example.org/post', 'pinout', ?)")
     .run(JSON.stringify([{ src: 'https://example.org/pin.png', caption: 'распиновка' }]));
   app = await buildApp();
   tmp = makeTempDir('site');
 });
 
-test('собственная схема рисуется в SVG, с таблицей, цветами проводов и картинкой из источника', async () => {
+test('страница схемы: оригинальные фото схемы и компонента, распиновка таблицей, без перерисовки', async () => {
   const body = (await app.inject({ method: 'GET', url: `/diagrams/${diagramId}` })).body;
-  assert.match(body, /<svg class="diagram"/);
+  assert.doesNotMatch(body, /<svg class="diagram"/, 'свои схемы не рисуем');
   assert.match(body, /K-линия/);
-  assert.match(body, /stroke="#9e9e9e"/, 'серый провод');
-  assert.match(body, /stroke="#f57c00"/, 'оранжевая полоса');
+  assert.match(body, /background:#9e9e9e/, 'серый провод в таблице');
   assert.match(body, /<table>/);
   assert.match(body, /src="https:\/\/example.org\/obd.jpg"[^>]*referrerpolicy="no-referrer"/);
+  assert.match(body, /Номера деталей/);
+  assert.match(body, /1J0 972 977/);
+  assert.match(body, /src="https:\/\/example.org\/part.jpg"/);
   const list = (await app.inject({ method: 'GET', url: '/schemes' })).body;
   assert.match(list, new RegExp(`href="/diagrams/${diagramId}"`));
+  assert.match(list, /class="pv-box"><img src="https:\/\/example.org\/part.jpg"/, 'фото компонента в превью');
+  assert.match(list, /class="pv-box"><img src="https:\/\/example.org\/obd.jpg"/, 'оригинальное фото схемы в превью');
+  assert.match(list, /1J0 972 977/, 'номер детали на карточке');
   assert.match(list, /src="https:\/\/example.org\/pin.png"/);
 });
 

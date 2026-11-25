@@ -102,6 +102,8 @@ export const SCHEMA = `
     data TEXT NOT NULL,
     notes TEXT,
     images TEXT,
+    photo TEXT,
+    part_numbers TEXT,
     status TEXT NOT NULL DEFAULT 'unverified'
   );
 

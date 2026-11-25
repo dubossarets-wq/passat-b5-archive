@@ -56,9 +56,10 @@ export function buildDoc(db, kind, id) {
     const parts = data.pins
       ? data.pins.map((p) => `${p.pin} ${p.signal} ${p.wire} ${p.to ?? ''}`)
       : (data.paths ?? []).flatMap((p) => [p.label, ...(p.nodes ?? []).map((n) => `${n.name} ${n.pin ?? ''} ${n.wire ?? ''}`)]);
+    const numbers = JSON.parse(row.part_numbers ?? '[]').map((p) => `${p.brand ?? ''} ${p.number} ${normPart(p.number)}`);
     return {
       title: row.title,
-      body: [row.type === 'pinout' ? 'распиновка разъём контакты' : 'схема цепь', data.component, data.location, row.notes, sys, row.applies_to, ...parts].filter(Boolean).join('\n'),
+      body: [row.type === 'pinout' ? 'распиновка разъём контакты' : 'схема цепь', data.component, data.location, ...numbers, row.notes, sys, row.applies_to, ...parts].filter(Boolean).join('\n'),
     };
   }
   if (kind === 'scheme') {
