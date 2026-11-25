@@ -14,6 +14,9 @@ const TYPE_LABEL = { pinout: 'распиновка', circuit: 'схема цеп
 const images = (json) => {
   try { return JSON.parse(json ?? '[]') ?? []; } catch { return []; }
 };
+// Схема — только картинка, размеченная как схема; всё остальное считается фото.
+const schemePics = (json) => images(json).filter((im) => im.kind === 'scheme');
+const photoPics = (json) => images(json).filter((im) => im.kind !== 'scheme');
 
 // Картинки загружаются с исходного сайта (не копируются), под каждой — откуда она.
 export function gallery(list, pageUrl) {
@@ -26,12 +29,24 @@ export function gallery(list, pageUrl) {
 
 // Превью на карточке — только оригинальные фото: слева сам компонент, справа его схема из источника.
 function previews(d) {
-  const photo = images(d.photo)[0];
-  const schemePic = images(d.images)[0];
+  const photo = images(d.photo)[0] ?? photoPics(d.images)[0];
+  const schemePic = schemePics(d.images)[0];
   const box = (pic, tag, emptyText) => h`<span class="pv-box">${pic
     ? h`<img src="${pic.src}" alt="${pic.caption || tag}" loading="lazy" referrerpolicy="no-referrer">`
     : h`<span class="pv-empty">${icon(tag === 'фото' ? 'parts' : 'schemes', { size: '1.6em' })}<small>${emptyText}</small></span>`}<span class="pv-tag">${tag}</span></span>`;
   return h`<span class="pv">${box(photo, 'фото', 'фото ищется')}${box(schemePic, 'схема', 'схема ищется')}</span>`;
+}
+
+// Заводские параметры (только из официальных источников) и как проверить — коротко.
+function specsBlock(comps) {
+  const withSpecs = comps.filter((c) => c.specs);
+  const withChecks = comps.filter((c) => c.checks);
+  return h`<h2>Заводские параметры</h2>
+${withSpecs.length ? withSpecs.map((c) => h`<div class="table-wrap"><table><thead><tr><th colspan="2">${c.component}${c.part_number ? h` · <span class="mono">${c.part_number}</span>` : ''}</th></tr></thead><tbody>
+${images(c.specs).map((s) => h`<tr><td>${s.param}${s.condition ? h` <span class="muted">(${s.condition})</span>` : ''}</td><td class="num"><b>${s.value}${s.unit ? ` ${s.unit}` : ''}</b></td></tr>`)}
+</tbody></table></div><p class="note">Источник: <a href="${c.source_url}" target="_blank" rel="noopener noreferrer">${c.source_title || c.source_owner || 'официальный документ'}</a> · не проверено</p>`)
+    : h`<p class="spec-missing">Уточнить по официальной документации (erWin): в открытых официальных источниках параметры не найдены.</p>`}
+${withChecks.length ? h`<h2>Как проверить</h2>${withChecks.map((c) => h`<ol class="plain">${images(c.checks).map((x) => h`<li>${x}</li>`)}</ol>${c.check_source_url ? h`<p class="note"><a href="${c.check_source_url}" target="_blank" rel="noopener noreferrer">откуда методика</a></p>` : ''}`)}` : ''}`;
 }
 
 export default function register(app) {
@@ -46,15 +61,25 @@ export default function register(app) {
        ORDER BY sy.sort, (s.images IS NULL), s.kind, s.title`,
     ).all();
     const withImages = rows.filter((r) => r.images).length;
+    // Галерея: только картинки, размеченные как схемы.
+    const host = (u) => { try { return new URL(u).host.replace(/^www\./, ''); } catch { return ''; } };
+    const tiles = [
+      ...diagrams.flatMap((d) => schemePics(d.images).map((im) => ({ im, title: d.title, href: `/diagrams/${d.id}`, src: im.source_url || '' }))),
+      ...rows.flatMap((r) => schemePics(r.images).map((im) => ({ im, title: r.title, href: r.url, src: r.url, ext: true }))),
+    ].filter((t, i, all) => all.findIndex((x) => x.im.src === t.im.src) === i);
     return reply.html(page({
       title: 'Электросхемы',
       active: 'menu',
       body: h`${pageTitle('Электросхемы')}
 ${searchBox('/search', '', 'Фары, ЭБУ, предохранители, стеклоподъёмник…', 'scheme')}
-<p class="muted">Ваша машина — Passat B5, кузов 3B, 2000 модельный год, мотор ARG. Полные заводские схемы — в erWin (платный доступ на сайте Volkswagen).</p>
+<p class="muted">Passat B5 3B, 2000, ARG. Полные заводские схемы — erWin (платно).</p>
 
-<h2>Схемы и распиновки по компонентам <span class="muted" style="font-weight:400">· ${diagrams.length}</span></h2>
-<p class="muted">Оригинальные фото схем и компонентов из открытых источников, номера деталей и распиновка текстом. Источники — на странице каждой схемы; всё «не проверено».</p>
+<h2>Схемы <span class="muted" style="font-weight:400">· ${tiles.length}</span></h2>
+${tiles.length ? h`<div class="gallery">${tiles.map((t) => h`<a class="g-tile" href="${t.href}"${t.ext ? h` target="_blank" rel="noopener noreferrer"` : ''}>
+<span class="g-img"><img src="${t.im.src}" alt="${t.im.caption || t.title}" loading="lazy" referrerpolicy="no-referrer"></span>
+<span class="g-t">${t.im.caption || t.title}</span><span class="g-s">${host(t.src || t.im.src)}</span></a>`)}</div>` : emptyState('Схемы разбираются — скоро появятся.')}
+
+<h2>По компонентам <span class="muted" style="font-weight:400">· ${diagrams.length}</span></h2>
 ${diagrams.length ? h`<div class="cards">${diagrams.map((d) => h`<a class="card diag-card" href="/diagrams/${d.id}">
 ${previews(d)}
 <span class="t">${d.title}</span>
@@ -77,6 +102,7 @@ ${gallery(images(s.images), s.url)}
     if (!d) return reply.callNotFound();
     const data = JSON.parse(d.data);
     const sources = db.prepare("SELECT * FROM sources WHERE owner_kind = 'diagram' AND owner_id = ? ORDER BY id").all(d.id);
+    const comps = db.prepare('SELECT * FROM component_specs WHERE diagram_slug = ? ORDER BY id').all(d.slug);
     const table = d.type === 'pinout'
       ? h`<div class="table-wrap"><table><thead><tr><th>Контакт</th><th>Назначение</th><th>Провод</th><th>Куда идёт</th></tr></thead><tbody>
 ${(data.pins ?? []).map((p) => h`<tr><td class="num"><b>${p.pin}</b></td><td>${p.signal}</td><td>${wireColors(p.wire).map((c) => h`<span class="swatch" style="background:${c}"></span>`)} ${p.wire || '—'}</td><td>${p.to || '—'}</td></tr>`)}
@@ -88,11 +114,12 @@ ${(data.pins ?? []).map((p) => h`<tr><td class="num"><b>${p.pin}</b></td><td>${p
       body: h`${backLink('/schemes', 'Электросхемы')}${pageTitle(d.title)}
 <p>${statusBadge(d.status)} <span class="muted">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · относится к: ${d.applies_to}` : ''}</span></p>
 ${data.location ? h`<p><b>Где находится:</b> ${data.location}</p>` : ''}
-${images(d.images).length ? h`<h2>Схема (оригинальные фото)</h2>${gallery(images(d.images), '')}` : h`<p class="muted">Оригинальное фото схемы пока не найдено.</p>`}
-${images(d.photo).length ? h`<h2>Как выглядит</h2>${gallery(images(d.photo), '')}` : ''}
+${schemePics(d.images).length ? h`<h2>Схема</h2>${gallery(schemePics(d.images), '')}` : h`<p class="muted">Картинка схемы из открытых источников пока не найдена.</p>`}
+${[...images(d.photo), ...photoPics(d.images)].length ? h`<h2>Фото</h2>${gallery([...images(d.photo), ...photoPics(d.images)], '')}` : ''}
 ${images(d.part_numbers).length ? h`<h2>Номера деталей</h2><div class="table-wrap"><table><thead><tr><th>Номер</th><th>Производитель</th><th>К чему подходит</th><th></th></tr></thead><tbody>
 ${images(d.part_numbers).map((p) => h`<tr><td class="mono"><b>${p.number}</b></td><td>${p.brand || 'VAG'}</td><td>${p.note || '—'}</td><td><a href="${p.source_url}" target="_blank" rel="noopener noreferrer">источник</a></td></tr>`)}
 </tbody></table></div>` : ''}
+${specsBlock(comps)}
 <h2>${d.type === 'pinout' ? 'Распиновка' : 'Цепь'} по данным источников</h2>
 ${table}
 ${d.notes ? h`<p class="pre">${d.notes}</p>` : ''}

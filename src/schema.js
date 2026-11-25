@@ -107,6 +107,21 @@ export const SCHEMA = `
     status TEXT NOT NULL DEFAULT 'unverified'
   );
 
+  -- Заводские параметры компонентов (только из официальных источников) и краткая методика проверки.
+  CREATE TABLE component_specs (
+    id INTEGER PRIMARY KEY,
+    diagram_slug TEXT,
+    component TEXT NOT NULL,
+    part_number TEXT,
+    specs TEXT,
+    checks TEXT,
+    applies_to TEXT,
+    source_url TEXT,
+    source_title TEXT,
+    source_owner TEXT,
+    check_source_url TEXT
+  );
+
   CREATE TABLE sources (
     id INTEGER PRIMARY KEY,
     owner_kind TEXT NOT NULL,

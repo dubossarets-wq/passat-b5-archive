@@ -5,6 +5,11 @@ document.addEventListener('error', function (e) {
     var fig = img.closest('figure');
     if (fig) fig.style.display = 'none';
   }
+  // Плитка галереи с битой картинкой — убираем целиком.
+  if (img && img.tagName === 'IMG' && img.closest && img.closest('.g-tile')) {
+    img.closest('.g-tile').style.display = 'none';
+    return;
+  }
   // В превью карточки — вместо битой картинки подпись «нет фото».
   if (img && img.tagName === 'IMG' && img.closest && img.closest('.pv-box')) {
     var empty = document.createElement('span');

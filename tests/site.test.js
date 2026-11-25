@@ -20,7 +20,7 @@ before(async () => {
   diagramId = Number(db.prepare(
     "INSERT INTO diagrams (slug, type, title, data, images, photo, part_numbers) VALUES ('test-obd', 'pinout', 'Тестовый разъём OBD', ?, ?, ?, ?)",
   ).run(JSON.stringify({ component: 'Разъём OBD', pins: [{ pin: '7', signal: 'K-линия', wire: 'серо-оранжевый', to: 'блоки' }, { pin: '16', signal: '+12 В', wire: '', to: 'предохранитель' }] }),
-    JSON.stringify([{ src: 'https://example.org/obd.jpg', caption: 'фото разъёма' }]),
+    JSON.stringify([{ src: 'https://example.org/obd.jpg', caption: 'схема разъёма', kind: 'scheme' }, { src: 'https://example.org/box.jpg', caption: 'коробка реле', kind: 'photo' }]),
     JSON.stringify([{ src: 'https://example.org/part.jpg', caption: 'сам разъём' }]),
     JSON.stringify([{ number: '1J0 972 977', brand: 'VAG', note: 'Passat B5', source_url: 'https://example.org/p' }])).lastInsertRowid);
   db.prepare("INSERT INTO schemes (title, url, kind, images) VALUES ('Тест с картинкой', 'https://example.org/post', 'pinout', ?)")
@@ -43,6 +43,14 @@ test('страница схемы: оригинальные фото схемы 
   assert.match(list, new RegExp(`href="/diagrams/${diagramId}"`));
   assert.match(list, /class="pv-box"><img src="https:\/\/example.org\/part.jpg"/, 'фото компонента в превью');
   assert.match(list, /class="pv-box"><img src="https:\/\/example.org\/obd.jpg"/, 'оригинальное фото схемы в превью');
+  // фото детали не выдаётся за схему: в галерее схем только kind=scheme
+  const gallery = list.slice(list.indexOf('class="gallery"'), list.indexOf('По компонентам'));
+  assert.match(gallery, /example.org\/obd.jpg/);
+  assert.doesNotMatch(gallery, /example.org\/box.jpg/);
+  const detail = body.slice(body.indexOf('<h2>Схема</h2>'), body.indexOf('<h2>Фото</h2>'));
+  assert.match(detail, /obd.jpg/);
+  assert.doesNotMatch(detail, /box.jpg/);
+  assert.match(body, /Уточнить по официальной документации/);
   assert.match(list, /1J0 972 977/, 'номер детали на карточке');
   assert.match(list, /src="https:\/\/example.org\/pin.png"/);
 });

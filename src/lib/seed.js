@@ -211,6 +211,26 @@ function seedDiagrams(db, dir) {
   return n;
 }
 
+// Заводские параметры: цифры принимаются только вместе с официальным источником.
+function seedComponentSpecs(db, dir) {
+  let n = 0;
+  for (const c of readJson(path.join(dir, 'diagram_specs.json')) ?? []) {
+    if (!c.component) continue;
+    const official = /^https?:\/\//i.test(String(c.source_url ?? ''));
+    const specs = official && Array.isArray(c.specs) ? c.specs.filter((s) => s && clean(s.param) && clean(s.value)) : [];
+    const checks = Array.isArray(c.check) ? c.check.map(clean).filter(Boolean) : [];
+    if (!specs.length && !checks.length) continue;
+    db.prepare(
+      `INSERT INTO component_specs (diagram_slug, component, part_number, specs, checks, applies_to, source_url, source_title, source_owner, check_source_url)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+    ).run(c.diagram_id ? String(c.diagram_id).toLowerCase().replace(/[^a-z0-9-]+/g, '-') : null, clean(c.component), clean(c.part_number),
+      specs.length ? JSON.stringify(specs) : null, checks.length ? JSON.stringify(checks) : null, asText(c.applies_to),
+      official ? clean(c.source_url) : null, clean(c.source_title), clean(c.source_owner), clean(c.check_source_url));
+    n++;
+  }
+  return n;
+}
+
 /** Загрузить весь справочник из seed/ в пустую базу. Возвращает количество записей по разделам. */
 export function seedAll(db, dir = paths.seed()) {
   const counts = {};
@@ -223,6 +243,7 @@ export function seedAll(db, dir = paths.seed()) {
     counts.links = seedLinks(db, dir);
     counts.schemes = seedSchemes(db, dir);
     counts.diagrams = seedDiagrams(db, dir);
+    counts.componentSpecs = seedComponentSpecs(db, dir);
   });
   return counts;
 }
