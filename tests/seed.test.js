@@ -43,6 +43,12 @@ test('черновики загружаются, всё «не проверен�
   assert.ok(runSearch(idx, row.vag).some((d) => d.k === 'code'));
 });
 
+test('разметка картинок (схема/фото) сохраняется при загрузке', async () => {
+  const { cleanImages } = await import('../src/lib/seed.js');
+  const out = JSON.parse(cleanImages([{ src: 'https://x.org/a.png', kind: 'scheme' }, { src: 'https://x.org/b.jpg', kind: 'photo' }, { src: 'ftp://bad' }]));
+  assert.deepEqual(out.map((i) => i.kind), ['scheme', 'photo']);
+});
+
 test('метки {{spec:…}} в статьях показываются как «уточнить по официальной документации»', () => {
   const db = openDb();
   seedAll(db);

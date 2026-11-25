@@ -146,7 +146,7 @@ export function cleanImages(list) {
   const out = list
     .filter((im) => im && typeof im.src === 'string' && /^https?:\/\//i.test(im.src.trim()))
     .slice(0, 12)
-    .map((im) => ({ src: im.src.trim(), caption: clean(im.caption) ?? '', source_url: clean(im.source_url) }));
+    .map((im) => ({ src: im.src.trim(), caption: clean(im.caption) ?? '', source_url: clean(im.source_url), kind: im.kind === 'scheme' ? 'scheme' : im.kind === 'photo' ? 'photo' : null }));
   return out.length ? JSON.stringify(out) : null;
 }
 
