@@ -61,6 +61,7 @@ export default function register(app) {
        ORDER BY sy.sort, (s.images IS NULL), s.kind, s.title`,
     ).all();
     const withImages = rows.filter((r) => r.images).length;
+    const looseChecks = db.prepare('SELECT * FROM component_specs WHERE diagram_slug IS NULL AND checks IS NOT NULL ORDER BY component').all();
     // Галерея: только картинки, размеченные как схемы.
     const host = (u) => { try { return new URL(u).host.replace(/^www\./, ''); } catch { return ''; } };
     const tiles = [
@@ -85,6 +86,11 @@ ${previews(d)}
 <span class="t">${d.title}</span>
 ${images(d.part_numbers).length ? h`<span class="pn mono">${images(d.part_numbers).slice(0, 3).map((p, i) => h`${i ? ' · ' : ''}${p.number}${p.brand && p.brand !== 'VAG' ? ` (${p.brand})` : ''}`)}</span>` : ''}
 <span class="s">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · ${d.applies_to}` : ''}</span></a>`)}</div>` : emptyState('Схемы готовятся.')}
+
+${looseChecks.length ? h`<h2 id="checks">Проверка датчиков</h2>
+${looseChecks.map((c) => h`<details class="check"><summary>${c.component}${c.part_number ? h` <span class="muted mono">${c.part_number}</span>` : ''}</summary>
+<ol class="plain">${images(c.checks).map((x) => h`<li>${x}</li>`)}</ol>
+<p class="note">Заводские значения: уточнить по официальной документации (erWin).${c.check_source_url ? h` <a href="${c.check_source_url}" target="_blank" rel="noopener noreferrer">Откуда методика</a>` : ''}</p></details>`)}` : ''}
 
 <h2>Из открытых источников <span class="muted" style="font-weight:400">· ${rows.length}, с картинками ${withImages}</span></h2>
 ${rows.length ? groupBySystem(rows).map(([name, list]) => h`<h3 class="grp">${name}</h3><ul class="list">${list.map((s) => h`<li id="s${s.id}"><div class="item">
