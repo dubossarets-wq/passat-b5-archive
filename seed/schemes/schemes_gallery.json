@@ -353,7 +353,7 @@
     "system": "electrical",
     "kind": "diagram",
     "source_type": "forum",
-    "description": "Простая схема подключения передних ПТФ через реле с предохранителем 15 А от штатного провода переключателя.",
+    "description": "Простая схема подключения передних ПТФ через реле с предохранителем от штатного провода переключателя.",
     "applies_to": "Passat B5 1.8",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
@@ -376,24 +376,7 @@
     "applies_to": "Passat B5 / B5+ (3B, 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauteile/schalter/1C094153120H_tech.gif",
-        "caption": "Схема контактов выключателя света 1C0 941 531 (E1, E23, L9)",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/schalter/1C0941531A20H_tech.gif",
-        "caption": "Схема выключателя света с контролькой противотуманки K17",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/stecker/1J0972999.jpg",
-        "caption": "Разъём выключателя света: контакты 1–17 с обозначениями XZ, TFL, 56, 58, NSL, 31, 30",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: выключатели — блоки стеклоподъёмников",
@@ -405,29 +388,7 @@
     "applies_to": "Passat B5 (3B), Golf IV, Superb I",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauteile/schalter/3U0919281_tech.gif",
-        "caption": "Схема выключателя 3U0 919 281 с подсветкой (контакты 1–6)",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/schalter/3B0959855B01C_tech.gif",
-        "caption": "Схема выключателя стеклоподъёмника 3B0 959 855 B: T5/1–T5/4",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/schalter/1J3959857B_tech.gif",
-        "caption": "Схема блока выключателей 1J3 959 857 B с легендой контактов",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/schalter/1J4959857D_tech.gif",
-        "caption": "Схема блока выключателей водителя 1J4 959 857 D",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: подрулевые переключатели — разъёмы",
@@ -439,19 +400,7 @@
     "applies_to": "Passat B5 (3B, 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauteile/stecker/8L0971978.jpg",
-        "caption": "Разъём переключателя поворотов и света: клеммы 49a, P, L, 30, 56a, R, PR, PL, 56b, 56",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/stecker/8L0972974.jpg",
-        "caption": "Разъём переключателя стеклоочистителя: клеммы INT, 53, 53a, 53b, 53c, 53e, HW, 31",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: разъёмы приборной панели и навигации",
@@ -463,24 +412,7 @@
     "applies_to": "Passat B5 (3B)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauteile/stecker/4A0972643.jpg",
-        "caption": "Синий, зелёный и жёлтый разъёмы с нумерацией контактов",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/stecker/3B7035447_vorne.jpg",
-        "caption": "8-контактный разъём 3B7 035 447, вид спереди с нумерацией 1–8",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauteile/stecker/3B7035447_hinten.jpg",
-        "caption": "8-контактный разъём 3B7 035 447, вид сзади с нумерацией",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: светодиодный третий стоп-сигнал",
@@ -492,14 +424,7 @@
     "applies_to": "Passat B5 (3B, 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauteile/rueckleuchten/1J6945131C_tech.gif",
-        "caption": "Схема LED стоп-сигнала: 1N4004, резисторы 88,7 и 39,2 Ом, 150 мА",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: переделка подсветки выключателя света",
@@ -511,19 +436,7 @@
     "applies_to": "Passat B5 (3B, 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauten/beleuchtung/lichtschalter/stromlaufplan-1.gif",
-        "caption": "Схема переделки подсветки выключателя света, часть 1",
-        "kind": "scheme"
-      },
-      {
-        "src": "http://www.passatplus.de/umbauten/beleuchtung/lichtschalter/stromlaufplan-2.gif",
-        "caption": "Схема переделки подсветки выключателя света, часть 2",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: переделка выключателей (подсветка и мигание)",
@@ -535,14 +448,7 @@
     "applies_to": "Passat B5 (3B, 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauten/schalter/wls.gif",
-        "caption": "Схема доработки: подсветка, вход «Blinker», +12 В, масса",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: дополнительные приборы — вольтметр",
@@ -554,14 +460,7 @@
     "applies_to": "Passat B5 (3B, 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauten/zusatzinstrumente/voltmeter/voltmeter_4.gif",
-        "caption": "Схема вольтметра RB-1212D: зажигание, масса, постоянный плюс, подсветка",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "passatplus.de: крышка багажника 3BG на 3B — реле управления",
@@ -573,14 +472,7 @@
     "applies_to": "Passat B5 Variant (3B / 3BG)",
     "accessed": "2026-11-25",
     "check_result": "200 OK",
-    "status": "unverified",
-    "images": [
-      {
-        "src": "http://www.passatplus.de/umbauten/heckklappe/Heckklappenrelais.gif",
-        "caption": "Схема реле крышки багажника: J, V53, E234, цвета проводов",
-        "kind": "scheme"
-      }
-    ]
+    "status": "unverified"
   },
   {
     "title": "DRIVE2: катушки TFSI на V6 30V — схема переходника",
