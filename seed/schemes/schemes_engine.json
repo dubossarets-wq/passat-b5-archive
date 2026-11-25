@@ -1,378 +1,1754 @@
 [
-  { "title": "erWin Volkswagen — официальный портал ремонтной информации и электросхем", "url": "https://volkswagen.erwin-store.com/erwin/showHome.do",
-    "system": "engine", "kind": "official", "source_type": "official",
+  {
+    "title": "erWin Volkswagen — официальный портал ремонтной информации и электросхем",
+    "url": "https://volkswagen.erwin-store.com/erwin/showHome.do",
+    "system": "engine",
+    "kind": "official",
+    "source_type": "official",
     "description": "Официальный платный портал Volkswagen с заводскими электросхемами (раздел Circuit diagrams), руководствами по ремонту и диагностике; доступ по оплачиваемым временным лицензиям после регистрации. Здесь лежат заводские схемы цепей двигателя для Passat B5.",
-    "applies_to": "Passat B5 (3B/3BG), все моторы", "accessed": "2026-11-25", "check_result": "200 OK (страница входа, материалы платные, не открывались)", "status": "unverified" },
-  { "title": "erWin Audi — официальный портал ремонтной информации и электросхем", "url": "https://audi.erwin-store.com/erwin/showHome.do",
-    "system": "engine", "kind": "official", "source_type": "official",
+    "applies_to": "Passat B5 (3B/3BG), все моторы",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (страница входа, материалы платные, не открывались)",
+    "status": "unverified"
+  },
+  {
+    "title": "erWin Audi — официальный портал ремонтной информации и электросхем",
+    "url": "https://audi.erwin-store.com/erwin/showHome.do",
+    "system": "engine",
+    "kind": "official",
+    "source_type": "official",
     "description": "Официальный платный портал Audi с заводскими электросхемами и руководствами; пригодится для схем родственных моторов ADR/APT/ARG на Audi A4 B5. Доступ по оплачиваемым лицензиям, материалы не открывались.",
-    "applies_to": "Audi A4 B5 (ADR/APT/ARG)", "accessed": "2026-11-25", "check_result": "200 OK (страница входа, материалы платные, не открывались)", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: официальные источники заводской ремонтной информации VAG", "url": "https://wiki.ross-tech.com/wiki/index.php/Official_Factory_Repair_Information",
-    "system": "engine", "kind": "official", "source_type": "reference",
+    "applies_to": "Audi A4 B5 (ADR/APT/ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (страница входа, материалы платные, не открывались)",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: официальные источники заводской ремонтной информации VAG",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Official_Factory_Repair_Information",
+    "system": "engine",
+    "kind": "official",
+    "source_type": "reference",
     "description": "Справочная страница Ross-Tech со списком официальных порталов erWin по маркам и регионам и пояснениями, как получить законный доступ к заводским схемам. Отмечено, что с конца 2025 года частные аккаунты в части регионов сворачиваются.",
-    "applies_to": "VW/Audi общее", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech: Passat B5 в VCDS — блоки и протоколы, раздел 01 Engine", "url": "https://www.ross-tech.com/vag-com/cars/passatb5.html",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech: Passat B5 в VCDS — блоки и протоколы, раздел 01 Engine",
+    "url": "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Информационная страница Ross-Tech по Passat B5: какие блоки есть в машине, по какому протоколу общается блок двигателя, базовые процедуры адаптации дросселя и холостого хода, ссылки на процедуры иммобилайзера.",
-    "applies_to": "Passat B5 (3B/3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech: где находится диагностический разъём (европейский B5 — между сиденьями)", "url": "https://www.ross-tech.com/vag-com/cars/dlc.html",
-    "system": "electrical", "kind": "location", "source_type": "reference",
+    "applies_to": "Passat B5 (3B/3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech: где находится диагностический разъём (европейский B5 — между сиденьями)",
+    "url": "https://www.ross-tech.com/vag-com/cars/dlc.html",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "reference",
     "description": "Фотографии расположения диагностического разъёма на машинах VAG; для европейского B5 показан разъём между передними сиденьями возле стояночного тормоза под резиновой крышкой.",
-    "applies_to": "Passat B5 (3B/3BG), европейская версия", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка 16-контактного диагностического разъёма OBD-II Audi (K-линия, L-линия)", "url": "https://pinouts.ru/CarElectronics/audi_obd_ii_interface.shtml",
-    "system": "electrical", "kind": "pinout", "source_type": "reference",
+    "applies_to": "Passat B5 (3B/3BG), европейская версия",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.ross-tech.com/vag-com/images/B5-Euro-DLC.jpg",
+        "caption": "Diagnostic connector (DLC) between front seats near parking brake, under rubber cover"
+      },
+      {
+        "src": "https://www.ross-tech.com/vag-com/cars/applications/96a6.gif",
+        "caption": "DLC between front seats, under plastic cover"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка 16-контактного диагностического разъёма OBD-II Audi (K-линия, L-линия)",
+    "url": "https://pinouts.ru/CarElectronics/audi_obd_ii_interface.shtml",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
     "description": "Справочная таблица назначения контактов разъёма OBD-II для Audi: K-линия, L-линия, питание и массы; в отзывах пользователей упомянута A4 1.8 20V с протоколом KW1281. Для Passat B5 разъём устроен так же.",
-    "applies_to": "Audi A4 B5; по аналогии Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Форум vwts.ru: нет связи с ЭБУ двигателя Passat B5 — путь K-линии к блоку", "url": "https://vwts.ru/forum/topic/221545/",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Audi A4 B5; по аналогии Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://connector.pinouts.ru/diagram/car_obd2.gif",
+        "caption": "Нумерация контактов разъёма OBD-II (16 pin)"
+      },
+      {
+        "src": "https://pinouts.ru/photos/thumb_car_obd2.jpg",
+        "caption": "Разъём OBD-II — фото"
+      }
+    ]
+  },
+  {
+    "title": "Форум vwts.ru: нет связи с ЭБУ двигателя Passat B5 — путь K-линии к блоку",
+    "url": "https://vwts.ru/forum/topic/221545/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Обсуждение владельцами, как K-линия и W-линия иммобилайзера доходят до блока двигателя через разъёмы в коробке ЭБУ, и что нужно для проверки блока на столе. Машина дизельная (AHU), но разводка диагностической линии на B5 общая.",
-    "applies_to": "Passat B5 3B (дизель AHU; по разводке K-линии применимо к ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: распиновка ЭБУ и прохождение K-линии через реле в приборной панели", "url": "https://passatworld.ru/showthread.php/246836-Pomogite-s-raspinovkoj-ebu-dvigatelya",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B (дизель AHU; по разводке K-линии применимо к ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "PassatWorld: распиновка ЭБУ и прохождение K-линии через реле в приборной панели",
+    "url": "https://passatworld.ru/showthread.php/246836-Pomogite-s-raspinovkoj-ebu-dvigatelya",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Участники объясняют, что на B5 K-линия от диагностического разъёма к блоку двигателя идёт через контакты реле под панелью, а к остальным блокам напрямую — полезно при отсутствии связи с ЭБУ. Тема про мотор 1.6 ANA с блоком Siemens.",
-    "applies_to": "Passat B5 3B (мотор ANA; общая разводка K-линии)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16485/P0101 — расходомер воздуха G70, неправдоподобный сигнал", "url": "https://wiki.ross-tech.com/wiki/index.php/16485/P0101/000257",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 3B (мотор ANA; общая разводка K-линии)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=211749",
+        "caption": "Путь K-линии: диагностический разъём (7) — приборная панель (25 → 5) — ЭБУ (17)"
+      }
+    ]
+  },
+  {
+    "title": "Ross-Tech Wiki: 16485/P0101 — расходомер воздуха G70, неправдоподобный сигнал",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16485/P0101/000257",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Причины ошибки по расходомеру G70 и порядок проверки: подсос воздуха после датчика, состояние массовых точек, проводка и разъём датчика, сам датчик.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16500/P0116 — датчик температуры ОЖ G62, неправдоподобный сигнал", "url": "https://wiki.ross-tech.com/index.php/16500/P0116/000278",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16500/P0116 — датчик температуры ОЖ G62, неправдоподобный сигнал",
+    "url": "https://wiki.ross-tech.com/index.php/16500/P0116/000278",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Симптомы и причины ошибки по датчику G62 (плохой запуск прогретого мотора, скачки показаний) и рекомендация сначала проверить проводку и разъём, затем сам датчик.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16706/P0322 — датчик оборотов коленвала G28, нет сигнала", "url": "https://wiki.ross-tech.com/wiki/index.php/16706/P0322/000802",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16706/P0322 — датчик оборотов коленвала G28, нет сигнала",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16706/P0322/000802",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Что проверять при отсутствии сигнала с датчика коленвала G28: крепление и исправность датчика, проводку до блока двигателя и сам блок, в том числе на попадание масла или ОЖ в разъёмы.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16725/P0341 — датчик Холла распредвала G40, неправдоподобный сигнал", "url": "https://wiki.ross-tech.com/wiki/index.php/16725/P0341/000833",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16725/P0341 — датчик Холла распредвала G40, неправдоподобный сигнал",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16725/P0341/000833",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Причины ошибки по датчику Холла G40: проводка к датчику, сам датчик, неправильная установка ГРМ, проблемы с маслом.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16711/P0327 — датчик детонации G61, сигнал слишком низкий", "url": "https://wiki.ross-tech.com/wiki/index.php/16711/P0327",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16711/P0327 — датчик детонации G61, сигнал слишком низкий",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16711/P0327",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Ошибка датчика детонации: проверка затяжки датчика, обрыва и замыкания на массу в цепи, состояния разъёма и самого датчика.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16507/P0123 — датчик положения дросселя G69, сигнал слишком высокий", "url": "https://wiki.ross-tech.com/wiki/index.php/16507/P0123/000291",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16507/P0123 — датчик положения дросселя G69, сигнал слишком высокий",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16507/P0123/000291",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Проверка цепи датчика положения дросселя: предохранители, проводка и разъём узла дросселя, загрязнение заслонки и последующая базовая настройка; отдельно указаны датчики для тросового дросселя (G69/G88).",
-    "applies_to": "VW/Audi общее, применимо к ARG (тросовый дроссель)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 17925/P1517 — реле питания ЭБУ J271, электрическая неисправность", "url": "https://wiki.ross-tech.com/wiki/index.php/17925/P1517",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG (тросовый дроссель)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 17925/P1517 — реле питания ЭБУ J271, электрическая неисправность",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/17925/P1517",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Ошибка главного реле питания блока двигателя: что проверять — само реле, проводку между блоком J220 и реле, затем сам блок.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 17978/P1570 — запуск заблокирован иммобилайзером", "url": "https://wiki.ross-tech.com/index.php/17978/P1570",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 17978/P1570 — запуск заблокирован иммобилайзером",
+    "url": "https://wiki.ross-tech.com/index.php/17978/P1570",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Как отличить блокировку иммобилайзером от других причин незапуска и что проверить: ошибки и измерительные блоки иммобилайзера, согласование ключей, приборки и блока двигателя, питание ЭБУ.",
-    "applies_to": "VW/Audi общее, применимо к Passat B5 с иммобилайзером в приборке", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: диагностика пропусков зажигания", "url": "https://wiki.ross-tech.com/wiki/index.php/Misfire_Diagnosis",
-    "system": "ignition", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к Passat B5 с иммобилайзером в приборке",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: диагностика пропусков зажигания",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Misfire_Diagnosis",
+    "system": "ignition",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Методика поиска причин пропусков на бензиновых моторах VAG: группы причин (топливо/воздух, зажигание с катушками, массами и проводкой, механика) и проверка перестановкой компонентов.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Переход на раздельные катушки с коммутатором от AEB на ADR (Passat B5)", "url": "https://www.drive2.ru/l/665028888895692910/",
-    "system": "ignition", "kind": "diagram", "source_type": "blog",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Переход на раздельные катушки с коммутатором от AEB на ADR (Passat B5)",
+    "url": "https://www.drive2.ru/l/665028888895692910/",
+    "system": "ignition",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Владелец Passat B5 с ADR описывает подключение четырёх катушек через внешний коммутатор вместо сдвоенной катушки: питание, масса, сигналы от ЭБУ на пары цилиндров. Схему автор взял из других постов, на что сам указывает.",
-    "applies_to": "ADR, Passat B5 3B", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Катушки от TFSI на ADR: распиновка родной катушки и разводка проводов", "url": "https://www.drive2.ru/l/651577463641486626/",
-    "system": "ignition", "kind": "pinout", "source_type": "blog",
+    "applies_to": "ADR, Passat B5 3B",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/aK7n7745KYP9CeVGYMJ-zq66HZQ-960.jpg",
+        "caption": "Схема подключения раздельных катушек через коммутатор Hitachi (вид сверху, таблица проводов)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/QC_a49DGFwe7KCyUkJTierejKwM-960.jpg",
+        "caption": "Разъём модуля зажигания: 5 V coil A, 12 V, 5 V coil B, масса"
+      },
+      {
+        "src": "https://a1.drive-data.ru/XpPrjs_AarJEmD6CkVCRKoH1QvU-960.jpg",
+        "caption": "Катушки AEB, подготовленные к установке"
+      },
+      {
+        "src": "https://a1.drive-data.ru/AlHq6UH4byOyGVEkrcJBNUeb46Q-960.jpg",
+        "caption": "Переходник проводки к катушке"
+      },
+      {
+        "src": "https://a1.drive-data.ru/YkFgXrLNgEOZln3uv3HfKq7oOt4-960.jpg",
+        "caption": "Катушки установлены на ADR"
+      }
+    ]
+  },
+  {
+    "title": "Катушки от TFSI на ADR: распиновка родной катушки и разводка проводов",
+    "url": "https://www.drive2.ru/l/651577463641486626/",
+    "system": "ignition",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Владелец A4 B5 с ADR по фото разбирает назначение контактов штатной сдвоенной катушки и как развёл питание, массы и сигналы на индивидуальные катушки по парам цилиндров.",
-    "applies_to": "ADR, Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Не идёт напряжение на бензонасос — Passat B5 1.8 125 л.с. 2000 г.", "url": "https://www.drive2.ru/l/580651541946434586/",
-    "system": "fuel", "kind": "guide", "source_type": "blog",
+    "applies_to": "ADR, Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ZfWj_MxX3-Jnn8j8LFtQS9CeU0k-960.jpg",
+        "caption": "Схема подключения катушек TFSI без коммутатора"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7hTjcFgp4rz70Xi-rFieXOQtdaI-960.jpg",
+        "caption": "Схема проводки катушек — рисунок от руки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/pgc0GnfNBtO76i2LyS8JeWvEGGg-960.jpg",
+        "caption": "Разъём родной катушки ADR с отметками контактов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2MZN5Cp-RqqR3V65ulLt4Y_J_LU-960.jpg",
+        "caption": "Катушки TFSI на ADR — проводка"
+      },
+      {
+        "src": "https://i-a.drive-data.ru/-pfRH952obpZBXM6A0PYWeuZMjM-960.jpg",
+        "caption": "Бирка ЭБУ 8D0 907 558 F (Bosch)"
+      }
+    ]
+  },
+  {
+    "title": "Не идёт напряжение на бензонасос — Passat B5 1.8 125 л.с. 2000 г.",
+    "url": "https://www.drive2.ru/l/580651541946434586/",
+    "system": "fuel",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Пошаговые проверки цепи бензонасоса владельцем и комментаторами: реле под рулём, реле в коробке ЭБУ, предохранитель, напряжение на разъёме насоса; обсуждается связь с блоком двигателя и иммобилайзером.",
-    "applies_to": "Passat B5 3B, 1.8 125 л.с. 2000 г. (вероятно ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Реле 30 под крышкой ЭБУ и реле бензонасоса — цепочка включения насоса", "url": "https://www.drive2.ru/b/1398191/",
-    "system": "fuel", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1.8 125 л.с. 2000 г. (вероятно ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Реле 30 под крышкой ЭБУ и реле бензонасоса — цепочка включения насоса",
+    "url": "https://www.drive2.ru/b/1398191/",
+    "system": "fuel",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец B5 Variant нашёл причину незапуска: насос не включался из-за реле питания в коробке ЭБУ, хотя реле насоса под панелью щёлкало; описана логика цепочки реле питания и реле насоса.",
-    "applies_to": "Passat B5 (мотор не указан)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Форум vwts.ru: ARG плохо заводится на холодную — решено (ДТОЖ, реле насоса)", "url": "https://vwts.ru/forum/topic/204570/",
-    "system": "engine", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 (мотор не указан)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/eae2becs-960.jpg",
+        "caption": "Реле 30 (под крышкой ЭБУ)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/dee2becs-960.jpg",
+        "caption": "Реле 165 906 381"
+      },
+      {
+        "src": "https://a1.drive-data.ru/4ce2becs-960.jpg",
+        "caption": "Реле — фото"
+      }
+    ]
+  },
+  {
+    "title": "Форум vwts.ru: ARG плохо заводится на холодную — решено (ДТОЖ, реле насоса)",
+    "url": "https://vwts.ru/forum/topic/204570/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Владелец Passat B5 с ARG описывает поиск причины плохого холодного запуска: проверка давления топлива, зачистка контактов реле бензонасоса, диагностика и замена датчика температуры ОЖ.",
-    "applies_to": "ARG, Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Видео: расположение реле бензонасоса Passat 2000 1.8T", "url": "https://www.youtube.com/watch?v=b6jfnYKPpA8",
-    "system": "fuel", "kind": "location", "source_type": "video",
+    "applies_to": "ARG, Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://vwts.ru/images/repair6/204570_01.jpg",
+        "caption": "Где расположен датчик (стрелки)"
+      },
+      {
+        "src": "https://vwts.ru/images/repair6/204570_02.jpg",
+        "caption": "Разъём датчика"
+      },
+      {
+        "src": "https://vwts.ru/images/repair6/204570_05.jpg",
+        "caption": "Новый датчик температуры ОЖ — разъём"
+      }
+    ]
+  },
+  {
+    "title": "Видео: расположение реле бензонасоса Passat 2000 1.8T",
+    "url": "https://www.youtube.com/watch?v=b6jfnYKPpA8",
+    "system": "fuel",
+    "kind": "location",
+    "source_type": "video",
     "description": "Ролик о том, где на Passat B5 стоит реле бензонасоса и какой у него номер детали. Машина с 1.8T, но блок реле под панелью у бензиновых B5 общий.",
-    "applies_to": "Passat B5 3B 2000 г., 1.8T (расположение реле общее с ARG)", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Видео: блок предохранителей и реле Passat B5 — назначение и расположение", "url": "https://www.youtube.com/watch?v=jM6XkkeUEEA",
-    "system": "electrical", "kind": "fuses", "source_type": "video",
+    "applies_to": "Passat B5 3B 2000 г., 1.8T (расположение реле общее с ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/b6jfnYKPpA8/hqdefault.jpg",
+        "caption": "Превью видео: расположение реле бензонасоса Passat 2000 1.8T"
+      }
+    ]
+  },
+  {
+    "title": "Видео: блок предохранителей и реле Passat B5 — назначение и расположение",
+    "url": "https://www.youtube.com/watch?v=jM6XkkeUEEA",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "video",
     "description": "Обзор блока предохранителей и реле Passat B5 с назначением позиций; полезно, чтобы найти реле насоса, питания двигателя и вентилятора.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Предохранители и реле Passat B5 (1997–2005): насос, вентилятор, питание Motronic", "url": "https://fuseandrelay.com/volkswagen/b5-passat.html",
-    "system": "electrical", "kind": "fuses", "source_type": "reference",
-    "description": "Справочник по блокам предохранителей и реле B5: где реле топливного насоса, реле вентилятора, реле питания Motronic в коробке ЭБУ под капотом и предохранители управления двигателем. Первоисточник не указан, сверять с крышкой блока.",
-    "applies_to": "Passat B5 3B/3BG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Система вентиляции бака и клапан N80 (16825) — где стоит, как проверить", "url": "https://www.drive2.ru/l/3768150/",
-    "system": "fuel", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/jM6XkkeUEEA/hqdefault.jpg",
+        "caption": "Превью видео: блок предохранителей и реле Passat B5"
+      }
+    ]
+  },
+  {
+    "title": "Система вентиляции бака и клапан N80 (16825) — где стоит, как проверить",
+    "url": "https://www.drive2.ru/l/3768150/",
+    "system": "fuel",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец описывает систему улавливания паров бензина на B5: где клапан N80 и адсорбер, какой у клапана разъём, как ЭБУ им управляет и как проверить клапан и шланги.",
-    "applies_to": "Passat B5, 1.8T 2001 г. (компоновка EVAP общая с ARG — сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Дополнительный вентилятор не выключается — термовыключатель на радиаторе (1.8 125 л.с.)", "url": "https://www.drive2.ru/l/4025723/",
-    "system": "cooling", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5, 1.8T 2001 г. (компоновка EVAP общая с ARG — сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ea34f34s-960.jpg",
+        "caption": "Клапан N80 — фото"
+      },
+      {
+        "src": "https://a1.drive-data.ru/84b4f34s-960.jpg",
+        "caption": "Разъём клапана N80"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2b34f34s-960.jpg",
+        "caption": "Клапан на месте"
+      }
+    ]
+  },
+  {
+    "title": "Дополнительный вентилятор не выключается — термовыключатель на радиаторе (1.8 125 л.с.)",
+    "url": "https://www.drive2.ru/l/4025723/",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец B5 1.8 125 л.с. 1998 г. разбирается в управлении электровентилятором: роль термовыключателя на радиаторе и кондиционера, проверка перемычками на разъёме для обеих скоростей, разница между версиями с кондиционером и без.",
-    "applies_to": "Passat B5 3B, 1.8 125 л.с. (ADR/ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена термовыключателя вентилятора F18 и проверка цепи перемычками", "url": "https://www.drive2.ru/l/563598391477535663/",
-    "system": "cooling", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1.8 125 л.с. (ADR/ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/dd096f4s-960.jpg",
+        "caption": "Термовыключатель вентилятора на радиаторе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/fd096f4s-960.jpg",
+        "caption": "Термовыключатель F18 снятый"
+      }
+    ]
+  },
+  {
+    "title": "Замена термовыключателя вентилятора F18 и проверка цепи перемычками",
+    "url": "https://www.drive2.ru/l/563598391477535663/",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Где стоит F18 в нижнем патрубке, как снять разъём и перемычками на нём проверить первую и вторую скорость вентилятора, прежде чем менять датчик.",
-    "applies_to": "Passat B5, 1.8T 2001 г. (схема вентилятора у 4-цилиндровых B5 общая — сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка генератора Bosch 140A на Passat B5 1.8 125 л.с.", "url": "https://www.drive2.ru/l/665960999878145011/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5, 1.8T 2001 г. (схема вентилятора у 4-цилиндровых B5 общая — сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/zMAAAgGyS-A-960.jpg",
+        "caption": "Разъём термовыключателя на радиаторе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/QCAAAgCyS-A-960.jpg",
+        "caption": "Термовыключатель F18"
+      }
+    ]
+  },
+  {
+    "title": "Установка генератора Bosch 140A на Passat B5 1.8 125 л.с.",
+    "url": "https://www.drive2.ru/l/665960999878145011/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец B5 1997 г. с мотором 125 л.с. описывает подключение другого генератора: силовой плюс, провод контрольной лампы на другой контакт разъёма и неиспользуемый сигнальный вывод для ЭБУ.",
-    "applies_to": "Passat B5 3B, 1.8 125 л.с. (ADR)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Масса двигателя: проблемы с запуском и почему не крутит стартер", "url": "https://www.drive2.ru/l/691785779235543401/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1.8 125 л.с. (ADR)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/FVIlmE-3VdL0610R67sxdLnsLC8-960.jpg",
+        "caption": "Регулятор генератора Bosch и разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/C6t1iIie6bdnRIWQMefIS_53RXM-960.jpg",
+        "caption": "Генератор Bosch 140A — бирка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/TPGEZZtCC7v7dpj25LRmJOr3tNs-960.jpg",
+        "caption": "Генератор — выводы"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7cLn8fzXxEp9MM0EQq3L7sDaiNs-960.jpg",
+        "caption": "Генераторы рядом: старый и новый"
+      }
+    ]
+  },
+  {
+    "title": "Масса двигателя: проблемы с запуском и почему не крутит стартер",
+    "url": "https://www.drive2.ru/l/691785779235543401/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Как владелец искал причину незапуска: проверка реле и цепи от замка до стартера, затем обнаружение отсутствия массы между мотором и кузовом; указана типичная точка крепления массы у опоры двигателя.",
-    "applies_to": "Passat B5, 1.8T 2001 г. (точки массы применимы к ARG — сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена лямбда-зонда Passat B5 1.8 125 л.с. 2000 г. — где разъём", "url": "https://www.drive2.ru/l/478343084493505179/",
-    "system": "intake_exhaust", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5, 1.8T 2001 г. (точки массы применимы к ARG — сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9pFXtOQmPydATbWdbSsx1HUOu4M-960.jpg",
+        "caption": "Замер падения напряжения на массе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/Yp5A8BJbxwViKhBLoeM6ZUBdlKs-960.jpg",
+        "caption": "Проверка массы мультиметром"
+      }
+    ]
+  },
+  {
+    "title": "Замена лямбда-зонда Passat B5 1.8 125 л.с. 2000 г. — где разъём",
+    "url": "https://www.drive2.ru/l/478343084493505179/",
+    "system": "intake_exhaust",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Владелец B5 2000 г. с мотором 125 л.с. показывает, что снять для доступа к лямбда-зонду и где находится его разъём (за бачком ОЖ).",
-    "applies_to": "Passat B5 3B, 1.8 125 л.с. 2000 г. (вероятно ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: путь провода датчика скорости G22 к приборной панели", "url": "https://passatworld.ru/showthread.php/94416-Datchik-spidometra",
-    "system": "clutch_gearbox", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B, 1.8 125 л.с. 2000 г. (вероятно ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ebdbbe9s-960.jpg",
+        "caption": "Разъём лямбда-зонда"
+      },
+      {
+        "src": "https://a1.drive-data.ru/afdbbe9s-960.jpg",
+        "caption": "Разъём нового лямбда-зонда"
+      },
+      {
+        "src": "https://a1.drive-data.ru/9bdbbe9s-960.jpg",
+        "caption": "Лямбда-зонд на выпускном коллекторе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/73dbbe9s-960.jpg",
+        "caption": "Лямбда-зонд снятый"
+      }
+    ]
+  },
+  {
+    "title": "PassatWorld: путь провода датчика скорости G22 к приборной панели",
+    "url": "https://passatworld.ru/showthread.php/94416-Datchik-spidometra",
+    "system": "clutch_gearbox",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Участник форума описывает, где на МКПП стоит датчик скорости G22 и как его провод идёт через разъёмы в коробке ЭБУ к приборке; отмечено, что после 2003 года датчик убрали.",
-    "applies_to": "Passat B5 3B (1999, МКПП; цепь общая для B5 до 2003)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: датчик положения селектора F125 АКПП 01V — ошибка и ремонт разъёма", "url": "https://passatworld.ru/showthread.php/190952-pomogite-po-akpp-Datchik-F125",
-    "system": "clutch_gearbox", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B (1999, МКПП; цепь общая для B5 до 2003)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "PassatWorld: датчик положения селектора F125 АКПП 01V — ошибка и ремонт разъёма",
+    "url": "https://passatworld.ru/showthread.php/190952-pomogite-po-akpp-Datchik-F125",
+    "system": "clutch_gearbox",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Владельцы B5 с типтроником 01V разбирают ошибку F125: вода в датчике, окисленные контакты, варианты разъёма датчика и перепайка при замене.",
-    "applies_to": "Passat B5 3B/3BG, АКПП 01V (машины с 1.8T; коробка та же, что у ARG с автоматом)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "MSExtra: распиновка штатного ЭБУ AEB для установки Megasquirt", "url": "https://www.msextra.com/forums/viewtopic.php?t=19455",
-    "system": "engine", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 3B/3BG, АКПП 01V (машины с 1.8T; коробка та же, что у ARG с автоматом)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/krscripts/proxyimg/imgcache/2013/04/1879d3a08463-1.jpg",
+        "caption": "Датчик положения селектора F125 — контакты"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=61386",
+        "caption": "Место установки F125 на АКПП"
+      },
+      {
+        "src": "https://passatworld.ru/krscripts/proxyimg/imgcache/2013/04/53f7cde0739f-1.jpg",
+        "caption": "F125 на коробке — фото"
+      }
+    ]
+  },
+  {
+    "title": "MSExtra: распиновка штатного ЭБУ AEB для установки Megasquirt",
+    "url": "https://www.msextra.com/forums/viewtopic.php?t=19455",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Участники составили список контактов штатного разъёма ЭБУ мотора AEB (датчики, форсунки, катушки) для установки альтернативного блока; часть контактов автор сам пометил как неустановленные. Ближайший по семейству 20V пример, но не ARG.",
-    "applies_to": "1.8T AEB (Audi A4 B5 / Passat B5) — к ARG только как ориентир", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "AudiWorld: 17925 Main Relay (J271) на A4 B5", "url": "https://audiworld.com/forums/a4-b5-platform-discussion-1/anyone-come-across-17925-main-relay-j271-electrical-malfunction-334652",
-    "system": "engine", "kind": "guide", "source_type": "forum",
+    "applies_to": "1.8T AEB (Audi A4 B5 / Passat B5) — к ARG только как ориентир",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "AudiWorld: 17925 Main Relay (J271) на A4 B5",
+    "url": "https://audiworld.com/forums/a4-b5-platform-discussion-1/anyone-come-across-17925-main-relay-j271-electrical-malfunction-334652",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Тема владельцев A4 B5 об ошибке главного реле питания блока двигателя J271 — где стоит реле и чем лечили.",
-    "applies_to": "Audi A4 B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом, открыть вручную", "status": "unverified" },
-  { "title": "Видео: Passat B5 1.8 ADR — ошибка G40 (датчик Холла) и правка ГРМ", "url": "https://www.youtube.com/watch?v=I_6ZcCkIx08",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом, открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: Passat B5 1.8 ADR — ошибка G40 (датчик Холла) и правка ГРМ",
+    "url": "https://www.youtube.com/watch?v=I_6ZcCkIx08",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Польский ролик о причине ошибки датчика Холла G40 на ADR и исправлении установки ГРМ.",
-    "applies_to": "ADR, Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Видео: VW-Audi 1.8 ADR — причины ошибки датчика Холла и большого расхода", "url": "https://www.youtube.com/watch?v=FCNDeD8yRxc",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "ADR, Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: VW-Audi 1.8 ADR — причины ошибки датчика Холла и большого расхода",
+    "url": "https://www.youtube.com/watch?v=FCNDeD8yRxc",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Польский ролик о моторах ADR: откуда берётся ошибка по датчику Холла и как она связана с повышенным расходом топлива.",
-    "applies_to": "ADR (Passat B5 / Audi A4 B5)", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Видео: проверка ДМРВ на двигателях VAG — мультиметр и адаптер", "url": "https://www.youtube.com/watch?v=AfZvvp0cXzo",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "ADR (Passat B5 / Audi A4 B5)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: проверка ДМРВ на двигателях VAG — мультиметр и адаптер",
+    "url": "https://www.youtube.com/watch?v=AfZvvp0cXzo",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Как проверить расходомер воздуха на моторах VAG двумя способами: замерами на разъёме мультиметром и по данным диагностики.",
-    "applies_to": "VAG общее (Passat B5, A4 B5)", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Видео: замена датчика температуры на VW Passat B5 ADR 1.8", "url": "https://www.youtube.com/watch?v=CqR8orhlWM8",
-    "system": "cooling", "kind": "location", "source_type": "video",
+    "applies_to": "VAG общее (Passat B5, A4 B5)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/AfZvvp0cXzo/hqdefault.jpg",
+        "caption": "Превью видео: проверка ДМРВ мультиметром"
+      }
+    ]
+  },
+  {
+    "title": "Видео: замена датчика температуры на VW Passat B5 ADR 1.8",
+    "url": "https://www.youtube.com/watch?v=CqR8orhlWM8",
+    "system": "cooling",
+    "kind": "location",
+    "source_type": "video",
     "description": "Показано, где на ADR стоит датчик температуры ОЖ и как быстро его заменить.",
-    "applies_to": "ADR, Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Видео: адаптация дроссельной заслонки ADR 1.8", "url": "https://www.youtube.com/watch?v=Y9RKRd22kYM",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "ADR, Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: адаптация дроссельной заслонки ADR 1.8",
+    "url": "https://www.youtube.com/watch?v=Y9RKRd22kYM",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Ролик о процедуре адаптации узла дросселя на моторе ADR после чистки или замены.",
-    "applies_to": "ADR", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "HELLA TechWorld: датчик детонации — функция и поиск неисправностей", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/car-knock-sensor-mdash-function-and-troubleshooting/",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "ADR",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified"
+  },
+  {
+    "title": "HELLA TechWorld: датчик детонации — функция и поиск неисправностей",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/car-knock-sensor-mdash-function-and-troubleshooting/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Открытая статья производителя компонентов: как проверить цепь датчика детонации мультиметром и осциллографом, на что смотреть в разъёме и экране провода.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "HELLA TechWorld: датчик коленвала — проверка", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/crankshaft-sensor/",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://ia2.mycliplister.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/f4156303e9eb4e6c9001ce9dd5edaf35?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Knock sensor signal — oscillogram"
+      },
+      {
+        "src": "https://ia2.mycliplister.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/22f82b0121ad4bf39b7a7e5dc9c57e76?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Knock sensor with connector"
+      }
+    ]
+  },
+  {
+    "title": "HELLA TechWorld: датчик коленвала — проверка",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/crankshaft-sensor/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Проверка датчика коленвала и его проводки, различия в методике для индуктивного датчика и датчика Холла, контроль сигнала осциллографом.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "HELLA TechWorld: датчик распредвала (Холла) — симптомы и проверка", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/camshaft-position-sensor/",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10006054a_customresolution.jpg",
+        "caption": "Inductive crankshaft sensor and reluctor wheel — diagram"
+      },
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/62b0499451ce46878f4848094518dcf6?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Inductive crankshaft sensor signal — oscillogram"
+      },
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/da6a1b312f7845418bba1db9284ee16c?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Hall-type crankshaft sensor signal — oscillogram"
+      },
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/c3d33f3e832f43718f033f003db56d55?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Crankshaft sensor"
+      }
+    ]
+  },
+  {
+    "title": "HELLA TechWorld: датчик распредвала (Холла) — симптомы и проверка",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/camshaft-position-sensor/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Как проверить датчик Холла распредвала и его цепь: прозвонка проводов, замыкание на массу, питание датчика и вид исправного сигнала на осциллографе.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "HELLA TechWorld: проверка расходомера воздуха", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/check-air-mass-sensor/",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/da6a1b312f7845418bba1db9284ee16c?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Camshaft sensor (Hall) signal — oscillogram"
+      },
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/91ad3ca2f6d34f798dfae314ba026cb0?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Camshaft position sensor"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/01_sensor_im_fahrzeug_customresolution.jpg",
+        "caption": "Camshaft sensor installed"
+      }
+    ]
+  },
+  {
+    "title": "HELLA TechWorld: проверка расходомера воздуха",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/check-air-mass-sensor/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Причины отказа и диагностика расходомера, в том числе проверка контакта разъёма, питания и целостности проводов до блока управления.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "HELLA TechWorld: проверка датчика температуры ОЖ", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/test-coolant-temperature-sensor/",
-    "system": "cooling", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/s13_customresolution.jpg",
+        "caption": "Air mass sensor signal — oscillogram"
+      }
+    ]
+  },
+  {
+    "title": "HELLA TechWorld: проверка датчика температуры ОЖ",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/test-coolant-temperature-sensor/",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Симптомы неисправности датчика температуры ОЖ и порядок проверки, включая прозвонку проводки до блока управления на обрыв и замыкание.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "HELLA TechWorld: проверка лямбда-зонда и его подогрева", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/test-lambda-sensor/",
-    "system": "intake_exhaust", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/s4-en_customresolution.jpg",
+        "caption": "Coolant temperature sensor (NTC) circuit: 5 V, control unit"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/e081_customresolution.jpg",
+        "caption": "Coolant temperature sensor"
+      }
+    ]
+  },
+  {
+    "title": "HELLA TechWorld: проверка лямбда-зонда и его подогрева",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/test-lambda-sensor/",
+    "system": "intake_exhaust",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Диагностика лямбда-зонда и цепи подогрева, типовое назначение проводов у зондов разных типов — помогает разобраться в разъёме зонда.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "HELLA TechWorld: потенциометр дроссельной заслонки — проверка", "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/throttle-potentiometer/",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10032082a_en_customresolution.jpg",
+        "caption": "Wideband lambda sensor — design and circuit"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10032087a_en_customresolution.jpg",
+        "caption": "Lambda sensor signal: old vs new probe"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10032088a_en_customresolution.jpg",
+        "caption": "Lambda sensor signal comparison"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10032091a_customresolution.jpg",
+        "caption": "Lambda sensor heater check with multimeter"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10032102a_customresolution.jpg",
+        "caption": "Lambda sensor signal on oscilloscope"
+      },
+      {
+        "src": "https://www.hella.com/techworld/assetsfs/images/10032080a_customresolution.jpg",
+        "caption": "Lambda sensor"
+      }
+    ]
+  },
+  {
+    "title": "HELLA TechWorld: потенциометр дроссельной заслонки — проверка",
+    "url": "https://www.hella.com/techworld/uk/technical/sensors-and-actuators/throttle-potentiometer/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Как работает потенциометр дросселя и как проверить его и кабельные соединения на обрыв и замыкание на массу.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "MS Motorservice: при проблемах с бензонасосом проверьте контакты", "url": "https://www.ms-motorservice.com/en/technipedia/post/in-the-event-of-problems-with-fuel-pumps-check-contact/",
-    "system": "fuel", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/f6825b0ea8134db89d5704841ffc4011?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Throttle potentiometer — internal design"
+      },
+      {
+        "src": "https://media.hella.com/is/182544/191789785648112ca5cc64945eb233eef/c3/-/b92257be33d94a3b82ce203a4d576844?quality=90&strip=yes&format=webp&x=800",
+        "caption": "Throttle potentiometer signal curve"
+      }
+    ]
+  },
+  {
+    "title": "MS Motorservice: при проблемах с бензонасосом проверьте контакты",
+    "url": "https://www.ms-motorservice.com/en/technipedia/post/in-the-event-of-problems-with-fuel-pumps-check-contact/",
+    "system": "fuel",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Статья производителя насосов (Pierburg): почему окисленные разъёмы и плохие соединения в цепи питания насоса снижают его производительность и как проверить цепь до замены насоса.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "MS Motorservice: расходомер воздуха — неисправности, причины, проверка", "url": "https://www.ms-motorservice.com/en/technipedia/post/air-mass-sensors/",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3671/image?1721627719",
+        "caption": "Fuel pump circuit: relay, fuse, pump — check points"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/Articles/media/corporate_content/technipedia/1928_Bei_Problemen_mit_Kraftstoffpumpen/3670/image-thumb__3670__small-stage/P3.6fe02e90.jpg?1721648009",
+        "caption": "Measuring voltage at fuel pump connector"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3673/image?1721642782",
+        "caption": "Voltage measurement at fuel pump"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3675/image?1721648699",
+        "caption": "Corroded fuel pump contacts"
+      }
+    ]
+  },
+  {
+    "title": "MS Motorservice: расходомер воздуха — неисправности, причины, проверка",
+    "url": "https://www.ms-motorservice.com/en/technipedia/post/air-mass-sensors/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Открытая статья производителя компонентов о проверке расходомера, включая контроль питания на разъёме и проверку проводов на обрыв, замыкание и переходное сопротивление.",
-    "applies_to": "общее (не для конкретной модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "erWin — официальная информация VW Group о доступе (для мастерских)", "url": "https://vwgroup-datahub.com/erwininfo",
-    "system": "engine", "kind": "official", "source_type": "official",
+    "applies_to": "общее (не для конкретной модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3414/image?1775048573",
+        "caption": "Air mass sensor connector — pin numbering 1–5"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3411/image?1775048646",
+        "caption": "Air mass sensor — design"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3412/image?1775048632",
+        "caption": "Air mass sensor — cutaway: sensor element"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/_assets/thumbnail/3413/image?1775048618",
+        "caption": "Contaminated air mass sensor element"
+      },
+      {
+        "src": "https://www.ms-motorservice.com/Articles/media/corporate_content/technipedia/0079_Luftmassensensor/3410/image-thumb__3410__small-stage/Pic3.eb8d9be8.jpg?1775048602",
+        "caption": "Air mass sensor protective grid"
+      }
+    ]
+  },
+  {
+    "title": "erWin — официальная информация VW Group о доступе (для мастерских)",
+    "url": "https://vwgroup-datahub.com/erwininfo",
+    "system": "engine",
+    "kind": "official",
+    "source_type": "official",
     "description": "Официальная страница Volkswagen Group Info Services о новом портале erWin: платные лицензии на заводскую ремонтную информацию для мастерских; указано, что частные лица в новую схему доступа не входят.",
-    "applies_to": "VW/Audi общее", "accessed": "2026-11-25", "check_result": "200 OK (через редирект с drivesomethinggreater.com/erwininfo)", "status": "unverified" },
-  { "title": "Ross-Tech: таблица блоков Passat B5 и интерфейсов VCDS", "url": "https://www.ross-tech.com/vag-com/cars/applications/passat.html",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (через редирект с drivesomethinggreater.com/erwininfo)",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech: таблица блоков Passat B5 и интерфейсов VCDS",
+    "url": "https://www.ross-tech.com/vag-com/cars/applications/passat.html",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Какие блоки управления бывают на Passat B5 (двигатель, АКПП, иммобилайзер и др.), по каким протоколам они общаются и где разъём диагностики — полезно при поиске проблем со связью по K-линии.",
-    "applies_to": "Passat B5 (3B/3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: VW Passat (3B) — обзор блоков, кодирование, ссылки", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 (3B/3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: VW Passat (3B) — обзор блоков, кодирование, ссылки",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Вики-страница по Passat 3B: перечень блоков управления по адресам с кодированием и адаптацией, ссылки на страницы по АКПП 01V, иммобилайзеру, шлюзу CAN и кодам неисправностей.",
-    "applies_to": "Passat B5 3B/3BG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: иммобилайзер VW Passat (3B)", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: иммобилайзер VW Passat (3B)",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Как определить версию иммобилайзера на 3B (II или III), порядок замены блока двигателя или приборки и привязки ключей.",
-    "applies_to": "Passat B5 3B/3BG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: замена блока двигателя при иммобилайзере II", "url": "https://wiki.ross-tech.com/wiki/index.php/Immobilizer_II_ECU_Swapping",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: замена блока двигателя при иммобилайзере II",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Immobilizer_II_ECU_Swapping",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Процедура согласования нового блока двигателя с иммобилайзером II через VCDS, перекодирование и последующая настройка дросселя на бензиновых моторах.",
-    "applies_to": "VW/Audi с Immo II, применимо к Passat B5 3B", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech: прописка блока двигателя в иммобилайзер II", "url": "https://www.ross-tech.com/vag-com/cars/immobilizer2.html",
-    "system": "engine", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi с Immo II, применимо к Passat B5 3B",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech: прописка блока двигателя в иммобилайзер II",
+    "url": "https://www.ross-tech.com/vag-com/cars/immobilizer2.html",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Инструкция Ross-Tech: как прописать новый блок двигателя в приборку с иммобилайзером II, как отличить Immo-2 от Immo-3; без прописки мотор не запустится.",
-    "applies_to": "VW/Audi с Immo II, применимо к Passat B5 3B", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: АКПП 01V (5HP19) — кодирование", "url": "https://wiki.ross-tech.com/wiki/index.php/5-Speed_Automatic_Transmission_(01V)",
-    "system": "clutch_gearbox", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi с Immo II, применимо к Passat B5 3B",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: АКПП 01V (5HP19) — кодирование",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/5-Speed_Automatic_Transmission_(01V)",
+    "system": "clutch_gearbox",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Как кодируется блок АКПП 01V в зависимости от типа дросселя, типтроника, привода и региона — нужно при замене блока коробки или двигателя.",
-    "applies_to": "Passat B5 / Audi A4 B5 с АКПП 01V", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16825/P0441 — система EVAP, неправильный расход (клапан N80)", "url": "https://wiki.ross-tech.com/wiki/index.php/16825/P0441/001089",
-    "system": "fuel", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 / Audi A4 B5 с АКПП 01V",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16825/P0441 — система EVAP, неправильный расход (клапан N80)",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16825/P0441/001089",
+    "system": "fuel",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Что проверить при ошибке системы улавливания паров: тест клапана N80 через диагностику, адсорбер, шланги и правильность подключения линий.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16517/P0133 — лямбда-зонд B1 S1, медленный отклик", "url": "https://wiki.ross-tech.com/wiki/index.php/16517/P0133/000307",
-    "system": "intake_exhaust", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16517/P0133 — лямбда-зонд B1 S1, медленный отклик",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16517/P0133/000307",
+    "system": "intake_exhaust",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Порядок проверки переднего лямбда-зонда: проводка, массы и разъём, цепь подогрева, подсосы и утечки выхлопа до датчика, затем сам зонд.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16525/P0141 — подогрев лямбда-зонда B1 S2, неисправность", "url": "https://wiki.ross-tech.com/wiki/index.php/16525/P0141/000321",
-    "system": "intake_exhaust", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16525/P0141 — подогрев лямбда-зонда B1 S2, неисправность",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16525/P0141/000321",
+    "system": "intake_exhaust",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Ошибка цепи подогрева заднего лямбда-зонда: проверить проводку и разъём к нагревателю и сам нагреватель зонда.",
-    "applies_to": "VW/Audi общее, применимо к ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 17939/P1531 — обрыв цепи клапана регулировки фаз N205", "url": "https://wiki.ross-tech.com/wiki/index.php/17939/P1531/005425",
-    "system": "timing", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 17939/P1531 — обрыв цепи клапана регулировки фаз N205",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/17939/P1531/005425",
+    "system": "timing",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Ошибка цепи клапана изменения фаз распредвала N205: проверить предохранители, проводку и разъём клапана, затем сам клапан.",
-    "applies_to": "VW/Audi общее, применимо к ADR/ARG (есть N205)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: 16395/P0011 — распредвал впуска, рассогласование фаз", "url": "https://wiki.ross-tech.com/wiki/index.php/16395/P0011/000017",
-    "system": "timing", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ADR/ARG (есть N205)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: 16395/P0011 — распредвал впуска, рассогласование фаз",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/16395/P0011/000017",
+    "system": "timing",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Причины ошибки регулировки фаз: клапан N205, на части машин реле бензонасоса, механическая установка ГРМ.",
-    "applies_to": "VW/Audi общее, применимо к ADR/ARG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка разъёма OBD II Volkswagen (pinoutguide)", "url": "https://pinoutguide.com/CarElectronics/volkswagen_obd2_pinout.shtml",
-    "system": "electrical", "kind": "pinout", "source_type": "reference",
+    "applies_to": "VW/Audi общее, применимо к ADR/ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Распиновка разъёма OBD II Volkswagen (pinoutguide)",
+    "url": "https://pinoutguide.com/CarElectronics/volkswagen_obd2_pinout.shtml",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
     "description": "Таблица назначения контактов диагностического разъёма VW: K- и L-линия, постоянное питание, питание от зажигания, массы; в списке моделей есть Passat.",
-    "applies_to": "Passat B5 и другие VW 1996+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "APT Passat: изменение системы зажигания (раздельные катушки)", "url": "https://www.drive2.ru/l/562618451739279755/",
-    "system": "ignition", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 и другие VW 1996+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://connector.pinoutguide.com/diagram/car_obd2.gif",
+        "caption": "Нумерация контактов разъёма OBD-II"
+      },
+      {
+        "src": "https://pinoutguide.com/photos/thumb_car_obd2.jpg",
+        "caption": "Разъём OBD-II — фото"
+      }
+    ]
+  },
+  {
+    "title": "APT Passat: изменение системы зажигания (раздельные катушки)",
+    "url": "https://www.drive2.ru/l/562618451739279755/",
+    "system": "ignition",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Владелец Passat B5 с APT переделал зажигание на четыре катушки AEB с отдельным коммутатором; приложена своя схема подключения от руки и фото жгута из разборных разъёмов.",
-    "applies_to": "APT, Passat B5 3B 1999", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт модуля зажигания 1.8 ADR", "url": "https://www.drive2.ru/l/610701194733575170/",
-    "system": "ignition", "kind": "pinout", "source_type": "blog",
+    "applies_to": "APT, Passat B5 3B 1999",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/oYAAAgFLc-A-960.jpg",
+        "caption": "Схема подключения: коммутатор — раздельные катушки (E1–E4), масса, 12 В"
+      },
+      {
+        "src": "https://a1.drive-data.ru/goAAAgFLc-A-960.jpg",
+        "caption": "Жгут катушек"
+      },
+      {
+        "src": "https://a1.drive-data.ru/YoAAAgFLc-A-960.jpg",
+        "caption": "Раздельные катушки на APT"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3QAAAgFLc-A-960.jpg",
+        "caption": "Катушка зажигания"
+      }
+    ]
+  },
+  {
+    "title": "Ремонт модуля зажигания 1.8 ADR",
+    "url": "https://www.drive2.ru/l/610701194733575170/",
+    "system": "ignition",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Владелец A4 B5 с ADR разобрал штатный модуль зажигания (сдвоенные катушки с коммутатором), описал назначение контактов разъёма и простую проверку выходных ключей контрольной лампой; фото с подписями выводов.",
-    "applies_to": "ADR, Audi A4 B5 (модуль общий с Passat B5 ADR/ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена катушки ADR на четыре индивидуальных катушки от AEB", "url": "https://www.drive2.ru/l/559524151140811609/",
-    "system": "ignition", "kind": "diagram", "source_type": "blog",
+    "applies_to": "ADR, Audi A4 B5 (модуль общий с Passat B5 ADR/ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/uErk6hnDiLA2tF0QLVrcO1dMXuQ-960.jpg",
+        "caption": "Модуль зажигания ADR — снят"
+      },
+      {
+        "src": "https://a1.drive-data.ru/-W5E3dA9IO2gzj_pvczkNVzmgdk-960.jpg",
+        "caption": "Модуль зажигания в ремонте"
+      },
+      {
+        "src": "https://a1.drive-data.ru/Aeipoq91AhV6RkXqWYfC1Dhs75g-960.jpg",
+        "caption": "Модуль зажигания с катушкой"
+      },
+      {
+        "src": "https://a1.drive-data.ru/D1vrVReLRUCU6zPbrIMN4QXnzHI-960.jpg",
+        "caption": "Модуль зажигания — фото"
+      }
+    ]
+  },
+  {
+    "title": "Замена катушки ADR на четыре индивидуальных катушки от AEB",
+    "url": "https://www.drive2.ru/l/559524151140811609/",
+    "system": "ignition",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Подробный отчёт с собственной схемой жгута: как коммутатор подключается к старой фишке ADR, куда идут массы и питание катушек, номера разъёмов; приведены и схемы других владельцев.",
-    "applies_to": "ADR, Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка раздельных катушек зажигания от AEB на ADR", "url": "https://www.drive2.ru/l/583674649167005173/",
-    "system": "ignition", "kind": "diagram", "source_type": "blog",
+    "applies_to": "ADR, Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/AgAAAgK7w-A-960.jpg",
+        "caption": "Схема проводки катушек — цветной рисунок от руки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg",
+        "caption": "Схема подключения катушек AEB через коммутатор Hitachi"
+      },
+      {
+        "src": "https://a1.drive-data.ru/bAAAAgG7w-A-960.jpg",
+        "caption": "Схема проводки — рисунок от руки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/cgAAAgG7w-A-960.jpg",
+        "caption": "Разъём модуля зажигания: 5 V coil A, 12 V, 5 V coil B, масса"
+      },
+      {
+        "src": "https://a1.drive-data.ru/xwAAAgObw-A-960.jpg",
+        "caption": "Коммутатор зажигания"
+      },
+      {
+        "src": "https://a1.drive-data.ru/4wAAAgBbw-A-960.jpg",
+        "caption": "Катушка AEB 058 905 105"
+      }
+    ]
+  },
+  {
+    "title": "Установка раздельных катушек зажигания от AEB на ADR",
+    "url": "https://www.drive2.ru/l/583674649167005173/",
+    "system": "ignition",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Владелец A4 B5 с ADR собрал жгут под катушки AEB и коммутатор; опубликована схема подключения катушек и фото формирования жгута (моторная коса от Passat B5).",
-    "applies_to": "ADR, Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Passat B5: ремонт зажигания в Motronic 3/7 и установка модуля от ВАЗ", "url": "https://www.drive2.ru/l/503080446851023797/",
-    "system": "ignition", "kind": "pinout", "source_type": "blog",
+    "applies_to": "ADR, Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/PsZvG9_g0zKyVWAQz87PtQNE4EY-960.jpg",
+        "caption": "Схема подключения раздельных катушек через коммутатор Hitachi (вид сверху)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/_mSmDPKldi-pPp3aQQ3DGN1g4Pg-960.jpg",
+        "caption": "Раздельные катушки установлены"
+      }
+    ]
+  },
+  {
+    "title": "Passat B5: ремонт зажигания в Motronic 3/7 и установка модуля от ВАЗ",
+    "url": "https://www.drive2.ru/l/503080446851023797/",
+    "system": "ignition",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "На Passat B5 1.8 125 л.с. после потери массы модуля зажигания сгорел драйвер зажигания в блоке Motronic; описано назначение контактов разъёма модуля, прозвонка проводки до ЭБУ и замена микросхемы.",
-    "applies_to": "Passat B5 1.8 125 л.с. (APT/ADR)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Оживление датчиков детонации — Passat B5 1.8 125 л.с. 2000 г.", "url": "https://www.drive2.ru/l/487854684707488528/",
-    "system": "engine", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 1.8 125 л.с. (APT/ADR)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/kAAAAgPS32A-960.jpg",
+        "caption": "Модуль зажигания ВАЗ — контакты A, B, C, D"
+      },
+      {
+        "src": "https://a1.drive-data.ru/oAAAAgPS32A-960.jpg",
+        "caption": "Плата ЭБУ Motronic с пометками"
+      },
+      {
+        "src": "https://a1.drive-data.ru/bEAAAgOy32A-960.jpg",
+        "caption": "Модуль ВАЗ на двигателе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/UUAAAgOy32A-960.jpg",
+        "caption": "ЭБУ — фото"
+      }
+    ]
+  },
+  {
+    "title": "Оживление датчиков детонации — Passat B5 1.8 125 л.с. 2000 г.",
+    "url": "https://www.drive2.ru/l/487854684707488528/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец по измерительным блокам увидел разброс сигнала детонации, нашёл на схеме разъёмы датчиков G61 и G66 (разного цвета), проверил их и восстановил контакт; фото разъёмов.",
-    "applies_to": "Passat B5 3B 2000, 1.8 125 л.с. (вероятно ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Датчик детонации заменён — где стоит G66 и его разъём", "url": "https://www.drive2.ru/l/4040401/",
-    "system": "engine", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 3B 2000, 1.8 125 л.с. (вероятно ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/5acf165s-960.jpg",
+        "caption": "Разъёмы датчиков на двигателе: зелёный и розовый"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3acf165s-960.jpg",
+        "caption": "Разъёмы датчика Холла и форсунок — цветные колодки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/5ccf165s-960.jpg",
+        "caption": "Разъёмы датчиков на ADR"
+      }
+    ]
+  },
+  {
+    "title": "Датчик детонации заменён — где стоит G66 и его разъём",
+    "url": "https://www.drive2.ru/l/4040401/",
+    "system": "engine",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Где на блоке стоит второй датчик детонации и где его разъём (по цвету), как добраться и заменить.",
-    "applies_to": "Passat B5 1998, 1.8T (расположение на 20V блоке схожее — сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Чистка дроссельной заслонки ADR 1.8 (фотогайд)", "url": "https://www.drive2.ru/l/655678916890999856/",
-    "system": "engine", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 1998, 1.8T (расположение на 20V блоке схожее — сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/1a871f4s-960.jpg",
+        "caption": "Датчик температуры ОЖ Bosch — новый"
+      },
+      {
+        "src": "https://a1.drive-data.ru/c1871f4s-960.jpg",
+        "caption": "Место установки датчика температуры"
+      }
+    ]
+  },
+  {
+    "title": "Чистка дроссельной заслонки ADR 1.8 (фотогайд)",
+    "url": "https://www.drive2.ru/l/655678916890999856/",
+    "system": "engine",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Собственный фотогайд владельца B5 с ADR: снятие патрубков, отсоединение разъёмов, чистка узла дросселя и замечания про адаптацию.",
-    "applies_to": "ADR, Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: снятие и промывка дроссельной заслонки ADR (отчёт с фото)", "url": "https://passatworld.ru/showthread.php/156995-Snyatie-i-promyvka-drosselnoj-zaslonki-(DZ)-Dvigatel-ADR-(otchet-s-foto)",
-    "system": "engine", "kind": "location", "source_type": "forum",
+    "applies_to": "ADR, Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/jjxxBTibwuh58M7jngjbq-UXfVQ-960.jpg",
+        "caption": "Разъём ДМРВ"
+      }
+    ]
+  },
+  {
+    "title": "PassatWorld: снятие и промывка дроссельной заслонки ADR (отчёт с фото)",
+    "url": "https://passatworld.ru/showthread.php/156995-Snyatie-i-promyvka-drosselnoj-zaslonki-(DZ)-Dvigatel-ADR-(otchet-s-foto)",
+    "system": "engine",
+    "kind": "location",
+    "source_type": "forum",
     "description": "Отчёт участника с собственными фото: что отсоединить (трос, шланги подогрева, вакуумные шланги, электроразъём) и как снять узел дросселя на ADR.",
-    "applies_to": "ADR, Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Видео: чистка дроссельной заслонки Пассат Б5 / Audi / Skoda", "url": "https://www.youtube.com/watch?v=E_RzBpJNWTY",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "ADR, Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/remont/adr1/2.jpg",
+        "caption": "ADR: дроссельный узел — подписи (тросик газа, вакуумные шланги)"
+      },
+      {
+        "src": "https://passatworld.ru/remont/adr1/4.jpg",
+        "caption": "Электрический разъём дроссельного узла"
+      },
+      {
+        "src": "https://passatworld.ru/remont/adr1/8.jpg",
+        "caption": "Дроссельный узел в разборе: мотор ХХ и потенциометр"
+      },
+      {
+        "src": "https://passatworld.ru/remont/adr1/7.jpg",
+        "caption": "Дроссельный узел снят"
+      }
+    ]
+  },
+  {
+    "title": "Видео: чистка дроссельной заслонки Пассат Б5 / Audi / Skoda",
+    "url": "https://www.youtube.com/watch?v=E_RzBpJNWTY",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Ролик о снятии и чистке узла дросселя на Passat B5 и родственных машинах.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Моторный ЭБУ Audi 4B0907557A Motronic M3.8.2 — отключение иммо, подключение на столе", "url": "https://www.drive2.ru/b/460315766722396237/",
-    "system": "engine", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified"
+  },
+  {
+    "title": "Моторный ЭБУ Audi 4B0907557A Motronic M3.8.2 — отключение иммо, подключение на столе",
+    "url": "https://www.drive2.ru/b/460315766722396237/",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Владелец запустил блок Motronic M3.8.2 на столе: фото подключения питания, массы и диагностики к разъёму, две своих схемы подключения и фото платы.",
-    "applies_to": "Audi A6 C5, Motronic M3.8.2 (родственный блок для 20V)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена проводки к дроссельной заслонке (таблица пинов дроссель–ЭБУ)", "url": "https://www.drive2.ru/l/473827665116135888/",
-    "system": "engine", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Audi A6 C5, Motronic M3.8.2 (родственный блок для 20V)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/2f5955es-960.jpg",
+        "caption": "ЭБУ Motronic 4B0 907 557 A — бирка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6cd955es-960.jpg",
+        "caption": "Плата ЭБУ 4B0 907 557 A"
+      },
+      {
+        "src": "https://a1.drive-data.ru/62c555es-960.jpg",
+        "caption": "Подключение к разъёму ЭБУ на столе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/47c555es-960.jpg",
+        "caption": "VCDS: ошибки двигателя"
+      }
+    ]
+  },
+  {
+    "title": "Замена проводки к дроссельной заслонке (таблица пинов дроссель–ЭБУ)",
+    "url": "https://www.drive2.ru/l/473827665116135888/",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Владелец заменил жгут электронного дросселя и привёл свою таблицу соответствия контактов разъёма дросселя и ЭБУ с сигналами и цветами проводов.",
-    "applies_to": "1.8T 150 л.с. 2001, электронный дроссель — к ARG напрямую не относится", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Стать отморозком. Часть 4: сравнение распиновок ЭБУ AEB", "url": "https://www.drive2.ru/l/571120150523150668/",
-    "system": "engine", "kind": "pinout", "source_type": "blog",
+    "applies_to": "1.8T 150 л.с. 2001, электронный дроссель — к ARG напрямую не относится",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/4a5d909s-960.jpg",
+        "caption": "Разъём ЭБУ с проводкой при замене"
+      },
+      {
+        "src": "https://a1.drive-data.ru/665d909s-960.jpg",
+        "caption": "Жгут проводки к дроссельному узлу"
+      },
+      {
+        "src": "https://a1.drive-data.ru/23a3909s-960.jpg",
+        "caption": "Коробка ЭБУ: проводка"
+      }
+    ]
+  },
+  {
+    "title": "Стать отморозком. Часть 4: сравнение распиновок ЭБУ AEB",
+    "url": "https://www.drive2.ru/l/571120150523150668/",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "При замене блока владелец A4 B5 сравнивал распиновку фишек ЭБУ своей машины и донора, перекидывал провода климата и приборки; фото с подписями подключений.",
-    "applies_to": "1.8T AEB, Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Клапан продувки адсорбера N80 — проверка и симптомы", "url": "https://www.drive2.ru/l/535091903260000416/",
-    "system": "fuel", "kind": "guide", "source_type": "blog",
+    "applies_to": "1.8T AEB, Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/3wAAAgOgt-A-960.jpg",
+        "caption": "Колодки и реле в коробке ЭБУ"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8wAAAgOgt-A-960.jpg",
+        "caption": "Разъёмы проводки ЭБУ"
+      },
+      {
+        "src": "https://a1.drive-data.ru/mQAAAgGgt-A-960.jpg",
+        "caption": "Проводка в моторном отсеке"
+      }
+    ]
+  },
+  {
+    "title": "Клапан продувки адсорбера N80 — проверка и симптомы",
+    "url": "https://www.drive2.ru/l/535091903260000416/",
+    "system": "fuel",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Проверка снятого клапана N80 подачей питания, признаки неисправности (запаздывание закрытия) и связанные пропуски и плохой запуск после заправки.",
-    "applies_to": "Passat B5 Variant 2001, 1.8T", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Не крутил стартер — плохой контакт на фишке втягивающего реле", "url": "https://www.drive2.ru/l/475454117691523126",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 Variant 2001, 1.8T",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/HQAAAgNgtuA-960.jpg",
+        "caption": "Клапан N80 — где стоит"
+      }
+    ]
+  },
+  {
+    "title": "Не крутил стартер — плохой контакт на фишке втягивающего реле",
+    "url": "https://www.drive2.ru/l/475454117691523126",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец нашёл причину незапуска в загрязнённой клемме управляющего провода втягивающего реле стартера; проверка наличия питания на фишке при пуске.",
-    "applies_to": "Passat B5 1999, 1.8T (цепь стартера общая)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Генератор: замена, подключение (выводы B+, D, W, L, DFM)", "url": "https://www.drive2.ru/l/499787134647927180/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 1999, 1.8T (цепь стартера общая)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/fc066c9s-960.jpg",
+        "caption": "Втягивающее реле стартера: фишка"
+      }
+    ]
+  },
+  {
+    "title": "Генератор: замена, подключение (выводы B+, D, W, L, DFM)",
+    "url": "https://www.drive2.ru/l/499787134647927180/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец разбирает назначение выводов разных генераторов B5: силовой плюс, провод лампы, вывод возбуждения, сигнал нагрузки на ЭБУ; фото генераторов с номерами.",
-    "applies_to": "Passat B5 2000, 1.8T (генераторы общие)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена датчика спидометра (G22) — где стоит и разъём", "url": "https://www.drive2.ru/l/3790103/",
-    "system": "clutch_gearbox", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 2000, 1.8T (генераторы общие)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/71dcd1ds-960.jpg",
+        "caption": "Генератор: выводы и разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/505cd1ds-960.jpg",
+        "caption": "Генератор Valeo 120A: разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/c71cd1ds-960.jpg",
+        "caption": "Генератор — вид сзади"
+      }
+    ]
+  },
+  {
+    "title": "Замена датчика спидометра (G22) — где стоит и разъём",
+    "url": "https://www.drive2.ru/l/3790103/",
+    "system": "clutch_gearbox",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Где на МКПП стоит датчик скорости, как к нему добраться через бачок ОЖ, состояние разъёма и замена; сигнал датчика нужен и приборке, и ЭБУ.",
-    "applies_to": "Passat B5 1998, 1.8T МКПП", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Блок АКПП не выходит на связь — разъёмы, F125, K-линия", "url": "https://www.drive2.ru/l/673512445737711887/",
-    "system": "clutch_gearbox", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 1998, 1.8T МКПП",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/d4c14b4s-960.jpg",
+        "caption": "Разъём датчика скорости G22"
+      },
+      {
+        "src": "https://a1.drive-data.ru/9cc14b4s-960.jpg",
+        "caption": "Датчик скорости G22 снятый"
+      },
+      {
+        "src": "https://a1.drive-data.ru/44c14b4s-960.jpg",
+        "caption": "Место датчика G22 на КПП"
+      }
+    ]
+  },
+  {
+    "title": "Блок АКПП не выходит на связь — разъёмы, F125, K-линия",
+    "url": "https://www.drive2.ru/l/673512445737711887/",
+    "system": "clutch_gearbox",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Обсуждение пропажи связи с блоком 01V: влияние блока ABS на K-линию, реле у блока двигателя, назначение двух фишек коробки и датчика F125.",
-    "applies_to": "Passat B5 2001, 1.8T, АКПП 01V", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Форум Агрегатка: Passat B5+ АКПП 01V в аварийном режиме", "url": "https://agregatka.ru/forums/viewtopic.php?t=2420",
-    "system": "clutch_gearbox", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 2001, 1.8T, АКПП 01V",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Форум Агрегатка: Passat B5+ АКПП 01V в аварийном режиме",
+    "url": "https://agregatka.ru/forums/viewtopic.php?t=2420",
+    "system": "clutch_gearbox",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Прозвонка жгута от блока АКПП к разъёму коробки и к датчику F125, просушка разъёмов; итог — замена блока управления АКПП.",
-    "applies_to": "Passat B5 3BG 2002, 1.8T, 01V", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "ЭБУ заблокирован — несогласованная приборка и иммобилайзер", "url": "https://www.drive2.ru/l/473663013249876124/",
-    "system": "engine", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3BG 2002, 1.8T, 01V",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "ЭБУ заблокирован — несогласованная приборка и иммобилайзер",
+    "url": "https://www.drive2.ru/l/473663013249876124/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "После установки чужой приборки блок двигателя заблокирован иммобилайзером; обсуждаются согласование приборки и ЭБУ и выбор кабеля для чтения кода.",
-    "applies_to": "Passat B5 3B 1998, 1.8T", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Диагностика: чем читать ошибки Passat B5 1.8 125 л.с. (K-линия)", "url": "https://www.drive2.ru/l/664542080122504055/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B 1998, 1.8T",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/6e23209s-960.jpg",
+        "caption": "VCDS: 17978 — ЭБУ заблокирован иммобилайзером"
+      }
+    ]
+  },
+  {
+    "title": "Диагностика: чем читать ошибки Passat B5 1.8 125 л.с. (K-линия)",
+    "url": "https://www.drive2.ru/l/664542080122504055/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Владелец B5 1998 г. с мотором 125 л.с. не может подключиться к блоку; в комментариях — почему нужен кабель K-line (KKL), а не ELM327.",
-    "applies_to": "Passat B5 3B 1998, 1.8 125 л.с.", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: не заводится, нет связи с блоком двигателя (ME7)", "url": "https://passatworld.ru/showthread.php/170613-Ne-zavoditsya-net-svyazi-s-blokom-upravleniya-dvigatelya",
-    "system": "engine", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B 1998, 1.8 125 л.с.",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/H7Y0Xi1I4zColn4pyNg5CS_gLog-960.jpg",
+        "caption": "Адаптер ELM327 для чтения ошибок"
+      }
+    ]
+  },
+  {
+    "title": "PassatWorld: не заводится, нет связи с блоком двигателя (ME7)",
+    "url": "https://passatworld.ru/showthread.php/170613-Ne-zavoditsya-net-svyazi-s-blokom-upravleniya-dvigatelya",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Поиск причины отсутствия связи с ЭБУ: влияние ABS на K-линию, контакты питания и массы блока по словам участников, проверка блока на столе; причина — замыкание на плате.",
-    "applies_to": "Passat B5, Bosch ME7 (не ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: периодически пропадает связь с ЭБУ — реле питания в коробке ЭБУ", "url": "https://passatworld.ru/showthread.php/224798-Ne-zavoditsya-Periodicheski-propadaet-svyaz-s-EBU",
-    "system": "engine", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5, Bosch ME7 (не ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "PassatWorld: периодически пропадает связь с ЭБУ — реле питания в коробке ЭБУ",
+    "url": "https://passatworld.ru/showthread.php/224798-Ne-zavoditsya-Periodicheski-propadaet-svyaz-s-EBU",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Не заводится на морозе, нет связи с блоками; участник указывает на реле питания системы управления двигателем в коробке ЭБУ под капотом.",
-    "applies_to": "Passat B5 2001, 2.0 AZM (реле в коробке ЭБУ общее)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "PassatWorld: реле стартера — где оно? (цепь пуска B5)", "url": "https://passatworld.ru/showthread.php/218726-Rele-startera-gde-ono",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 2001, 2.0 AZM (реле в коробке ЭБУ общее)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "PassatWorld: реле стартера — где оно? (цепь пуска B5)",
+    "url": "https://passatworld.ru/showthread.php/218726-Rele-startera-gde-ono",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Разбор цепи пуска: реле в блоке под панелью, роль концевика сцепления, проверка управляющего провода втягивающего реле и перемычкой на колодке реле.",
-    "applies_to": "Passat B5 3BG 2001, 1.8T (цепь пуска схожа)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Auxiliary / Electric Fan Not Working - How to Diagnose", "url": "https://www.passatworld.com/threads/auxiliary-electric-fan-not-working-how-to-diagnose.365513/",
-    "system": "cooling", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3BG 2001, 1.8T (цепь пуска схожа)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=144450",
+        "caption": "Релейная панель: реле 267, 214, 381, 370, 202, 377"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=144460",
+        "caption": "Реле на релейной панели — проверка"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=144471",
+        "caption": "Реле в разборе"
+      }
+    ]
+  },
+  {
+    "title": "Auxiliary / Electric Fan Not Working - How to Diagnose",
+    "url": "https://www.passatworld.com/threads/auxiliary-electric-fan-not-working-how-to-diagnose.365513/",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Тема англоязычного форума B5 о диагностике электровентилятора: реле, резистор, термовыключатель, блок управления вентилятором.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом (редирект на бот-шлюз), открыть вручную", "status": "unverified" },
-  { "title": "1999 B5 w/ chattering relay affecting aux fan", "url": "https://www.passatworld.com/threads/1999-b5-w-chattering-relay-affecting-aux-fan.573685/",
-    "system": "cooling", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (редирект на бот-шлюз), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "1999 B5 w/ chattering relay affecting aux fan",
+    "url": "https://www.passatworld.com/threads/1999-b5-w-chattering-relay-affecting-aux-fan.573685/",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Тема о стрекочущем реле, влияющем на дополнительный вентилятор на B5 1999 г.: где реле скоростей вентилятора и как устроено управление.",
-    "applies_to": "Passat B5 3B 1999", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом (редирект на бот-шлюз), открыть вручную", "status": "unverified" },
-  { "title": "Aux cooling fan control module innards?", "url": "https://www.passatworld.com/threads/aux-cooling-fan-control-module-innards.536929/",
-    "system": "cooling", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B 1999",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (редирект на бот-шлюз), открыть вручную",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.passatworld.com/attachments/imported-photos-01610-2-jpg.100031/?auto=webp&fit=bounds&format=pjpg&height=1920&optimize=high&width=1920",
+        "caption": "Релейная панель: реле 384, 373, 370, 377"
+      },
+      {
+        "src": "https://www.passatworld.com/attachments/lower_relay_panel-jpg.100110/?auto=webp&fit=bounds&format=pjpg&height=1920&optimize=high&width=1920",
+        "caption": "Колодка в коробке под панелью — проблемное место"
+      },
+      {
+        "src": "https://www.passatworld.com/attachments/imported-photos-01616-jpg.100071/?auto=webp&fit=bounds&format=pjpg&height=1920&optimize=high&width=1920",
+        "caption": "Жгут проводки панели"
+      }
+    ]
+  },
+  {
+    "title": "Aux cooling fan control module innards?",
+    "url": "https://www.passatworld.com/threads/aux-cooling-fan-control-module-innards.536929/",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Обсуждение устройства блока управления дополнительным вентилятором B5 и его разъёма.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом (редирект на бот-шлюз), открыть вручную", "status": "unverified" },
-  { "title": "Falsche Fehlermeldung P1528", "url": "https://www.motor-talk.de/forum/falsche-fehlermeldung-p1528-t5001210.html",
-    "system": "timing", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (редирект на бот-шлюз), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Falsche Fehlermeldung P1528",
+    "url": "https://www.motor-talk.de/forum/falsche-fehlermeldung-p1528-t5001210.html",
+    "system": "timing",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Немецкий форум: ошибка цепи регулировки фаз распредвала на Passat 3B с мотором ADR (блок 8D0907558B), обсуждение клапана и проводки.",
-    "applies_to": "ADR, Passat B5 3B", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом (403), открыть вручную", "status": "unverified" },
-  { "title": "A4 B5 E-Lüfter rennt bei Zündung permanent", "url": "https://www.motor-talk.de/forum/a4-b5-e-luefter-rennt-bei-zuendung-permanent-t8601910.html",
-    "system": "cooling", "kind": "guide", "source_type": "forum",
+    "applies_to": "ADR, Passat B5 3B",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "A4 B5 E-Lüfter rennt bei Zündung permanent",
+    "url": "https://www.motor-talk.de/forum/a4-b5-e-luefter-rennt-bei-zuendung-permanent-t8601910.html",
+    "system": "cooling",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Немецкий форум: электровентилятор A4 B5 работает постоянно при включённом зажигании — проверка термовыключателя перемычками, реле и проводки.",
-    "applies_to": "Audi A4 B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом (403), открыть вручную", "status": "unverified" },
-  { "title": "Видео: Фольксваген Пассат B5 датчик Холла", "url": "https://www.youtube.com/watch?v=-N5A98b2EKs",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: Фольксваген Пассат B5 датчик Холла",
+    "url": "https://www.youtube.com/watch?v=-N5A98b2EKs",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Ролик о датчике Холла распредвала на Passat B5 (замена/диагностика).",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Видео: диагностика датчика ДМРВ VW Passat", "url": "https://www.youtube.com/watch?v=WWSa7wvGKNk",
-    "system": "engine", "kind": "guide", "source_type": "video",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/-N5A98b2EKs/hqdefault.jpg",
+        "caption": "Превью видео: датчик Холла Passat B5"
+      }
+    ]
+  },
+  {
+    "title": "Видео: диагностика датчика ДМРВ VW Passat",
+    "url": "https://www.youtube.com/watch?v=WWSa7wvGKNk",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Ролик о диагностике расходомера воздуха на Passat.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" },
-  { "title": "Audi A4 Coil Pack Failure Test", "url": "https://www.youtube.com/watch?v=F6EHcbHNRLM",
-    "system": "ignition", "kind": "guide", "source_type": "video",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/WWSa7wvGKNk/hqdefault.jpg",
+        "caption": "Превью видео: диагностика ДМРВ VW Passat"
+      }
+    ]
+  },
+  {
+    "title": "Audi A4 Coil Pack Failure Test",
+    "url": "https://www.youtube.com/watch?v=F6EHcbHNRLM",
+    "system": "ignition",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Видео: как найти неисправную катушку зажигания на Audi A4 поочерёдным отключением; мотор в описании не указан.",
-    "applies_to": "Audi A4 (мотор не указан)", "accessed": "2026-11-25", "check_result": "200 OK (проверено название видео)", "status": "unverified" }
+    "applies_to": "Audi A4 (мотор не указан)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено название видео)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/F6EHcbHNRLM/hqdefault.jpg",
+        "caption": "Превью видео: Audi A4 coil pack failure test"
+      }
+    ]
+  }
 ]

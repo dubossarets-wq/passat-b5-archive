@@ -1,432 +1,2094 @@
 [
-  { "title": "erWin Volkswagen — официальный портал сервисной информации (RoW)", "url": "https://volkswagen.erwin-store.com/erwin/showHome.do",
-    "system": "electrical", "kind": "official", "source_type": "official",
+  {
+    "title": "erWin Volkswagen — официальный портал сервисной информации (RoW)",
+    "url": "https://volkswagen.erwin-store.com/erwin/showHome.do",
+    "system": "electrical",
+    "kind": "official",
+    "source_type": "official",
     "description": "Официальный платный портал Volkswagen AG для независимых мастерских: в пакетах информации есть электросхемы (Circuit diagrams) и руководства по ремонту. Законный способ получить заводские схемы на свой автомобиль; материалы портала не открывались.",
-    "applies_to": "Volkswagen, в т. ч. Passat B5 (3B/3BG)", "accessed": "2026-11-25", "check_result": "200 OK (стартовая страница; содержимое не открывалось)", "status": "unverified" },
-  { "title": "erWin Audi — официальный портал сервисной информации (RoW)", "url": "https://audi.erwin-store.com/erwin/showHome.do",
-    "system": "electrical", "kind": "official", "source_type": "official",
+    "applies_to": "Volkswagen, в т. ч. Passat B5 (3B/3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (стартовая страница; содержимое не открывалось)",
+    "status": "unverified"
+  },
+  {
+    "title": "erWin Audi — официальный портал сервисной информации (RoW)",
+    "url": "https://audi.erwin-store.com/erwin/showHome.do",
+    "system": "electrical",
+    "kind": "official",
+    "source_type": "official",
     "description": "Официальный платный портал AUDI AG с электросхемами и ремонтной информацией, доступ по тарифу на срок. Пригодится для общих с Audi A4 B5 узлов; материалы портала не открывались.",
-    "applies_to": "Audi, в т. ч. A4 B5", "accessed": "2026-11-25", "check_result": "200 OK (стартовая страница; содержимое не открывалось)", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: где законно купить заводскую документацию", "url": "https://wiki.ross-tech.com/wiki/index.php/Official_Factory_Repair_Information",
-    "system": "electrical", "kind": "official", "source_type": "reference",
+    "applies_to": "Audi, в т. ч. A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (стартовая страница; содержимое не открывалось)",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: где законно купить заводскую документацию",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Official_Factory_Repair_Information",
+    "system": "electrical",
+    "kind": "official",
+    "source_type": "reference",
     "description": "Справочная страница Ross-Tech со ссылками на официальные порталы erWin для VW и Audi по рынкам (остальной мир и Северная Америка). Помогает выбрать правильный адрес портала.",
-    "applies_to": "VW / Audi (все модели)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: VW Passat (3B) — перечень блоков управления", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "VW / Audi (все модели)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: VW Passat (3B) — перечень блоков управления",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Обзор электронных блоков Passat 3B по адресам диагностики: двигатель, ABS, климат, подушки, приборка, CAN-шлюз, центральный замок, блок комфорта поколений II и III, радио. Даёт карту систем и ссылки на подстраницы.",
-    "applies_to": "Passat B5 (3B и 3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech: справка VCDS по Passat B5", "url": "https://www.ross-tech.com/vag-com/cars/passatb5.html",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 (3B и 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech: справка VCDS по Passat B5",
+    "url": "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Список диагностируемых систем Passat B5 и пояснения: какой блок отвечает за центральный замок (35 или 46 в зависимости от стеклоподъёмников), где физически находится CAN-шлюз, кодирование радио и шлюза.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK (через редирект на www)", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: иммобилайзер Passat (3B)", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (через редирект на www)",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: иммобилайзер Passat (3B)",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Описание двух версий иммобилайзера на Passat 3B: связь с комбинацией приборов и ЭБУ двигателя, как определить версию, что отвечает за брелоки (замок/комфорт, а не иммобилайзер).",
-    "applies_to": "Passat B5 (3B и 3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: отопление/кондиционер Passat (3B) — кодирование", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Heating/Air_Conditioning",
-    "system": "climate", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 (3B и 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: отопление/кондиционер Passat (3B) — кодирование",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Heating/Air_Conditioning",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Расшифровка кодирования блока климата Passat 3B по позициям: тип компрессора, вариант кузова (в т. ч. ранний 3B), рынок, наличие индикации наружной температуры.",
-    "applies_to": "Passat B5 (3B и 3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: ABS Bosch 5.3 на Passat (3B)", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Brake_Electronics_(Bosch_5.3_ABS/EDS/ASR)",
-    "system": "brakes_abs", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 (3B и 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: ABS Bosch 5.3 на Passat (3B)",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Brake_Electronics_(Bosch_5.3_ABS/EDS/ASR)",
+    "system": "brakes_abs",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Кодирование блока ABS/EDS/ASR Bosch 5.3 по типу мотора и КПП и пояснение, как связаны ABS, приборка и CAN-шлюз на VW и Audi той эпохи.",
-    "applies_to": "Passat B5 (3B), Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ross-Tech Wiki: блок комфорта поколения II (Golf 1J / Passat B5 до 2001)", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Golf_(1J)_Comfort_System_(Generation_2)",
-    "system": "interior", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 (3B), Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ross-Tech Wiki: блок комфорта поколения II (Golf 1J / Passat B5 до 2001)",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Golf_(1J)_Comfort_System_(Generation_2)",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Варианты кодирования и каналы адаптации блока комфорта II поколения: брелоки, автозапирание, подтверждение постановки на охрану. Именно это поколение стоит на дорестайлинговом Passat 3B.",
-    "applies_to": "Passat B5 3B (до MY2001), Golf 4", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Расположение предохранителей в Passat B5 (бортжурнал, 1998)", "url": "https://www.drive2.ru/l/2566911/",
-    "system": "electrical", "kind": "fuses", "source_type": "blog",
+    "applies_to": "Passat B5 3B (до MY2001), Golf 4",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Расположение предохранителей в Passat B5 (бортжурнал, 1998)",
+    "url": "https://www.drive2.ru/l/2566911/",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
     "description": "Владелец дорестайлингового B5 описывает, где находятся основной блок предохранителей, блок реле, дополнительный блок реле и блок электроники у моторного щита, с фото. Назначение и номиналы — по ссылке.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Расположение предохранителей Passat B5 и номера деталей (бортжурнал)", "url": "https://www.drive2.ru/l/2569967/",
-    "system": "electrical", "kind": "fuses", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9d491c4s-960.jpg",
+        "caption": "Карточка предохранителей (фото)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3491c4s-960.jpg",
+        "caption": "Блок предохранителей на торце панели"
+      }
+    ]
+  },
+  {
+    "title": "Расположение предохранителей Passat B5 и номера деталей (бортжурнал)",
+    "url": "https://www.drive2.ru/l/2569967/",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
     "description": "Перечень мест установки блоков предохранителей и реле (салон, моторный отсек, под рулевой колонкой) с номерами деталей. Назначение и номиналы — по ссылке.",
-    "applies_to": "Passat B5, 2001 (3B/3BG — уточнять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Предохранители Passat B5, B5.5 — фото блока и карточки", "url": "https://www.drive2.ru/b/594871250950616064/",
-    "system": "electrical", "kind": "fuses", "source_type": "blog",
+    "applies_to": "Passat B5, 2001 (3B/3BG — уточнять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/5fcf1c4s-960.jpg",
+        "caption": "Карточка предохранителей"
+      }
+    ]
+  },
+  {
+    "title": "Предохранители Passat B5, B5.5 — фото блока и карточки",
+    "url": "https://www.drive2.ru/b/594871250950616064/",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
     "description": "Пост с фото основного блока предохранителей на торце панели и двусторонней карточки с крышки, плюс список цепей по позициям. Назначение и номиналы — по ссылке.",
-    "applies_to": "Passat B5 и B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Passat B5/B5.5: номера реле (фото блоков с подписями)", "url": "https://www.drive2.ru/l/7559985/",
-    "system": "electrical", "kind": "fuses", "source_type": "blog",
+    "applies_to": "Passat B5 и B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ax3zHu5QNKO7sbwU_qJi-_SBC7Q-960.jpg",
+        "caption": "Карточка предохранителей (1998)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/yW06hc3avv-GmLnMddQ3gXbeJeM-960.jpg",
+        "caption": "Блок предохранителей — фото"
+      }
+    ]
+  },
+  {
+    "title": "Passat B5/B5.5: номера реле (фото блоков с подписями)",
+    "url": "https://www.drive2.ru/l/7559985/",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
     "description": "Фотографии блоков реле с подписанными местами и номерами реле отдельно для B5 и B5+ (по материалам клуба). Помогает опознать реле на своей панели.",
-    "applies_to": "Passat B5 3B и B5+ 3BG (владелец — 2000 г.)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Расшифровка блока реле Passat B5 (фото, 1997)", "url": "https://www.drive2.ru/l/5547658/",
-    "system": "electrical", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 3B и B5+ 3BG (владелец — 2000 г.)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Расшифровка блока реле Passat B5 (фото, 1997)",
+    "url": "https://www.drive2.ru/l/5547658/",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Фото центрального блока реле дорестайлингового B5 с номерами установленных реле и деталей — для сверки, что где стоит.",
-    "applies_to": "Passat B5 3B, 1997", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Предохранители и реле Passat B5 (3B, 3BG) — справочная страница", "url": "https://car-box.info/volkswagen/passat/b5-1997-2005.html",
-    "system": "electrical", "kind": "fuses", "source_type": "reference",
-    "description": "Справочник по расположению блоков: салонный блок предохранителей, основная и дополнительная панели реле, блок в моторном отсеке у ЭБУ, с фото. Происхождение рисунков не указано, назначение и номиналы сверять с карточкой на крышке своего блока.",
-    "applies_to": "Passat B5 3B и 3BG, 1997–2005", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Видео: расположение блока предохранителей Passat 2000", "url": "https://www.youtube.com/watch?v=fxcPAxTl-3c",
-    "system": "electrical", "kind": "location", "source_type": "video",
+    "applies_to": "Passat B5 3B, 1997",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: расположение блока предохранителей Passat 2000",
+    "url": "https://www.youtube.com/watch?v=fxcPAxTl-3c",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "video",
     "description": "Короткое видео канала AUTOMOTIVE SOLUTIONS о том, где найти блок предохранителей на Passat 2000 модельного года.",
-    "applies_to": "Passat B5 3B, 2000 (по названию)", "accessed": "2026-11-25", "check_result": "200 OK (oEmbed подтвердил название и канал)", "status": "unverified" },
-
-  { "title": "Проводка и функции блока комфорта (CCM) Passat B5 с 2000 г.", "url": "https://www.sites.google.com/site/1810martin/b5-ccm-wiring",
-    "system": "interior", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000 (по названию)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (oEmbed подтвердил название и канал)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/fxcPAxTl-3c/hqdefault.jpg",
+        "caption": "Превью видео: расположение блока предохранителей Passat 2000"
+      }
+    ]
+  },
+  {
+    "title": "Проводка и функции блока комфорта (CCM) Passat B5 с 2000 г.",
+    "url": "https://www.sites.google.com/site/1810martin/b5-ccm-wiring",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Личная страница энтузиаста о разъёмах блока комфорта B5 (23-, 15- и 24-контактный): контакты, цвета проводов и функции. Автор предупреждает, что состав функций менялся по годам.",
-    "applies_to": "Passat B5, с 2000 г. (блоки 1J0)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Блок комфорта 1J0 — распиновка по фото (Passat B5 2000, 1.8 125 л. с.)", "url": "https://www.drive2.ru/l/664013215029530644/",
-    "system": "interior", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5, с 2000 г. (блоки 1J0)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Блок комфорта 1J0 — распиновка по фото (Passat B5 2000, 1.8 125 л. с.)",
+    "url": "https://www.drive2.ru/l/664013215029530644/",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Владелец B5 2000 года с 1.8 на 125 л. с. сфотографировал и расписал разъёмы блока комфорта 1J0 во время работы с проводкой; предупреждает, что цвета проводов могут отличаться.",
-    "applies_to": "Passat B5 3B, 2000, 1.8 125 л. с. (как ARG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Шина комфорта в аварийном режиме: блок под сиденьем и провода в гофре", "url": "https://www.drive2.ru/l/683021846928433178/",
-    "system": "interior", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000, 1.8 125 л. с. (как ARG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/bxJpQ2TUrPzR69Vs9apcSTHlgeY-960.jpg",
+        "caption": "Распиновка разъёмов блока комфорта T23/T15 с цветами проводов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6cLddlrgcmkv7OV77DreuKlWU7M-960.jpg",
+        "caption": "Таблица контактов блока комфорта"
+      },
+      {
+        "src": "https://a1.drive-data.ru/fONckFCVJcsRiIavZDsAhY2d-nk-960.jpg",
+        "caption": "Синий разъём T23 блока комфорта с номерами контактов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/QDaGPte9x7n55YQGiro8LpFQ6Y4-960.jpg",
+        "caption": "Коричневый разъём T15 блока комфорта с номерами контактов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/PiZ8n3D0H4gcqnkxB2ylDeV5F2g-960.jpg",
+        "caption": "Блок комфорта 1J0 959 799 AH"
+      }
+    ]
+  },
+  {
+    "title": "Шина комфорта в аварийном режиме: блок под сиденьем и провода в гофре",
+    "url": "https://www.drive2.ru/l/683021846928433178/",
+    "system": "interior",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Фотоотчёт по B5 1998 г.: где стоит блок комфорта 1J0 (под водительским сиденьем), повреждённые провода под сиденьем и в гофре задней левой двери, ремонт с пайкой и термоусадкой.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена проводов в гофре двери (Passat B5 1998)", "url": "https://www.drive2.ru/l/525380191929763264/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/rYU0xCianwuwQRQurTTc6x_6hfw-960.jpg",
+        "caption": "VCDS: 01329 — шина комфорта в аварийном режиме"
+      },
+      {
+        "src": "https://a1.drive-data.ru/GdOVOFKNezECKHqznbk34bR6fYM-960.jpg",
+        "caption": "Жгут в двери — проводка к разъёму"
+      },
+      {
+        "src": "https://a1.drive-data.ru/V-Zpfw24Ptuo2H2wd2Ho6h_yEHQ-960.jpg",
+        "caption": "Разъём двери — фото"
+      },
+      {
+        "src": "https://a1.drive-data.ru/XPEhQYkkCU-pdWXU9XSuB72gIqA-960.jpg",
+        "caption": "Разъём с проводами"
+      }
+    ]
+  },
+  {
+    "title": "Замена проводов в гофре двери (Passat B5 1998)",
+    "url": "https://www.drive2.ru/l/525380191929763264/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Ремонт переломанных проводов в гофре между стойкой и дверью, из-за которых не работал замок: подготовка, пайка, термоусадка, обмотка тканевой изолентой. Пошаговые фото.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт жгута проводов водительской двери", "url": "https://www.drive2.ru/l/477650941923820170/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/7aAAAgFhUuA-960.jpg",
+        "caption": "Провода в гофре двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/_aAAAgFhUuA-960.jpg",
+        "caption": "Разъём двери с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ACAAAgFhUuA-960.jpg",
+        "caption": "Разъём — фото"
+      }
+    ]
+  },
+  {
+    "title": "Ремонт жгута проводов водительской двери",
+    "url": "https://www.drive2.ru/l/477650941923820170/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Симптомы обрыва жгута водительской двери (сбои замка, стеклоподъёмника, сигнализации) и порядок ремонта: вытягивание жгута, пайка, термоусадка, номер жгута.",
-    "applies_to": "Passat B5, 2003 (3BG; жгут в гофре устроен сходно)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт замка двери и замена микровыключателя — фотоотчёт", "url": "https://passatworld.ru/showthread.php/217778-Remont-zamka-dveri-i-zamena-mikrovyklyuchatelya-Ochen-podrobnyj-fotootchet!-Mnogo-foto",
-    "system": "interior", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5, 2003 (3BG; жгут в гофре устроен сходно)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/e441b69s-960.jpg",
+        "caption": "Перебитые провода в гофре двери"
+      },
+      {
+        "src": "https://i-a.drive-data.ru/O5tzH1_0B2vW67g-BNLDZjKWClE-960.jpg",
+        "caption": "Жгут в гофре двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/a81b69s-960.jpg",
+        "caption": "Жгут водительской двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2e01b69s-960.jpg",
+        "caption": "Бирка жгута двери"
+      }
+    ]
+  },
+  {
+    "title": "Ремонт замка двери и замена микровыключателя — фотоотчёт",
+    "url": "https://passatworld.ru/showthread.php/217778-Remont-zamka-dveri-i-zamena-mikrovyklyuchatelya-Ochen-podrobnyj-fotootchet!-Mnogo-foto",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Подробный фотоотчёт на форуме клуба: разборка замка двери, типичные трещины пайки разъёма на плате, выгоревшие дорожки и замена микровыключателей.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Разборка задней двери и ремонт замка (PassatB5 wiki)", "url": "http://passatb5.wikidot.com/rear-door-disassembly-and-lock-mechanism-repair",
-    "system": "interior", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/zampas/11.JPG",
+        "caption": "Дверь без обшивки: моторчик и жгут"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/zampas/18.JPG",
+        "caption": "Жгут и разъём в двери"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/zampas/10.JPG",
+        "caption": "Обшивка двери изнутри"
+      }
+    ]
+  },
+  {
+    "title": "Разборка задней двери и ремонт замка (PassatB5 wiki)",
+    "url": "http://passatb5.wikidot.com/rear-door-disassembly-and-lock-mechanism-repair",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Англоязычная вики владельцев: разборка задней двери, проверка микровыключателей замка и пайки на контактах разъёма платы, на которую давит жгут.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Видео: ремонт жгута проводов в двери (VW Group)", "url": "https://www.youtube.com/watch?v=yATFu5tEBQE",
-    "system": "interior", "kind": "guide", "source_type": "video",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/CircuitBoard.jpg",
+        "caption": "Замок двери: микровыключатель"
+      },
+      {
+        "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/RemoveHarness1.jpg",
+        "caption": "Разъём замка двери"
+      },
+      {
+        "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/AfterPinOut.jpg",
+        "caption": "Жгут задней двери и разъём"
+      },
+      {
+        "src": "https://passatb5.wikidot.com/local--files/rear-door-disassembly-and-lock-mechanism-repair/AccessHole.jpg",
+        "caption": "Задняя дверь без обшивки"
+      }
+    ]
+  },
+  {
+    "title": "Видео: ремонт жгута проводов в двери (VW Group)",
+    "url": "https://www.youtube.com/watch?v=yATFu5tEBQE",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Видеоурок канала I-Car-Us о поиске и ремонте оборванных проводов в дверном жгуте у машин VW, Audi, SEAT и Škoda.",
-    "applies_to": "VW / Audi (общее, не только B5)", "accessed": "2026-11-25", "check_result": "200 OK (oEmbed подтвердил название и канал)", "status": "unverified" },
-  { "title": "B5 3B3: водительская дверь не связывается с остальной машиной (PassatWorld)", "url": "https://www.passatworld.com/threads/b5-3b3-drivers-door-isnt-communicating-with-the-rest-of-the-car.570639/",
-    "system": "interior", "kind": "guide", "source_type": "forum",
+    "applies_to": "VW / Audi (общее, не только B5)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (oEmbed подтвердил название и канал)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/yATFu5tEBQE/hqdefault.jpg",
+        "caption": "Превью видео: ремонт жгута проводов в двери"
+      }
+    ]
+  },
+  {
+    "title": "B5 3B3: водительская дверь не связывается с остальной машиной (PassatWorld)",
+    "url": "https://www.passatworld.com/threads/b5-3b3-drivers-door-isnt-communicating-with-the-rest-of-the-car.570639/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Англоязычная тема владельца 3B3: водительская дверь не работала из-за перебитых проводов в гофре жгута. Пример типовой неисправности.",
-    "applies_to": "Passat B5 3B3", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом, открыть вручную", "status": "unverified" },
-  { "title": "Блок кнопок стеклоподъёмников водительской двери — разборка", "url": "https://www.drive2.ru/l/507807247338832928/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B3",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом, открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Блок кнопок стеклоподъёмников водительской двери — разборка",
+    "url": "https://www.drive2.ru/l/507807247338832928/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Разборка блока кнопок стеклоподъёмников B5 1998 г.: как снять, отщёлкнуть разъём, слабое место крепления кнопки, сравнение плат оригинала и копии.",
-    "applies_to": "Passat B5 3B Variant, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Электроскладывание зеркал на Passat B5 2000", "url": "https://www.drive2.ru/l/517087125477261373/",
-    "system": "interior", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 3B Variant, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/aEAAAgHoMOA-960.jpg",
+        "caption": "Разъём блока кнопок стеклоподъёмников"
+      },
+      {
+        "src": "https://a1.drive-data.ru/GEAAAgHoMOA-960.jpg",
+        "caption": "Плата блока кнопок"
+      },
+      {
+        "src": "https://a1.drive-data.ru/0UAAAgHoMOA-960.jpg",
+        "caption": "Плата блока кнопок — обе стороны"
+      },
+      {
+        "src": "https://a1.drive-data.ru/akAAAgJoMOA-960.jpg",
+        "caption": "Блок кнопок — задняя сторона"
+      }
+    ]
+  },
+  {
+    "title": "Электроскладывание зеркал на Passat B5 2000",
+    "url": "https://www.drive2.ru/l/517087125477261373/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Установка складывающихся зеркал: схема подключения через реле, разъёмы зеркал и джойстика, доработка джойстика. Полезно для понимания цепи зеркал дорестайлинга.",
-    "applies_to": "Passat B5 3B, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Круиз-контроль на Passat B5: подрулевой переключатель и разъёмы", "url": "https://www.sites.google.com/site/1810martin/cruise-control-retrofit-b5-passat",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/I8AAAgIItOA-960.jpg",
+        "caption": "Wiring diagram: folding mirrors via relay 79 / 361"
+      },
+      {
+        "src": "https://a1.drive-data.ru/cAAAAgMItOA-960.jpg",
+        "caption": "Esquema relé 361 — электроскладывание зеркал (T12/T8)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/SUAAAgPCtOA-960.jpg",
+        "caption": "Плата переключателя зеркал — какие контакты задействовать"
+      },
+      {
+        "src": "https://a1.drive-data.ru/O8AAAgLCtOA-960.jpg",
+        "caption": "Плата переключателя зеркал — доработка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8cAAAgEItOA-960.jpg",
+        "caption": "Реле 361 с проводкой"
+      }
+    ]
+  },
+  {
+    "title": "Круиз-контроль на Passat B5: подрулевой переключатель и разъёмы",
+    "url": "https://www.sites.google.com/site/1810martin/cruise-control-retrofit-b5-passat",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Описание дооснащения круизом: замена подрулевого переключателя, прокладка жгута, разъёмы в коробке ЭБУ и активация. Даёт представление о разъёмах рулевой колонки и коробки электроники.",
-    "applies_to": "Passat B5 с электронной педалью газа (бензин и TDI)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Панель приборов: все виды Passat B5 и схемы разъёмов", "url": "https://www.drive2.ru/l/675354/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 с электронной педалью газа (бензин и TDI)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Панель приборов: все виды Passat B5 и схемы разъёмов",
+    "url": "https://www.drive2.ru/l/675354/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Большой обзор приборных панелей B5, B5+ и W8: отличия до и после рестайлинга, расшифровка номеров, связь с иммобилайзером и схемы разъёмов с распиновкой.",
-    "applies_to": "Passat B5 3B и B5+ 3BG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Разъёмы щитка приборов (зелёный и синий)", "url": "https://www.drive2.ru/l/7354624/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 3B и B5+ 3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/f01806s-960.jpg",
+        "caption": "Платы приборных панелей разных версий"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3ec5e28s-960.jpg",
+        "caption": "Приборная панель B5 — вид"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7ec5e28s-960.jpg",
+        "caption": "Приборная панель без MFA"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3c5e28s-960.jpg",
+        "caption": "Приборная панель с MFA"
+      }
+    ]
+  },
+  {
+    "title": "Разъёмы щитка приборов (зелёный и синий)",
+    "url": "https://www.drive2.ru/l/7354624/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Назначение контактов двух 32-контактных разъёмов приборки с фото разъёмов и пометками незанятых гнёзд.",
-    "applies_to": "Passat B5 Variant, 2001 (3B/3BG — уточнять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена приборки без MFA на приборку с MFA (B5 1998)", "url": "https://www.drive2.ru/l/4058036/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 Variant, 2001 (3B/3BG — уточнять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/41140as-960.jpg",
+        "caption": "Приборная панель — задняя сторона с разъёмами"
+      }
+    ]
+  },
+  {
+    "title": "Замена приборки без MFA на приборку с MFA (B5 1998)",
+    "url": "https://www.drive2.ru/l/4058036/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Какие провода добавить от зелёного разъёма приборки к подрулевому переключателю, замена переключателя на вариант с MFA и привязка ключей к новой приборке.",
-    "applies_to": "Passat B5 3B Variant, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Приборная панель Passat B5+: виды, установка от W8, MultiMFA (форум)", "url": "https://passatworld.ru/showthread.php/212110-Pribornaya-panel-Passat-B5-Vidy-Ustanovka-ot-W8-Ustanovka-Color-MultiMFA",
-    "system": "electrical", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 3B Variant, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/f1f1df4s-960.jpg",
+        "caption": "Зелёный разъём приборной панели — контакт"
+      },
+      {
+        "src": "https://a1.drive-data.ru/c9f1df4s-960.jpg",
+        "caption": "Зелёный разъём приборной панели"
+      },
+      {
+        "src": "https://a1.drive-data.ru/4g9df4s-960.jpg",
+        "caption": "Разъём подрулевого переключателя (MFA)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8109df4s-960.jpg",
+        "caption": "Проводка MFA к разъёмам"
+      },
+      {
+        "src": "https://a1.drive-data.ru/a31df4s-960.jpg",
+        "caption": "Бирка приборной панели 3B1 919 880"
+      }
+    ]
+  },
+  {
+    "title": "Приборная панель Passat B5+: виды, установка от W8, MultiMFA (форум)",
+    "url": "https://passatworld.ru/showthread.php/212110-Pribornaya-panel-Passat-B5-Vidy-Ustanovka-ot-W8-Ustanovka-Color-MultiMFA",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Тема клуба о разновидностях приборок и их установке; участники приводят описание синего разъёма и подключение кнопок MFA и круиза по проводам.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Audi A4 B5: доработки приборной панели и распиновки разъёмов (AudiWorld)", "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/dashboard-mods-electronics-221912/",
-    "system": "electrical", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Audi A4 B5: доработки приборной панели и распиновки разъёмов (AudiWorld)",
+    "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/dashboard-mods-electronics-221912/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Тема платформы A4 B5 со списками назначения контактов синего и зелёного разъёмов приборки для разных годов; списки противоречат друг другу, сверять.",
-    "applies_to": "Audi A4 B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом, открыть вручную", "status": "unverified" },
-
-  { "title": "Разъёмы дорестайлинговой фары и переход на фары B5+", "url": "https://www.drive2.ru/l/570230920494186627/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом, открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Разъёмы дорестайлинговой фары и переход на фары B5+",
+    "url": "https://www.drive2.ru/l/570230920494186627/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Какие разъёмы у фары дорестайлинга (свет, корректор, поворотник) и как владелец сам собрал переходник на общий разъём рестайлинговой фары, с прозвонкой проводов.",
-    "applies_to": "Passat B5 3B, 1999", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка ручного электрокорректора фар (B5 2000, 1.8)", "url": "https://www.drive2.ru/l/6457314/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1999",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/HAAAAgA7l-A-960.jpg",
+        "caption": "Распиновка разъёма фары — записи автора"
+      },
+      {
+        "src": "https://a1.drive-data.ru/VAAAAgA7l-A-960.jpg",
+        "caption": "Разъём фары (дорестайлинг)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ZAAAAgA7l-A-960.jpg",
+        "caption": "10-контактный разъём фары"
+      },
+      {
+        "src": "https://a1.drive-data.ru/aAAAAgA7l-A-960.jpg",
+        "caption": "Разъёмы фар — переходники"
+      },
+      {
+        "src": "https://a1.drive-data.ru/mAAAAgA7l-A-960.jpg",
+        "caption": "Переходник проводки фар"
+      }
+    ]
+  },
+  {
+    "title": "Установка ручного электрокорректора фар (B5 2000, 1.8)",
+    "url": "https://www.drive2.ru/l/6457314/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Подключение регулятора наклона фар в салоне и корректоров в фарах: откуда взято питание, как идёт сигнальный провод, какие нужны разъёмы.",
-    "applies_to": "Passat B5 3B, 2000, 1.8", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка регулятора подсветки приборов и корректора фар (форум)", "url": "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
-    "system": "electrical", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 3B, 2000, 1.8",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/3eebb62s-960.jpg",
+        "caption": "Регулятор корректора фар"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2e3bb62s-960.jpg",
+        "caption": "Моторчик корректора фары и разъём"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка регулятора подсветки приборов и корректора фар (форум)",
+    "url": "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Обсуждение разъёма регулятора подсветки, совмещённого с регулятором корректора фар: как правильно читать маркировку контактов, проверено подключением на машине.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Схема подключения фар и распиновка разъёма (форум, B5 1999)", "url": "https://passatworld.ru/showthread.php/219861-Nuzhna-elektricheskaya-shema-podklyucheniya-far-i-raspinovka-razema",
-    "system": "electrical", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74101",
+        "caption": "Разъём регулятора подсветки: 31, 58, 58d, G, 56b"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74414",
+        "caption": "Разъём регулятора: номера контактов 1–5"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74161",
+        "caption": "Разъём корректора: 3–2–1 = 58d, 58, 31"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74165",
+        "caption": "Разъём: 58d, 58, 31 и контакты 4–5"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74221",
+        "caption": "Разъём корректора фары: 31, G, 56b"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74158",
+        "caption": "Регулятор 3B0 941 333"
+      }
+    ]
+  },
+  {
+    "title": "Схема подключения фар и распиновка разъёма (форум, B5 1999)",
+    "url": "https://passatworld.ru/showthread.php/219861-Nuzhna-elektricheskaya-shema-podklyucheniya-far-i-raspinovka-razema",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Тема по галогеновой фаре дорестайлинга с пятиконтактным разъёмом: участники по схемам определяют назначение контактов, обсуждают противотуманки.",
-    "applies_to": "Passat B5 3B, 1999 (американская версия)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт переключателя света (B5 1997)", "url": "https://www.drive2.ru/l/10249038/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1999 (американская версия)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ремонт переключателя света (B5 1997)",
+    "url": "https://www.drive2.ru/l/10249038/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Как снять и разобрать центральный переключатель света, добраться до контактной группы и зачистить окисленные контакты (пропадали габариты).",
-    "applies_to": "Passat B5 3B, 1997, 1.8 125 л. с.", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка проводов выключателя света (архив форума)", "url": "https://passatworld.ru/archive/index.php/t-176910.html",
-    "system": "electrical", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 3B, 1997, 1.8 125 л. с.",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/86540b6s-960.jpg",
+        "caption": "Контактная группа переключателя света"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6a540b6s-960.jpg",
+        "caption": "Переключатель света в разборе"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка проводов выключателя света (архив форума)",
+    "url": "https://passatworld.ru/archive/index.php/t-176910.html",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Обсуждение назначения контактов выключателя света (габариты, ближний, подсветка номера) для подключения автосвета; совет подключать допоборудование через реле.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка кнопки аварийки с реле поворотов + схема света", "url": "https://www.drive2.ru/b/501939978415113059/",
-    "system": "electrical", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58814",
+        "caption": "Схема: ДХО через реле (рисунок автора)"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58815",
+        "caption": "Схема: подсветка приборки от габаритов и ACC"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58812",
+        "caption": "Под панелью: реле и разъёмы"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58813",
+        "caption": "Колодка: точка +ACC"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка кнопки аварийки с реле поворотов + схема света",
+    "url": "https://www.drive2.ru/b/501939978415113059/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Восстановленная автором схема: кнопка аварийной сигнализации со встроенным реле поворотов, переключатель поворотов, задние фонари, а также головной свет и корректор.",
-    "applies_to": "Passat B5, Golf 4 и родственные VW", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена задних фонарей и перепиновка разъёмов (Variant 2000)", "url": "https://www.drive2.ru/l/513687160646271720/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5, Golf 4 и родственные VW",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Замена задних фонарей и перепиновка разъёмов (Variant 2000)",
+    "url": "https://www.drive2.ru/l/513687160646271720/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Установка других задних фонарей на универсал: разъёмы одинаковые, отличается порядок проводов, которые автор переставил без переходников.",
-    "applies_to": "Passat B5 3B Variant, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Audi A4 B5: установка реле фар через штатную релейную панель", "url": "https://www.diyauto.com/manufacturers/1/generations/11/diys/install-headlight-relays-by-basedrifter",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B Variant, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/CAAAAgHfBOA-960.jpg",
+        "caption": "Перепиновка разъёма заднего фонаря (Rückleuchte — Kabelbaum)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/eQAAAgHfBOA-960.jpg",
+        "caption": "Перепиновка разъёма заднего фонаря — вариант 2"
+      }
+    ]
+  },
+  {
+    "title": "Audi A4 B5: установка реле фар через штатную релейную панель",
+    "url": "https://www.diyauto.com/manufacturers/1/generations/11/diys/install-headlight-relays-by-basedrifter",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "DIY автора BaseDrifter (перепубликация с AudiForums): зачем разгружать выключатель фар реле и как подключить их в штатную релейную панель и блок предохранителей.",
-    "applies_to": "Audi A4 B5 (схема света общая с Passat B5 — сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Полная распиновка Climatronic и отличие блоков", "url": "https://www.drive2.ru/l/9498893/",
-    "system": "climate", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Audi A4 B5 (схема света общая с Passat B5 — сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://www.diyauto.com/images/imported/2014/02/362.jpg",
+        "caption": "Реле фар с колодками"
+      },
+      {
+        "src": "https://www.diyauto.com/images/imported/2014/02/349.jpg",
+        "caption": "Штатная релейная панель — места под реле"
+      },
+      {
+        "src": "https://www.diyauto.com/images/imported/2014/02/367.jpg",
+        "caption": "Реле на релейной панели"
+      },
+      {
+        "src": "https://www.diyauto.com/images/imported/2014/02/365.jpg",
+        "caption": "Колодки реле с проводами"
+      },
+      {
+        "src": "https://www.diyauto.com/images/imported/2014/02/356.jpg",
+        "caption": "Предохранители цепи фар"
+      }
+    ]
+  },
+  {
+    "title": "Полная распиновка Climatronic и отличие блоков",
+    "url": "https://www.drive2.ru/l/9498893/",
+    "system": "climate",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Распиновка блока Climatronic в двух вариантах: без CAN (дорестайлинг, есть датчик испарителя) и с CAN (рестайлинг). Переведена и доработана владельцем.",
-    "applies_to": "Passat B5 3B и B5+ 3BG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Сервисный режим Climatronic (B5 1998)", "url": "https://www.drive2.ru/l/6156226/",
-    "system": "climate", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B и B5+ 3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/dc443a6s-960.jpg",
+        "caption": "Датчик температуры Climatronic"
+      }
+    ]
+  },
+  {
+    "title": "Сервисный режим Climatronic (B5 1998)",
+    "url": "https://www.drive2.ru/l/6156226/",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Как войти в сервисный режим климат-контроля с панели и что показывают каналы: датчики температуры, положение заслонок, вентилятор. Удобно для проверки датчиков без сканера.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка климата в Passat B5 с кондиционером и CAN", "url": "https://www.drive2.ru/l/587696662701430013/",
-    "system": "climate", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/1d7ffc2s-960.jpg",
+        "caption": "Climatronic: сервисный режим"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3j22s-960.jpg",
+        "caption": "Climatronic: коды на дисплее"
+      }
+    ]
+  },
+  {
+    "title": "Установка климата в Passat B5 с кондиционером и CAN",
+    "url": "https://www.drive2.ru/l/587696662701430013/",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Отчёт о переходе на Climatronic: какие детали нужны, разборка салона, питание через отдельный предохранитель, подключение CAN и заслонок.",
-    "applies_to": "Passat B5, 2001 (вероятно 3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Система ABS, часть 2: диагностика датчиков колёс", "url": "https://www.drive2.ru/l/7498544/",
-    "system": "brakes_abs", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5, 2001 (вероятно 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/lQDsm5KcTvtAJfVhVwqs73l3taM-960.jpg",
+        "caption": "Разъёмы климата с пометками"
+      },
+      {
+        "src": "https://a1.drive-data.ru/lg0EvM8beEdwrUu2zAcRBoo_YVs-960.jpg",
+        "caption": "Разъём блока климата"
+      },
+      {
+        "src": "https://a1.drive-data.ru/jAzRMIEW52MxUbpid-jxE7hRTJc-960.jpg",
+        "caption": "Панель снята: разъёмы климата"
+      }
+    ]
+  },
+  {
+    "title": "Система ABS, часть 2: диагностика датчиков колёс",
+    "url": "https://www.drive2.ru/l/7498544/",
+    "system": "brakes_abs",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Проверка датчиков ABS сканером и мультиметром и распиновка разъёма блока ABS по датчикам колёс и линии диагностики.",
-    "applies_to": "Passat B5 Variant, 2001, 1.8 (номер блока сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт блока ABS Bosch 5.3 (форум vwts.ru)", "url": "https://vwts.ru/forum/topic/99737/",
-    "system": "brakes_abs", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 Variant, 2001, 1.8 (номер блока сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ремонт блока ABS Bosch 5.3 (форум vwts.ru)",
+    "url": "https://vwts.ru/forum/topic/99737/",
+    "system": "brakes_abs",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Фотоотчёт и обсуждение типовой неисправности электронного блока Bosch 5.3 (нарушение пайки на плате), к каким машинам относится блок и почему лучше доверить пайку специалисту.",
-    "applies_to": "Passat B5 без ESP, Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Штекер магнитолы: распиновка (Passat B5 2000, 1.8 125 л. с.)", "url": "https://www.drive2.ru/l/663949993110932755/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 без ESP, Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://vwts.ru/images/repair2/99737_01.jpg",
+        "caption": "Плата блока ABS"
+      },
+      {
+        "src": "https://vwts.ru/images/repair2/99737_02.jpg",
+        "caption": "Плата блока ABS — повреждения"
+      }
+    ]
+  },
+  {
+    "title": "Штекер магнитолы: распиновка (Passat B5 2000, 1.8 125 л. с.)",
+    "url": "https://www.drive2.ru/l/663949993110932755/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Назначение контактов разъёма питания штатной магнитолы с фото и цепь сигнала скорости; как оставить нужные провода, чтобы не разряжать аккумулятор.",
-    "applies_to": "Passat B5 3B, 2000, 1.8 125 л. с.", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Подключение магнитолы через замок зажигания (B5 1997)", "url": "https://www.drive2.ru/l/493806066270733010/",
-    "system": "electrical", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000, 1.8 125 л. с.",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/vA0h4Y2IRoKj8_rW_kX5U5dD4nE-960.jpg",
+        "caption": "Штекер магнитолы: назначение контактов 1–8"
+      },
+      {
+        "src": "https://a1.drive-data.ru/vvg02TVKyYa_3jDyQWE5lj9yTnE-960.jpg",
+        "caption": "Разъём ISO 10487: питание и акустика"
+      },
+      {
+        "src": "https://a1.drive-data.ru/cvhDj1dI0w8Z27XN7zIVI8qydZ8-960.jpg",
+        "caption": "Штекер магнитолы: контакт S замка зажигания"
+      },
+      {
+        "src": "https://a1.drive-data.ru/jFd3EVj2I_IS6Ll3Z9fWwzKndQM-960.jpg",
+        "caption": "Проводка: магнитола, контакт S, 12 В при зажигании"
+      },
+      {
+        "src": "https://a1.drive-data.ru/Ozqe4EVjPz37NH-__8eiRmd9v7A-960.jpg",
+        "caption": "Сигнал скорости: синий штекер приборки — блок комфорта — магнитола"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2ShMInRSgV6zhQ1JrFpg8wQohcA-960.jpg",
+        "caption": "Выход скорости спидометра: синий разъём приборной панели"
+      }
+    ]
+  },
+  {
+    "title": "Подключение магнитолы через замок зажигания (B5 1997)",
+    "url": "https://www.drive2.ru/l/493806066270733010/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Схема подключения магнитолы, чтобы она работала от зажигания и не сажала аккумулятор; на фото распиновка магнитолы и схема в машине.",
-    "applies_to": "Passat B5 3B, 1997", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена основания антенны и кабеля (PassatB5 wiki)", "url": "http://passatb5.wikidot.com/antenna-base-and-wire-replacement",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 3B, 1997",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ba09gds-960.jpg",
+        "caption": "Провода магнитолы: от замка, питание, антенна"
+      },
+      {
+        "src": "https://a1.drive-data.ru/a0f1gds-960.jpg",
+        "caption": "Схема подключения магнитолы"
+      }
+    ]
+  },
+  {
+    "title": "Замена основания антенны и кабеля (PassatB5 wiki)",
+    "url": "http://passatb5.wikidot.com/antenna-base-and-wire-replacement",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Замена антенны на крыше и прокладка нового кабеля от крыши к магнитоле через стойку и порог, со снятием обивки потолка.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Обогрев сидений — схема с реле и распиновка кнопок (Variant 2001)", "url": "https://www.drive2.ru/l/509807258989756478/",
-    "system": "interior", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatb5.wikidot.com/local--files/antenna-base-and-wire-replacement/enfig_mast.jpg",
+        "caption": "Антенна на крыше"
+      }
+    ]
+  },
+  {
+    "title": "Обогрев сидений — схема с реле и распиновка кнопок (Variant 2001)",
+    "url": "https://www.drive2.ru/l/509807258989756478/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Самостоятельная установка подогрева сидений: схема подключения через реле, распиновка колодок кнопок и разъёмов, подсветка кнопок, монтаж матов.",
-    "applies_to": "Passat B5 Variant, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка кнопки подогрева сидений (архив форума)", "url": "https://passatworld.ru/archive/index.php/t-99005-p-3.html",
-    "system": "interior", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 Variant, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/HQAAAgKMyOA-960.jpg",
+        "caption": "Схема штатного обогрева сидений Passat B5 (кнопки, F44, F5)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/MiAAAgGMyOA-960.jpg",
+        "caption": "Разъём кнопки обогрева"
+      },
+      {
+        "src": "https://a1.drive-data.ru/54AAAgKMyOA-960.jpg",
+        "caption": "Разъём кнопки обогрева — провода"
+      },
+      {
+        "src": "https://a1.drive-data.ru/1AAAAgJMyOA-960.jpg",
+        "caption": "Нагревательный элемент сиденья"
+      },
+      {
+        "src": "https://a1.drive-data.ru/0UAAAgGMyOA-960.jpg",
+        "caption": "Проводка обогрева"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка кнопки подогрева сидений (архив форума)",
+    "url": "https://passatworld.ru/archive/index.php/t-99005-p-3.html",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Участники описывают назначение проводов кнопки подогрева и зелёного разъёма к нагревательным элементам, с фото разъёма.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт подогрева сиденья (PassatB5 wiki)", "url": "http://passatb5.wikidot.com/heated-seat-repair",
-    "system": "interior", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ремонт подогрева сиденья (PassatB5 wiki)",
+    "url": "http://passatb5.wikidot.com/heated-seat-repair",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Снятие сиденья и обивки, проверка и восстановление нагревательного элемента и датчика температуры, где отключаются разъёмы под сиденьем.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт обогрева заднего стекла Passat B5 универсал (vwts.ru)", "url": "https://vwts.ru/forum/topic/109369/",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatb5.wikidot.com/local--files/heated-seat-repair/DSC04223.jpg",
+        "caption": "Разъём подогрева сиденья"
+      },
+      {
+        "src": "https://passatb5.wikidot.com/local--files/heated-seat-repair/DSC04224.jpg",
+        "caption": "Разъём под сиденьем"
+      },
+      {
+        "src": "https://passatb5.wikidot.com/local--files/heated-seat-repair/DSC04208.jpg",
+        "caption": "Нагревательный элемент сиденья"
+      }
+    ]
+  },
+  {
+    "title": "Ремонт обогрева заднего стекла Passat B5 универсал (vwts.ru)",
+    "url": "https://vwts.ru/forum/topic/109369/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Как идёт цепь обогрева заднего стекла и как искали обрыв: виновником оказался подгоревший промежуточный разъём в задней левой части кузова, которого нет на схеме.",
-    "applies_to": "Passat B5 Variant", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Разбор и ремонт реле стеклоочистителя (форум)", "url": "https://passatworld.ru/showthread.php/230004-Razbor-i-remont-rele-stekloochistitelya",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 Variant",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://vwts.ru/images/repair3/109369_06.jpg",
+        "caption": "Кнопка обогрева заднего стекла и разъём"
+      },
+      {
+        "src": "https://vwts.ru/images/repair3/109369_13.jpg",
+        "caption": "Разъёмы проводки обогрева"
+      },
+      {
+        "src": "https://vwts.ru/images/repair3/109369_17.jpg",
+        "caption": "Разъём с проводами"
+      },
+      {
+        "src": "https://vwts.ru/images/repair3/109369_20.jpg",
+        "caption": "Разъёмы реле обогрева"
+      },
+      {
+        "src": "https://vwts.ru/images/repair3/109369_02.jpg",
+        "caption": "Контакт обогрева на стекле"
+      }
+    ]
+  },
+  {
+    "title": "Разбор и ремонт реле стеклоочистителя (форум)",
+    "url": "https://passatworld.ru/showthread.php/230004-Razbor-i-remont-rele-stekloochistitelya",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Фотоотчёт: как добраться до реле дворников в блоке под панелью, разобрать его, зачистить контакты, перепаять и заменить конденсатор.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт звукового сигнала (схема цепи, разъём подушки)", "url": "https://www.drive2.ru/l/534268094172889895/",
-    "system": "electrical", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/7.jpg",
+        "caption": "Реле стеклоочистителя: плата с отметками"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/8.jpg",
+        "caption": "Реле стеклоочистителя: плата"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/6.jpg",
+        "caption": "Реле стеклоочистителя Siemens"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/5.jpg",
+        "caption": "Релейная панель: реле 370, 377"
+      }
+    ]
+  },
+  {
+    "title": "Ремонт звукового сигнала (схема цепи, разъём подушки)",
+    "url": "https://www.drive2.ru/l/534268094172889895/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Поиск неисправности сигнала: схема цепи, проверка реле, предохранителя и контактного кольца руля; фото разъёма с подписанными контактами. Подушку безопасности снимать только по заводской процедуре.",
-    "applies_to": "Passat B5, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Оригинальный фаркоп, часть 2: подключение электрики", "url": "https://www.drive2.ru/l/532850548806779092/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/iAAAAgKYVuA-960.jpg",
+        "caption": "Разъём подушки руля (звуковой сигнал)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/GmAAAgKYVuA-960.jpg",
+        "caption": "Реле 370"
+      }
+    ]
+  },
+  {
+    "title": "Оригинальный фаркоп, часть 2: подключение электрики",
+    "url": "https://www.drive2.ru/l/532850548806779092/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Подключение штатной проводки фаркопа: проход жгута в салон, разъёмы на платах задних фонарей, фото распиновки штатной розетки и розетки прицепа.",
-    "applies_to": "Passat B5, 2002 (3BG; разъёмы фонарей сверять)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена проводки фаркопа (Variant 2001)", "url": "https://www.drive2.ru/l/567643219878217784/",
-    "system": "electrical", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5, 2002 (3BG; разъёмы фонарей сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/5oAAAgIIpuA-960.jpg",
+        "caption": "Розетка фаркопа 13 контактов: назначение"
+      },
+      {
+        "src": "https://a1.drive-data.ru/UYAAAgIIpuA-960.jpg",
+        "caption": "Розетка 7 контактов: соответствие с прицепом"
+      },
+      {
+        "src": "https://a1.drive-data.ru/0oAAAgIIpuA-960.jpg",
+        "caption": "Плата заднего фонаря с отметками"
+      },
+      {
+        "src": "https://a1.drive-data.ru/NEAAAgIIpuA-960.jpg",
+        "caption": "Блок согласования UN-05"
+      },
+      {
+        "src": "https://a1.drive-data.ru/i4AAAgIIpuA-960.jpg",
+        "caption": "Розетка фаркопа 13 контактов"
+      }
+    ]
+  },
+  {
+    "title": "Замена проводки фаркопа (Variant 2001)",
+    "url": "https://www.drive2.ru/l/567643219878217784/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Замена жгута фаркопа с подключением к штатным фишкам задних фонарей, новая розетка и схема подключения.",
-    "applies_to": "Passat B5 Variant, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Расположение предохранителей Passat B5 (1.8T AWM, США)", "url": "https://www.drive2.ru/l/465482371861315832/",
-    "system": "electrical", "kind": "fuses", "source_type": "blog",
+    "applies_to": "Passat B5 Variant, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9GAAAgE1B-A-960.jpg",
+        "caption": "Розетка 7 контактов: распиновка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/b8AAAgI1B-A-960.jpg",
+        "caption": "Проводка фаркопа в фонаре"
+      },
+      {
+        "src": "https://a1.drive-data.ru/GeAAAgA1B-A-960.jpg",
+        "caption": "Проводка фаркопа"
+      }
+    ]
+  },
+  {
+    "title": "Расположение предохранителей Passat B5 (1.8T AWM, США)",
+    "url": "https://www.drive2.ru/l/465482371861315832/",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
     "description": "Фото расположения основного блока предохранителей у водительской двери и нумерации на крышке, список собран автором из нескольких источников. Назначение и номиналы — по ссылке.",
-    "applies_to": "Passat B5, 2002 (3BG, американская версия)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Памятка по реле Passat B5 Variant 2001", "url": "https://www.drive2.ru/l/459034835676056721/",
-    "system": "electrical", "kind": "fuses", "source_type": "blog",
+    "applies_to": "Passat B5, 2002 (3BG, американская версия)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Памятка по реле Passat B5 Variant 2001",
+    "url": "https://www.drive2.ru/l/459034835676056721/",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
     "description": "Текстовый список номеров реле с назначением и ссылками на запчасти. Автор сам отмечает повторы и неточности — использовать как подсказку и сверять с реле на своей панели.",
-    "applies_to": "Passat B5 Variant, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Схема стартера и таблица реле блоков R и Z", "url": "https://www.drive2.ru/l/494847303782236876/",
-    "system": "electrical", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 Variant, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i-a.drive-data.ru/F2F7Z1JFUsPpz3Ke1B0EpXkaagM-960.jpg",
+        "caption": "Реле 51"
+      }
+    ]
+  },
+  {
+    "title": "Схема стартера и таблица реле блоков R и Z",
+    "url": "https://www.drive2.ru/l/494847303782236876/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Поиск пропавшего щелчка при запуске: таблица реле блоков R и Z (где реле стартера и блокировки стартера), фото реле и схема цепи стартера.",
-    "applies_to": "Passat B5 Variant, 2001, 1.9 TDI", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Блоки предохранителей и реле Passat B5 / B5+ (fuseandrelay)", "url": "https://fuseandrelay.com/volkswagen/b5-passat.html",
-    "system": "electrical", "kind": "fuses", "source_type": "reference",
-    "description": "Справочник: салонный блок, основная (буквенная и цифровая разметка) и дополнительная панели реле, блок в моторном отсеке, с фото. Источник рисунков не указан; назначение и номиналы сверять с карточкой своего блока.",
-    "applies_to": "Passat B5 3B и B5+ 3BG", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Блоки предохранителей и реле Audi A4 B5 (fuseandrelay)", "url": "https://fuseandrelay.com/audi/a4-b5.html",
-    "system": "electrical", "kind": "fuses", "source_type": "reference",
-    "description": "Где у A4 B5 основной блок предохранителей, центральная плата реле под панелью, дополнительная плата и релейные платы в моторном отсеке; полезно для сравнения с родственным Passat.",
-    "applies_to": "Audi A4 B5, 1994–2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Предохранители и реле Audi A4 B5 (car-box)", "url": "https://car-box.info/audi/a4/b5-1994-2000.html",
-    "system": "electrical", "kind": "fuses", "source_type": "reference",
-    "description": "Четыре блока A4 B5 с расположением: основной и вспомогательный блоки предохранителей, плата реле под панелью, блок реле в водоотводящем коробе. Назначение и номиналы — по ссылке.",
-    "applies_to": "Audi A4 B5, 1994–2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Замена блока комфорта 1J0 959 799 Q на AH (B5 2000)", "url": "https://www.drive2.ru/l/490901706305962031/",
-    "system": "interior", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 Variant, 2001, 1.9 TDI",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/57598ds-960.jpg",
+        "caption": "Реле стартера на релейной панели"
+      },
+      {
+        "src": "https://a1.drive-data.ru/f8f598ds-960.jpg",
+        "caption": "Реле ПТФ на релейной панели"
+      },
+      {
+        "src": "https://a1.drive-data.ru/1f0898ds-960.jpg",
+        "caption": "Релейная панель — номера мест"
+      }
+    ]
+  },
+  {
+    "title": "Замена блока комфорта 1J0 959 799 Q на AH (B5 2000)",
+    "url": "https://www.drive2.ru/l/490901706305962031/",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Переход на блок комфорта с радиобрелоком: что подключается без переделок, куда идёт антенна, какие провода добавить к синему разъёму приборки и в блок предохранителей для мигания поворотников. Распиновка — текстом, с фото.",
-    "applies_to": "Passat B5 3B, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена блока комфорта 1J0959799F на S, часть 2 (B5 1998)", "url": "https://www.drive2.ru/l/589560609788414672/",
-    "system": "interior", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ea91835s-960.jpg",
+        "caption": "Блок комфорта 1J0 959 799 AH"
+      },
+      {
+        "src": "https://a1.drive-data.ru/d591835s-960.jpg",
+        "caption": "Блок комфорта в коробке с разъёмами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/da91835s-960.jpg",
+        "caption": "Блок комфорта — подключение"
+      },
+      {
+        "src": "https://a1.drive-data.ru/5191835s-960.jpg",
+        "caption": "VCDS: блок комфорта"
+      }
+    ]
+  },
+  {
+    "title": "Замена блока комфорта 1J0959799F на S, часть 2 (B5 1998)",
+    "url": "https://www.drive2.ru/l/589560609788414672/",
+    "system": "interior",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Блок комфорта под ковром у водителя: какие из трёх разъёмов задействованы в комплектации, где контакты антенны брелока, адаптация пультов и вынос антенны в стойку.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Блок комфорта (начало проблем) — B5 1998", "url": "https://www.drive2.ru/l/6768301/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Блок комфорта (начало проблем) — B5 1998",
+    "url": "https://www.drive2.ru/l/6768301/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Отказали стеклоподъёмники, зеркала, плафоны и замок: владелец снял облицовку и ковёр и почистил окисленные контакты блока комфорта. Типичная картина для дорестайлинга.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Блок комфорта: пропадание плюса и самодельный диод (B5 2000)", "url": "https://www.drive2.ru/l/729933610039123181/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Блок комфорта: пропадание плюса и самодельный диод (B5 2000)",
+    "url": "https://www.drive2.ru/l/729933610039123181/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Поиск замыкания на одном из контактов блока комфорта: проверка питания и массы, вскрытие блока, чистка разъёмов; причиной оказалась чужая доработка.",
-    "applies_to": "Passat B5 3B Variant, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка блока комфорта в Passat B5 (ЯПлакалъ)", "url": "https://www.yaplakal.com/forum14/topic1955672.html",
-    "system": "interior", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 3B Variant, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/E687en3aJAurNv2LsTcLg1kfgMM-960.jpg",
+        "caption": "Таблица контактов блока комфорта"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка блока комфорта в Passat B5 (ЯПлакалъ)",
+    "url": "https://www.yaplakal.com/forum14/topic1955672.html",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Тема про сбои стеклоподъёмников и замка на B5 1998: участник приводит таблицу контактов разъёма блока 1J0 и переход на 1C0, советы по дверным блокам и влаге под сиденьем.",
-    "applies_to": "Passat B5 3B, 1998, 1.8T", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Видео: перекладка проводов блока комфорта у рулевой колонки (B5.5)", "url": "https://www.youtube.com/watch?v=0PLkV9pv7O8",
-    "system": "interior", "kind": "guide", "source_type": "video",
+    "applies_to": "Passat B5 3B, 1998, 1.8T",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://r00.yaplakal.ru/pics/pics_original/5/2/0/13068025.jpg",
+        "caption": "Таблица контактов блока комфорта"
+      }
+    ]
+  },
+  {
+    "title": "Видео: перекладка проводов блока комфорта у рулевой колонки (B5.5)",
+    "url": "https://www.youtube.com/watch?v=0PLkV9pv7O8",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "video",
     "description": "Видео канала Must B Nice: перенос жгута блока комфорта рядом с панелью у руля на Passat B5.5 2001 года.",
-    "applies_to": "Passat B5+ 3BG, 2001, 1.8T", "accessed": "2026-11-25", "check_result": "200 OK (oEmbed подтвердил название и канал)", "status": "unverified" },
-  { "title": "Блок комфорта — где он? (PassatWorld)", "url": "https://www.passatworld.com/threads/comfort-control-module-where.111415/",
-    "system": "interior", "kind": "location", "source_type": "forum",
+    "applies_to": "Passat B5+ 3BG, 2001, 1.8T",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (oEmbed подтвердил название и канал)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/0PLkV9pv7O8/hqdefault.jpg",
+        "caption": "Превью видео: перекладка проводов блока комфорта у рулевой колонки"
+      }
+    ]
+  },
+  {
+    "title": "Блок комфорта — где он? (PassatWorld)",
+    "url": "https://www.passatworld.com/threads/comfort-control-module-where.111415/",
+    "system": "interior",
+    "kind": "location",
+    "source_type": "forum",
     "description": "Англоязычная тема о расположении блока комфорта B5: по ответам — в коробке на полу под ковром у ног водителя.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом, открыть вручную", "status": "unverified" },
-  { "title": "Замок водительской двери, блок двери J386 (PassatWorld)", "url": "https://www.passatworld.com/threads/drivers-door-lock-01331-door-control-module-j386-and-01326-steering-wheel.461753/",
-    "system": "interior", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом, открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Замок водительской двери, блок двери J386 (PassatWorld)",
+    "url": "https://www.passatworld.com/threads/drivers-door-lock-01331-door-control-module-j386-and-01326-steering-wheel.461753/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Англоязычная тема о неисправности блока водительской двери J386: проверка питания на разъёме блока и жгута между дверью и стойкой.",
-    "applies_to": "Passat B5 (год уточнять)", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом, открыть вручную", "status": "unverified" },
-  { "title": "Ремонт и замена механизма замка двери (taligentx)", "url": "https://www.taligentx.com/passat/maintenance/doorlockmechanism/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 (год уточнять)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом, открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Ремонт и замена механизма замка двери (taligentx)",
+    "url": "https://www.taligentx.com/passat/maintenance/doorlockmechanism/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Подробная статья владельца B5: типичные трещины пайки на плате у разъёма, микровыключатели положения ключа и состояния замка, проверка мультиметром, номера замков до и после 2001 года.",
-    "applies_to": "Passat B5 1998–2005 (3B и 3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Провода в разъёме задней двери: назначение (vwts.ru)", "url": "https://vwts.ru/forum/topic/244995/",
-    "system": "interior", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 1998–2005 (3B и 3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Провода в разъёме задней двери: назначение (vwts.ru)",
+    "url": "https://vwts.ru/forum/topic/244995/",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "По проблеме заднего стеклоподъёмника B5 1998 года участник расписал провода дверного жгута по цветам: масса, питание стеклоподъёмника и замка, шина данных к блоку комфорта, подсветка.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Водительская дверь: перенос проводки от B5 GP на дорестайл", "url": "https://www.drive2.ru/l/582469859300975325/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Водительская дверь: перенос проводки от B5 GP на дорестайл",
+    "url": "https://www.drive2.ru/l/582469859300975325/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Переделка водительской двери под кнопки и джойстик зеркал: какие провода куда подключены, сборка фишки, фото жгута в двери.",
-    "applies_to": "Passat B5 3B Variant, 1997", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Электроскладывание зеркал (B5 2002)", "url": "https://www.drive2.ru/l/9259072/",
-    "system": "interior", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B Variant, 1997",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/Hu4S5bzLSlCEymfynLlFT1IqrSQ-960.jpg",
+        "caption": "Жгут двери B5 GP"
+      },
+      {
+        "src": "https://a1.drive-data.ru/O6oWm7lDrgBINJgBUssE_ulAadg-960.jpg",
+        "caption": "Жгут двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8A8pL6nhcP8T0cLhtZbe8RXQKJ4-960.jpg",
+        "caption": "Проводка в двери"
+      }
+    ]
+  },
+  {
+    "title": "Электроскладывание зеркал (B5 2002)",
+    "url": "https://www.drive2.ru/l/9259072/",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Доработка под складывание зеркал: перепрошивка дверных блоков, доработка плат стеклоподъёмников, замена джойстика и ремонт редуктора зеркала.",
-    "applies_to": "Passat B5, 2002 (3BG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Пересвет приборной панели и подключение её на столе (B5 1999)", "url": "https://www.drive2.ru/l/465383690692722734/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5, 2002 (3BG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/fc981c6s-960.jpg",
+        "caption": "Переключатель зеркал в разборе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/16441c6s-960.jpg",
+        "caption": "Плата блока двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/22a81c6s-960.jpg",
+        "caption": "Моторчик зеркала"
+      },
+      {
+        "src": "https://a1.drive-data.ru/58181c6s-960.jpg",
+        "caption": "Плата блока двери"
+      }
+    ]
+  },
+  {
+    "title": "Пересвет приборной панели и подключение её на столе (B5 1999)",
+    "url": "https://www.drive2.ru/l/465383690692722734/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Замена подсветки приборки и подключение панели к адаптеру на столе: какие контакты синего разъёма нужны для питания, массы, K-линии и подсветки.",
-    "applies_to": "Passat B5 3B, 1999", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Распиновка разъёмов приборной панели (форум)", "url": "https://passatworld.ru/showthread.php/116264-Raspinovka-razemov-pribornoj-paneli",
-    "system": "electrical", "kind": "pinout", "source_type": "forum",
+    "applies_to": "Passat B5 3B, 1999",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9873d01s-960.jpg",
+        "caption": "Подключение приборки на столе: питание и K-линия"
+      },
+      {
+        "src": "https://a1.drive-data.ru/97d0301s-960.jpg",
+        "caption": "Приборка на столе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/9413d01s-960.jpg",
+        "caption": "Приборка на столе — работает"
+      },
+      {
+        "src": "https://a1.drive-data.ru/cde3d01s-960.jpg",
+        "caption": "Плата приборной панели"
+      }
+    ]
+  },
+  {
+    "title": "Распиновка разъёмов приборной панели (форум)",
+    "url": "https://passatworld.ru/showthread.php/116264-Raspinovka-razemov-pribornoj-paneli",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
     "description": "Участники клуба выложили перечень контактов обоих 32-контактных разъёмов приборки — зелёного и синего; по словам участников, разъёмы у B5 и B5+ одинаковые.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Комфортные повороты — модуль к кнопке аварийки (B5 2000)", "url": "https://www.drive2.ru/l/456170607885681663/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Комфортные повороты — модуль к кнопке аварийки (B5 2000)",
+    "url": "https://www.drive2.ru/l/456170607885681663/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Схема подключения модуля «комфортных» поворотников к разъёмам кнопки аварийной сигнализации для Passat, Audi и Golf 4, с фото распиновки разъёма.",
-    "applies_to": "Passat B5 3B, 2000 (для B5+ может понадобиться другая плата)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Автокорректор наклона фар: датчик кузова и блок J431", "url": "https://www.drive2.ru/l/4326590/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000 (для B5+ может понадобиться другая плата)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/3ca3eees-960.jpg",
+        "caption": "Модуль «комфортные поворотники» и разъём кнопки аварийки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/_oAAAgKOwuA-960.jpg",
+        "caption": "Разъём кнопки аварийки: COM, T1, T2, GND, +12В"
+      }
+    ]
+  },
+  {
+    "title": "Автокорректор наклона фар: датчик кузова и блок J431",
+    "url": "https://www.drive2.ru/l/4326590/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Диагностика автокорректора ксеноновых фар: датчик положения кузова на рычаге, его разъёмы, проводка до блока управления J431 и сравнение с ручной галогеновой системой.",
-    "applies_to": "Passat B5, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка ксенона и динамического корректора фар (B5 2000)", "url": "https://www.drive2.ru/l/588020193997921352/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/6f18a4cs-960.jpg",
+        "caption": "Разъём датчика положения кузова"
+      },
+      {
+        "src": "https://a1.drive-data.ru/aa98a4cs-960.jpg",
+        "caption": "Синий разъём блока J431"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8598a4cs-960.jpg",
+        "caption": "Блок J431 — разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/a718a4cs-960.jpg",
+        "caption": "Розовый разъём — проводка корректора"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6c4a4cs-960.jpg",
+        "caption": "Проводка корректора: розовый разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3298a4cs-960.jpg",
+        "caption": "Блок J431"
+      }
+    ]
+  },
+  {
+    "title": "Установка ксенона и динамического корректора фар (B5 2000)",
+    "url": "https://www.drive2.ru/l/588020193997921352/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Установка с нуля: распиновка блока управления ксеноном и разъёмов фар, цвета проводов, сигнал скорости от ABS, датчики положения кузова, доработка регулятора подсветки.",
-    "applies_to": "Passat B5 3B, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Штатный омыватель фар, часть 1 (дорестайлинг 2000)", "url": "https://www.drive2.ru/l/525476124319286305/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/XlclcUEzfbY69uJKl8l75uaIEqc-960.jpg",
+        "caption": "Блок корректора фар 4Z7 907 357"
+      },
+      {
+        "src": "https://a1.drive-data.ru/NVR_Q21BXHXC-D4gCtqZ95d4C5s-960.jpg",
+        "caption": "Разъём блока корректора"
+      },
+      {
+        "src": "https://a1.drive-data.ru/YLNp1B2ELV91nUD-g83P2MmkTLw-960.jpg",
+        "caption": "Датчик положения кузова"
+      },
+      {
+        "src": "https://a1.drive-data.ru/nfpL22xCZinmDjg6UY6mymsnS5E-960.jpg",
+        "caption": "Разъём датчика"
+      },
+      {
+        "src": "https://a1.drive-data.ru/LBasq9LvppMlVyk3XUkq3szQp0k-960.jpg",
+        "caption": "Датчик кузова на рычаге"
+      }
+    ]
+  },
+  {
+    "title": "Штатный омыватель фар, часть 1 (дорестайлинг 2000)",
+    "url": "https://www.drive2.ru/l/525476124319286305/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Монтаж омывателя фар: проводка от подрулевого переключателя к насосу, точка массы под расширительным бачком, подбор деталей.",
-    "applies_to": "Passat B5 3B, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Задний противотуманный фонарь: распиновка разъёма фонаря", "url": "https://www.drive2.ru/l/9355932/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/lGAAAgAnUuA-960.jpg",
+        "caption": "Разъём реле омывателя фар"
+      },
+      {
+        "src": "https://a1.drive-data.ru/kSAAAgFHUuA-960.jpg",
+        "caption": "Подрулевые переключатели"
+      },
+      {
+        "src": "https://a1.drive-data.ru/FgAAAgInUuA-960.jpg",
+        "caption": "Проводка омывателя"
+      },
+      {
+        "src": "https://a1.drive-data.ru/GWAAAgAnUuA-960.jpg",
+        "caption": "Проводка в моторном отсеке"
+      }
+    ]
+  },
+  {
+    "title": "Задний противотуманный фонарь: распиновка разъёма фонаря",
+    "url": "https://www.drive2.ru/l/9355932/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Фото распиновки разъёма заднего фонаря (стоп-сигнал, масса, задний противотуманный) и дорожек платы; почему индикатор ПТФ загорался при торможении.",
-    "applies_to": "Passat B5 седан, 2002", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Подрулевой переключатель дворников: назначение контактов (B5 1996)", "url": "https://www.drive2.ru/l/523320806650940281/",
-    "system": "electrical", "kind": "pinout", "source_type": "blog",
+    "applies_to": "Passat B5 седан, 2002",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/4942e26s-960.jpg",
+        "caption": "Плата заднего фонаря с отметками"
+      },
+      {
+        "src": "https://a1.drive-data.ru/d4a2e26s-960.jpg",
+        "caption": "Плата заднего фонаря"
+      },
+      {
+        "src": "https://a1.drive-data.ru/424ce26s-960.jpg",
+        "caption": "Разъём заднего фонаря"
+      },
+      {
+        "src": "https://a1.drive-data.ru/d462e26s-960.jpg",
+        "caption": "Доработка платы фонаря"
+      }
+    ]
+  },
+  {
+    "title": "Подрулевой переключатель дворников: назначение контактов (B5 1996)",
+    "url": "https://www.drive2.ru/l/523320806650940281/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
     "description": "Какие контакты переключателя дворников отвечают за скорости, прерывистый режим, возврат в исходное положение через реле и омыватель, с цветами проводов.",
-    "applies_to": "Passat B5 3B, 1996", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена подрулевого переключателя (B5 2000, 1.8 125 л. с.)", "url": "https://www.drive2.ru/l/502571922723176759/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1996",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/-gAAAgMswuA-960.jpg",
+        "caption": "Подрулевой переключатель: контакты"
+      }
+    ]
+  },
+  {
+    "title": "Замена подрулевого переключателя (B5 2000, 1.8 125 л. с.)",
+    "url": "https://www.drive2.ru/l/502571922723176759/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Порядок замены подрулевого переключателя с фото: отключение разъёмов, снятие кожухов. Подушку безопасности снимать только по заводской процедуре.",
-    "applies_to": "Passat B5 3B, 2000, 1.8 125 л. с.", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Ремонт подрулевого переключателя Passat/Golf/Superb", "url": "https://www.drive2.ru/l/455464721420649142/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000, 1.8 125 л. с.",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/6f97d404k232-960.jpg",
+        "caption": "Подрулевой переключатель снят"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6f97d404k22c-960.jpg",
+        "caption": "Подрулевой переключатель: разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6f97d404k261-960.jpg",
+        "caption": "Подрулевой переключатель"
+      }
+    ]
+  },
+  {
+    "title": "Ремонт подрулевого переключателя Passat/Golf/Superb",
+    "url": "https://www.drive2.ru/l/455464721420649142/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Разборка переключателя, чистка контактных дорожек и перемычек, замена смазки; сборка рабочего узла из двух.",
-    "applies_to": "Passat B5, Golf 4, Superb I", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Дворники работают сами при включении зажигания — реле (vwts.ru)", "url": "https://vwts.ru/forum/topic/142001/",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5, Golf 4, Superb I",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/3b436aes-960.jpg",
+        "caption": "Подрулевой переключатель: контакты"
+      },
+      {
+        "src": "https://a1.drive-data.ru/fa236aes-960.jpg",
+        "caption": "Подрулевой переключатель в разборе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7436aes-960.jpg",
+        "caption": "Контакты переключателя"
+      },
+      {
+        "src": "https://a1.drive-data.ru/d836aes-960.jpg",
+        "caption": "Бирка переключателя"
+      }
+    ]
+  },
+  {
+    "title": "Дворники работают сами при включении зажигания — реле (vwts.ru)",
+    "url": "https://vwts.ru/forum/topic/142001/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Разбор неисправности на B5 1998: дворники запускались на несколько секунд; причиной был подгоревший контакт реле стеклоочистителя под рулём.",
-    "applies_to": "Passat B5 3B, 1998, 1.8T", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена контактной группы замка зажигания (B5 2000)", "url": "https://www.drive2.ru/l/2584983/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998, 1.8T",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Замена контактной группы замка зажигания (B5 2000)",
+    "url": "https://www.drive2.ru/l/2584983/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Фото крепления кожухов рулевой колонки, разъёма и самой контактной группы замка зажигания при замене.",
-    "applies_to": "Passat B5 3B, 2000", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Иммобилайзер: мигает ключ, машина глохнет (B5 1997)", "url": "https://www.drive2.ru/l/7691509/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 2000",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/66755c4s-960.jpg",
+        "caption": "Контактная группа замка зажигания"
+      },
+      {
+        "src": "https://a1.drive-data.ru/34755c4s-960.jpg",
+        "caption": "Разъём замка зажигания"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7c755c4s-960.jpg",
+        "caption": "Замок зажигания с разъёмами"
+      }
+    ]
+  },
+  {
+    "title": "Иммобилайзер: мигает ключ, машина глохнет (B5 1997)",
+    "url": "https://www.drive2.ru/l/7691509/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Обсуждение отказа иммобилайзера: кольцевая катушка на замке зажигания, её разъём под кожухом рулевой колонки, проверка ошибок и повторная адаптация ключей.",
-    "applies_to": "Passat B5 3B, 1997", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Что такое иммобилайзер и как он работает (B5 Variant 2000)", "url": "https://www.drive2.ru/l/1415739/",
-    "system": "electrical", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1997",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Что такое иммобилайзер и как он работает (B5 Variant 2000)",
+    "url": "https://www.drive2.ru/l/1415739/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Общее описание иммобилайзера VAG: транспондер в ключе, катушка-кольцо на замке, блок иммобилайзера в приборке или отдельно, связь с ЭБУ двигателя.",
-    "applies_to": "Passat B5 3B Variant, 2000 (общее для VAG)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Подогрев сидений Passat B5 — схема подключения (1999)", "url": "https://www.drive2.ru/l/9426724/",
-    "system": "interior", "kind": "diagram", "source_type": "blog",
+    "applies_to": "Passat B5 3B Variant, 2000 (общее для VAG)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Подогрев сидений Passat B5 — схема подключения (1999)",
+    "url": "https://www.drive2.ru/l/9426724/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "blog",
     "description": "Установка штатного подогрева: схема подключения, какие нужны кнопки (левая и правая разные), реле и предохранитель, роль термодатчика.",
-    "applies_to": "Passat B5 3B, 1999", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Подключение электрического догревателя салона (B5 1999)", "url": "https://www.drive2.ru/l/664328774866711176/",
-    "system": "climate", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1999",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/d8c58a6s-960.jpg",
+        "caption": "Схема подключения подогрева сидений Passat B5"
+      },
+      {
+        "src": "https://a1.drive-data.ru/59718a6s-960.jpg",
+        "caption": "Кнопки подогрева"
+      },
+      {
+        "src": "https://i-a.drive-data.ru/VjzOBspTcMsNnofHMYYw-FDOlFo-960.jpg",
+        "caption": "Разъёмы кнопок подогрева"
+      }
+    ]
+  },
+  {
+    "title": "Подключение электрического догревателя салона (B5 1999)",
+    "url": "https://www.drive2.ru/l/664328774866711176/",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Самодельное подключение штатного электронагревателя салона через реле с предохранителем, с включением от кнопки обогрева заднего стекла; замечания о нагрузке на генератор.",
-    "applies_to": "Passat B5 3B, 1999, дизель", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Магнитолы VW поколения 5 (Alpha/Beta) — кодирование (Ross-Tech)", "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Radio_Systems_Generation_5_(Alpha/Beta)",
-    "system": "electrical", "kind": "guide", "source_type": "reference",
+    "applies_to": "Passat B5 3B, 1999, дизель",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/Sf7dH5L20fNLodLVYUW7Bd95Tro-960.jpg",
+        "caption": "Подключение догревателя: масса, плюс, реле"
+      },
+      {
+        "src": "https://a1.drive-data.ru/NE5uUY8Ra-R7w_qIZVw_tfw2Kq0-960.jpg",
+        "caption": "Подключение: предохранитель и клемма 30"
+      },
+      {
+        "src": "https://a1.drive-data.ru/XGefYogt2-VSof1ydemVrC8vtkw-960.jpg",
+        "caption": "Реле и масса"
+      },
+      {
+        "src": "https://a1.drive-data.ru/oVKFO3avye0pLBMcc_-pVLQ0EyE-960.jpg",
+        "caption": "Электрический догреватель"
+      },
+      {
+        "src": "https://a1.drive-data.ru/Ug3dIW0J0gvKJb2ERhyPQlxJDDI-960.jpg",
+        "caption": "Релейная панель: подключение"
+      }
+    ]
+  },
+  {
+    "title": "Магнитолы VW поколения 5 (Alpha/Beta) — кодирование (Ross-Tech)",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Radio_Systems_Generation_5_(Alpha/Beta)",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "reference",
     "description": "Кодирование штатных магнитол Alpha/Beta 5: тип антенны (активная/пассивная), CD-чейнджер, вывод на дисплей приборки.",
-    "applies_to": "VW той эпохи, в т. ч. Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка аудио в Passat B5 европейский дорестайл (архив форума)", "url": "https://passatworld.ru/archive/index.php/t-119944.html",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "VW той эпохи, в т. ч. Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Установка аудио в Passat B5 европейский дорестайл (архив форума)",
+    "url": "https://passatworld.ru/archive/index.php/t-119944.html",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Особенности штатной аудиосистемы: перестановка проводов в штатных ISO-разъёмах, крепление динамиков и твитеров, прокладка силового и сигнального кабелей усилителя, точка массы.",
-    "applies_to": "Passat B5 3B (Европа)", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Ремонт блока ABS «по-простому» (B5 1998)", "url": "https://www.drive2.ru/l/6481275/",
-    "system": "brakes_abs", "kind": "guide", "source_type": "blog",
+    "applies_to": "Passat B5 3B (Европа)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Ремонт блока ABS «по-простому» (B5 1998)",
+    "url": "https://www.drive2.ru/l/6481275/",
+    "system": "brakes_abs",
+    "kind": "guide",
+    "source_type": "blog",
     "description": "Фотоотчёт: вскрытие электронного блока ABS, перепайка тонких проводников, проверка датчика колеса тестером.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Замена датчика ABS переднего колеса (форум)", "url": "https://passatworld.ru/showthread.php/228832-Zamena-datchika-ABS-perednego-kolesa",
-    "system": "brakes_abs", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Замена датчика ABS переднего колеса (форум)",
+    "url": "https://passatworld.ru/showthread.php/228832-Zamena-datchika-ABS-perednego-kolesa",
+    "system": "brakes_abs",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Фотоотчёт о замене переднего левого датчика ABS и его втулки при ошибке обрыва цепи: где снимается кожух и отключается разъём датчика.",
-    "applies_to": "Passat B5 / B5+", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Сигнализация на Passat B5: точки подключения (1998)", "url": "https://www.drive2.ru/l/470625612378145172/",
-    "system": "electrical", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 / B5+",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/uops/acd232es-960.jpg",
+        "caption": "Датчик ABS"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/uops/92d232es-960.jpg",
+        "caption": "Разъём датчика ABS"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/uops/ccd232es-960.jpg",
+        "caption": "Датчик ABS новый"
+      }
+    ]
+  },
+  {
+    "title": "Сигнализация на Passat B5: точки подключения (1998)",
+    "url": "https://www.drive2.ru/l/470625612378145172/",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Где на дорестайлинге найти провода для охранной системы: управление замком в жгуте водительской двери, концевики через плафон, концевик багажника у блока комфорта, питание от магнитолы.",
-    "applies_to": "Passat B5 3B, 1998", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Установка StarLine S96 своими силами (B5 2001)", "url": "https://www.drive2.ru/l/610032691663872135/",
-    "system": "electrical", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5 3B, 1998",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Установка StarLine S96 своими силами (B5 2001)",
+    "url": "https://www.drive2.ru/l/610032691663872135/",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Подключение охранного комплекса: CAN от зелёного разъёма приборки, размещение блока за приборкой, аналоговое управление замком и доводчиком стёкол.",
-    "applies_to": "Passat B5, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Автозапуск StarLine B9 на Passat B5 (2001)", "url": "https://www.drive2.ru/l/488724398405058756/",
-    "system": "electrical", "kind": "location", "source_type": "blog",
+    "applies_to": "Passat B5, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/muuuIVnGXcVUCBHLCQez1kGH0HM-960.jpg",
+        "caption": "Замок зажигания Passat B5: распиновка контактов (passat-b5.ru)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6Isgzqyi15spuXgP28ZStZFYLp4-960.jpg",
+        "caption": "Схема подключения автозапуска"
+      },
+      {
+        "src": "https://a1.drive-data.ru/eE8GtBrzG5DOhWYrLvSR5rBj2vw-960.jpg",
+        "caption": "Модуль обхода иммобилайзера: подключение"
+      },
+      {
+        "src": "https://a1.drive-data.ru/AstWarnp9vwhRwVCxQEEm432s7k-960.jpg",
+        "caption": "Колодка сигнализации с проводами"
+      }
+    ]
+  },
+  {
+    "title": "Автозапуск StarLine B9 на Passat B5 (2001)",
+    "url": "https://www.drive2.ru/l/488724398405058756/",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "blog",
     "description": "Подробный отчёт: замок зажигания, обходчик иммобилайзера, концевик багажника у блока комфорта под ковром, двери и замки, стойка с антенной, контроль работы мотора.",
-    "applies_to": "Passat B5, 2001", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Подключение сигнализации к Passat B5 (vwts.ru)", "url": "https://vwts.ru/forum/topic/5469/",
-    "system": "electrical", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5, 2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/3433415s-960.jpg",
+        "caption": "Релейная панель: точки подключения автозапуска"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7fd3415s-960.jpg",
+        "caption": "Проводка в пороге: точки подключения"
+      },
+      {
+        "src": "https://i-a.drive-data.ru/RUipSjmEBVzDEJNNaCzmDbr6nD8-960.jpg",
+        "caption": "Схема развязки концевиков диодами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/add3415s-960.jpg",
+        "caption": "Замок зажигания: проводка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/e633415s-960.jpg",
+        "caption": "Блок комфорта: точки подключения"
+      }
+    ]
+  },
+  {
+    "title": "Подключение сигнализации к Passat B5 (vwts.ru)",
+    "url": "https://vwts.ru/forum/topic/5469/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Обсуждение, откуда брать сигналы дверей на B5: двери связаны с блоком комфорта по шине, поэтому советуют подключаться к проводам управления замком в водительской двери; блок комфорта — под ковром у водителя.",
-    "applies_to": "Passat B5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-
-  { "title": "Масса подогрева сидений и приборки на A4 B5 (Quattroworld)", "url": "https://forums.quattroworld.com/a4/threads/3449.phtml",
-    "system": "interior", "kind": "guide", "source_type": "forum",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Масса подогрева сидений и приборки на A4 B5 (Quattroworld)",
+    "url": "https://forums.quattroworld.com/a4/threads/3449.phtml",
+    "system": "interior",
+    "kind": "guide",
+    "source_type": "forum",
     "description": "Англоязычная тема: после установки подогрева сидений участники разбирают, как масса сидений связана с массой жгута приборной панели.",
-    "applies_to": "Audi A4 B5, 1998.5", "accessed": "2026-11-25", "check_result": "200 OK", "status": "unverified" },
-  { "title": "Видео: быстрая чистка проводов массы на A4 B5", "url": "https://www.youtube.com/watch?v=dR25-v9rgwo",
-    "system": "electrical", "kind": "location", "source_type": "video",
+    "applies_to": "Audi A4 B5, 1998.5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Видео: быстрая чистка проводов массы на A4 B5",
+    "url": "https://www.youtube.com/watch?v=dR25-v9rgwo",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "video",
     "description": "Видео канала Gilo's Garage: где на A4 B5 находятся провода массы в моторном отсеке и как их почистить.",
-    "applies_to": "Audi A4 B5", "accessed": "2026-11-25", "check_result": "200 OK (oEmbed подтвердил название и канал)", "status": "unverified" },
-  { "title": "Точки массы на A4 B5 (AudiZine)", "url": "https://www.audizine.com/threads/ground-locations.975695/",
-    "system": "electrical", "kind": "location", "source_type": "forum",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (oEmbed подтвердил название и канал)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.ytimg.com/vi/dR25-v9rgwo/hqdefault.jpg",
+        "caption": "Превью видео: чистка проводов массы на A4 B5"
+      }
+    ]
+  },
+  {
+    "title": "Точки массы на A4 B5 (AudiZine)",
+    "url": "https://www.audizine.com/threads/ground-locations.975695/",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "forum",
     "description": "Англоязычная тема о точках массы по кузову и в моторном отсеке A4 B5, в том числе масса на центральном тоннеле.",
-    "applies_to": "Audi A4 B5", "accessed": "2026-11-25", "check_result": "автопроверка заблокирована сайтом, открыть вручную", "status": "unverified" }
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом, открыть вручную",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://i.imgur.com/cx3tXqF.png",
+        "caption": "Masse point (ground) — photo"
+      }
+    ]
+  }
 ]
