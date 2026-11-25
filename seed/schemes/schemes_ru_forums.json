@@ -2,6 +2,10 @@
   {
     "title": "37) штекер МАГНИТОЛЫ распиновка (Passat Б5) — Volkswagen Passat B5 бензин, 1,8 л, 2000 года",
     "url": "https://www.drive2.ru/l/663949993110932755/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/vA0h4Y2IRoKj8_rW_kX5U5dD4nE-960.jpg", "caption": "Фото автора: разъём питания магнитолы с подписанными номерами контактов и их назначением" },
+      { "src": "https://a1.drive-data.ru/SHKuid_vZlZDjfXlojIm8_WJhWw-960.jpg", "caption": "Фото автора: тот же разъём с отмеченными плюсовыми и минусовым проводами" }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -158,6 +162,9 @@
   {
     "title": "Ауди А4 В5 ADR катушка зажигания — Audi A4 (B5) бензин, 1,8 л, 1994 года",
     "url": "https://www.drive2.ru/l/7972409/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/93d356as-960.jpg", "caption": "Фото автора: соединение родной фишки модуля ADR с модулем ВАЗ" }
+    ],
     "system": "ignition",
     "kind": "pinout",
     "source_type": "blog",
@@ -170,6 +177,9 @@
   {
     "title": "Замена катушки ADR на четыре индивидуальных катушки от AEB — Audi A4 (B5) бензин, 1,8 л, 1998 года",
     "url": "https://www.drive2.ru/l/559524151140811609/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg", "caption": "Схема автора: старая фишка ADR, коммутатор Hitachi и четыре катушки с цветами проводов" }
+    ],
     "system": "ignition",
     "kind": "diagram",
     "source_type": "blog",
@@ -482,6 +492,9 @@
   {
     "title": "Дворники Passat B5. — Volkswagen Passat B5, 1,6 л, 1996 года",
     "url": "https://www.drive2.ru/l/523320806650940281/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/-gAAAgMswuA-960.jpg", "caption": "Фото автора: вскрытый переключатель стеклоочистителей с пронумерованными контактами" }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -530,6 +543,9 @@
   {
     "title": "26. Установка ПТФ — Volkswagen Passat Variant (B5), 1,9 л, 2001 года",
     "url": "https://www.drive2.ru/l/488105098480713874/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/d5c5f65s-1920.jpg", "caption": "Простая схема подключения ПТФ через реле от управляющего провода переключателя" }
+    ],
     "system": "electrical",
     "kind": "diagram",
     "source_type": "blog",
@@ -590,6 +606,9 @@
   {
     "title": "Установка штатного парктроника — Volkswagen Passat B5 бензин, 1,8 л, 2002 года",
     "url": "https://www.drive2.ru/l/475524761313608214/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/23bc1c9s-960.jpg", "caption": "Схема автора: разъёмы блока парктроника, коса датчиков и четыре датчика" }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -650,6 +669,9 @@
   {
     "title": "Подключение штатного обогрева сидений Passat B5 — Volkswagen Passat B5 бензин, 2 л, 2003 года",
     "url": "https://www.drive2.ru/l/457406733833233305/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/4c579ees-960.jpg", "caption": "Схема автора: кнопки подогрева, разъёмы сидений, питание и массы" }
+    ],
     "system": "interior",
     "kind": "diagram",
     "source_type": "blog",
@@ -806,6 +828,9 @@
   {
     "title": "📌 № 25 «Зеркала Passat B5 GP» — Volkswagen Passat B5, 1,6 л, 1997 года",
     "url": "https://www.drive2.ru/l/548735468171166344/",
+    "images": [
+      { "src": "https://a1.drive-data.ru/GEAAAgF-ueA-1920.jpg", "caption": "Схема автора от руки: рестайлинговые зеркала и джойстик на дорестайлинговой проводке, цвета проводов" }
+    ],
     "system": "body",
     "kind": "diagram",
     "source_type": "blog",
