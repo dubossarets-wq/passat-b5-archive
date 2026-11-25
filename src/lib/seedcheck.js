@@ -31,6 +31,8 @@ export function findCriticalNumbers(text) {
   for (const sentence of clean.split(/(?<=[.!?;\n])\s+/)) {
     const m = CRITICAL.exec(sentence);
     if (!m) continue;
+    // Год («1998 г.») и предлог «в» после числа («адрес 46 в VCDS») — не единицы измерения.
+    if (/^(19|20)\d{2}\s?г$/i.test(m[0].trim()) || /\sв$/.test(m[0])) continue;
     if (SAFE_CONTEXT.test(sentence) && !/(н\s?[·*.]?\s?м|n\s?[·*.]?\s?m|бар|кпа|мпа|мм|литр|об\/мин|вольт|ом\b)/i.test(m[0])) continue;
     hits.push(m[0].trim());
   }
@@ -126,10 +128,11 @@ export function validateSeed(dir = paths.seed()) {
 
   // электросхемы: только ссылка + описание своими словами
   const schDir = path.join(dir, 'schemes');
-  const seenUrls = new Set();
   counts.schemes = 0;
   if (fs.existsSync(schDir)) {
     for (const f of fs.readdirSync(schDir).filter((x) => x.endsWith('.json'))) {
+      // Повтор ссылки между файлами разных собирателей безвреден (при загрузке остаётся одна), внутри файла — ошибка.
+      const seenUrls = new Set();
       for (const s of JSON.parse(fs.readFileSync(path.join(schDir, f), 'utf8'))) {
         counts.schemes++;
         const w = `схема «${s.title}» (${f})`;
