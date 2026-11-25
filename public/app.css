@@ -1,0 +1,182 @@
+/*
+  Оформление в системе Radix UI (Radix Themes): токены и цвета Radix подключены в <head>
+  (base.css и шкалы slate, blue, red, amber, green). Здесь — компоненты на этих переменных.
+  Размеры крупнее стандартных Radix: приложением пользуются в гараже, одной рукой.
+*/
+html { -webkit-text-size-adjust: 100%; }
+html.dark { color-scheme: dark; }
+html.light { color-scheme: light; }
+* { box-sizing: border-box; }
+
+body.radix-themes {
+  margin: 0;
+  font-family: var(--default-font-family);
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-4);
+  color: var(--gray-12);
+  background: var(--color-background);
+  padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: var(--space-4) var(--space-4) var(--space-5); }
+
+h1, h2, h3 { font-weight: var(--font-weight-bold); color: var(--gray-12); }
+h1 { font-size: var(--font-size-7); line-height: var(--line-height-7); letter-spacing: var(--letter-spacing-7); margin: var(--space-2) 0 var(--space-3); text-wrap: balance; }
+h2 { font-size: var(--font-size-5); line-height: var(--line-height-5); letter-spacing: var(--letter-spacing-5); margin: var(--space-5) 0 var(--space-2); }
+h3 { font-size: var(--font-size-4); margin: 0 0 var(--space-2); }
+p { margin: 0 0 var(--space-3); }
+a { color: var(--accent-a11); text-underline-offset: 2px; text-decoration-color: var(--accent-a8); }
+small, .muted, .hint { color: var(--gray-a11); }
+.hint { display: block; font-size: var(--font-size-2); margin-top: var(--space-1); }
+mark { background: var(--amber-a5); color: inherit; border-radius: var(--radius-1); padding: 0 2px; }
+code { font-family: var(--code-font-family); font-size: .9em; background: var(--gray-a3); color: var(--gray-12); padding: 1px 6px; border-radius: var(--radius-2); }
+.top { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
+.back { margin: 0 0 var(--space-1); font-size: var(--font-size-3); }
+
+/* нижнее меню: 4 крупные кнопки под большой палец */
+.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-1);
+  padding: var(--space-1) var(--space-2) calc(var(--space-1) + env(safe-area-inset-bottom, 0px));
+  background: var(--color-panel-solid);
+  box-shadow: 0 -1px 0 var(--gray-a6);
+}
+.tabs a {
+  display: flex; align-items: center; justify-content: center; min-height: 52px;
+  border-radius: var(--radius-3); text-decoration: none; color: var(--gray-a11);
+  font-weight: var(--font-weight-medium); font-size: var(--font-size-3);
+}
+.tabs a.on { background: var(--accent-a3); color: var(--accent-a11); }
+
+/* кнопки: solid, soft (ghost) и красная soft (danger) */
+.btn, button {
+  font: inherit; font-weight: var(--font-weight-medium); min-height: 48px; padding: 0 var(--space-4);
+  border: 0; border-radius: var(--radius-3); cursor: pointer; text-decoration: none;
+  background: var(--accent-9); color: var(--accent-contrast);
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+}
+.btn:hover, button:hover { background: var(--accent-10); }
+.btn:active, button:active { filter: brightness(.95); }
+.btn.ghost, button.ghost { background: var(--accent-a3); color: var(--accent-a11); }
+.btn.ghost:hover, button.ghost:hover { background: var(--accent-a4); }
+.btn.danger, button.danger { background: var(--red-a3); color: var(--red-a11); }
+.btn.danger:hover, button.danger:hover { background: var(--red-a4); }
+.btn.small, button.small { min-height: 40px; padding: 0 var(--space-3); font-size: var(--font-size-3); }
+.btn.block { display: flex; width: 100%; }
+.actions { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-3) 0; }
+form.inline { display: inline; }
+:focus-visible { outline: 2px solid var(--focus-8); outline-offset: 2px; }
+
+/* формы: поля в стиле Radix TextField (surface) */
+.f { display: block; margin: 0 0 var(--space-3); }
+.fl { display: block; font-weight: var(--font-weight-medium); margin-bottom: var(--space-1); }
+input, select, textarea {
+  font: inherit; width: 100%; min-height: 48px; padding: 0 var(--space-3);
+  color: var(--gray-12); background: var(--color-surface);
+  border: 0; border-radius: var(--radius-3); box-shadow: inset 0 0 0 1px var(--gray-a7);
+}
+textarea { padding: var(--space-3); min-height: 96px; resize: vertical; }
+input::placeholder, textarea::placeholder { color: var(--gray-a10); }
+input:focus, select:focus, textarea:focus { outline: 2px solid var(--focus-8); outline-offset: -1px; }
+input[type="checkbox"] { width: 24px; height: 24px; min-height: 0; flex: none; accent-color: var(--accent-9); box-shadow: none; }
+input[type="file"] { padding: var(--space-2) var(--space-3); line-height: 32px; }
+::file-selector-button { font: inherit; border: 0; border-radius: var(--radius-2); background: var(--accent-a3); color: var(--accent-a11); padding: 6px var(--space-3); margin-right: var(--space-3); cursor: pointer; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
+.checks label { display: flex; align-items: center; gap: var(--space-3); min-height: 48px; }
+.checks { margin-bottom: var(--space-3); }
+fieldset { border: 0; border-radius: var(--radius-4); box-shadow: inset 0 0 0 1px var(--gray-a6); margin: 0 0 var(--space-3); padding: var(--space-2) var(--space-3) var(--space-1); min-width: 0; }
+legend { font-weight: var(--font-weight-medium); padding: 0 var(--space-2); }
+.partrow { border-top: 1px solid var(--gray-a5); padding-top: var(--space-3); margin-top: var(--space-3); }
+.partrow:first-of-type { border-top: 0; margin-top: 0; padding-top: 0; }
+
+/* плашки: Radix Callout (soft) */
+.msg { padding: var(--space-3); border-radius: var(--radius-3); margin: 0 0 var(--space-3); }
+.msg.ok { background: var(--green-a3); color: var(--green-a11); }
+.msg.err { background: var(--red-a3); color: var(--red-a11); }
+.empty { color: var(--gray-a11); padding: var(--space-4) 0; }
+
+/* карточки: Radix Card (surface) */
+.card { background: var(--color-panel-solid); border-radius: var(--radius-4); box-shadow: 0 0 0 1px var(--gray-a5), var(--shadow-1); padding: var(--space-3) var(--space-4); margin: 0 0 var(--space-3); }
+.list { list-style: none; margin: 0 0 var(--space-3); padding: 0; }
+.list > li { border-bottom: 1px solid var(--gray-a5); }
+.list > li > a.item, .list > li > .item { display: block; padding: var(--space-3) var(--space-1); text-decoration: none; color: var(--gray-12); min-height: 56px; }
+.list > li > a.item:hover { background: var(--gray-a2); }
+.item .t { font-weight: var(--font-weight-medium); display: block; }
+.item .s { color: var(--gray-a11); font-size: var(--font-size-3); display: block; }
+.item .snip { color: var(--gray-12); font-size: var(--font-size-3); display: block; margin-top: 2px; }
+.menu a { display: block; padding: var(--space-4) var(--space-1); font-weight: var(--font-weight-medium); text-decoration: none; color: var(--gray-12); border-bottom: 1px solid var(--gray-a5); }
+.menu a:hover { background: var(--gray-a2); }
+dl.kv { display: grid; grid-template-columns: minmax(110px, 38%) 1fr; gap: var(--space-2) var(--space-3); margin: 0 0 var(--space-3); }
+dl.kv dt { color: var(--gray-a11); }
+dl.kv dd { margin: 0; overflow-wrap: anywhere; }
+.table-wrap { overflow-x: auto; margin: 0 0 var(--space-3); }
+table { border-collapse: collapse; width: 100%; font-size: var(--font-size-3); }
+th, td { text-align: left; padding: var(--space-2); border-bottom: 1px solid var(--gray-a5); vertical-align: top; }
+th { color: var(--gray-a11); font-weight: var(--font-weight-medium); white-space: nowrap; }
+.num { font-variant-numeric: tabular-nums; }
+.tags { color: var(--gray-a11); font-size: var(--font-size-3); display: block; }
+ul.plain { margin: 0 0 var(--space-3); padding-left: var(--space-5); }
+ol.sources { margin: 0; padding-left: var(--space-5); }
+ol.sources li { margin-bottom: var(--space-2); }
+.note { display: block; color: var(--gray-a11); font-size: var(--font-size-3); }
+.filter { display: grid; gap: var(--space-2); grid-template-columns: 1fr; margin-bottom: var(--space-3); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0 0 var(--space-3); }
+.chips a { padding: 0 var(--space-3); min-height: 40px; display: inline-flex; align-items: center; border-radius: var(--radius-full); background: var(--gray-a3); color: var(--gray-a12); text-decoration: none; font-size: var(--font-size-3); }
+.chips a:hover { background: var(--gray-a4); }
+.chips a.on { background: var(--accent-9); color: var(--accent-contrast); }
+.pager { display: flex; gap: var(--space-2); justify-content: space-between; }
+details > summary { list-style: none; cursor: pointer; }
+details > summary::-webkit-details-marker { display: none; }
+details { margin: 0 0 var(--space-3); }
+
+/* статусы словами и цветом: Radix Badge (soft) */
+.badge { display: inline-block; font-size: var(--font-size-2); font-weight: var(--font-weight-medium); padding: 2px var(--space-2); border-radius: var(--radius-2); white-space: nowrap; }
+.badge.verified { background: var(--green-a3); color: var(--green-a11); }
+.badge.unverified { background: var(--amber-a3); color: var(--amber-a11); }
+.st { font-weight: var(--font-weight-bold); white-space: nowrap; }
+.st-overdue { color: var(--red-a11); }
+.st-soon { color: var(--amber-a11); }
+.st-ok { color: var(--green-a11); }
+.st-nodata, .st-nointerval { color: var(--gray-a11); font-weight: var(--font-weight-regular); }
+.rem { display: flex; justify-content: space-between; gap: var(--space-3); align-items: baseline; }
+.spec-missing { color: var(--amber-a11); }
+.spec-ok b { color: var(--gray-12); }
+
+/* фото */
+.photos { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: var(--space-2); margin: 0 0 var(--space-3); }
+.photos figure { margin: 0; position: relative; }
+.photos img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-3); box-shadow: 0 0 0 1px var(--gray-a5); display: block; }
+.photos .x { position: absolute; top: var(--space-1); right: var(--space-1); min-height: 36px; width: 36px; padding: 0; border-radius: var(--radius-full); background: var(--color-panel-solid); color: var(--red-a11); box-shadow: 0 0 0 1px var(--gray-a6); }
+.filelist { list-style: none; padding: 0; margin: 0 0 var(--space-3); }
+.filelist li { padding: var(--space-2) 0; border-bottom: 1px solid var(--gray-a5); overflow-wrap: anywhere; }
+
+/* текст статей (Markdown) */
+.md { overflow-wrap: anywhere; }
+.md h1 { font-size: var(--font-size-6); }
+.md h2 { font-size: var(--font-size-5); margin: var(--space-5) 0 var(--space-2); }
+.md h3 { font-size: var(--font-size-4); margin: var(--space-4) 0 var(--space-1); }
+.md ul, .md ol { padding-left: var(--space-5); margin: 0 0 var(--space-3); }
+.md li { margin-bottom: var(--space-1); }
+.md blockquote { margin: 0 0 var(--space-3); padding: var(--space-1) var(--space-3); border-left: 3px solid var(--accent-a7); color: var(--gray-a11); }
+.md pre { overflow-x: auto; background: var(--gray-a3); padding: var(--space-3); border-radius: var(--radius-3); }
+.md table { display: block; overflow-x: auto; }
+.md img { max-width: 100%; height: auto; }
+
+/* просмотр PDF */
+.pdfbar { position: sticky; top: 0; background: var(--color-background); padding: var(--space-2) 0; display: flex; gap: var(--space-2); flex-wrap: wrap; align-items: center; z-index: 3; box-shadow: 0 1px 0 var(--gray-a5); }
+#pdf-pages canvas { display: block; width: 100%; height: auto; margin: var(--space-2) 0; border-radius: var(--radius-2); box-shadow: 0 0 0 1px var(--gray-a6); background: #fff; }
+
+/* печать: всегда светлая, без панелей */
+.print-only { display: none; }
+@media print {
+  .tabs, .noprint, .actions, .back { display: none !important; }
+  body.radix-themes { padding: 0; font-size: 12pt; background: #fff !important; color: #000 !important; }
+  .wrap { max-width: none; padding: 0; }
+  h1, h2, h3, dl.kv dd, td, th, .item .t { color: #000 !important; }
+  .muted, small, dl.kv dt, .item .s { color: #444 !important; }
+  a { color: #000; text-decoration: none; }
+  .print-only { display: block; }
+  .card, table { break-inside: avoid; box-shadow: none; }
+  .card { border: 1px solid #999; }
+  th, td { border-color: #999; }
+  .badge, .st { background: none !important; color: #000 !important; }
+}

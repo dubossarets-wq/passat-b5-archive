@@ -1,0 +1,497 @@
+[
+  {
+    "oem": "06A115561B",
+    "name": "Фильтр масляный",
+    "system": "lubrication",
+    "maintenance_key": "oil",
+    "notes": "Навинчиваемый фильтр. Mecatechnic указывает его для Passat 3B (на сайте кузов 3B называется «Passat 4») с моторами AFY/ADR/APT/ARG. Каталог MANN подтверждает аналог W 719/30 для ADR/APT/ARG на Audi A4 B5; раздел Passat B5 на странице MANN не читается целиком (страница обрезается), поэтому строка Passat с ARG там не проверена. Для рестайлинга 3BG с ARG данных нет: в других карточках MANN мотор ARG у Passat указан только для 3B2/3B5 (10/1996–12/2000).",
+    "analogs": [
+      { "brand": "MANN-FILTER", "number": "W 719/30", "source_url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/w719/30_mann-filter.html" },
+      { "brand": "KNECHT (MAHLE)", "number": "OC 264", "source_url": "https://spareto.com/products/knecht-oil-filter/oc-264" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/oil-filter-for-passat-4-and-passat-5_PA42054", "title": "Mecatechnic — Oil filter for Passat 4 and Passat 5 (PA42054)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 06A115561B (также 06A115561, 034115561A, 1JM115561BZ); в применимости Passat 4 (3B) 1.8 с AFY, ADR, APT, ARG." },
+      { "url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/w719/30_mann-filter.html", "title": "MANN-FILTER W 719/30 — каталог", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "W 719/30 указан для Audi A4 (8D, B5) 1.8 20V с ADR/APT/ARG, выпуск 01/95–09/01. OE-номера на открытой части страницы не показаны." },
+      { "url": "https://spareto.com/products/mann-filter-oil-filter/w-719-30", "title": "spareto — MANN-FILTER W 719/30", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "В списке OE для W 719/30 есть 06A 115 561 B; применимость дана общо (VW Passat 1988–2010), без кода двигателя." },
+      { "url": "https://spareto.com/products/knecht-oil-filter/oc-264", "title": "spareto — KNECHT OC 264", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "В списке OE для OC 264 есть 06A115561B; поколение и код двигателя не указаны." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058133843",
+    "name": "Фильтр воздушный",
+    "system": "intake_exhaust",
+    "maintenance_key": "air_filter",
+    "notes": "Панельный фильтр. MANN: Passat B5 (3B2/3B5) 1.8 с ADR/APT/APW/ARG, выпуск 10/1996–12/2000; для Passat B5.5 (3B3/3B6) строк с ARG нет. Mecatechnic даёт тот же OE для Passat 3B с AFY/ADR/APT/ARG.",
+    "analogs": [
+      { "brand": "MANN-FILTER", "number": "C 26 168", "source_url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/c26168_mann-filter.html" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/air-filter-for-vw-passat-4-and-passat-5_PA42000", "title": "Mecatechnic — Air filter for VW Passat 4 and Passat 5 (PA42000)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058-133-843; Passat 4 (3B) 1.8 с AFY, ADR, APT, ARG." },
+      { "url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/c26168_mann-filter.html", "title": "MANN-FILTER C 26 168 — каталог", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058 133 843 и 8D0 133 843; Passat B5 (3B2/3B5) 1.8 ADR/APT/APW/ARG, 10/96–12/00." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "1H0201511A",
+    "name": "Фильтр топливный",
+    "system": "fuel",
+    "maintenance_key": "fuel_filter",
+    "notes": "MANN: Passat B5 (3B2/3B5) 1.8 с ADR/APT/APW/ARG, выпуск 10/1996–12/2000. Mecatechnic даёт этот же OE (фильтр TOPRAN) для Audi A4 B5 с ADR/APT/ARG/AVV. Номер фильтра TOPRAN на странице не указан, поэтому в аналоги не внесён.",
+    "analogs": [
+      { "brand": "MANN-FILTER", "number": "WK 830/7", "source_url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/wk830/7_mann-filter.html" }
+    ],
+    "sources": [
+      { "url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/wk830/7_mann-filter.html", "title": "MANN-FILTER WK 830/7 — каталог", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 1H0 201 511 A (также 1H0 201 511, 251 201 511 A/H); Passat B5 (3B2/3B5) 1.8 ADR/APT/APW/ARG 10/96–12/00; Audi A4 B5 1.8 20V ADR/APT/ARG 01/95–09/01." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/fuel-filter-for-audi-a4-b5_AC47124", "title": "Mecatechnic — TOPRAN fuel filter for Audi A4 B5 (AC47124)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "OE 1H0-201-511A; Audi A4 B5 1.8 с ADR, APT, ARG, AVV." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "8A0819439A",
+    "name": "Фильтр салона обычный (противопыльный)",
+    "system": "climate",
+    "maintenance_key": "cabin_filter",
+    "notes": "Обычный (без угля). Mecatechnic: Passat 3B с кондиционером и без. MANN CU 3955 (OE 8A0 819 439 и 8A0 819 439 A): Passat B5 (3B2/3B5) с ADR/APT/APW/ARG, 10/1996–12/2000; для 3B3/3B6 в карточке MANN строк нет. Угольный вариант — отдельная позиция 3B0091800.",
+    "analogs": [
+      { "brand": "MANN-FILTER", "number": "CU 3955", "source_url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/cu3955_mann-filter.html" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/passenger-compartment-filter-for-vw-passat-4_PA42080", "title": "Mecatechnic — Passenger compartment filter for VW Passat 4 (PA42080)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "OE 8a0-819-439-a; «для Passat 4 с кондиционером и без»; на сайте Passat 3B называется «Passat 4»; коды двигателей не указаны." },
+      { "url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/cu3955_mann-filter.html", "title": "MANN-FILTER CU 3955 — каталог", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 8A0 819 439, 8A0 819 439 A и др.; Passat B5 (3B2/3B5) 1.8 ADR/APT/APW/ARG 10/96–12/00; Audi A4 B5 1.8 20V ADR/APT/ARG." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "3B0091800",
+    "name": "Фильтр салона угольный",
+    "system": "climate",
+    "maintenance_key": "cabin_filter",
+    "notes": "С активированным углём. MANN CUK 3955 указывает OE 3B0 091 800, 8D0 091 800 и 8A0 819 439 B; применимость — Passat B5 (3B2/3B5) с ADR/APT/APW/ARG, 10/1996–12/2000. Mecatechnic продаёт оригинал VW 3B0091800 для «Passat 4» (так сайт называет 3B).",
+    "analogs": [
+      { "brand": "MANN-FILTER", "number": "CUK 3955", "source_url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/cuk3955_mann-filter.html" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/active-carbon-cabin-filter-for-passat-4_GC46108", "title": "Mecatechnic — Active carbon cabin filter for Passat 4 (GC46108)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 3b0-091-800; применимость — «Passat 4», без кодов двигателя." },
+      { "url": "https://www.mann-filter.com/en/catalog/international/search-results/product.html/cuk3955_mann-filter.html", "title": "MANN-FILTER CUK 3955 — каталог", "accessed": "2026-11-25", "applies_to": "ARG", "note": "Угольный фильтр; OE 8D0 091 800, 8A0 819 439 B, 3B0 091 800; Passat B5 (3B2/3B5) 1.8 ADR/APT/APW/ARG 10/96–12/00." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "101000033AA",
+    "name": "Свеча зажигания",
+    "system": "ignition",
+    "maintenance_key": "spark_plugs",
+    "notes": "Связь OE 101000033AA с NGK BKUR6ET-10 (NGK 2397) подтверждают spareto и paruzzi, но обе страницы дают применимость общо (Passat / A4), без кода двигателя: привязка этого OE именно к ARG открытым источником не подтверждена. Для Audi A4 B5 с ARG Mecatechnic указывает свечу Bosch FR7LDC+, но без OE-номера. Перед покупкой сверить номер по VIN или по старой свече.",
+    "analogs": [
+      { "brand": "NGK", "number": "BKUR6ET-10", "source_url": "https://spareto.com/products/ngk-spark-plug/bkur6et-10-2397" },
+      { "brand": "BOSCH", "number": "FR7LDC+", "source_url": "https://www.mecatechnic.com/en-GB/p/1-bosch-spark-plug-for-audi-a4-b5_AC32161" }
+    ],
+    "sources": [
+      { "url": "https://spareto.com/products/ngk-spark-plug/bkur6et-10-2397", "title": "spareto — NGK BKUR6ET-10 (2397)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "OE 101 000 033 AA, 101 000 033 AF, 101 000 041 AC, 101 000 051 AA; Passat 1994–2010 без кода двигателя." },
+      { "url": "https://www.paruzzi.com/en/spark-plug-ngk-bkur6et-10/590280", "title": "Paruzzi — Spark plug NGK BKUR6ET-10", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Оригинальные номера VW 101000033AA, 101000041AC, 101000051AA; модели Passat и Audi без кодов двигателя." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/1-bosch-spark-plug-for-audi-a4-b5_AC32161", "title": "Mecatechnic — 1 BOSCH spark plug for Audi A4 (B5) (AC32161)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "Bosch тип FR7LDC+ для Audi A4 B5 1.8 с AFY, APT, ARG, AVV, ADR; OE VAG на странице не указан." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058109119B",
+    "name": "Ремень ГРМ",
+    "system": "timing",
+    "maintenance_key": "timing_belt",
+    "notes": "Winparts (ContiTech CT919) даёт OE 058109119B и 058109119C (а также 059109119C) для Passat B5 3B2 (08/1996–11/2000) и 3B5 (05/1997–11/2000) с ADR/APT/ARG; в характеристиках указан гидравлический натяжитель. Какой суффикс актуален для конкретной машины — сверить по VIN. Ремень 06B109119… (CT909) на той же площадке для ADR/APT/ARG не указан — это ремень 1.8T. Одно подтверждение (один сайт, несколько карточек).",
+    "analogs": [
+      { "brand": "ContiTech", "number": "CT919", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-ct919-contitech/p145139.html" }
+    ],
+    "sources": [
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-ct919-contitech/p145139.html", "title": "Winparts — Timing Belt CT919 Contitech", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058109119B, 058109119C, 059109119C; Passat B5 3B2/3B5 1.8 ADR/APT/ARG; натяжитель гидравлический." },
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k2-contitech/p145137.html", "title": "Winparts — Timing Belt Set CT919K2 Contitech", "accessed": "2026-11-25", "applies_to": "ARG", "note": "Тот же ремень в комплекте; OE включают 058109119B/C; Passat B5 3B2/3B5 ADR/APT/ARG." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058198119",
+    "name": "Комплект ГРМ (ремень и ролики, без демпфера)",
+    "system": "timing",
+    "maintenance_key": "timing_belt",
+    "notes": "Mecatechnic продаёт оригинальный комплект VW 058198119 («ремень и два ролика») для Passat 3B2/3B5 с AFY/ADR/APT/ARG и 1.8T. Аналог ContiTech CT919K2 с тем же OE — «только для машин с гидравлической системой натяжения», без демпфера и без помпы. Если на моторе стоит старая система натяжения, нужен комплект с демпфером 058198479 — сверить по VIN/осмотру.",
+    "analogs": [
+      { "brand": "Gates", "number": "K015492XS", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-powergrip-k015492xs-gates/p187271.html" },
+      { "brand": "ContiTech", "number": "CT919K2", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k2-contitech/p145137.html" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/1-engine-timing-kit-for-passat-4-18_PA40104", "title": "Mecatechnic — 1 engine timing kit for Passat 4, 1.8 (PA40104)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "Комплект Volkswagen, OE 058198119; Passat 4 (3B2, 3B5) 1.8 с AFY, ADR, APT, ARG и 1.8T AEB/ANB/APU." },
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-powergrip-k015492xs-gates/p187271.html", "title": "Winparts — Timing Belt Set PowerGrip K015492XS Gates", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058198119 (VW); Passat B5 3B2 (08/1996–11/2000) и 3B5 (05/1997–11/2000) 1.8 ADR/APT/ARG, в т. ч. Syncro/4motion; без помпы." },
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k2-contitech/p145137.html", "title": "Winparts — Timing Belt Set CT919K2 Contitech", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058198119; пометка «только для машин с гидравлической системой натяжения», без демпфера." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058198479",
+    "name": "Комплект ГРМ с демпфером натяжителя",
+    "system": "timing",
+    "maintenance_key": "timing_belt",
+    "notes": "ContiTech описывает CT919K1 как комплект для перевода на гидравлическую систему натяжения или для уже переведённых машин: ремень, натяжитель и демпфер. OE 058198479 и применимость Passat B5 3B2/3B5 с ADR/APT/ARG — по карточкам CT919K1 и CT919K4. Какой комплект нужен (этот или 058198119) — зависит от установленной системы натяжения; сверить. Кросс-номера других брендов взяты со страницы CT919K1. Одно подтверждение (один сайт, две карточки).",
+    "analogs": [
+      { "brand": "ContiTech", "number": "CT919K1", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k1-contitech/p145136.html" },
+      { "brand": "Gates", "number": "K025492XS", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k1-contitech/p145136.html" },
+      { "brand": "SKF", "number": "VKMA 01908", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k1-contitech/p145136.html" },
+      { "brand": "Dayco", "number": "KTB463", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k1-contitech/p145136.html" }
+    ],
+    "sources": [
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k1-contitech/p145136.html", "title": "Winparts — Timing Belt Set CT919K1 Contitech", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058198479 и 058109119B/C, 059109119C; ремень + натяжитель + демпфер; Passat B5 3B2/3B5 ADR/APT/ARG; кроссы Gates K025492XS, SKF VKMA 01908, Dayco KTB463." },
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/timing-belt/c606/timing-belt-set-ct919k4-contitech/p145138.html", "title": "Winparts — Timing Belt Set CT919K4 Contitech", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058198479 и 058198119; комплект для перевода на гидравлическое натяжение, с демпфером; Passat B5 3B2/3B5 ADR/APT/ARG." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058109243C",
+    "name": "Ролик натяжной ремня ГРМ",
+    "system": "timing",
+    "maintenance_key": "timing_belt",
+    "notes": "Febi 18658 перечисляет OE 058109243, 058109243C, 058109243E и 058109479 для Passat B5 3B2/3B5 с ADR/APT/ARG. Какой суффикс ставить — сверить по VIN (у VW номера этой серии менялись). Кросс-номера INA, SKF, Gates взяты со страницы Febi 18658. Одно подтверждение.",
+    "analogs": [
+      { "brand": "FEBI BILSTEIN", "number": "18658", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-timing-belt-18658-febi/p117039.html" },
+      { "brand": "INA", "number": "531 0499 20", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-timing-belt-18658-febi/p117039.html" },
+      { "brand": "SKF", "number": "VKM 11008", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-timing-belt-18658-febi/p117039.html" },
+      { "brand": "Gates", "number": "T43065", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-timing-belt-18658-febi/p117039.html" }
+    ],
+    "sources": [
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-timing-belt-18658-febi/p117039.html", "title": "Winparts — Tensioner Pulley, timing belt 18658 FEBI", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058 109 243, 058 109 243 C, 058 109 243 E, 058 109 479; Passat B5 3B2/3B5 1.8 ADR/APT/ARG; кроссы INA 531 0499 20, SKF VKM 11008, Gates T43065, Dayco ATB2143." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058109244",
+    "name": "Ролик направляющий (обводной) ремня ГРМ",
+    "system": "timing",
+    "maintenance_key": "timing_belt",
+    "notes": "Mecatechnic: направляющий ролик ремня ГРМ для Passat 3B2/3B5 с ADR/AFY/APT/ARG и 1.8T. Сколько таких роликов в приводе и где именно стоит этот — источник не уточняет. Аналоги с этим OE в открытых источниках не найдены (Febi 18664 относится к другим номерам 059109244…). Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/timing-belt-guide-roller-for-polo-classic-6v2-9n-and-passat-4_GD30780.htm", "title": "Mecatechnic — Timing belt guide roller for Polo Classic 6V2, 9N and Passat 4 (GD30780)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058109244 (на сайте записан как 58109244); Passat 4 (3B2, 3B5) 1.8 с ADR, AFY, APT, ARG." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058109479B",
+    "name": "Демпфер (гаситель) натяжителя ремня ГРМ",
+    "system": "timing",
+    "maintenance_key": "timing_belt",
+    "notes": "Mecatechnic указывает оригинал VW 058109479B для Passat 3B2/3B5: AFY — с номера двигателя 010001, ANB/APU — с номера двигателя 020001; ARG в карточке не указан. INA 533 0032 20 с этим OE — VW Passat 1996–2000 без кода двигателя. Комплекты ContiTech с демпфером (CT919K1/K4) указаны для ARG, но номер демпфера в них не расписан. Применимость к ARG прямо не подтверждена: зависит от установленной системы натяжения — сверить по VIN.",
+    "analogs": [
+      { "brand": "INA", "number": "533 0032 20", "source_url": "https://spareto.com/products/ina-vibration-damper-timing-belt/533-0032-20" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/timing-belt-tensioning-element-for-passat-4_GD30710.htm", "title": "Mecatechnic — Timing belt tensioning element for Passat 4 (GD30710)", "accessed": "2026-11-25", "applies_to": "ADR/APT", "note": "Оригинал VW, OE 058-109-479-b; Passat 4 (3B2, 3B5): AFY с номера двигателя 010001, ANB/APU с номера двигателя 020001. ARG не указан." },
+      { "url": "https://spareto.com/products/ina-vibration-damper-timing-belt/533-0032-20", "title": "spareto — INA 533 0032 20 Vibration damper, timing belt", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "OE 058 109 479 и 058 109 479 B; VW Passat 1996–2000, Audi A4 1994–2001; коды двигателей не указаны." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "050121010CX",
+    "name": "Насос охлаждающей жидкости (помпа)",
+    "system": "cooling",
+    "maintenance_key": "water_pump",
+    "notes": "Номер записан как в источнике — с суффиксом CX. Mecatechnic в двух карточках даёт этот OE: Passat 3B с ADP/AFY/ADR/APT/ARG и 1.8T, и Audi A4 B5 с ADR/APT/ARG. Аналоги с этим OE-номером в открытых источниках подтвердить не удалось (помпы INA и DOLZ на spareto привязаны к другой серии номеров 06B121011…). Одно подтверждение (один сайт, две карточки).",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/water-pump-for-passat-4-16-and-18_PA43004", "title": "Mecatechnic — Water pump for Passat 4 1.6 and 1.8 (PA43004)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 050-121-010-cx; Passat 4 (3B): 1.6 ADP, 1.8 AFY/ADR/APT/ARG, 1.8T AEB/APU/ANB." },
+      { "url": "https://www.mecatechnic.com/en-GB/water-pump-for-audi-a4-b5-a6-c4-18-18-t_AC55440.htm", "title": "Mecatechnic — Water pump for Audi A4 (B5), A6 (C4) 1.8/1.8 T (AC55440)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "OE 050-121-010-cx; Audi A4 B5 1.8 с ADR, APT, ARG." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "06B903137",
+    "name": "Ремень приводной поликлиновой (генератор, ГУР)",
+    "system": "engine",
+    "maintenance_key": "drive_belt",
+    "notes": "Febi 28873 указывает OE 06B903137, 06B903137A, 06B903137E (а также 058903137B/C/E) для Passat B5 3B2/3B5 с ADR/APT/ARG. Mecatechnic даёт 06B903137 для Passat 3B с ADR/APT с пометкой «для машин без кондиционера» (ARG там не указан). На машинах с кондиционером компрессор крутит отдельный ремень 06B260849A; меняется ли при этом основной ремень — источники не уточняют, сверить по VIN или по старому ремню. Кросс-номера ContiTech, SKF, Gates взяты со страницы Febi 28873.",
+    "analogs": [
+      { "brand": "FEBI BILSTEIN", "number": "28873", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/auxiliary-belt/c1810/v-ribbed-belts-28873-febi/p118017.html" },
+      { "brand": "ContiTech", "number": "5PK1300", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/auxiliary-belt/c1810/v-ribbed-belts-28873-febi/p118017.html" },
+      { "brand": "SKF", "number": "VKMV 5PK1300", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/auxiliary-belt/c1810/v-ribbed-belts-28873-febi/p118017.html" },
+      { "brand": "Gates", "number": "5PK1303", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/auxiliary-belt/c1810/v-ribbed-belts-28873-febi/p118017.html" }
+    ],
+    "sources": [
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/auxiliary-belt/c1810/v-ribbed-belts-28873-febi/p118017.html", "title": "Winparts — V-Ribbed Belts 28873 FEBI", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 06B 903 137 / A / E, 058 903 137 B / C / E; Passat B5 3B2 (08/1996–11/2000) и 3B5 (05/1997–11/2000) 1.8 ADR/APT/ARG; кроссы ContiTech 5PK1300, SKF VKMV 5PK1300, Gates 5PK1303 (у Gates длина в обозначении отличается)." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/accessories-belt-178-x-1300-mm-for-vehicles-without-air-conditioning_GC35502", "title": "Mecatechnic — Accessories belt for vehicles without air conditioning (GC35502)", "accessed": "2026-11-25", "applies_to": "ADR/APT", "note": "OE 06b-903-137; Passat 4 (3B2, 3B5) 1.8 с AFY, ADR, APT (ARG не указан); пометка «без кондиционера»." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058903133D",
+    "name": "Натяжитель приводного поликлинового ремня",
+    "system": "engine",
+    "maintenance_key": "drive_belt",
+    "notes": "Mecatechnic: натяжитель ремня навесных агрегатов для Passat 3B2/3B5 с AFY/ADR/APT/ARG. SKF VKM 31033 (OE 058903133C и 058903133D) — для Passat B5 3B2/3B5 1.8 ADR/APT/ARG; это натяжной ролик с автоматическим натяжением. Кроссы Febi и Gates взяты со страницы SKF.",
+    "analogs": [
+      { "brand": "SKF", "number": "VKM 31033", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-v-ribbed-belt-vkm-31033-skf/p488049.html" },
+      { "brand": "FEBI BILSTEIN", "number": "19736", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-v-ribbed-belt-vkm-31033-skf/p488049.html" },
+      { "brand": "Gates", "number": "T38151", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-v-ribbed-belt-vkm-31033-skf/p488049.html" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/accessories-belt-tightener-for-passat-4-and-5_GD28028", "title": "Mecatechnic — Accessories belt tightener for Passat 4 and 5 (GD28028)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058-903-133d; Passat 4 (3B2, 3B5) 1.8 с AFY, ADR, APT, ARG." },
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/timing-and-belts/belt-tensioner-and-pulley/c603/tensioner-pulley-v-ribbed-belt-vkm-31033-skf/p488049.html", "title": "Winparts — Tensioner Pulley, v-ribbed belt VKM 31033 SKF", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058 903 133 C и 058 903 133 D; Passat B5 3B2/3B5 1.8 ADR/APT/ARG, в т. ч. Syncro/4motion; кроссы Febi 19736, Gates T38151, Dayco APV2242." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "06B260849A",
+    "name": "Ремень привода компрессора кондиционера",
+    "system": "climate",
+    "maintenance_key": "drive_belt",
+    "notes": "Только для машин с кондиционером. Mecatechnic: ремень кондиционера для Passat 3B2/3B5 с AFY/ADR/APT/ARG. INA FB 4PK855 перечисляет OE 06B260849A, 06B260849B, 06B260849C (и 058260849A) для VW Passat 1996–2005. VW Classic Parts продаёт 06B260849B с тем же обозначением размера в описании, но без кодов двигателя и с другой длиной в таблице — какой индекс ставить, сверить по VIN.",
+    "analogs": [
+      { "brand": "INA", "number": "FB 4PK855", "source_url": "https://spareto.com/products/ina-v-ribbed-belts/fb-4pk855" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/multi-track-belt-1412-x-855-mm-for-air-conditioning_GC35500", "title": "Mecatechnic — Multi-track belt for air conditioning (GC35500)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 06B-260-849-A; ремень кондиционера; Passat 4 (3B2, 3B5) 1.8 с AFY, ADR, APT, ARG." },
+      { "url": "https://spareto.com/products/ina-v-ribbed-belts/fb-4pk855", "title": "spareto — INA FB 4PK855", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "OE 06B 260 849 A/B/C, 058 260 849 A и др.; VW Passat 1996–2005, без кода двигателя." },
+      { "url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/06B260849B", "title": "Volkswagen Classic Parts — V-ribbed belt 06B 260 849 B", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Официальный каталог VW: ремень 06B260849B; коды двигателей не указаны; длина в описании и в таблице расходятся." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058260511",
+    "name": "Кронштейн с натяжным роликом ремня кондиционера",
+    "system": "climate",
+    "maintenance_key": "drive_belt",
+    "notes": "Только для машин с кондиционером. Mecatechnic: опора с натяжным роликом ремня кондиционера для Passat 3B2/3B5 с AFY/ADR/APT/ARG (и для 3B3/3B6 с другими моторами). Аналоги с номерами не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/support-with-tensioner-roller-for-air-conditioning-belt_GC58400.htm", "title": "Mecatechnic — Support with tensioner roller for air conditioning belt (GC58400)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058260511 (на сайте записан как 58260511); Passat 4 (3B2, 3B5) 1.8 с AFY, ADR, APT, ARG." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "N90288901",
+    "name": "Пробка сливная масляного поддона с уплотнительным кольцом",
+    "system": "lubrication",
+    "maintenance_key": "oil",
+    "notes": "Отдельное кольцо сливной пробки с кодом ARG в открытых источниках найти не удалось. Mecatechnic продаёт пробку с кольцом (производитель Febi Bilstein, номер Febi не указан) с OE N90288901 для Audi A4 B5 без кодов двигателя. Для алюминиевого поддона Mecatechnic даёт другой OE — N90813201 (пробка с кольцом, Audi A4 B5 и др.). Пробка 059103193 у Mecatechnic указана для Passat 3B только с ADR/AFY/AEB до определённых номеров двигателя, ARG там нет. Какой поддон и какая пробка на конкретном моторе — сверить по VIN или по старой пробке. Применимость к ARG не подтверждена; одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/draincap-for-audi-a4-95-01_AC52908", "title": "Mecatechnic — Draincap for Audi A4 95->01 (AC52908)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "Бренд Febi Bilstein, OE n-902-889-01-s1; пробка с уплотнением; Audi A4 B5, коды двигателей не указаны." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/drain-cap-seal-for-aluminium-oil-sump_AC52920", "title": "Mecatechnic — Drain cap & seal for aluminium oil sump (AC52920)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "Вариант для алюминиевого поддона: OE n--908-132-01 (N90813201); Audi A3, A4 B5, A6 и др., без кодов двигателя и без Passat." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/oil-sump-drain-plug_GC52910", "title": "Mecatechnic — Oil sump drain plug (GC52910)", "accessed": "2026-11-25", "applies_to": "ADR/APT", "note": "Пробка OE 059103193 (на сайте 59103193): Passat 4 (3B2, 3B5) ADR до номера двигателя 500000, AFY до 005000, AEB до 275000; ARG не указан." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058198025A",
+    "name": "Прокладка клапанной крышки (комплект)",
+    "system": "engine",
+    "maintenance_key": null,
+    "notes": "Mecatechnic: прокладка клапанной крышки производства JP GROUP с OE 058198025A для Audi A4 B5 с ADR/APT/ARG/AVV и 1.8T. Карточки для Passat 3B с ARG не найдено; номер самой детали JP GROUP на странице не указан, поэтому аналогов с номером нет. Входят ли уплотнения свечных колодцев — источник не говорит. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/1-rocker-cover-gasket-for-audi-a4-b5-b6-18-18_AD71421", "title": "Mecatechnic — 1 Rocker cover gasket for Audi A4 (B5, B6) 1.8/1.8T (AD71421)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "JP GROUP, OE 058-198-025-a; Audi A4 B5 1.8 с ADR, APT, ARG, AVV." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058198217",
+    "name": "Комплект уплотнений натяжителя цепи распредвалов",
+    "system": "timing",
+    "maintenance_key": null,
+    "notes": "Комплект прокладок/уплотнений натяжителя цепи между распредвалами; состав в карточках не расписан. Mecatechnic: Passat 3B2/3B5 с AFY/ADR/APT/ARG и 1.8T, Audi A4 B5 с ADR/APT/ARG/AVV. Натяжители цепи на том же сайте продаются без уплотнений. Аналоги с номерами не найдены. Одно подтверждение (один сайт, две карточки).",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/cam-chain-tensioner-seals-for-passat-4-and-5-3b_GC20562", "title": "Mecatechnic — Cam chain tensioner seals for Passat 4 and 5 (3B) (GC20562)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058198217 (на сайте 58198217); Passat 4 (3B2, 3B5) 1.8 с ADR, APT, ARG." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/cam-chain-tensioner-seals-for-audi-a4-b5_AC70025", "title": "Mecatechnic — Cam chain tensioner seals for Audi A4 (B5) (AC70025)", "accessed": "2026-11-25", "applies_to": "Audi A4 B5", "note": "OE 058198217; Audi A4 B5 1.8 с ADR, APT, ARG, AVV." },
+      { "url": "https://www.mecatechnic.com/en-GB/b-volkswagen/m-passat-b4/c-190-timing-by-chain", "title": "Mecatechnic — Timing by chain, Volkswagen Passat (раздел каталога)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Натяжители цепи распредвалов для Passat 3B продаются с пометкой «уплотнение не входит»." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "050121113C",
+    "name": "Термостат",
+    "system": "cooling",
+    "maintenance_key": null,
+    "notes": "Mecatechnic: термостат для Passat 3B с AFY/ADR/APT/ARG (а также 1.6 и 1.8T) и для 3BG с другими моторами. Уплотнительное кольцо — отдельная позиция. Аналоги с номерами в открытых источниках не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/87-102c-calorstat-for-vw-passat-4-and-passat-5_GC55708", "title": "Mecatechnic — Calorstat for VW Passat 4 and Passat 5 (GC55708)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 050-121-113-c; Passat 4 (3B) 1.8 с AFY, ADR, APT, ARG; прокладка продаётся отдельно." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "038121119B",
+    "name": "Кольцо уплотнительное термостата",
+    "system": "cooling",
+    "maintenance_key": null,
+    "notes": "Mecatechnic: уплотнение между помпой и корпусом термостата для части 4-цилиндровых бензиновых и дизельных моторов VW, OE 038121119B и 059121119; в списке моделей есть Passat B4/B5 (в нумерации сайта), коды двигателей не указаны. Применимость к ARG не подтверждена; одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/water-thermostat-gasket-for-vw-and-water-pump_GC55702", "title": "Mecatechnic — Water thermostat gasket for VW and water pump (GC55702)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "OE 038-121-119-b и 059-121-119; «для части 4-цилиндровых моторов VW»; без кодов двигателя." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "059919501",
+    "name": "Датчик температуры охлаждающей жидкости (ранний, квадратный разъём)",
+    "system": "cooling",
+    "maintenance_key": null,
+    "notes": "Применимость зависит от номера шасси: Mecatechnic указывает этот датчик для Passat 3B до шасси 3B-X-600000 (разъём квадратный, четыре контакта). Второй OE на той же карточке — 078919501B. С шасси 3B-Y-000001 — другой датчик 059919501A. Коды двигателя в карточке не указаны — применимость к ARG не подтверждена. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/white-coolant-temperature-sensor-with-4-flat-terminals_GC54306", "title": "Mecatechnic — Coolant temperature sensor with 4 flat terminals (GC54306)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 059-919-501 и 078-919-501-b; Passat 3B до шасси 3B-X-600000; без кодов двигателя." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "059919501A",
+    "name": "Датчик температуры охлаждающей жидкости (поздний, круглый разъём)",
+    "system": "cooling",
+    "maintenance_key": null,
+    "notes": "Применимость зависит от номера шасси: Mecatechnic указывает этот датчик для Passat 3B с шасси 3B-Y-000001 и для Passat 3BG (разъём цилиндрический). До шасси 3B-X-600000 — датчик 059919501. Коды двигателя в карточке не указаны — применимость к ARG не подтверждена. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/green-coolant-temperature-sensor-with-4-terminals-for-golf-4-and-new-beetle_GC54308", "title": "Mecatechnic — Green coolant temperature sensor with 4 terminals (GC54308)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 059-919-501-a; Passat 4 с шасси 3B-Y-000001, Passat 5; без кодов двигателя." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "06B133471",
+    "name": "Расходомер воздуха (датчик массового расхода, в сборе)",
+    "system": "intake_exhaust",
+    "maintenance_key": null,
+    "notes": "Применимость зависит от номера шасси: Mecatechnic указывает новый оригинальный расходомер VW 06B133471 для Passat 3B2/3B5 с ADR/APT/ARG начиная с шасси 3B-X-400001. Для более ранних машин номер в открытых источниках не найден. Аналоги с номерами не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/air-flow-meter-for-passat-4-3b2-3b5_GC44032", "title": "Mecatechnic — Air flow meter for Passat 4 (3B2, 3B5) (GC44032)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "Бренд Volkswagen, OE 06b-133-471; Passat 4 (3B2, 3B5) 1.8 с ADR, APT, ARG, с шасси 3B-X-400001." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058905101A",
+    "name": "Катушка зажигания сдвоенная (с наконечниками свечей)",
+    "system": "ignition",
+    "maintenance_key": null,
+    "notes": "Для ARG источники дают сдвоенную катушку зажигания с наконечниками свечей, а не распределитель с высоковольтными проводами. VW Classic Parts: Passat B5 модельных годов 1997–2000, ARG указан в описании (ADR, APT, ARG, AFY), но не в таблице классификации. Hitachi 138435 указывает также OE 058905105A, однако на VW Classic Parts номер 058905105 относится к другим моторам — не путать. Кроссы Beru и Hella взяты со страницы Hitachi.",
+    "analogs": [
+      { "brand": "Hitachi", "number": "138435", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html" },
+      { "brand": "BERU", "number": "ZSE162", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html" },
+      { "brand": "HELLA", "number": "5DA 749 475-351", "source_url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html" }
+    ],
+    "sources": [
+      { "url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905101A", "title": "Volkswagen Classic Parts — Double ignition coil 058 905 101 A", "accessed": "2026-11-25", "applies_to": "ARG", "note": "Официальный каталог VW: сдвоенная катушка с наконечниками свечей для Passat B5; в описании коды ADR, APT, ARG, AFY; Passat B5 1997–2000, syncro/4MOTION 1998–2000." },
+      { "url": "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html", "title": "Winparts — Ignition Coil 138435 Hitachi", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058905101A и 058905105A; Passat B5 3B2/3B5 1.8 ADR/APT/ARG; кроссы Beru ZSE162, Hella 5DA 749 475-351." },
+      { "url": "https://www.mecatechnic.com/en-GB/p/ridex-ignition-coil-for-volkswagen-passat-b5-18_GC32016", "title": "Mecatechnic — RIDEX ignition coil for Volkswagen Passat B5 1.8 (GC32016)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 058-905-101a; Passat B5 1.8 с ADR, APT, ARG и AFY (номер детали RIDEX на странице не указан)." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "058905261",
+    "name": "Кольцо уплотнительное сдвоенной катушки зажигания",
+    "system": "ignition",
+    "maintenance_key": null,
+    "notes": "VW Classic Parts: уплотнительное кольцо для сдвоенной катушки зажигания Passat B5; в описании ADR, AFY, APT, ARG, но в таблице классификации ARG нет. Аналоги не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905261", "title": "Volkswagen Classic Parts — Seal ring 058 905 261", "accessed": "2026-11-25", "applies_to": "ARG", "note": "Официальный каталог VW: кольцо уплотнительное сдвоенной катушки; коды ADR, AFY, APT, ARG в описании; Passat B5 1997–2000." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "1J0121321B",
+    "name": "Крышка расширительного бачка",
+    "system": "cooling",
+    "maintenance_key": null,
+    "notes": "Mecatechnic: крышка расширительного бачка для Passat 3B2/3B5 (в т. ч. ADR/APT/ARG) и для 3B3/3B6. Аналоги с номерами не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/expansion-tank-cap-for-passat-4-and-5-3b_GC55550", "title": "Mecatechnic — Expansion tank cap for Passat 4 and 5 (3B) (GC55550)", "accessed": "2026-11-25", "applies_to": "ARG", "note": "OE 1j0-121-321b; Passat 4 (3B2, 3B5) 1.8 с ADR, APT, ARG; также Passat 5 (3B3, 3B6)." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "8E0615301P",
+    "name": "Диск тормозной передний (базовые тормоза, PR 1LZ/1ZJ)",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Зависит от PR-кода тормозов: Mecatechnic указывает этот вентилируемый диск меньшего диаметра для Passat 3B2/3B5 с кодом передних тормозов PR-1LZ или 1ZJ (код — на наклейке с данными автомобиля и в сервисной книжке). В списке моторов ADP, AHL, AFY, ADR, AFF, AHH, AHU; ARG прямо не указан. При PR-1LB/1ZC/1LE — диск 4B0615301B. Аналоги не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/1-front-brake-disc-for-passat-4-3b2-and-3b5-280-x-22-mm_PA42200", "title": "Mecatechnic — Front brake disc for Passat 4 (3B2 and 3B5) (PA42200)", "accessed": "2026-11-25", "applies_to": "ADR/APT", "note": "OE 8e0-615-301-p; PR-1LZ, 1ZJ; Passat 4 (3B2, 3B5), моторы ADP, AHL, AFY, ADR, AFF, AHH, AHU." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "4B0615301B",
+    "name": "Диск тормозной передний (увеличенный, PR 1LB/1ZC/1LE)",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Зависит от PR-кода и номера шасси: Mecatechnic указывает этот вентилируемый диск большего диаметра для Passat 3B2/3B5 с шасси 3B-Y-000001 и кодом тормозов PR-1LB, 1ZC или 1LE. При PR-1LZ/1ZJ — диск 8E0615301P. Коды двигателя не указаны. Аналоги не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/1-front-brake-disc-for-passat-4-3b2-and-3b5-288-x-25-mm_PA42206", "title": "Mecatechnic — 1 front brake disc for Passat 4 (3B2 and 3B5) (PA42206)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 4b0-615-301-b; PR-1LB, 1ZC, 1LE; с шасси 3B-Y-000001." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "8E0698151A",
+    "name": "Колодки тормозные передние (к дискам PR 1LZ/1ZJ, 10/1996–04/1999, без датчика износа)",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Зависит от PR-кода, даты и номера шасси: Mecatechnic указывает для Passat 3B 10/1996–04/1999, шасси 3B-V-000001 — 3B-X-600000, бензиновые 1.6 и 1.8 (коды двигателей не указаны) и 1.9 TDI, к дискам тормозов 1LZ/1ZJ; колодки без датчика износа. Второй OE на той же карточке — 8E0698151N. Для 05/1999–08/2000 — колодки 8E0698151B/M. Одно подтверждение.",
+    "analogs": [
+      { "brand": "EBC", "number": "DP1112", "source_url": "https://www.mecatechnic.com/en-GB/p/front-ebc-black-reg90-pads-with-280-x-22-mm-discs-for-vw-passat-4-97-99_PA42255" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/front-ebc-black-reg90-pads-with-280-x-22-mm-discs-for-vw-passat-4-97-99_PA42255", "title": "Mecatechnic — Front EBC Black Reg90 pads for VW Passat 4, 97->99 (PA42255)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "EBC DP1112; OE 8e0-698-151-a и 8e0-698-151-n; Passat 4 (3B) 10/1996–04/1999, шасси 3B-V-000001 — 3B-X-600000; тормоза 1LZ/1ZJ; без датчика износа." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "8E0698151B",
+    "name": "Колодки тормозные передние (к дискам PR 1LZ/1ZJ, 05/1999–08/2000, с датчиком износа)",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Зависит от даты и номера шасси: Mecatechnic указывает для Passat 3B 05/1999–08/2000, шасси 3B-Y-000001 — 3B-Y-600000, к вентилируемым дискам меньшего диаметра (базовые тормоза); колодки с датчиком износа. Второй OE на той же карточке — 8E0698151M. Моторы в карточке не перечислены. Для более ранних машин — 8E0698151A. Одно подтверждение.",
+    "analogs": [
+      { "brand": "EBC", "number": "DP1351", "source_url": "https://www.mecatechnic.com/en-GB/p/front-ebc-black-reg90-pads-with-280-x-22-mm-discs-for-vw-passat-4-99-00_PA42256" }
+    ],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/front-ebc-black-reg90-pads-with-280-x-22-mm-discs-for-vw-passat-4-99-00_PA42256", "title": "Mecatechnic — Front EBC Black Reg90 pads for VW Passat 4, 99->00 (PA42256)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "EBC DP1351; OE 8e0-698-151-m и 8e0-698-151-b; Passat 4 (3B) 05/1999–08/2000, шасси 3B-Y-000001 — 3B-Y-600000; с датчиком износа." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "4B0698151K",
+    "name": "Колодки тормозные передние (к увеличенным дискам PR 1LB/1ZC)",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Зависит от PR-кода и номера шасси: Mecatechnic указывает для Passat 3B/3BG 05/1999–06/2003, шасси 3B-Y-000001 — 3B-3-600000, тормоза 1LB или 1ZC (вентилируемые диски большего диаметра); с датчиком износа. Моторы не перечислены. Аналоги не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/set-of-front-brake-pads-with-288-x-25-mm-discs-for-vw-passat-4-99-03_PA42252", "title": "Mecatechnic — Set of front brake pads for VW Passat 4, 99->03 (PA42252)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 4b0-698-151-k; Passat (3B) 05/1999–06/2003, шасси 3B-Y-000001 — 3B-3-600000; тормоза 1LB или 1ZC." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "4A0615601A",
+    "name": "Диск тормозной задний",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Mecatechnic: задний диск для Passat 3B всех исполнений, кроме 4Motion (для 4Motion продаётся отдельная позиция, OE в карточке не проверен). PR-коды и моторы не указаны. Задние барабанные тормоза для Passat 3B в источнике не встречаются. Аналоги не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/1-rear-brake-disc-for-vw-passat-4_PA42210", "title": "Mecatechnic — 1 rear brake disc for VW Passat 4 (PA42210)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 4a0-615-601-a; «Passat 4, все модели кроме 4Motion»." }
+    ],
+    "status": "unverified"
+  },
+  {
+    "oem": "1H0698451D",
+    "name": "Колодки тормозные задние",
+    "system": "brakes_abs",
+    "maintenance_key": null,
+    "notes": "Mecatechnic: задние колодки для Passat 3B всех исполнений, включая 4Motion; другие OE на той же карточке — 1H0698451A и 1J0698451F. PR-коды и моторы не указаны. Аналоги не найдены. Одно подтверждение.",
+    "analogs": [],
+    "sources": [
+      { "url": "https://www.mecatechnic.com/en-GB/p/set-of-rear-brake-pads-for-vw-passat-4_PA42260", "title": "Mecatechnic — Set of rear brake pads for VW Passat 4 (PA42260)", "accessed": "2026-11-25", "applies_to": "Passat B5", "note": "Бренд Volkswagen, OE 1H0-698-451D, 1H0-698-451-A, 1J0-698-451-F; «Passat 4, все модели, включая 4Motion»." }
+    ],
+    "status": "unverified"
+  }
+]

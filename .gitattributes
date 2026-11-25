@@ -1,0 +1,5 @@
+# Концы строк: .bat обязательно CRLF (иначе cmd на Windows может сбоить), остальное — LF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.pdf binary

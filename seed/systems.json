@@ -1,0 +1,18 @@
+[
+  { "slug": "engine", "name": "Двигатель" },
+  { "slug": "timing", "name": "ГРМ" },
+  { "slug": "ignition", "name": "Зажигание" },
+  { "slug": "fuel", "name": "Топливная система" },
+  { "slug": "intake_exhaust", "name": "Впуск и выпуск" },
+  { "slug": "cooling", "name": "Охлаждение" },
+  { "slug": "lubrication", "name": "Смазка" },
+  { "slug": "clutch_gearbox", "name": "Сцепление и КПП" },
+  { "slug": "front_suspension", "name": "Передняя подвеска" },
+  { "slug": "rear_suspension", "name": "Задняя подвеска" },
+  { "slug": "steering", "name": "Рулевое управление" },
+  { "slug": "brakes_abs", "name": "Тормоза и ABS" },
+  { "slug": "electrical", "name": "Электрика и свет" },
+  { "slug": "climate", "name": "Климат" },
+  { "slug": "interior", "name": "Салон и комфорт" },
+  { "slug": "body", "name": "Кузов" }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "title": "erWin — официальная информация о портале (Volkswagen Group Info Services)",
+    "url": "https://vwgroup-datahub.com/erwininfo",
+    "category": "official",
+    "description": "Официальная страница о erWin — платном портале ремонтной информации концерна для VW (легковые и коммерческие), Audi, Škoda, SEAT, Cupra и Bentley (у Lamborghini — только диагностика). По описанию там руководства по ремонту, электросхемы, расположение компонентов, таблицы ТО и нормы времени, а где разрешено — ещё и диагностика ODIS. Схема доступа: компания один раз регистрирует бизнес-аккаунт (через ONE Business ID) и заводит пользователей, затем в веб-магазине выбирает марку и срок лицензии — час, день, неделя, месяц или год; лицензия начинает действовать сразу после покупки. Портал рассчитан на профессиональные организации, а не на частных лиц. Россия и страны СНГ в списке рынков нового erWin не значатся: для стран вне списка страница советует обращаться к местному импортёру, отдельного «российского» адреса нет. Старые марочные сайты erWin обещают отключить после 31.12.2026 (старый адрес erwin.volkswagen.de на дату проверки уже не открывается). Зарегистрированным организациям без лицензии бесплатно доступен цифровой график ТО (Digital Service Schedule). Материалы erWin в архив не переносим — здесь только ссылка.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK (старый адрес drivesomethinggreater.com/erwininfo перенаправляет сюда)"
+  },
+  {
+    "title": "erWin — вход в новый центральный портал",
+    "url": "https://erwin.vwgroup-datahub.com/",
+    "category": "official",
+    "description": "Единая точка входа в новый erWin для всех марок концерна и всех подключённых рынков, кроме Северной Америки: регистрация компании, покупка лицензий на час, сутки и дольше, переход к руководствам и схемам. Условия и список стран — на информационной странице erWin (ссылка выше).",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK (страница-приложение: содержимое подгружается скриптом, автопроверка видит только каркас)"
+  },
+  {
+    "title": "erWin Online — Volkswagen of America (США и Канада)",
+    "url": "https://erwin.vw.com/",
+    "category": "official",
+    "description": "Отдельный erWin для Северной Америки со своими подписками. На главной сказано, что там собрана вся опубликованная сервисная информация VW of America для независимых сервисов и владельцев; есть ссылки на поиск графика ТО по VIN или модели, руководства владельца и каталог оригинальных запчастей. Ориентирован на машины североамериканского рынка.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK (перенаправляет на vw-us.erwin-store.com)"
+  },
+  {
+    "title": "Ross-Tech Wiki — главная страница",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Main_Page",
+    "category": "reference",
+    "description": "Открытая вики разработчика VCDS: расшифровки кодов неисправностей, процедуры диагностики, кодирование и адаптации блоков управления VAG, страницы по моделям.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech Wiki — категория Fault Codes",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Category:Fault_Codes",
+    "category": "reference",
+    "description": "Указатель пятизначных VAG-кодов неисправностей (около тысячи статей), сгруппированных по первой цифре. В статьях — возможные симптомы, причины и способы устранения.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech Wiki — VW Passat (3B): блоки управления и адреса",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
+    "category": "reference",
+    "description": "Страница модели Passat B5 (1997–2005): где находится диагностический разъём (до 2001 модельного года — в центральной консоли, позже — в нише для ног водителя), список адресов блоков управления (01 двигатель, 02 КПП, 03 ABS, 08 климат, 15 подушки безопасности, 17 щиток приборов, 19 шлюз CAN, 46 комфорт и другие) и подходящие интерфейсы. Обозначение 3BG на странице отдельно не упоминается.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech Wiki — Audi A4/S4/RS4 (8D): блоки управления",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Audi_A4/S4/RS4_(8D)",
+    "category": "reference",
+    "description": "Указатель блоков управления Audi A4 B5 по адресам со ссылками на кодирование, адаптации и label-файлы там, где они описаны. Полезен для родственных моторов ADR/APT.",
+    "applies_to": "Audi A4 B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech Wiki — Official Factory Repair Information",
+    "url": "https://wiki.ross-tech.com/wiki/index.php/Official_Factory_Repair_Information",
+    "category": "reference",
+    "description": "Обзор того, где брать официальную заводскую информацию по ремонту VAG: ссылки на erWin каждой марки отдельно для «остального мира» и для Северной Америки, перечень того, что там есть (руководства, схемы, сервисные бюллетени, идентификация по VIN). Отмечено, что с 17.11.2025 части частных пользователей вне Северной Америки сообщили о закрытии личных аккаунтов.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech — сравнение интерфейсов VCDS (совместимость со старыми машинами)",
+    "url": "https://www.ross-tech.com/vcds/interfaces.php",
+    "category": "reference",
+    "description": "Ross-Tech пишет, что текущие интерфейсы HEX-V2 и HEX-NET работают со всеми легковыми машинами концерна с 1996 года, включая диагностику по K-линии, а с переходником 2x2 — и со многими машинами 1990–1995 годов. Отдельной вики-страницы про протокол KW1281 у Ross-Tech нет.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech — VCDS-Lite",
+    "url": "https://www.ross-tech.com/vcds-lite/",
+    "category": "reference",
+    "description": "Упрощённая версия VCDS для машин VAG примерно до 2006 года, которым не нужна диагностика по CAN. Работает со сторонними кабелями на чипе FTDI FT232 (Ross-Tech их не продаёт); бесплатная версия урезана, регистрация открывает остальные функции. С машинами на CAN-шине не работает.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ross-Tech — руководство VCDS-Lite: экран Open Controller (протоколы KW1281 и KWP-2000)",
+    "url": "https://www.ross-tech.com/vcds-lite/manual/open.html",
+    "category": "reference",
+    "description": "Описание экрана открытого блока в VCDS-Lite. В статусе связи программа показывает, по какому протоколу общается блок — KW1281 или KWP-2000; это помогает понять, с чем имеешь дело на конкретном блоке Passat B5.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "OBD-Codes.com — справочник кодов OBD-II",
+    "url": "https://www.obd-codes.com/trouble_codes/",
+    "category": "reference",
+    "description": "Широко используемый англоязычный открытый справочник общих кодов OBD-II (P0xxx и другие). Содержимое страницы автопроверкой подтвердить не удалось — сайт отклоняет автоматические запросы.",
+    "applies_to": "OBD-II общее",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную"
+  },
+  {
+    "title": "Коды ошибок OBD-II: полный список с расшифровкой — Авто Mail",
+    "url": "https://auto.mail.ru/topic/451-kody-obd2/",
+    "category": "reference",
+    "description": "Русскоязычная подборка кодов OBD-II: у каждого кода — английское название, короткое пояснение по-русски, когда блок его ставит, и ссылка на подробную статью. Список подгружается кнопкой «Показать ещё».",
+    "applies_to": "OBD-II общее",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "PassatWorld.ru — технический форум VW Passat B5/B5+",
+    "url": "https://passatworld.ru/forumdisplay.php/52-VW-Passat-B5-V5",
+    "category": "forum",
+    "description": "Крупнейший русскоязычный клубный форум Passat; раздел B5/B5+ — более 10 тысяч тем. Форум живой, свежие сообщения есть на дату проверки. В закреплённых темах — перечень расходных материалов B5/B5+ с каталожными номерами. Старый адрес passat-b5.ru теперь перенаправляет на этот сайт.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "PassatWorld.ru — База знаний Passat B5/B5+",
+    "url": "https://passatworld.ru/forumdisplay.php/90-Baza-znanij-Passat-B5-B5",
+    "category": "forum",
+    "description": "Фотоотчёты о ремонте, разложенные по подразделам: бензиновые и дизельные моторы, диагностика и кодирование, электрика, ходовая и рулевое, тормоза, кондиционер, КПП, руководства и справочные материалы.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "VWTS.ru — раздел «Бензиновые двигатели»",
+    "url": "https://vwts.ru/forum/vag/benzinovye-dvigateli/",
+    "category": "forum",
+    "description": "Русскоязычный технический форум по всем моделям VAG, раздел о бензиновых моторах; рядом — раздел диагностики и база знаний по моторам с отчётами о ремонте. Отдельного раздела именно по Passat B5 нет. Форум активен.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "DRIVE2 — сообщество «Volkswagen Passat B5»",
+    "url": "https://www.drive2.ru/communities/320/",
+    "category": "forum",
+    "description": "Сообщество владельцев B5 и B5+ на DRIVE2: блог — для отчётов о сделанных работах с фото, форум — для вопросов. В начале блога — двухчастный указатель «Ремонт и эксплуатация Passat B5/B5+». Свежие записи в блоге появлялись в последние недели.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Ауди Клуб Россия — форум Audi A4",
+    "url": "https://www.audi-club.ru/forums/a4.110/",
+    "category": "forum",
+    "description": "Общий раздел по A4 (более 12 тысяч тем); темы по поколениям помечены префиксами, есть закреплённая тема «Вопросы по А4 В5» и свежие обсуждения 1.8 ADR и K-линии. Активен на дату проверки.",
+    "applies_to": "Audi A4 B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Audizine — B5 A4 (1995–2001)",
+    "url": "https://www.audizine.com/forums/b5-a4.2/",
+    "category": "forum",
+    "description": "Большой англоязычный форум по Audi A4 B5; рядом подразделы с FAQ и инструкциями (DIY) и технический архив.",
+    "applies_to": "Audi A4 B5",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (WebFetch получает 403, при этом простой HTTP-запрос отвечает 200), открыть вручную"
+  },
+  {
+    "title": "AudiWorld — A4 (B5 Platform) Discussion",
+    "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/",
+    "category": "forum",
+    "description": "Один из старейших англоязычных форумов Audi: раздел по A4 B5 1995–2001 годов с собственным FAQ. Текущую активность автопроверкой оценить не удалось.",
+    "applies_to": "Audi A4 B5",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную"
+  },
+  {
+    "title": "VWVortex — Passat (B5)",
+    "url": "https://www.vwvortex.com/forums/passat-b5.6/",
+    "category": "forum",
+    "description": "Англоязычный форум по пятому поколению Passat: обсуждения неисправностей и ремонта, отдельные доски для продажи машин и запчастей B5.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (ответ 202 Verifying и перенаправление роботов на платный шлюз TollBit), открыть вручную"
+  },
+  {
+    "title": "PassatWorld.com — форумы владельцев Passat",
+    "url": "https://www.passatworld.com/forums/",
+    "category": "forum",
+    "description": "Крупный англоязычный форум владельцев Passat с разделами по B5/B5.5 и темами-FAQ (покупка B5, мотор 1.8T). Заметная часть материалов — про турбомотор 1.8T, но кузов, электрика и ходовая у B5 общие.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (ответ 202 Verifying и перенаправление роботов на платный шлюз TollBit), открыть вручную"
+  },
+  {
+    "title": "DRIVE2 — бортжурналы владельцев Volkswagen Passat B5",
+    "url": "https://www.drive2.ru/experience/volkswagen/g2147/",
+    "category": "blog",
+    "description": "Лента записей из бортжурналов по поколению B5 с сортировкой по лайкам и комментариям — удобно искать отчёты по конкретному узлу и мотору.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "DRIVE2 — «Ремонт и эксплуатация Passat B5/B5+» (часть 1)",
+    "url": "https://www.drive2.ru/c/850733/",
+    "category": "blog",
+    "description": "Указатель ссылок на отчёты владельцев о ремонте, сгруппированный по системам машины; есть вторая часть (https://www.drive2.ru/c/998354/). Интервалов ТО сам указатель не приводит.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "DRIVE2 — бортжурнал Passat B5 1.8 ARG (2000, МКПП)",
+    "url": "https://www.drive2.ru/r/volkswagen/passat/925066/logbook/",
+    "category": "blog",
+    "description": "Журнал машины именно с мотором ARG: генератор и его обгонная муфта, ремень кондиционера с натяжителем, топливный шланг, вакуумная мембрана, плюс доработки салона. В части записей есть каталожные номера и пошаговые фото. Последние записи — около 5 лет назад.",
+    "applies_to": "ARG",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "DRIVE2 — бортжурнал Passat B5 1.8 20V ADR (1998, МКПП)",
+    "url": "https://www.drive2.ru/r/volkswagen/passat/465293530739245514/logbook/",
+    "category": "blog",
+    "description": "Журнал с мотором ADR: фазорегулятор, наружные ШРУСы, опоры КПП, кулиса, генератор, тормоза, замены масла, кузовные работы. Многие записи с брендами и номерами деталей. Последние записи — около 2 лет назад.",
+    "applies_to": "ADR/APT",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "DRIVE2 — бортжурнал Passat B5 1.8 APT (1999, МКПП)",
+    "url": "https://www.drive2.ru/r/volkswagen/passat/453754431083644241/logbook/",
+    "category": "blog",
+    "description": "Журнал с мотором APT: опоры двигателя, рычаги, замена рулевой рейки с замерами, неисправности ABS и датчиков, чистка форсунок, свечи, мембрана впуска, шланг вентиляции картера. Часть записей короткие. Последняя запись — около 4 лет назад.",
+    "applies_to": "ADR/APT",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "DRIVE2 — «Технические данные А4 В5, Passat B5. ADR, APT, ARG, AVV»",
+    "url": "https://www.drive2.ru/l/646579358659511126/",
+    "category": "blog",
+    "description": "Сводка технических данных четырёх родственных 1.8 20V и таблица периодичности замены расходников. Автор не указывает, откуда взяты цифры, поэтому всё критичное сверять с официальной документацией.",
+    "applies_to": "ARG",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "MANN-FILTER — онлайн-каталог",
+    "url": "https://www.mann-filter.com/en/catalog.html",
+    "category": "catalog",
+    "description": "Подбор фильтров MANN-FILTER (масляный, воздушный, топливный, салонный) по автомобилю, названию продукта, кросс-номерам и размерам. Каталог на 21 языке; учётная запись нужна только для заметок и избранного.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "MAHLE Aftermarket — онлайн-каталог (eCat)",
+    "url": "https://www.mahle-aftermarket.com/eu/en/catalog/",
+    "category": "catalog",
+    "description": "Страница каталога MAHLE для Европы: отсюда открывается сам каталог (фильтры, детали двигателя, термоменеджмент) на платформе TecAlliance с выбором страны. Возможности поиска на самой странице не описаны.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Bosch Automotive Aftermarket — каталог запчастей",
+    "url": "https://www.boschaftermarket.com/gb/en/parts/",
+    "category": "catalog",
+    "description": "Британская версия сайта Bosch для автозапчастей с поиском по автомобилю и по продукту (свечи, катушки зажигания, стартеры и другое). Входа на странице не требуется.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "Gates — онлайн-каталог GatesAutoCat",
+    "url": "https://www.gatesautocat.com/",
+    "category": "catalog",
+    "description": "Каталог Gates для Европы, на который ссылается технический сайт Gates: ремни ГРМ и комплекты (в том числе с помпой), поликлиновые ремни, натяжители; поиск по марке и модели или по номеру детали.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (Cloudflare, 403), открыть вручную"
+  },
+  {
+    "title": "Continental Aftermarket — онлайн-каталоги (ремни ContiTech и др.)",
+    "url": "https://continental-aftermarket.com/en-en/catalogs/online-catalogs",
+    "category": "catalog",
+    "description": "Входная страница онлайн-каталогов Continental: общий каталог продуктов Continental, ATE и VDO, отдельный информационный центр по ременному приводу (ремни ГРМ, комплекты, комплекты с помпой, поликлиновые ремни) и ссылка на каталоги тормозов ATE.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  },
+  {
+    "title": "REPXPERT — портал Schaeffler (INA, LuK, FAG)",
+    "url": "https://www.repxpert.com/",
+    "category": "catalog",
+    "description": "Портал Schaeffler для мастерских: каталог на базе TecDoc с подбором по автомобилю, инструкции и видео по установке (комплекты и ролики ГРМ INA, сцепления LuK, подшипники FAG). Сам Schaeffler называет портал бесплатным; нужна ли регистрация для подбора — проверить вручную.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную"
+  },
+  {
+    "title": "NGK / NTK — Produktfinder",
+    "url": "https://www.ngkntk.com/de/produktfinder/",
+    "category": "catalog",
+    "description": "Подбор свечей зажигания, катушек, лямбда-зондов и других изделий NGK/NTK: сначала выбирается тип техники и продукта, затем открывается каталог на платформе TecAlliance. Страница на немецком, русской версии нет.",
+    "applies_to": "Passat B5",
+    "checked_at": "2026-11-25",
+    "check_result": "200 OK"
+  }
+]
