@@ -1,0 +1,922 @@
+[
+  {
+    "title": "121 VAG ECU pinout (Google Sheets, сообщество rusEFI)",
+    "url": "https://docs.google.com/spreadsheets/d/1H0cZPAJFbpprgSu1Y8BiAYzXbqddvIn-Hhod4QCVQwk",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Сводная таблица назначения контактов 121-контактного разъёма ЭБУ VAG по номерам пинов с колонками для разных машин, в том числе Audi A4 1.8T 2000 и 2001 годов (ME7.1/ME7.5). Данные собраны пользователями, расхождения между колонками нужно сверять.",
+    "applies_to": "Audi A4 B5 1.8T (ME7.1/ME7.5), другие VAG с разъёмом 121 pin; для ARG — только как справка по разъёму",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Hellen 121 VAG — rusEFI wiki",
+    "url": "https://wiki.rusefi.com/Hellen121VAG",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Страница открытого проекта сменного ЭБУ под 121-контактный разъём ME7 VAG: таблица совместимых машин (прямо упомянут Passat B5 1.8T), ссылки на интерактивную распиновку, таблицу контактов и схемы платы.",
+    "applies_to": "Passat B5 1.8T, Audi A4 B5 1.8T (ME7); не ARG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "1.8 Turbo 20V — Haltech Knowledge Base",
+    "url": "https://support.haltech.com/portal/en/kb/articles/1-8-turbo-20v",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "reference",
+    "description": "Справка Haltech по мотору 1.8T 20V: датчики, подключение зажигания и дросселя, задающие диски коленвала для разных кодов, расположение ЭБУ; есть картинка распиновки штатного ЭБУ.",
+    "applies_to": "1.8T 20V (AEB/APU, AUQ/AUM/BAM); для ARG — родственная головка и датчики",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "ECU pin outs — Nefmoto wiki",
+    "url": "https://nefariousmotorsports.com/wiki/ECU_pin_outs",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Вики сообщества Nefmoto: таблицы контактов ЭБУ Bosch ME7.x со 121-контактным разъёмом (питание, масса, K-line) для стендового чтения и прошивки.",
+    "applies_to": "1.8T ME7 (Audi A4 B5 / Passat B5 1.8T); не ARG",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Me3.8 ecu pinout — Nefmoto forum",
+    "url": "http://nefariousmotorsports.com/forum/index.php?topic=7118.0",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Тема о распиновке ЭБУ Motronic M3.8 (семейство, к которому относятся блоки 1.8 20V конца 90-х), обсуждение назначения контактов.",
+    "applies_to": "Motronic M3.8.x; 1.8T AEB, родственно ADR/ARG",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "How to bench read & flash your 1.8t ECU with nefmoto",
+    "url": "http://nefariousmotorsports.com/forum/index.php?topic=6324.0",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Инструкция по подключению ЭБУ 1.8T на столе: какие контакты разъёма — питание, масса и K-line; полезно как справка по назначению служебных пинов 121-контактного блока.",
+    "applies_to": "1.8T ME7/M3.8 (Audi A4 B5, Passat B5 1.8T)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Vvt and egt pin location for 1.8t ecu — Nefmoto forum",
+    "url": "http://nefariousmotorsports.com/forum/index.php?topic=14395.0",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Обсуждение, на каких контактах ЭБУ 1.8T находятся клапан изменения фаз и датчик температуры выхлопа.",
+    "applies_to": "1.8T ME7; для ARG — справочно (фазовращатель есть и на 20V атмосферных)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "audi aeb ecu pinout — Audizine",
+    "url": "https://www.audizine.com/threads/audi-aeb-ecu-pinout.701050/",
+    "system": "engine",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Тема с распиновкой ЭБУ мотора AEB 1.8T на Audi A4 B5 и обсуждением её правильности.",
+    "applies_to": "Audi A4 B5 1.8T AEB (M3.8.2); родственно ADR/ARG по разъёму",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "The DBW conversion infothread — Audizine",
+    "url": "https://www.audizine.com/threads/the-dbw-conversion-infothread.621966/",
+    "system": "engine",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Большая тема о переводе B5 на электронную педаль газа: распиновка разъёма педали и её смена в 2001 модельном году, подбор жгута и ЭБУ, отключение иммобилайзера.",
+    "applies_to": "Audi A4 B5 / Passat B5 1.8T (AEB→AWM)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Pin-belegung AFN- MSG — Dieselschrauber",
+    "url": "https://community.dieselschrauber.org/viewtopic.php?t=9808",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Пользователь описывает путь линии K-line на Passat 3B: от контакта ЭБУ через приборную панель (иммобилайзер) к разъёму диагностики, с номерами контактов.",
+    "applies_to": "Passat B5 3B 1999 (мотор AFN); маршрут K-line через щиток общий для 3B",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Running a Mk4 Golf/Passat 'B5' cluster on the bench — TDIClub",
+    "url": "https://forums.tdiclub.com/showthread.php?t=309672",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Как запитать щиток Golf 4 / Passat B5 на столе: контакты синего разъёма (зажигание, постоянный плюс, масса, K-line, подавление предупреждений) и часть контактов зелёного разъёма для кнопок MFA. Участники расходятся в мелочах.",
+    "applies_to": "Passat B5 3B, Golf 4 (щитки VDO 1J0/3B0)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Tacho Pinbelegung — motor-talk.de",
+    "url": "https://www.motor-talk.de/forum/tacho-pinbelegung-t2362803.html",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Распиновка синего и зелёного 32-контактных разъёмов приборной панели Passat 3B по периодам выпуска (и красного 20-контактного у части щитков); отмечено, что раскладка зависит от номера щитка и года.",
+    "applies_to": "Passat B5 3B/3BG до 2004",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "instrument cluster pin out help — Audizine",
+    "url": "https://www.audizine.com/threads/instrument-cluster-pin-out-help.347212/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Распиновки разъёмов щитка Audi A4 B5 для разных периодов выпуска (до 8/97 и 8/97–99.5) с пояснением, что у машин 2000+ раскладка другая.",
+    "applies_to": "Audi A4 B5 1996–2001",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "pinout/wiring diagram for 3 plugs for instrument cluster? — Audizine",
+    "url": "https://www.audizine.com/threads/pinout-wiring-diagram-for-3-plugs-for-instrument-cluster.506712/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Назначение контактов синего, зелёного и серого разъёмов щитка приборов Audi: питание, стоп-сигнал, тахометр, двери, транспондер, W-линия, CAN.",
+    "applies_to": "Audi A4 B5 (поздние щитки с тремя разъёмами)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Understanding differences between Audi A4 clusters and the compatibility issues — AudiWorld",
+    "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/understanding-differences-between-audi-a4-clusters-compatibility-issues-2797763/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Разбор поколений щитков A4 B5: различия по разъёмам и годам, совместимость при замене, вопросы иммобилайзера.",
+    "applies_to": "Audi A4 B5 1995–2001",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "LCD cluster install in NON-LCD B5 — Audizine",
+    "url": "https://www.audizine.com/forum/showthread.php/592540-LCD-cluster-install-in-NON-LCD-B5",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Установка щитка с дисплеем в A4 B5 без дисплея: какие провода и контакты нужно добавить в разъёмы щитка.",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Blitz-Info VW Passat (3B, 35i) mit Motometer-Kombiinstrument: Diverse Funktionsausfälle — Hella",
+    "url": "https://hella.com/tibi/bi/de/electronics/bi_d_electronics_vw_passat_3b_ausfall_kombiinstrument.pdf",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "official",
+    "description": "Сервисная информация Hella: пропадание контрольных ламп и подсветки щитка Motometer из-за трещин пайки центрального разъёма на плате; порядок разборки и проверки пайки.",
+    "applies_to": "Passat B5 3B (щиток Motometer), Passat B4 35i",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (PDF, текст проверен)",
+    "status": "unverified"
+  },
+  {
+    "title": "Kombiinstrument (Navi-MFA Kabel) — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/kombiinstrument/mfa-kabel.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Дооснащение MFA на Passat 3B/3BG: какие ремонтные провода нужны, между какими контактами подрулевого переключателя и разъёма щитка их проложить; фото разъёмов.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/kombiinstrument/MFA-KI-Stecker.jpg",
+        "caption": "Фото автора: синий и зелёный разъёмы щитка с проложенными проводами MFA"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauten/kombiinstrument/MFA-Lenkstock-Stecker.jpg",
+        "caption": "Фото автора: разъём подрулевого переключателя для MFA"
+      }
+    ]
+  },
+  {
+    "title": "Kombiinstrument — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/kombiinstrument/kombiinstrument.htm",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
+    "description": "Замена щитка 3B на щиток с большим дисплеем MFA: номера щитков, что меняется в подключении и кодировании.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "KST 1J0 959 799 Pinout: Connector Diagram & Info — Dieselschrauber",
+    "url": "https://community.dieselschrauber.org/en/viewtopic.php?t=18785",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Назначение контактов 23-контактного разъёма центрального блока комфорта/ЦЗ 1J0 959 799 для вариантов 97, 99 и 01 года (кнопка и реле замка багажника, моторы замков, освещение).",
+    "applies_to": "Passat B5 3B Variant 1998 (блок комфорта 2-го поколения)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Amerikanischer ZV-Schalter für den Beifahrer — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/ami-zv/ami-zv.htm",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Установка американской кнопки ЦЗ в пассажирскую дверь: к каким контактам дверного разъёма подключить провода, фото разъёма в двери.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/ami-zv/ami-zv-1.jpg",
+        "caption": "Фото автора: разъём жгута в проёме двери с подключёнными проводами"
+      }
+    ]
+  },
+  {
+    "title": "Fuse Locations B5, B5.5, CCM wiring diagram — UKPassats",
+    "url": "https://www.ukpassats.co.uk/phpbb/viewtopic.php?t=57506",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "forum",
+    "description": "Тема о расположении предохранителей B5/B5.5 и схеме подключения блока комфорта.",
+    "applies_to": "Passat B5 3B, B5.5 3BG (рынок Великобритании)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Passat 3BG Variant Pinbelegung (Schaltplan) Fensterheberschalter Fahrerseite — motor-talk.de",
+    "url": "https://www.motor-talk.de/forum/passat-3bg-variant-pinbelegung-schaltplan-fensterheberschalter-fahrerseite-t6165083.html",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Распиновка блока кнопок стеклоподъёмников водителя Passat 3BG Variant и пояснения по обозначениям разъёмов VW вида T28/2.",
+    "applies_to": "Passat B5 3BG Variant (для 3B — сверять)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Does anyone know which pin does what on the block connectors to the electric window motors? — UKPassats",
+    "url": "https://www.ukpassats.co.uk/phpbb/viewtopic.php?p=684795",
+    "system": "interior",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Вопрос и ответы о назначении контактов разъёмов моторов стеклоподъёмников Passat B5.",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "B5 window circuit simplified diagram — Audizine post",
+    "url": "https://www.audizine.com/posts/15237507/",
+    "system": "interior",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Пользователь нарисовал упрощённую схему цепи одного стеклоподъёмника B5 с назначением всех восьми контактов; цвета проводов для 2000 модельного года.",
+    "applies_to": "Audi A4 B5 2000 (цепь близка к Passat B5)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Headlight switch / front fog retrofit (B5.5) — UKPassats",
+    "url": "https://www.ukpassats.co.uk/phpbb/viewtopic.php?p=571567",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Дооснащение передних противотуманок: какие гнёзда разъёма переключателя света за что отвечают (задняя и передняя ПТФ), подключение реле.",
+    "applies_to": "Passat B5.5 3BG",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "How to-Retrofit B5.5 Foglights — UKPassats",
+    "url": "https://www.ukpassats.co.uk/phpbb/viewtopic.php?t=70377",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Пошаговое дооснащение противотуманок B5.5 с описанием выводов реле и вариантом отключения ПТФ при дальнем свете.",
+    "applies_to": "Passat B5.5 3BG",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Passat 3B Nebelscheinwerfer — motor-talk.de",
+    "url": "https://www.motor-talk.de/forum/passat-3b-nebelscheinwerfer-t4299997.html",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Дооснащение ПТФ на 3B: разъём переключателя света одинаков для всех вариантов фар, какие провода нужно доложить от переключателя к релейной плате.",
+    "applies_to": "Passat B5 3B",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "A4 B5 DIY: Install headlight relays — Audizine",
+    "url": "https://www.audizine.com/forum/showthread.php/553972-A4-B5-DIY-Install-headlight-relays",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Установка реле на ближний свет A4 B5: схема подключения выводов реле и место врезки в штатную проводку после предохранителей.",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "A4 B5 DIY: Prefacelift independent fog lights — Audizine",
+    "url": "https://www.audizine.com/threads/a4-b5-diy-prefacelift-independent-fog-lights.554273/",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Переделка цепи ПТФ дорестайлингового A4 B5, чтобы они работали независимо от фар: какие выводы реле переподключить.",
+    "applies_to": "Audi A4 B5 дорестайлинг",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Lichtschalter vom Taxi-Passat — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/innenleuchte/lichtschalter.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Выключатель освещения салона от такси-версии Passat: назначение контактов выключателя и доработка контрольной лампы.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Adapter für 3BG-Rückleuchten — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/rueckleuchten/adapter.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Как поставить задние фонари 3BG на 3B: переходник между разъёмом фонаря и жгутом с перекрёстной перестановкой контактов, рисунки автора.",
+    "applies_to": "Passat B5 3B ← фонари 3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/rueckleuchten/3BG-Adapter_links.jpg",
+        "caption": "Схема автора: соответствие контактов фонаря 3BG и жгута 3B, левая сторона"
+      },
+      {
+        "src": "http://www.passatplus.de/umbauten/rueckleuchten/3BG-Adapter_rechts.jpg",
+        "caption": "Схема автора: соответствие контактов, правая сторона"
+      }
+    ]
+  },
+  {
+    "title": "Adapter Frontblinker mit SML — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/sml/adapter.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Переходник для передних поворотников с габаритом (SML, только 3B): список разъёмов и порядок сборки по фото; в Германии такая доработка не разрешена.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Blinkerspiegel inkl. abblendbare Spiegelgläser — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/aussenspiegel/blinkerspiegel.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Установка зеркал с повторителями поворотов и автозатемнением: разъём зеркала, назначение контактов, прокладка проводов в двери.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Komfortblinkermodul — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/blinker/index.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Штатный модуль «комфортного» поворотника VW: варианты комплектов (в т. ч. жгут для Golf 4 и Passat 3B/3BG), подключение и размещение реле.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Leuchtweitenregulierung — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/lwr/index.htm",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
+    "description": "Дооснащение автокорректора фар: датчики на осях, крепления, замена регулятора с перестановкой контактов в новый разъём.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Adapter für W8-Leuchte — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/innenleuchte/w8adapter.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Переходник для установки плафона от Passat W8: список разъёмов и контактов, сборка по рисунку автора.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/innenleuchte/adapter-1.jpg",
+        "caption": "Фото автора: самодельный переходник для плафона W8"
+      }
+    ]
+  },
+  {
+    "title": "Volkswagen different models: The oval connector unlocks — HELLA TechWorld",
+    "url": "https://www.hella.com/techworld/ae/bi/volkswagen-different-models-the-oval-connector-unlocks/",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "official",
+    "description": "Как правильно разблокировать овальные 10- и 14-контактные разъёмы VW (например, фар), чтобы не повредить фиксатор.",
+    "applies_to": "VW Group общее, применимо к Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Pinbelegung der Anhängersteckdose — passatplus.de",
+    "url": "http://www.passatplus.de/arbeitshilfen/ahk/steckdose.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Назначение контактов 13- и 7-контактной розетки прицепа с цветами проводов.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "AHK Anschlüsse auf den Lampenträgern — passatplus.de",
+    "url": "http://www.passatplus.de/arbeitshilfen/ahk/ahk.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Таблица штатных разъёмов на платах задних фонарей 3B Variant для подключения розетки фаркопа: номер разъёма, контакт, функция.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "E-Satz für Anhängekupplung (AHK) — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/ahk/e-satz.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Подключение электрокомплекта фаркопа (Hella) к Passat: блоки, разъёмы и переходник автора с распиновкой.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/ahk/AHK-Adapter.jpg",
+        "caption": "Схема автора: переходник между жгутом и платой фонаря, контакты 1–6"
+      }
+    ]
+  },
+  {
+    "title": "Passat 3B Limosine AHK Kabelbaum Probleme — motor-talk.de",
+    "url": "https://www.motor-talk.de/forum/passat-3b-limosine-ahk-kabelbaum-probleme-t4995221.html",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Проблемы с проводкой фаркопа на седане 3B: где подключаться и как проверить цепи.",
+    "applies_to": "Passat B5 3B седан",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Sicherungen — passatplus.de",
+    "url": "http://www.passatplus.de/arbeitshilfen/elektrik/sicherungen.htm",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "blog",
+    "description": "Блок предохранителей Passat 3B/3BG: расположение, нумерация гнёзд, где спрятаны предохранители розеток багажника у 3B и 3BG.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/arbeitshilfen/elektrik/sicherungskasten-2.jpg",
+        "caption": "Рисунок нумерации гнёзд блока предохранителей в торце панели"
+      },
+      {
+        "src": "http://www.passatplus.de/arbeitshilfen/elektrik/sicherungskasten.jpg",
+        "caption": "Фото автора: блок предохранителей под крышкой"
+      }
+    ]
+  },
+  {
+    "title": "Relais, Steuergeräte und Schraubklemmen — passatplus.de",
+    "url": "http://www.passatplus.de/umbauteile/relais/index.htm",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "blog",
+    "description": "Таблица реле Passat 3B/3BG: номер реле, номер детали и функция; фото переднего и заднего релейных держателей под рулём, держателя под щитком и коробки в водоотводе.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/arbeitshilfen/elektrik/relaistraeger.jpg",
+        "caption": "Фото автора: релейный держатель под рулём с номерами реле"
+      },
+      {
+        "src": "http://www.passatplus.de/arbeitshilfen/elektrik/schraubklemmen.jpg",
+        "caption": "Фото автора: силовые клеммы на лонжероне"
+      }
+    ]
+  },
+  {
+    "title": "Steuergerät (Lage im Wasserkasten) — passatplus.de",
+    "url": "http://www.passatplus.de/arbeitshilfen/elektrik/steuergeraet.htm",
+    "system": "engine",
+    "kind": "location",
+    "source_type": "blog",
+    "description": "Где стоит ЭБУ двигателя Passat 3B/3BG (коробка в водоотводе со стороны водителя), как открыть коробку; там же реле и предохранители, проход для проводов в салон.",
+    "applies_to": "Passat B5 3B/3BG (все моторы)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/arbeitshilfen/elektrik/steuergeraet-2.jpg",
+        "caption": "Фото автора: открытая коробка ЭБУ в водоотводе с реле и предохранителями (на фото дизельный блок)"
+      }
+    ]
+  },
+  {
+    "title": "Audi A4 / S4 (B5/8D; 1998-2001) fuses and relays — fuse-box.info",
+    "url": "https://fuse-box.info/?p=55738",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "reference",
+    "description": "Схема блока предохранителей в торце панели A4/S4 B5 с таблицей назначения и схемы релейных держателей (13-местный, 8-местный, 3-местный).",
+    "applies_to": "Audi A4 B5, Audi S4 B5 1998–2001",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "VW Passat Sicherungskasten Belegung — carwiki.de",
+    "url": "https://carwiki.de/vw-passat-sicherungskasten",
+    "system": "electrical",
+    "kind": "fuses",
+    "source_type": "reference",
+    "description": "Таблицы назначения предохранителей и реле Passat разных поколений, включая B5 1997–2005 и дополнительный релейный держатель.",
+    "applies_to": "Passat B5 3B/3BG (и другие поколения)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Audi Gamma S pinout — pinouts.ru",
+    "url": "https://old.pinouts.ru/Car-Stereo-Audi/audi_gamma-s_pinout.shtml",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Распиновка ISO-разъёма магнитолы Audi Gamma: питание, зажигание, подсветка, антенна, динамики, вход сигнала скорости.",
+    "applies_to": "Audi A4 B5 (штатные магнитолы с ISO-разъёмом); для VW Gamma в Passat B5 — справочно",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://connector.pinouts.ru/diagram/car_audio_iso.gif",
+        "caption": "Вид ISO-разъёма магнитолы с нумерацией"
+      },
+      {
+        "src": "https://old.pinouts.ru/images/upload/pinout_2042013727_1275592104_20080227093205_img2.jpg",
+        "caption": "Фото наклейки на корпусе магнитолы с назначением контактов ISO-разъёма"
+      }
+    ]
+  },
+  {
+    "title": "36 (20+8+8) pin Head Unit ISO connector — pinoutguide.com",
+    "url": "https://connector.pinoutguide.com/20_8_8_pin_car_audio_ISO/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "reference",
+    "description": "Описание ISO-разъёма магнитолы (блоки питания, динамиков и дополнительный) со ссылками на распиновки конкретных моделей; такой разъём у штатных VW Gamma/Beta в Passat B5.",
+    "applies_to": "Passat B5 3B (штатные магнитолы с ISO), общее",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "https://connector.pinoutguide.com/diagram/car_audio_iso.gif",
+        "caption": "Вид ISO-разъёма с нумерацией секций"
+      }
+    ]
+  },
+  {
+    "title": "Radio Harness Wiring Diagram / Connector Pinouts (Panasonic stereo, non-Bose 98.5) — AudiWorld",
+    "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/radio-harness-wiring-diagram-connector-pinouts-panasonic-stereo-non-bose-98-5-long-22228/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Распиновка 8- и 10-контактных разъёмов штатной магнитолы A4 B5 (без Bose), вид со стороны магнитолы.",
+    "applies_to": "Audi A4 B5 1998.5, без Bose",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "A4 (B5) Symphony I non-bose rear factory amp pin out — AudiWorld",
+    "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/a4-b5-symphony-i-non-bose-rear-factory-amp-pin-out-344962/",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Разъём заднего штатного усилителя A4 B5 с магнитолой Symphony без Bose: назначение контактов.",
+    "applies_to": "Audi A4 B5, Symphony I без Bose",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Neues Radio Passat B5 – wie anschließen — motor-talk.de",
+    "url": "https://www.motor-talk.de/forum/neues-radio-passat-b5-wie-anschliessen-t4407732.html",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Подключение новой магнитолы в Passat B5: разъёмы, питание и зажигание, переходники.",
+    "applies_to": "Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "CD-Wechsler — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/cdwechsler/cdwechsler.htm",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "blog",
+    "description": "Установка CD-чейнджера в Passat 3B: какие панели снять и как проложить кабель от магнитолы в багажник, с фото.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Climatronic – 3BG in 3B — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/climatronic/3BG_in_3B/index.htm",
+    "system": "climate",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Установка блока Climatronic от 3BG/Skoda Superb в 3B: сравнительная таблица контактов разъёмов, отличия блоков, недостающий датчик.",
+    "applies_to": "Passat B5 3B ← Climatronic 3BG / Superb",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Climatronic – Kontroll-LED — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/climatronic/led.htm",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "blog",
+    "description": "Установка контрольного светодиода работы компрессора в блок Climatronic: к каким контактам подключаться на 3B и чем отличается 3BG.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Stromversorgung Klimaanlage Audi A4 B5 — Dieselschrauber",
+    "url": "https://community.dieselschrauber.org/viewtopic.php?t=30806",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Поиск неисправности питания кондиционера A4 B5 с климат-контролем: проверка контактов датчика давления, реле и предохранителей; итоговая причина — блок управления.",
+    "applies_to": "Audi A4 B5 1995, климат-контроль",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "DIY B5 A4 Center Console facelift upgrade — Audizine",
+    "url": "https://www.audizine.com/threads/diy-b5-a4-center-console-facelift-upgrade.383302/",
+    "system": "climate",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Установка рестайлинговой консоли в A4 B5: разъёмы климат-блока, обогрева стекла и прикуривателя, что куда подключать.",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "DIY: B5 A4 Electronic Fan Mod — Audizine",
+    "url": "https://www.audizine.com/threads/diy-b5-a4-electronic-fan-mod.496007/",
+    "system": "cooling",
+    "kind": "diagram",
+    "source_type": "forum",
+    "description": "Доработка управления электровентилятором радиатора A4 B5 через реле: схема подключения выводов реле.",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Auxilliary fan switch wiring — Audizine",
+    "url": "https://www.audizine.com/forum/showthread.php/369817-Auxilliary-fan-switch-wiring",
+    "system": "cooling",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Назначение контактов трёхконтактного датчика включения вентилятора (первая и вторая скорость, масса).",
+    "applies_to": "Audi A4 B5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Frontscheibenheizung (FSH) — passatplus.de",
+    "url": "http://www.passatplus.de/umbauten/frontscheibe/heizung.htm",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
+    "description": "Дооснащение обогрева лобового стекла: самодельный жгут, реле, предохранитель, кнопка с таймером, точки массы; фото.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauten/frontscheibe/kabelbaum.jpg",
+        "caption": "Фото автора: самодельный жгут обогрева стекла"
+      }
+    ]
+  },
+  {
+    "title": "PDC – Park distance control (Einparkhilfe) — passatplus.de",
+    "url": "http://www.passatplus.de/umbauteile/pdc/index.htm",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "blog",
+    "description": "Дооснащение парктроника: детали, разъёмы, контакты блока управления и подключение датчиков.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified",
+    "images": [
+      {
+        "src": "http://www.passatplus.de/umbauteile/pdc/PDC-STG-Pins.jpg",
+        "caption": "Фото автора: разъёмы блока парктроника с нумерацией контактов"
+      }
+    ]
+  },
+  {
+    "title": "Fitting OEM Reverse Parking Sensors – B5.5 — UKPassats",
+    "url": "https://www.ukpassats.co.uk/phpbb/viewtopic.php?t=67953",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Установка штатного парктроника на B5.5: функции проводов жгута (зажигание, K-line, масса, фаркоп, задний ход) и места подключения.",
+    "applies_to": "Passat B5.5 3BG",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Wischermotor und Wischergestänge — passatplus.de",
+    "url": "http://www.passatplus.de/arbeitshilfen/elektrik/wischermotor/index.htm",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "blog",
+    "description": "Мотор и трапеция стеклоочистителя 3B/3BG: варианты моторов, разъём, снятие и установка.",
+    "applies_to": "Passat B5 3B/3BG",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Sensoren / Geber / Kontakte / Ventile — passatplus.de",
+    "url": "http://www.passatplus.de/arbeitshilfen/sensoren/index.htm",
+    "system": "engine",
+    "kind": "location",
+    "source_type": "blog",
+    "description": "Справочник датчиков и клапанов Passat 3B/3BG с обозначениями по схемам VW (F1, G2/G62, G22 и т. д.), номерами деталей и фото.",
+    "applies_to": "Passat B5 3B/3BG (бензин и дизель)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (проверено curl; WebFetch не открывает из-за ошибки SSL-сертификата при принудительном https, сайт работает по http)",
+    "status": "unverified"
+  },
+  {
+    "title": "Cruise Control retrofit wire colors — UKPassats",
+    "url": "http://www.ukpassats.co.uk/phpbb/viewtopic.php?f=8&t=87101",
+    "system": "electrical",
+    "kind": "pinout",
+    "source_type": "forum",
+    "description": "Цвета проводов подрулевого переключателя круиз-контроля и куда они подключаются при дооснащении.",
+    "applies_to": "Passat B5/B5.5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Cruise control stalk — UKPassats",
+    "url": "https://ukpassats.co.uk/phpbb/viewtopic.php?f=8&t=75132",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "forum",
+    "description": "Различия жгутов переключателя круиза по номерам деталей и способ определить назначение проводов мультиметром.",
+    "applies_to": "Passat B5/B5.5",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (страница проверки на робота), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "Mk4 Golf Multifunction Steering Wheel and Cruise Retrofit — Instructables",
+    "url": "https://www.instructables.com/Mk4-Golf-Multifunction-Steering-Wheel-and-Cruise-R",
+    "system": "electrical",
+    "kind": "diagram",
+    "source_type": "blog",
+    "description": "Пошаговое дооснащение мультируля и круиза на платформе Golf 4 со схемой подключения автора; руль подходит от Passat 1998–2005.",
+    "applies_to": "Golf 4; руль и подрулевые узлы общие с Passat B5",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK",
+    "status": "unverified"
+  },
+  {
+    "title": "Alarm Wiring Diagram — AudiWorld",
+    "url": "https://www.audiworld.com/forums/a4-b5-platform-discussion-1/alarm-wiring-diagram-176879/",
+    "system": "electrical",
+    "kind": "location",
+    "source_type": "forum",
+    "description": "Таблица цветов и мест проводов A4 1999–2000 для установки сигнализации: питание, зажигание, замки, тахометр, датчик скорости.",
+    "applies_to": "Audi A4 B5 1999–2000 (США)",
+    "accessed": "2026-11-25",
+    "check_result": "автопроверка заблокирована сайтом (403), открыть вручную",
+    "status": "unverified"
+  },
+  {
+    "title": "How to read wiring diagrams – Passat, Passat Wagon (B5) — Bentley Publishers Tech Library",
+    "url": "https://bentleypubs.atlassian.net/wiki/spaces/tech/pages/437453578",
+    "system": "electrical",
+    "kind": "guide",
+    "source_type": "official",
+    "description": "Открытая статья издателя Bentley о том, как читать заводские схемы Passat B5 (токовые дорожки, обозначения разъёмов и проводов). Сам платный мануал не выкладывается.",
+    "applies_to": "Passat B5 1998–2005 (США)",
+    "accessed": "2026-11-25",
+    "check_result": "200 OK (Confluence, текст подгружается скриптом)",
+    "status": "unverified"
+  }
+]
