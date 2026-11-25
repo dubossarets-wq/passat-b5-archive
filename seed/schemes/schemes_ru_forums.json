@@ -3,8 +3,14 @@
     "title": "37) штекер МАГНИТОЛЫ распиновка (Passat Б5) — Volkswagen Passat B5 бензин, 1,8 л, 2000 года",
     "url": "https://www.drive2.ru/l/663949993110932755/",
     "images": [
-      { "src": "https://a1.drive-data.ru/vA0h4Y2IRoKj8_rW_kX5U5dD4nE-960.jpg", "caption": "Фото автора: разъём питания магнитолы с подписанными номерами контактов и их назначением" },
-      { "src": "https://a1.drive-data.ru/SHKuid_vZlZDjfXlojIm8_WJhWw-960.jpg", "caption": "Фото автора: тот же разъём с отмеченными плюсовыми и минусовым проводами" }
+      {
+        "src": "https://a1.drive-data.ru/vA0h4Y2IRoKj8_rW_kX5U5dD4nE-960.jpg",
+        "caption": "Фото автора: разъём питания магнитолы с подписанными номерами контактов и их назначением"
+      },
+      {
+        "src": "https://a1.drive-data.ru/SHKuid_vZlZDjfXlojIm8_WJhWw-960.jpg",
+        "caption": "Фото автора: тот же разъём с отмеченными плюсовыми и минусовым проводами"
+      }
     ],
     "system": "electrical",
     "kind": "pinout",
@@ -18,6 +24,24 @@
   {
     "title": "Замена лямбда зонда — Volkswagen Passat B5 бензин, 1,8 л, 2000 года",
     "url": "https://www.drive2.ru/l/478343084493505179/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/afdbbe9s-960.jpg",
+        "caption": "Фото автора: разъём нового лямбда-зонда Bosch 0 258 006 978"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ebdbbe9s-960.jpg",
+        "caption": "Фото автора: разъём лямбда-зонда с проводами, вид сбоку"
+      },
+      {
+        "src": "https://a1.drive-data.ru/bb87be9s-960.jpg",
+        "caption": "Фото автора: моторный отсек 1.8, место разъёма лямбда-зонда за бачком ОЖ"
+      },
+      {
+        "src": "https://a1.drive-data.ru/9bdbbe9s-960.jpg",
+        "caption": "Фото автора: лямбда-зонд на приёмной трубе"
+      }
+    ],
     "system": "engine",
     "kind": "location",
     "source_type": "blog",
@@ -90,6 +114,20 @@
   {
     "title": "Ищу схему распиновки ЭБУ двигателя",
     "url": "https://passatworld.ru/showthread.php/253370-Ishhu-shemu-raspinovki-EBU-dvigatelya",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=229572&d=1612945681",
+        "caption": "Фото автора: разъёмы ЭБУ двигателя (две колодки)"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=229573&d=1612945681",
+        "caption": "Фото автора: шильдик ЭБУ Bosch 8D0 907 558 B"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=229670&d=1613288921",
+        "caption": "Схема участника темы: сигнал тахометра от импульсов форсунок"
+      }
+    ],
     "system": "engine",
     "kind": "pinout",
     "source_type": "forum",
@@ -102,6 +140,12 @@
   {
     "title": "Ошибка по датчику холла.",
     "url": "https://passatworld.ru/showthread.php/212350-Oshibka-po-datchiku-holla",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=120528&d=1399065430",
+        "caption": "Рисунок автора: провода датчика Холла — как должно быть и как у него"
+      }
+    ],
     "system": "engine",
     "kind": "guide",
     "source_type": "forum",
@@ -114,6 +158,16 @@
   {
     "title": "Проверка ДМРВ — прошу всех сюда) — Audi A4 (B5), 1,8 л, 1995 года",
     "url": "https://www.drive2.ru/l/502722006060368524/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/6fa07g4k16c-960.jpg",
+        "caption": "Фото автора: замер на разъёме ДМРВ щупами мультиметра"
+      },
+      {
+        "src": "https://a1.drive-data.ru/6fa07g4k272-960.jpg",
+        "caption": "Фото автора: проверка ДМРВ мультиметром под капотом"
+      }
+    ],
     "system": "engine",
     "kind": "pinout",
     "source_type": "blog",
@@ -138,6 +192,28 @@
   {
     "title": "Переход на раздельные катушки с коммутатором от AEB на ADR — Volkswagen Passat B5, 1,8 л, 1996 года",
     "url": "https://www.drive2.ru/l/665028888895692910/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/XpPrjs_AarJEmD6CkVCRKoH1QvU-960.jpg",
+        "caption": "Фото автора: раздельные катушки AEB 058 905 105"
+      },
+      {
+        "src": "https://a1.drive-data.ru/n9SvtxlGr4hJbX46ypyGAybCjaQ-960.jpg",
+        "caption": "Фото автора: разъём коммутатора с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/_T0fREKeEQ4ph14qjyxXwdx9yCI-960.jpg",
+        "caption": "Фото автора: переходник проводки на катушки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/aMbGcwqEfjBZiLY_BphN8HRwcik-960.jpg",
+        "caption": "Фото автора: подпайка вместо разъёма штатной катушки ADR"
+      },
+      {
+        "src": "https://a1.drive-data.ru/YkFgXrLNgEOZln3uv3HfKq7oOt4-960.jpg",
+        "caption": "Фото автора: раздельные катушки AEB установлены на ADR"
+      }
+    ],
     "system": "ignition",
     "kind": "diagram",
     "source_type": "blog",
@@ -150,6 +226,24 @@
   {
     "title": "Ремонт модуля зажигания 1.8 ADR. — Audi A4 (B5) бензин, 1,8 л, 1997 года",
     "url": "https://www.drive2.ru/l/610701194733575170/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/D1vrVReLRUCU6zPbrIMN4QXnzHI-960.jpg",
+        "caption": "Фото автора: разъём модуля зажигания ADR"
+      },
+      {
+        "src": "https://a1.drive-data.ru/uErk6hnDiLA2tF0QLVrcO1dMXuQ-960.jpg",
+        "caption": "Фото автора: модуль зажигания ADR, вид снизу"
+      },
+      {
+        "src": "https://a1.drive-data.ru/byXHs-a7idW4V1DdIT2ofYjm3JQ-960.jpg",
+        "caption": "Фото автора: модуль на столе с подключёнными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/-W5E3dA9IO2gzj_pvczkNVzmgdk-960.jpg",
+        "caption": "Фото автора: провода, подпаянные к модулю зажигания"
+      }
+    ],
     "system": "ignition",
     "kind": "pinout",
     "source_type": "blog",
@@ -163,7 +257,10 @@
     "title": "Ауди А4 В5 ADR катушка зажигания — Audi A4 (B5) бензин, 1,8 л, 1994 года",
     "url": "https://www.drive2.ru/l/7972409/",
     "images": [
-      { "src": "https://a1.drive-data.ru/93d356as-960.jpg", "caption": "Фото автора: соединение родной фишки модуля ADR с модулем ВАЗ" }
+      {
+        "src": "https://a1.drive-data.ru/93d356as-960.jpg",
+        "caption": "Фото автора: соединение родной фишки модуля ADR с модулем ВАЗ"
+      }
     ],
     "system": "ignition",
     "kind": "pinout",
@@ -178,7 +275,10 @@
     "title": "Замена катушки ADR на четыре индивидуальных катушки от AEB — Audi A4 (B5) бензин, 1,8 л, 1998 года",
     "url": "https://www.drive2.ru/l/559524151140811609/",
     "images": [
-      { "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg", "caption": "Схема автора: старая фишка ADR, коммутатор Hitachi и четыре катушки с цветами проводов" }
+      {
+        "src": "https://a1.drive-data.ru/IAAAAgI7w-A-960.jpg",
+        "caption": "Схема автора: старая фишка ADR, коммутатор Hitachi и четыре катушки с цветами проводов"
+      }
     ],
     "system": "ignition",
     "kind": "diagram",
@@ -204,6 +304,16 @@
   {
     "title": "#1 Панель приборов. Все виды Passat B5. — Volkswagen Passat B5 бензин, 2 л, 2003 года",
     "url": "https://www.drive2.ru/l/675354/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/81b9dc2s-960.jpg",
+        "caption": "Фото автора: зелёный разъём щитка приборов с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/1b9dc2s-960.jpg",
+        "caption": "Фото автора: синий разъём щитка приборов с проводами"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -252,6 +362,20 @@
   {
     "title": "Пересвет приборной панели — Volkswagen Passat B5 бензин, 2,8 л, 1999 года",
     "url": "https://www.drive2.ru/l/465383690692722734/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9873d01s-960.jpg",
+        "caption": "Схема автора: подключение щитка (синий разъём, пины 1, 9, 25) к питанию и K-линии OBD"
+      },
+      {
+        "src": "https://a1.drive-data.ru/59e3d01s-960.jpg",
+        "caption": "Фото автора: синий разъём щитка с подключёнными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/9e3d01s-960.jpg",
+        "caption": "Фото автора: щиток на столе, подключён к ноутбуку через VAG-COM"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -264,6 +388,16 @@
   {
     "title": "Установка приборки с Full Fis — Volkswagen Passat B5 бензин, 1,8 л, 2003 года",
     "url": "https://www.drive2.ru/l/5204797/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ff35d5cs-960.jpg",
+        "caption": "Фото автора: щиток подключён к адаптеру на столе для проверки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/b395d5cs-960.jpg",
+        "caption": "Схема: разъём OBD под панелью и разъём в кабеле, пины 4, 7, 16"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -276,6 +410,24 @@
   {
     "title": "#2 Панель приборов. Установка FullFIS от Passat W8 — Volkswagen Passat B5 бензин, 2 л, 2003 года",
     "url": "https://www.drive2.ru/l/699226/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/53e7928s-960.jpg",
+        "caption": "Фото автора: разъём подрулевого переключателя с добавленными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/4be7928s-960.jpg",
+        "caption": "Фото автора: синий разъём щитка с добавленными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/117928s-960.jpg",
+        "caption": "Фото автора: провода от подрулевого к разъёмам щитка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3117928s-960.jpg",
+        "caption": "Фото автора: проводка под панелью"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -312,6 +464,16 @@
   {
     "title": "Сбой иммобилайзера. — Volkswagen Passat B5 бензин, 1,8 л, 2001 года",
     "url": "https://www.drive2.ru/l/588580670050155038/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/bvxAiwOags32jfvc6p3w_g6Iot8-960.jpg",
+        "caption": "Фото автора: плата щитка, стрелками отмечены конденсаторы цепи катушки иммобилайзера"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8U_L8bhIVtnA_xuZCqOfAp1_TNo-960.jpg",
+        "caption": "Фото автора: выпаянные треснувшие конденсаторы 47 нФ"
+      }
+    ],
     "system": "electrical",
     "kind": "guide",
     "source_type": "blog",
@@ -324,6 +486,16 @@
   {
     "title": "📌 № 2 «Диагностика» 💻 — Volkswagen Passat B5 бензин, 1,6 л, 1997 года",
     "url": "https://www.drive2.ru/l/527533585452762605/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/rwAAAgB0SuA-960.jpg",
+        "caption": "Фото автора: разъём жгута при прозвонке линии диагностики"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ZDAAAgB0SuA-960.jpg",
+        "caption": "Фото автора: ЭБУ двигателя в моторном отсеке"
+      }
+    ],
     "system": "electrical",
     "kind": "guide",
     "source_type": "blog",
@@ -348,6 +520,24 @@
   {
     "title": "Разъем датчика наружнего воздуха",
     "url": "https://passatworld.ru/showthread.php/180148-Razem-datchika-naruzhnego-vozduha",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=70515&d=1350404600",
+        "caption": "Фото автора: провода под капотом (обведены)"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=70516&d=1350404622",
+        "caption": "Фото автора: прокладка провода у бачка"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=70522&d=1350404767",
+        "caption": "Фото автора: разъём у бачка омывателя"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=70524&d=1350404786",
+        "caption": "Фото автора: датчик наружной температуры 8Z0 820 535"
+      }
+    ],
     "system": "electrical",
     "kind": "location",
     "source_type": "forum",
@@ -372,6 +562,32 @@
   {
     "title": "Помощь по предохранителям ФВ Пассат Б5+ (ФОТО)",
     "url": "https://passatworld.ru/showthread.php/186448-Pomoshh-po-predohranitelyam-FV-Passat-B5-(FOTO)",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=51862&d=1332780289",
+        "caption": "Фото участника: блок предохранителей в торце панели"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=51863&d=1332780300",
+        "caption": "Фото участника: таблица предохранителей на крышке блока"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58418&d=1337980181",
+        "caption": "Таблица участника: назначение предохранителей по цветам номиналов"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58455&d=1338052145",
+        "caption": "Фото участника: релейная плата под рулём с номерами реле"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=51903&d=1332795647",
+        "caption": "Фото участника: силовые предохранители 40/50 А на релейной плате"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58394&d=1337974142",
+        "caption": "Фото участника: расположение блока предохранителей и релейной платы"
+      }
+    ],
     "system": "electrical",
     "kind": "fuses",
     "source_type": "forum",
@@ -384,6 +600,28 @@
   {
     "title": "Блок реле — Volkswagen Passat Variant (B5), 1,9 л, 2001 года",
     "url": "https://www.drive2.ru/l/9212345/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/2368f8ds-960.jpg",
+        "caption": "Фото автора: реле у ЭБУ под капотом"
+      },
+      {
+        "src": "https://a1.drive-data.ru/12d70c6s-960.jpg",
+        "caption": "Фото автора: блок предохранителей"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ead70c6s-960.jpg",
+        "caption": "Фото автора: релейная плата (вид сбоку): реле 384, 167, 202, 377"
+      },
+      {
+        "src": "https://a1.drive-data.ru/dad70c6s-960.jpg",
+        "caption": "Фото автора: реле 373, 381, 53, 370, 167, 202 крупно"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3ad70c6s-960.jpg",
+        "caption": "Фото автора: силовые предохранители на релейной плате"
+      }
+    ],
     "system": "electrical",
     "kind": "fuses",
     "source_type": "blog",
@@ -408,6 +646,20 @@
   {
     "title": "Реле топливного насоса/мозгов 165 906 381 реле 30 — Volkswagen Passat B5 бензин, 1,8 л, 2000 года",
     "url": "https://www.drive2.ru/l/619858477325511259",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/QsROZWPRA-WgBITJSUEuiwyOLMU-960.jpg",
+        "caption": "Фото автора: реле 30 (165 906 381) со схемой контактов на корпусе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/nD_SY6mfrX9JEW-KfDNwiAIPxdY-960.jpg",
+        "caption": "Фото автора: плата реле, кольцевая трещина пайки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/H5uDuuQHE2Xg50CYRmcaLG4jULg-960.jpg",
+        "caption": "Фото автора: реле в разборе"
+      }
+    ],
     "system": "fuel",
     "kind": "location",
     "source_type": "blog",
@@ -420,6 +672,24 @@
   {
     "title": "Passat B5/B5+ Разбор и ремонт реле стеклоочистителя.",
     "url": "https://passatworld.ru/showthread.php/230004-Razbor-i-remont-rele-stekloochistitelya",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/5.jpg",
+        "caption": "Фото автора: релейная плата под рулём (реле 370, 372, 377)"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/6.jpg",
+        "caption": "Фото автора: реле стеклоочистителя 4B0 955 531 A"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/7.jpg",
+        "caption": "Фото автора: плата реле, стрелкой — подгоревшие контакты"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/rrrst/8.jpg",
+        "caption": "Фото автора: монтажная сторона платы реле"
+      }
+    ],
     "system": "electrical",
     "kind": "location",
     "source_type": "forum",
@@ -456,6 +726,16 @@
   {
     "title": "Подключение генератора к системе электропитания — Volkswagen Passat B5 бензин, 1,8 л, 2002 года",
     "url": "https://www.drive2.ru/l/590754679416179125/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/mMHCwLwk65dIc0M6k5NNUHEFzgI-960.jpg",
+        "caption": "Фото автора: силовой кабель генератора с вопросами по подключению"
+      },
+      {
+        "src": "https://a1.drive-data.ru/AXbLkLxvBmDuPC619VtwUMiYjY8-960.jpg",
+        "caption": "Фото автора: клеммы на стартере — плюс от АКБ и кабель генератора"
+      }
+    ],
     "system": "electrical",
     "kind": "guide",
     "source_type": "blog",
@@ -468,6 +748,24 @@
   {
     "title": "Генератор: Возбуждение, Ремень, Шкив — Volkswagen Passat B5, 1,8 л, 2004 года",
     "url": "https://www.drive2.ru/l/622859044557702652/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/6YfGYMu34Kh3I9hl5KDYemm7-to-960.jpg",
+        "caption": "Фото автора: регулятор напряжения на генераторе"
+      },
+      {
+        "src": "https://a1.drive-data.ru/kzgZ4ehU6py3febUEkPc3wgzaQA-960.jpg",
+        "caption": "Фото автора: чёрный и синий провода у щитка (питание и индикация заряда)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/iE5hreG7YsXnYskfe4Weo7VtXHg-960.jpg",
+        "caption": "Фото автора: два последовательных резистора в цепи индикации заряда"
+      },
+      {
+        "src": "https://a1.drive-data.ru/iE_OKFRC5qf0kSooiLXHIzf_duM-960.jpg",
+        "caption": "Фото автора: элемент, врезанный в синий провод"
+      }
+    ],
     "system": "electrical",
     "kind": "guide",
     "source_type": "blog",
@@ -480,6 +778,28 @@
   {
     "title": "Восстановление фишек/штекеров/разъемов/проводки (тема будет дополняться) — Volkswagen Passat B5 бензин, 1,8 л, 2004 года",
     "url": "https://www.drive2.ru/l/573331818162425424/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/WygAAgBHL-A-960.jpg",
+        "caption": "Фото автора: две половины разъёма под капотом"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7AQAAgBHL-A-960.jpg",
+        "caption": "Фото автора: многоконтактный разъём в руке"
+      },
+      {
+        "src": "https://a1.drive-data.ru/sC1u31FEQkkeFCRUeA4CdZhfhLo-960.jpg",
+        "caption": "Фото автора: разъём с колпачком 6X0 971 921 C"
+      },
+      {
+        "src": "https://a1.drive-data.ru/zMGDuI12J71Fn7C93zoHtKktMqA-960.jpg",
+        "caption": "Фото автора: сравнение разъёмов (с выемкой и без)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/WaJhjt7N04Kn-7lsEa7SP7x4Qc0-960.jpg",
+        "caption": "Фото автора: разъёмы с проводами"
+      }
+    ],
     "system": "electrical",
     "kind": "guide",
     "source_type": "blog",
@@ -493,7 +813,10 @@
     "title": "Дворники Passat B5. — Volkswagen Passat B5, 1,6 л, 1996 года",
     "url": "https://www.drive2.ru/l/523320806650940281/",
     "images": [
-      { "src": "https://a1.drive-data.ru/-gAAAgMswuA-960.jpg", "caption": "Фото автора: вскрытый переключатель стеклоочистителей с пронумерованными контактами" }
+      {
+        "src": "https://a1.drive-data.ru/-gAAAgMswuA-960.jpg",
+        "caption": "Фото автора: вскрытый переключатель стеклоочистителей с пронумерованными контактами"
+      }
     ],
     "system": "electrical",
     "kind": "pinout",
@@ -519,6 +842,24 @@
   {
     "title": "распиновка проводов включателя света",
     "url": "https://passatworld.ru/showthread.php/176910-raspinovka-provodov-vklyuchatelya-sveta",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58813&d=1338322667",
+        "caption": "Фото участника: точка +ACC на релейной плате"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58814&d=1338322724",
+        "caption": "Схема участника: ДХО через реле (габарит, ручник, зажигание)"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58815&d=1338322744",
+        "caption": "Схема участника: подсветка приборки от габаритов или от ACC через диоды"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=58812&d=1338322643",
+        "caption": "Фото участника: блок разъёмов в ногах водителя"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "forum",
@@ -531,6 +872,24 @@
   {
     "title": "Распиновка регулятора подсветки приборной панели",
     "url": "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74101&d=1353443622",
+        "caption": "Фото участника: разъём регулятора подсветки, подписаны клеммы 31, 58, 58d, G, 56b"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74248&d=1353521713",
+        "caption": "Фото участника: правильная нумерация контактов разъёма"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74165&d=1353486611",
+        "caption": "Фото участника: разъём с номерами контактов и клеммами"
+      },
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=74899&d=1354138746",
+        "caption": "Фото участника: колодка разъёма регулятора"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "forum",
@@ -544,7 +903,10 @@
     "title": "26. Установка ПТФ — Volkswagen Passat Variant (B5), 1,9 л, 2001 года",
     "url": "https://www.drive2.ru/l/488105098480713874/",
     "images": [
-      { "src": "https://a1.drive-data.ru/d5c5f65s-1920.jpg", "caption": "Простая схема подключения ПТФ через реле от управляющего провода переключателя" }
+      {
+        "src": "https://a1.drive-data.ru/d5c5f65s-1920.jpg",
+        "caption": "Простая схема подключения ПТФ через реле от управляющего провода переключателя"
+      }
     ],
     "system": "electrical",
     "kind": "diagram",
@@ -570,6 +932,32 @@
   {
     "title": "Установка ксенона и динамического корректора фар — Volkswagen Passat B5 бензин, 1,8 л, 2001 года",
     "url": "https://www.drive2.ru/l/588020193997921352/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/F0mhlIGmPLP0pXHmAS1fsEjU3Ds-960.jpg",
+        "caption": "Фото автора: 42-контактная колодка блока ABS"
+      },
+      {
+        "src": "https://a1.drive-data.ru/JvnqAfYYOE2a9BDBAv_pYqVzZFA-960.jpg",
+        "caption": "Фото автора: пин 34 колодки ABS с подпаянным проводом"
+      },
+      {
+        "src": "https://a1.drive-data.ru/XlclcUEzfbY69uJKl8l75uaIEqc-960.jpg",
+        "caption": "Фото автора: блок корректора фар Hella 4Z7 907 357"
+      },
+      {
+        "src": "https://a1.drive-data.ru/NVR_Q21BXHXC-D4gCtqZ95d4C5s-960.jpg",
+        "caption": "Фото автора: разъём блока корректора фар с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/nfpL22xCZinmDjg6UY6mymsnS5E-960.jpg",
+        "caption": "Фото автора: разъём регулятора подсветки, 5 проводов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/CAo-Pj8PngJGOUMpBKShLKHYS0U-960.jpg",
+        "caption": "Фото автора: трёхконтактный разъём VAG с номерами контактов"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -582,6 +970,28 @@
   {
     "title": "установка штатного автокорректора на пассат б5+ — Volkswagen Passat B5 бензин, 1,8 л, 2004 года",
     "url": "https://www.drive2.ru/l/542261818584728383/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/n6AAAgK-YeA-960.jpg",
+        "caption": "Фото автора: прокладка проводки корректора у релейной платы"
+      },
+      {
+        "src": "https://a1.drive-data.ru/jiAAAgG-YeA-960.jpg",
+        "caption": "Фото автора: задний датчик положения кузова на месте"
+      },
+      {
+        "src": "https://a1.drive-data.ru/70AAAgB-YeA-960.jpg",
+        "caption": "Фото автора: проводка под капотом (стрелки)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/0OAAAgB-YeA-960.jpg",
+        "caption": "Фото автора: провода к фарам"
+      },
+      {
+        "src": "https://a1.drive-data.ru/DgAAAgJ-YeA-960.jpg",
+        "caption": "Фото автора: разъём фары с подключением"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -594,6 +1004,28 @@
   {
     "title": "Оригинальный фаркоп. Часть 2. Подключение электрики — Volkswagen Passat B5, 1,8 л, 2002 года",
     "url": "https://www.drive2.ru/l/532850548806779092/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/5oAAAgIIpuA-960.jpg",
+        "caption": "Таблица: распиновка 13-контактной розетки фаркопа"
+      },
+      {
+        "src": "https://a1.drive-data.ru/UYAAAgIIpuA-960.jpg",
+        "caption": "Схема: распиновка 7-контактной розетки и вилки прицепа"
+      },
+      {
+        "src": "https://a1.drive-data.ru/i4AAAgIIpuA-960.jpg",
+        "caption": "Фото автора: штатная 13-контактная розетка"
+      },
+      {
+        "src": "https://a1.drive-data.ru/q4AAAgIIpuA-960.jpg",
+        "caption": "Фото автора: переходник 13 на 7 контактов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/NEAAAgIIpuA-960.jpg",
+        "caption": "Фото автора: реле UN-05 со схемой контактов"
+      }
+    ],
     "system": "electrical",
     "kind": "diagram",
     "source_type": "blog",
@@ -607,7 +1039,10 @@
     "title": "Установка штатного парктроника — Volkswagen Passat B5 бензин, 1,8 л, 2002 года",
     "url": "https://www.drive2.ru/l/475524761313608214/",
     "images": [
-      { "src": "https://a1.drive-data.ru/23bc1c9s-960.jpg", "caption": "Схема автора: разъёмы блока парктроника, коса датчиков и четыре датчика" }
+      {
+        "src": "https://a1.drive-data.ru/23bc1c9s-960.jpg",
+        "caption": "Схема автора: разъёмы блока парктроника, коса датчиков и четыре датчика"
+      }
     ],
     "system": "electrical",
     "kind": "pinout",
@@ -621,6 +1056,16 @@
   {
     "title": "#30 Подключение магнитолы — Volkswagen Passat B5, 1,6 л, 1997 года",
     "url": "https://www.drive2.ru/l/493806066270733010/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ba09gds-960.jpg",
+        "caption": "Схема автора: подключение диода Шоттки к проводам магнитолы"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3f71gds-960.jpg",
+        "caption": "Фото автора: диод с припаянными проводами"
+      }
+    ],
     "system": "electrical",
     "kind": "diagram",
     "source_type": "blog",
@@ -633,6 +1078,20 @@
   {
     "title": "Замена штатной магнитолы Beta V — Volkswagen Passat Variant (B5) дизель, 1,6 л, 1998 года",
     "url": "https://www.drive2.ru/l/288230376152747980/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/7261b7u-960.jpg",
+        "caption": "Фото автора: распиновка разъёма штатной магнитолы с наклейки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ca61b7u-960.jpg",
+        "caption": "Фото автора: штекер новой магнитолы и штекер под штатный разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2a61b7u-960.jpg",
+        "caption": "Фото автора: самодельный переходник"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -645,6 +1104,12 @@
   {
     "title": "мультируль vw passat b5 — Volkswagen Passat B5 дизель, 1,9 л, 2002 года",
     "url": "https://www.drive2.ru/l/6156620/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/a3bffc2s-960.jpg",
+        "caption": "Рисунок автора: подключение круиза через блок 451/452"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -657,6 +1122,28 @@
   {
     "title": "Установка круиз-контроля — Volkswagen Passat B5 бензин, 1,8 л, 2003 года",
     "url": "https://www.drive2.ru/l/455473517513670717/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/d8d8eaes-960.jpg",
+        "caption": "Фото автора: разъём жгута круиз-контроля из комплекта"
+      },
+      {
+        "src": "https://a1.drive-data.ru/f3f8eaes-960.jpg",
+        "caption": "Фото автора: разъём T15 со стороны контактов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3b04eaes-960.jpg",
+        "caption": "Фото автора: разъёмы у ЭБУ с добавленными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/16e4eaes-960.jpg",
+        "caption": "Фото автора: подключение проводов к разъёму T15"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7894eaes-960.jpg",
+        "caption": "Фото автора: оранжевый разъём T10 ЭБУ с добавленным проводом"
+      }
+    ],
     "system": "engine",
     "kind": "pinout",
     "source_type": "blog",
@@ -670,7 +1157,10 @@
     "title": "Подключение штатного обогрева сидений Passat B5 — Volkswagen Passat B5 бензин, 2 л, 2003 года",
     "url": "https://www.drive2.ru/l/457406733833233305/",
     "images": [
-      { "src": "https://a1.drive-data.ru/4c579ees-960.jpg", "caption": "Схема автора: кнопки подогрева, разъёмы сидений, питание и массы" }
+      {
+        "src": "https://a1.drive-data.ru/4c579ees-960.jpg",
+        "caption": "Схема автора: кнопки подогрева, разъёмы сидений, питание и массы"
+      }
     ],
     "system": "interior",
     "kind": "diagram",
@@ -708,6 +1198,16 @@
   {
     "title": "Ремонт центрального замка и переделка сигнализации на VolksWagen Passat B5 1998г. — DRIVE2",
     "url": "https://www.drive2.ru/b/1340451/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/141c5acs-960.jpg",
+        "caption": "Фото автора: плата концевиков замка двери с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ea1c5acs-960.jpg",
+        "caption": "Фото автора: плата и моторчик замка в разборе"
+      }
+    ],
     "system": "interior",
     "kind": "guide",
     "source_type": "blog",
@@ -720,6 +1220,12 @@
   {
     "title": "Passat B5/B5+ Электрическая схема и распиновка блока комфорта.",
     "url": "https://passatworld.ru/showthread.php/198218-Elektricheskaya-shema-i-raspinovka-bloka-komforta",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/zlzahl/edc7d24dfecc.png",
+        "caption": "Принципиальная схема блока комфорта 1C0 959 799 (плата, с пометками)"
+      }
+    ],
     "system": "interior",
     "kind": "pinout",
     "source_type": "forum",
@@ -732,6 +1238,12 @@
   {
     "title": "Электрическая схема и распиновка блока комфорта.",
     "url": "https://passatworld.ru/showthread.php/198086-Elektricheskaya-shema-i-raspinovka-bloka-komforta",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=76665&d=1355979409",
+        "caption": "Принципиальная схема блока комфорта 1C0 959 799 (плата, с пометками)"
+      }
+    ],
     "system": "interior",
     "kind": "pinout",
     "source_type": "forum",
@@ -768,6 +1280,20 @@
   {
     "title": "Замена проводов в гофре. — Volkswagen Passat B5 бензин, 1,8 л, 1998 года",
     "url": "https://www.drive2.ru/l/525380191929763264/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/ACAAAgFhUuA-960.jpg",
+        "caption": "Фото автора: разъём двери с переломанными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7aAAAgFhUuA-960.jpg",
+        "caption": "Фото автора: замена проводов в гофре"
+      },
+      {
+        "src": "https://a1.drive-data.ru/_aAAAgFhUuA-960.jpg",
+        "caption": "Фото автора: разъём после ремонта"
+      }
+    ],
     "system": "interior",
     "kind": "guide",
     "source_type": "blog",
@@ -780,6 +1306,24 @@
   {
     "title": "Ремонт жгута проводов водительской двери — Volkswagen Passat B5 дизель, 1,9 л, 2003 года",
     "url": "https://www.drive2.ru/l/477650941923820170/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/95feb69s-960.jpg",
+        "caption": "Фото автора: перебитый жгут в гофре"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2e01b69s-960.jpg",
+        "caption": "Фото автора: бирка жгута двери 3B0 971 120 BD"
+      },
+      {
+        "src": "https://a1.drive-data.ru/e441b69s-960.jpg",
+        "caption": "Фото автора: спаянные провода жгута"
+      },
+      {
+        "src": "https://a1.drive-data.ru/2d81b69s-960.jpg",
+        "caption": "Фото автора: разъёмы жгута двери в ногах водителя"
+      }
+    ],
     "system": "interior",
     "kind": "guide",
     "source_type": "blog",
@@ -792,6 +1336,20 @@
   {
     "title": "#26 марафет водительской двери или скрещивание проводки от Passat b5 GP — Volkswagen Passat Variant (B5) бензин, 1,6 л, 1997 года",
     "url": "https://www.drive2.ru/l/582469859300975325/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/Hu4S5bzLSlCEymfynLlFT1IqrSQ-960.jpg",
+        "caption": "Фото автора: жгут проводки двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/8A8pL6nhcP8T0cLhtZbe8RXQKJ4-960.jpg",
+        "caption": "Фото автора: разъёмы в стойке и под панелью"
+      },
+      {
+        "src": "https://a1.drive-data.ru/3TbuhUsctuTBvyPRiRqdjt9IJcQ-960.jpg",
+        "caption": "Фото автора: дверь с разъёмом блока"
+      }
+    ],
     "system": "interior",
     "kind": "pinout",
     "source_type": "blog",
@@ -804,6 +1362,20 @@
   {
     "title": "Установка задних стеклоподьемников. — Volkswagen Passat Variant (B5), 1,9 л, 2001 года",
     "url": "https://www.drive2.ru/l/3085287/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/9644af4s-960.jpg",
+        "caption": "Фото автора: блок управления двери с разъёмом"
+      },
+      {
+        "src": "https://a1.drive-data.ru/d144af4s-960.jpg",
+        "caption": "Фото автора: разъём жгута задней двери"
+      },
+      {
+        "src": "https://a1.drive-data.ru/1c95ae4s-960.jpg",
+        "caption": "Фото автора: несущая панель задней двери с проводкой"
+      }
+    ],
     "system": "interior",
     "kind": "pinout",
     "source_type": "blog",
@@ -816,6 +1388,16 @@
   {
     "title": "Задние ЭСП Passat B5+ — Volkswagen Passat B5 бензин, 2 л, 2003 года",
     "url": "https://www.drive2.ru/l/9346756/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/dc4ba26s-960.jpg",
+        "caption": "Фото автора: разъём двери, отмечен провод подсветки"
+      },
+      {
+        "src": "https://a1.drive-data.ru/68ba26s-960.jpg",
+        "caption": "Фото автора: разъём проводки передней двери в стойке"
+      }
+    ],
     "system": "interior",
     "kind": "diagram",
     "source_type": "blog",
@@ -829,7 +1411,10 @@
     "title": "📌 № 25 «Зеркала Passat B5 GP» — Volkswagen Passat B5, 1,6 л, 1997 года",
     "url": "https://www.drive2.ru/l/548735468171166344/",
     "images": [
-      { "src": "https://a1.drive-data.ru/GEAAAgF-ueA-1920.jpg", "caption": "Схема автора от руки: рестайлинговые зеркала и джойстик на дорестайлинговой проводке, цвета проводов" }
+      {
+        "src": "https://a1.drive-data.ru/GEAAAgF-ueA-1920.jpg",
+        "caption": "Схема автора от руки: рестайлинговые зеркала и джойстик на дорестайлинговой проводке, цвета проводов"
+      }
     ],
     "system": "body",
     "kind": "diagram",
@@ -855,6 +1440,24 @@
   {
     "title": "Электроскладывание зеркал — Volkswagen Passat B5, 1,8 л, 2002 года",
     "url": "https://www.drive2.ru/l/9259072/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/16441c6s-960.jpg",
+        "caption": "Фото автора: плата блока двери, обведено место впайки микросхемы"
+      },
+      {
+        "src": "https://a1.drive-data.ru/65e81c6s-960.jpg",
+        "caption": "Фото автора: плата после впайки элементов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/a0d81c6s-960.jpg",
+        "caption": "Фото автора: разъёмы зеркала"
+      },
+      {
+        "src": "https://a1.drive-data.ru/97781c6s-960.jpg",
+        "caption": "Фото автора: разъём привода складывания (обведён)"
+      }
+    ],
     "system": "body",
     "kind": "guide",
     "source_type": "blog",
@@ -891,6 +1494,16 @@
   {
     "title": "Установка климата в passat b5 с кондеем и can — Volkswagen Passat, 2.0 л., 2001 года на DRIVE2",
     "url": "https://www.drive2.ru/l/587696662701430013/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/lg0EvM8beEdwrUu2zAcRBoo_YVs-960.jpg",
+        "caption": "Фото автора: разъём блока климата с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/lQDsm5KcTvtAJfVhVwqs73l3taM-960.jpg",
+        "caption": "Фото автора: подключение проводов на релейной плате (подписи)"
+      }
+    ],
     "system": "climate",
     "kind": "guide",
     "source_type": "blog",
@@ -903,6 +1516,28 @@
   {
     "title": "Passat B5/B5+ Установка Climatronic в машину, не оборудованную климат-контролем.",
     "url": "https://passatworld.ru/showthread.php/223912-Ustanovka-Climatronic-v-mashinu-ne-oborudovannuyu-klimat-kontrolem",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/climcon/19.jpg",
+        "caption": "Рисунок автора: подключение реле вентилятора — было"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/climcon/20.jpg",
+        "caption": "Рисунок автора: подключение реле вентилятора — стало"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/climcon/21.jpg",
+        "caption": "Фото автора: разъёмы релейной платы с отмеченным проводом"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/climcon/18.jpg",
+        "caption": "Фото автора: разъёмы под панелью"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/climcon/2.jpg",
+        "caption": "Фото автора: шильдик блока Climatronic 1J1 907 044"
+      }
+    ],
     "system": "climate",
     "kind": "guide",
     "source_type": "forum",
@@ -927,6 +1562,12 @@
   {
     "title": "Разъем ABS. В наличии фото. Надо распиновку.",
     "url": "https://passatworld.ru/showthread.php/202793-Razem-ABS-V-nalichii-foto-Nado-raspinovku",
+    "images": [
+      {
+        "src": "https://passatworld.ru/attachment.php?attachmentid=91457&d=1368291307",
+        "caption": "Фото автора темы: разъём блока ABS"
+      }
+    ],
     "system": "brakes_abs",
     "kind": "pinout",
     "source_type": "forum",
@@ -951,6 +1592,20 @@
   {
     "title": "Установка ESP часть 3 прокладка проводки — Volkswagen Passat B5 бензин, 1,8 л, 2003 года",
     "url": "https://www.drive2.ru/l/7901960/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/f84afaas-960.jpg",
+        "caption": "Фото автора: оранжевый и серый разъёмы ESP"
+      },
+      {
+        "src": "https://a1.drive-data.ru/ffcafaas-960.jpg",
+        "caption": "Фото автора: разъёмы в ногах водителя"
+      },
+      {
+        "src": "https://a1.drive-data.ru/636afaas-960.jpg",
+        "caption": "Фото автора: разъёмы под панелью"
+      }
+    ],
     "system": "brakes_abs",
     "kind": "guide",
     "source_type": "blog",
@@ -975,6 +1630,32 @@
   {
     "title": "Passat B5/B5+ Установка сигнализации с автозапуском на рестайл (AWM). Фотоотчет.",
     "url": "https://passatworld.ru/archive/index.php/t-203739.html",
+    "images": [
+      {
+        "src": "https://passatworld.ru/othr/bz/siga/851355w.jpg",
+        "caption": "Схема автора: обходчик иммобилайзера"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/siga/850766w.jpg",
+        "caption": "Фото автора: реле 384 на релейной плате"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/siga/850813w.jpg",
+        "caption": "Фото автора: разъёмы под рулевой колонкой"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/siga/850765w.jpg",
+        "caption": "Фото автора: разъём замка зажигания"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/siga/850809w.jpg",
+        "caption": "Фото автора: реле блокировки стартера 53"
+      },
+      {
+        "src": "https://passatworld.ru/othr/bz/siga/850781w.jpg",
+        "caption": "Фото автора: точка подключения в жгуте"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "forum",
@@ -987,6 +1668,16 @@
   {
     "title": "005. Автозапуск, Турботаймер или установка StarLine B9 — Volkswagen Passat B5 бензин, 1,8 л, 2001 года",
     "url": "https://www.drive2.ru/l/488724398405058756/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/e633415s-960.jpg",
+        "caption": "Фото автора: блок комфорта 1J0 959 799 с разъёмами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/add3415s-960.jpg",
+        "caption": "Фото автора: разъём замка зажигания"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -1011,6 +1702,24 @@
   {
     "title": "Установка приборной панели VDO с БК Audi A4 B5 — Audi A4 (B5) бензин, 2,8 л, 1997 года",
     "url": "https://www.drive2.ru/l/4600836/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/726df2cs-960.jpg",
+        "caption": "Фото автора: красный 20-контактный разъём бортового компьютера"
+      },
+      {
+        "src": "https://a1.drive-data.ru/d66df2cs-960.jpg",
+        "caption": "Фото автора: разобранный разъём"
+      },
+      {
+        "src": "https://a1.drive-data.ru/fa6df2cs-960.jpg",
+        "caption": "Фото автора: разъёмы с проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/55edf2cs-960.jpg",
+        "caption": "Рукописная распиновка автора"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -1035,6 +1744,24 @@
   {
     "title": "Подключение приборки на столе. Как? Зачем? — Audi A4 (B5) бензин, 1,8 л, 1995 года",
     "url": "https://www.drive2.ru/l/550882264624399890/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/b4AAAgH4peA-960.jpg",
+        "caption": "Распиновка серого 32-контактного разъёма и OBD с отмеченными +, − и K-line"
+      },
+      {
+        "src": "https://a1.drive-data.ru/z4AAAgH4peA-960.jpg",
+        "caption": "Фото автора: синий разъём щитка с подключёнными проводами"
+      },
+      {
+        "src": "https://a1.drive-data.ru/AYAAAgH4peA-960.jpg",
+        "caption": "Фото автора: зелёный разъём щитка и подключение к OBD"
+      },
+      {
+        "src": "https://a1.drive-data.ru/yEAAAgH4peA-960.jpg",
+        "caption": "Фото автора: подключение щитка на столе к блоку питания"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -1047,6 +1774,32 @@
   {
     "title": "Замена приборной панели ИММО1 на ИММО2 с БК — Audi A4 (B5) бензин, 1,6 л, 1995 года",
     "url": "https://www.drive2.ru/l/463104952844157530/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/4ab9bc1s-960.jpg",
+        "caption": "Таблица автора: соответствие пинов разъёмов ИММО1 и ИММО2"
+      },
+      {
+        "src": "https://a1.drive-data.ru/4c832bes-960.jpg",
+        "caption": "Таблица автора: распиновка 20-контактного красного разъёма БК"
+      },
+      {
+        "src": "https://a1.drive-data.ru/7a832bes-960.jpg",
+        "caption": "Фото автора: разъёмы щитка, отмечены провода расхода топлива и датчика температуры масла"
+      },
+      {
+        "src": "https://a1.drive-data.ru/cc832bes-960.jpg",
+        "caption": "Фото автора: датчик температуры масла (отмечен)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/62832bes-960.jpg",
+        "caption": "Фото автора: провода с бирками номеров пинов"
+      },
+      {
+        "src": "https://a1.drive-data.ru/14832bes-960.jpg",
+        "caption": "Фото автора: перепиновка разъёмов"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -1059,6 +1812,12 @@
   {
     "title": "#34. Подключение БК — Audi A4 (B5), 1,6 л, 1998 года",
     "url": "https://www.drive2.ru/l/462310280815181859/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/c71653es-960.jpg",
+        "caption": "Фото автора: разъём на подрулевом переключателе"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -1071,6 +1830,24 @@
   {
     "title": "Установка магнитолы — Audi A4 (B5) бензин, 1,8 л, 1998 года",
     "url": "https://www.drive2.ru/l/288230376153208904/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/a731a4u/960.jpg",
+        "caption": "Таблица: распиновка разъёма магнитолы (Quadlock A–D)"
+      },
+      {
+        "src": "https://a1.drive-data.ru/aeb1a4u/960.jpg",
+        "caption": "Фото автора: разъёмы за магнитолой"
+      },
+      {
+        "src": "https://a1.drive-data.ru/371a4u/960.jpg",
+        "caption": "Фото автора: подключение к разъёму магнитолы"
+      },
+      {
+        "src": "https://a1.drive-data.ru/fc89a4u/960.jpg",
+        "caption": "Фото автора: разъём на новой магнитоле"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
@@ -1083,6 +1860,24 @@
   {
     "title": "Ништяки в салон. Часть вторая: Audi Concert CD в Audi A4 B5 без пайки соплей и установки эмулятора CAN-шины — работает полный функционал. — Audi A4 Avant (B5) дизель, 1,9 л, 2000 года",
     "url": "https://www.drive2.ru/l/457237683920440479/",
+    "images": [
+      {
+        "src": "https://a1.drive-data.ru/af0d6ees-960.jpg",
+        "caption": "Фото автора: плата, стрелкой отмечен пин 8"
+      },
+      {
+        "src": "https://a1.drive-data.ru/b91d6ees-960.jpg",
+        "caption": "Фото автора: наклейка с распиновкой, обведены CLOCK, DATA, ENA"
+      },
+      {
+        "src": "https://a1.drive-data.ru/a39d6ees-960.jpg",
+        "caption": "Фото автора: наклейка с распиновкой магнитолы Concert"
+      },
+      {
+        "src": "https://a1.drive-data.ru/5a436ees-960.jpg",
+        "caption": "Фото автора: разъёмы щитка с подключёнными проводами"
+      }
+    ],
     "system": "electrical",
     "kind": "pinout",
     "source_type": "blog",
