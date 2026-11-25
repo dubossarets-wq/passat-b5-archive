@@ -159,9 +159,19 @@ function seedSchemes(db, dir) {
   for (const f of jsonFiles(path.join(dir, 'schemes'))) {
     for (const s of readJson(path.join(dir, 'schemes', f)) ?? []) {
       if (!s.url || !s.title || !/^https?:\/\//.test(s.url)) continue;
-      n += ins.run(s.title.trim(), s.url.trim(), systemIdBySlug(db, s.system), SCHEME_KINDS.includes(s.kind) ? s.kind : 'diagram',
+      const url = s.url.trim();
+      const images = cleanImages(s.images);
+      const added = ins.run(s.title.trim(), url, systemIdBySlug(db, s.system), SCHEME_KINDS.includes(s.kind) ? s.kind : 'diagram',
         SCHEME_SOURCES.includes(s.source_type) ? s.source_type : 'reference', clean(s.description), asText(s.applies_to),
-        clean(s.accessed), clean(s.check_result), cleanImages(s.images)).changes;
+        clean(s.accessed), clean(s.check_result), images).changes;
+      n += added;
+      // Та же ссылка у другого собирателя: картинки объединяем, чтобы не потерять.
+      if (!added && images) {
+        const cur = db.prepare('SELECT images FROM schemes WHERE url = ?').get(url);
+        const merged = [...JSON.parse(cur?.images ?? '[]'), ...JSON.parse(images)];
+        const uniq = merged.filter((im, i) => merged.findIndex((x) => x.src === im.src) === i).slice(0, 12);
+        db.prepare('UPDATE schemes SET images = ? WHERE url = ?').run(JSON.stringify(uniq), url);
+      }
     }
   }
   return n;
