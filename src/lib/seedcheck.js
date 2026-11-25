@@ -22,6 +22,7 @@ const DESIGNATIONS = [
   /(?<![\p{L}\p{N}])92\s*к?вт(?![\p{L}\p{N}])/giu,
   /(?<![\p{L}\p{N}])1781\s*(?:см³|cm3|куб\.?\s?см)/giu,
   /(?<![\p{L}\p{N}])0?[1-5]v(?![\p{L}\p{N}])/giu, // коробки 01V, 01N …
+  /\+?\s?12\s?(?:в|v)(?![\p{L}\p{N}])/giu, // бортовая сеть «+12 В» — обозначение цепи
 ];
 
 export function findCriticalNumbers(text) {
@@ -144,6 +145,30 @@ export function validateSeed(dir = paths.seed()) {
         if (!s.applies_to) problems.push(`${w}: нет пометки, к чему относится`);
         if (s.system && !systems.has(s.system)) problems.push(`${w}: неизвестная система ${s.system}`);
         for (const hit of findCriticalNumbers(s.description)) problems.push(`${w}: похоже на критичную цифру «${hit}»`);
+      }
+    }
+  }
+
+  // собственные схемы: у каждой источник, только факты (без регулировочных цифр)
+  const diagDir = path.join(dir, 'diagrams');
+  counts.diagrams = 0;
+  const seenIds = new Set();
+  if (fs.existsSync(diagDir)) {
+    for (const f of fs.readdirSync(diagDir).filter((x) => x.endsWith('.json'))) {
+      for (const d of JSON.parse(fs.readFileSync(path.join(diagDir, f), 'utf8'))) {
+        counts.diagrams++;
+        const w = `схема «${d.title}» (${f})`;
+        if (!d.id) problems.push(`${w}: нет id`);
+        if (seenIds.has(d.id)) problems.push(`${w}: id ${d.id} повторяется`);
+        seenIds.add(d.id);
+        if (!['pinout', 'circuit'].includes(d.type)) problems.push(`${w}: type должен быть pinout или circuit`);
+        if (d.status !== 'unverified') problems.push(`${w}: статус должен быть unverified`);
+        if (d.system && !systems.has(d.system)) problems.push(`${w}: неизвестная система ${d.system}`);
+        checkSources(w, d.sources, problems);
+        const texts = [d.notes, d.location, ...(d.pins ?? []).flatMap((p) => [p.signal, p.to]),
+          ...(d.paths ?? []).flatMap((p) => (p.nodes ?? []).map((n) => n.name))];
+        for (const t of texts) for (const hit of findCriticalNumbers(t)) problems.push(`${w}: похоже на критичную цифру «${hit}»`);
+        for (const im of d.images ?? []) if (!/^https?:\/\//.test(im.src ?? '')) problems.push(`${w}: картинка без адреса http(s)`);
       }
     }
   }

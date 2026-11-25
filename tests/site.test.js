@@ -12,10 +12,32 @@ import { buildSite, rewriteHtml } from '../src/build.js';
 let app;
 let tmp;
 
+let diagramId;
 before(async () => {
-  seedAll(openDb());
+  const db = openDb();
+  seedAll(db);
+  // Пример собственной схемы и ссылки с картинкой — чтобы проверить отрисовку независимо от наполнения.
+  diagramId = Number(db.prepare(
+    "INSERT INTO diagrams (slug, type, title, data, images) VALUES ('test-obd', 'pinout', 'Тестовый разъём OBD', ?, ?)",
+  ).run(JSON.stringify({ component: 'Разъём OBD', pins: [{ pin: '7', signal: 'K-линия', wire: 'серо-оранжевый', to: 'блоки' }, { pin: '16', signal: '+12 В', wire: '', to: 'предохранитель' }] }),
+    JSON.stringify([{ src: 'https://example.org/obd.jpg', caption: 'фото разъёма' }])).lastInsertRowid);
+  db.prepare("INSERT INTO schemes (title, url, kind, images) VALUES ('Тест с картинкой', 'https://example.org/post', 'pinout', ?)")
+    .run(JSON.stringify([{ src: 'https://example.org/pin.png', caption: 'распиновка' }]));
   app = await buildApp();
   tmp = makeTempDir('site');
+});
+
+test('собственная схема рисуется в SVG, с таблицей, цветами проводов и картинкой из источника', async () => {
+  const body = (await app.inject({ method: 'GET', url: `/diagrams/${diagramId}` })).body;
+  assert.match(body, /<svg class="diagram"/);
+  assert.match(body, /K-линия/);
+  assert.match(body, /stroke="#9e9e9e"/, 'серый провод');
+  assert.match(body, /stroke="#f57c00"/, 'оранжевая полоса');
+  assert.match(body, /<table>/);
+  assert.match(body, /src="https:\/\/example.org\/obd.jpg"[^>]*referrerpolicy="no-referrer"/);
+  const list = (await app.inject({ method: 'GET', url: '/schemes' })).body;
+  assert.match(list, new RegExp(`href="/diagrams/${diagramId}"`));
+  assert.match(list, /src="https:\/\/example.org\/pin.png"/);
 });
 
 after(async () => {

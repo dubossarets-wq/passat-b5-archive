@@ -7,7 +7,7 @@ import { searchBox } from '../lib/ui.js';
 const COUNT_SQL = {
   '/codes': 'SELECT COUNT(*) AS n FROM dtc_codes',
   '/kb': 'SELECT COUNT(*) AS n FROM articles',
-  '/schemes': 'SELECT COUNT(*) AS n FROM schemes',
+  '/schemes': 'SELECT (SELECT COUNT(*) FROM schemes) + (SELECT COUNT(*) FROM diagrams) AS n',
   '/parts': 'SELECT COUNT(*) AS n FROM parts',
   '/maintenance': 'SELECT COUNT(*) AS n FROM maintenance_items',
   '/links': 'SELECT COUNT(*) AS n FROM links',

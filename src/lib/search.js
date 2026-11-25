@@ -5,6 +5,7 @@ import { indexStems } from '../../public/js/searchcore.js';
 export const KINDS = {
   code: { label: 'Коды ошибок', table: 'dtc_codes', url: (id) => `/codes/${id}` },
   article: { label: 'Статьи', table: 'articles', url: (id) => `/kb/${id}` },
+  diagram: { label: 'Схемы и распиновки', table: 'diagrams', url: (id) => `/diagrams/${id}` },
   scheme: { label: 'Электросхемы', table: 'schemes', url: (id) => `/schemes#s${id}` },
   part: { label: 'Запчасти', table: 'parts', url: (id) => `/parts/${id}` },
   maintenance: { label: 'Регламент ТО', table: 'maintenance_items', url: (id) => `/maintenance/${id}` },
@@ -50,6 +51,16 @@ export function buildDoc(db, kind, id) {
     };
   }
   if (kind === 'article') return { title: row.title, body: [plain(row.body_md), sys, row.applies_to].filter(Boolean).join('\n') };
+  if (kind === 'diagram') {
+    const data = JSON.parse(row.data);
+    const parts = data.pins
+      ? data.pins.map((p) => `${p.pin} ${p.signal} ${p.wire} ${p.to ?? ''}`)
+      : (data.paths ?? []).flatMap((p) => [p.label, ...(p.nodes ?? []).map((n) => `${n.name} ${n.pin ?? ''} ${n.wire ?? ''}`)]);
+    return {
+      title: row.title,
+      body: [row.type === 'pinout' ? 'распиновка разъём контакты' : 'схема цепь', data.component, data.location, row.notes, sys, row.applies_to, ...parts].filter(Boolean).join('\n'),
+    };
+  }
   if (kind === 'scheme') {
     return { title: row.title, body: [row.description, SCHEME_KIND_LABEL[row.kind], 'электросхема', sys, row.applies_to].filter(Boolean).join('\n') };
   }

@@ -46,7 +46,7 @@ export async function buildSite({ base = process.env.BASE || '/', dist = paths.d
   const app = await buildApp();
 
   const urls = ['/', '/menu', '/search', '/codes', '/kb', '/schemes', '/parts', '/maintenance', '/links'];
-  for (const [table, prefix] of [['dtc_codes', '/codes/'], ['articles', '/kb/'], ['parts', '/parts/'], ['maintenance_items', '/maintenance/']]) {
+  for (const [table, prefix] of [['dtc_codes', '/codes/'], ['articles', '/kb/'], ['parts', '/parts/'], ['maintenance_items', '/maintenance/'], ['diagrams', '/diagrams/']]) {
     for (const { id } of db.prepare(`SELECT id FROM ${table} ORDER BY id`).all()) urls.push(prefix + id);
   }
 

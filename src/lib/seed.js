@@ -140,10 +140,20 @@ function seedLinks(db, dir) {
   return n;
 }
 
+// Картинки схем: только прямые http(s)-адреса; показываются с исходного сайта, не копируются.
+export function cleanImages(list) {
+  if (!Array.isArray(list)) return null;
+  const out = list
+    .filter((im) => im && typeof im.src === 'string' && /^https?:\/\//i.test(im.src.trim()))
+    .slice(0, 12)
+    .map((im) => ({ src: im.src.trim(), caption: clean(im.caption) ?? '', source_url: clean(im.source_url) }));
+  return out.length ? JSON.stringify(out) : null;
+}
+
 function seedSchemes(db, dir) {
   const ins = db.prepare(
-    `INSERT OR IGNORE INTO schemes (title, url, system_id, kind, source_type, description, applies_to, checked_at, check_result, status)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'unverified')`,
+    `INSERT OR IGNORE INTO schemes (title, url, system_id, kind, source_type, description, applies_to, checked_at, check_result, images, status)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'unverified')`,
   );
   let n = 0;
   for (const f of jsonFiles(path.join(dir, 'schemes'))) {
@@ -151,7 +161,31 @@ function seedSchemes(db, dir) {
       if (!s.url || !s.title || !/^https?:\/\//.test(s.url)) continue;
       n += ins.run(s.title.trim(), s.url.trim(), systemIdBySlug(db, s.system), SCHEME_KINDS.includes(s.kind) ? s.kind : 'diagram',
         SCHEME_SOURCES.includes(s.source_type) ? s.source_type : 'reference', clean(s.description), asText(s.applies_to),
-        clean(s.accessed), clean(s.check_result)).changes;
+        clean(s.accessed), clean(s.check_result), cleanImages(s.images)).changes;
+    }
+  }
+  return n;
+}
+
+export const DIAGRAM_TYPES = ['pinout', 'circuit'];
+
+function seedDiagrams(db, dir) {
+  let n = 0;
+  for (const f of jsonFiles(path.join(dir, 'diagrams'))) {
+    for (const d of readJson(path.join(dir, 'diagrams', f)) ?? []) {
+      if (!d.id || !d.title || !DIAGRAM_TYPES.includes(d.type)) continue;
+      const data = d.type === 'pinout'
+        ? { component: d.component ?? '', location: d.location ?? '', pins: Array.isArray(d.pins) ? d.pins : [] }
+        : { paths: Array.isArray(d.paths) ? d.paths : [] };
+      const res = db.prepare(
+        `INSERT OR IGNORE INTO diagrams (slug, type, title, system_id, applies_to, data, notes, images, status)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'unverified')`,
+      ).run(String(d.id).toLowerCase().replace(/[^a-z0-9-]+/g, '-'), d.type, d.title.trim(), systemIdBySlug(db, d.system), asText(d.applies_to),
+        JSON.stringify(data), clean(d.notes), cleanImages(d.images));
+      if (res.changes) {
+        addSources(db, 'diagram', lastId(res), d.sources);
+        n++;
+      }
     }
   }
   return n;
@@ -168,6 +202,7 @@ export function seedAll(db, dir = paths.seed()) {
     counts.articles = seedArticles(db, dir);
     counts.links = seedLinks(db, dir);
     counts.schemes = seedSchemes(db, dir);
+    counts.diagrams = seedDiagrams(db, dir);
   });
   return counts;
 }

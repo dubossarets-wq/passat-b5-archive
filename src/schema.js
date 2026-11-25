@@ -87,6 +87,21 @@ export const SCHEMA = `
     applies_to TEXT,
     checked_at TEXT,
     check_result TEXT,
+    images TEXT,
+    status TEXT NOT NULL DEFAULT 'unverified'
+  );
+
+  -- Собственные схемы и распиновки, нарисованные приложением по фактам из источников.
+  CREATE TABLE diagrams (
+    id INTEGER PRIMARY KEY,
+    slug TEXT NOT NULL UNIQUE,
+    type TEXT NOT NULL,
+    title TEXT NOT NULL,
+    system_id INTEGER REFERENCES systems(id),
+    applies_to TEXT,
+    data TEXT NOT NULL,
+    notes TEXT,
+    images TEXT,
     status TEXT NOT NULL DEFAULT 'unverified'
   );
 

@@ -1,3 +1,12 @@
+// Картинка схемы не загрузилась с исходного сайта — убираем пустую рамку, ссылка на источник остаётся у записи.
+document.addEventListener('error', function (e) {
+  var img = e.target;
+  if (img && img.tagName === 'IMG' && img.closest && img.closest('.shots')) {
+    var fig = img.closest('figure');
+    if (fig) fig.style.display = 'none';
+  }
+}, true);
+
 // Боковая панель (компьютер): подсветить раздел, в котором мы сейчас находимся.
 (function () {
   var base = document.documentElement.getAttribute('data-base') || '/';

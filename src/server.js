@@ -17,7 +17,7 @@ import linksRoutes from './routes/links.js';
 
 const CSP = [
   "default-src 'self'",
-  "img-src 'self' data:",
+  "img-src 'self' data: https:", // картинки схем показываются с исходных сайтов
   "style-src 'self' 'unsafe-inline'",
   "script-src 'self'",
   "connect-src 'self'",
