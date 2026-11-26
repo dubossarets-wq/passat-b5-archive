@@ -23,6 +23,7 @@ before(async () => {
     JSON.stringify([{ src: 'https://example.org/obd.jpg', caption: 'схема разъёма', kind: 'scheme' }, { src: 'https://example.org/box.jpg', caption: 'коробка реле', kind: 'photo' }]),
     JSON.stringify([{ src: 'https://example.org/part.jpg', caption: 'сам разъём' }]),
     JSON.stringify([{ number: '1J0 972 977', brand: 'VAG', note: 'Passat B5', source_url: 'https://example.org/p' }])).lastInsertRowid);
+  db.prepare("INSERT INTO verification (kind, key, status, fits, note, checked) VALUES ('diagram', 'test-obd', 'confirmed', 'yes', 'Сверено по двум источникам', ?)").run(JSON.stringify(['https://example.org/a', 'https://example.org/b']));
   db.prepare("INSERT INTO schemes (title, url, kind, images) VALUES ('Тест с картинкой', 'https://example.org/post', 'pinout', ?)")
     .run(JSON.stringify([{ src: 'https://example.org/pin.png', caption: 'распиновка' }]));
   app = await buildApp();
@@ -51,6 +52,11 @@ test('страница схемы: оригинальные фото схемы 
   assert.match(detail, /obd.jpg/);
   assert.doesNotMatch(detail, /box.jpg/);
   assert.match(body, /Уточнить по официальной документации/);
+  // проверка по источникам и по машине
+  assert.match(body, /сверено по источникам/);
+  assert.match(body, /подходит вашей машине/);
+  assert.match(body, /Сверено по двум источникам/);
+  assert.match(list, /class="badge v-ok">сверено</);
   // фильтр «на сайте / за пределами»
   assert.match(list, /id="where-filter"/);
   assert.match(list, /href="\?where=site"/);

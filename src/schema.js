@@ -122,6 +122,18 @@ export const SCHEMA = `
     check_source_url TEXT
   );
 
+  -- Результат проверки по источникам и по машине владельца (seed/verification/*.json).
+  CREATE TABLE verification (
+    kind TEXT NOT NULL,
+    key TEXT NOT NULL,
+    status TEXT NOT NULL,
+    fits TEXT NOT NULL DEFAULT 'unknown',
+    note TEXT,
+    checked TEXT,
+    date TEXT,
+    PRIMARY KEY (kind, key)
+  );
+
   CREATE TABLE sources (
     id INTEGER PRIMARY KEY,
     owner_kind TEXT NOT NULL,

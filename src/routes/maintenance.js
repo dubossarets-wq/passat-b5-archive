@@ -1,7 +1,8 @@
 import { getDb } from '../db.js';
 import { h } from '../lib/html.js';
 import { page, pageTitle, backLink } from '../views/layout.js';
-import { statusBadge, sourcesBlock } from '../lib/ui.js';
+import { sourcesBlock } from '../lib/ui.js';
+import { getVerify, verifyBadges, verifyBlock, verifyMini } from '../lib/verify.js';
 
 const NUM = new Intl.NumberFormat('ru-RU');
 const fmt = (n) => NUM.format(n).replace(/ /g, ' ');
@@ -21,9 +22,9 @@ export default function register(app) {
       title: 'Регламент ТО',
       active: 'menu',
       body: h`${pageTitle('Регламент ТО')}
-<p class="muted">Типовые интервалы замены из открытых источников. Официального графика ТО VW в открытом доступе нет, поэтому все значения — «не проверено»: сверяйте с сервисной книжкой. Если указаны и км, и месяцы — что наступит раньше.</p>
+<p class="muted">Интервалы из открытых источников (официального графика ТО VW в открытом доступе нет) — сверяйте с сервисной книжкой. Км или месяцы — что наступит раньше.</p>
 <div class="table-wrap"><table class="reg"><thead><tr><th>Позиция</th><th>Интервал</th><th></th></tr></thead><tbody>
-${items.map((m) => h`<tr><td><a href="/maintenance/${m.id}">${m.name}</a></td><td>${intervalText(m)}</td><td>${m.interval_km || m.interval_months ? statusBadge(m.status) : ''}</td></tr>`)}
+${items.map((m) => h`<tr><td><a href="/maintenance/${m.id}">${m.name}</a></td><td>${intervalText(m)}</td><td>${verifyMini(getVerify(db, 'maintenance', m.key))}</td></tr>`)}
 </tbody></table></div>`,
     }));
   });
@@ -38,9 +39,11 @@ ${items.map((m) => h`<tr><td><a href="/maintenance/${m.id}">${m.name}</a></td><t
       title: m.name,
       active: 'menu',
       body: h`${backLink('/maintenance', 'Регламент ТО')}${pageTitle(m.name)}
-<p class="lead">${intervalText(m)} ${m.interval_km || m.interval_months ? statusBadge(m.status) : ''}</p>
+<p class="lead">${intervalText(m)}</p>
+<p>${verifyBadges(getVerify(db, 'maintenance', m.key))}</p>
 ${m.note ? h`<p class="pre">${m.note}</p>` : ''}
 ${parts.length ? h`<h2>Детали</h2><ul class="list">${parts.map((p) => h`<li><a class="item" href="/parts/${p.id}"><span class="t">${p.name}</span><span class="s mono">${p.oem}</span></a></li>`)}</ul>` : ''}
+${verifyBlock(getVerify(db, 'maintenance', m.key))}
 ${sourcesBlock(sources, { title: 'Откуда взят интервал' })}`,
     }));
   });

@@ -231,6 +231,25 @@ function seedComponentSpecs(db, dir) {
   return n;
 }
 
+const VERIFY_STATUS = ['confirmed', 'partial', 'conflict', 'unconfirmed'];
+const VERIFY_FITS = ['yes', 'no', 'unknown'];
+export const verifyKey = (kind, key) => (kind === 'diagram' ? String(key).toLowerCase().replace(/[^a-z0-9-]+/g, '-') : kind === 'code' ? String(key).trim().toUpperCase() : String(key).trim());
+
+function seedVerification(db, dir) {
+  let n = 0;
+  const ins = db.prepare('INSERT OR REPLACE INTO verification (kind, key, status, fits, note, checked, date) VALUES (?, ?, ?, ?, ?, ?, ?)');
+  for (const f of jsonFiles(path.join(dir, 'verification'))) {
+    for (const v of readJson(path.join(dir, 'verification', f)) ?? []) {
+      if (!v || !v.kind || v.key == null || !VERIFY_STATUS.includes(v.status)) continue;
+      const checked = (Array.isArray(v.checked) ? v.checked : []).filter((u) => /^https?:\/\//i.test(String(u)));
+      ins.run(v.kind, verifyKey(v.kind, v.key), v.status, VERIFY_FITS.includes(v.fits) ? v.fits : 'unknown', clean(v.note),
+        checked.length ? JSON.stringify(checked) : null, clean(v.date));
+      n++;
+    }
+  }
+  return n;
+}
+
 /** Загрузить весь справочник из seed/ в пустую базу. Возвращает количество записей по разделам. */
 export function seedAll(db, dir = paths.seed()) {
   const counts = {};
@@ -244,6 +263,7 @@ export function seedAll(db, dir = paths.seed()) {
     counts.schemes = seedSchemes(db, dir);
     counts.diagrams = seedDiagrams(db, dir);
     counts.componentSpecs = seedComponentSpecs(db, dir);
+    counts.verification = seedVerification(db, dir);
   });
   return counts;
 }

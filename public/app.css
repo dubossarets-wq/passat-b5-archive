@@ -304,3 +304,10 @@ details.check[open] > summary::before { content: '▾ '; }
 .where { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: var(--radius-2); margin-right: 4px; vertical-align: 1px; }
 .w-site { background: var(--green-a3); color: var(--green-a11); }
 .w-ext { background: var(--gray-a3); color: var(--gray-a11); }
+
+/* проверка по источникам и по машине */
+.badge.v-ok { background: var(--green-a3); color: var(--green-a11); }
+.badge.v-part { background: var(--amber-a3); color: var(--amber-a11); }
+.badge.v-bad { background: var(--red-a3); color: var(--red-a11); }
+.badge.v-none { background: var(--gray-a3); color: var(--gray-a11); }
+.card.verify h3 { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }

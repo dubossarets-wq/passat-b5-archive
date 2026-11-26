@@ -7,6 +7,7 @@ import { emptyState, searchBox, groupBySystem, statusBadge, sourcesBlock } from 
 import { icon } from '../lib/icons.js';
 import { SCHEME_KIND_LABEL } from '../lib/search.js';
 import { wireColors } from '../lib/diagram.js';
+import { getVerify, verifyBadges, verifyBlock, verifyMini } from '../lib/verify.js';
 
 const SOURCE_LABEL = { official: 'официальный', reference: 'справочник', forum: 'форум', blog: 'бортжурнал / блог', video: 'видео' };
 const TYPE_LABEL = { pinout: 'распиновка', circuit: 'схема цепи' };
@@ -53,7 +54,7 @@ export default function register(app) {
   app.get('/schemes', async (req, reply) => {
     const db = getDb();
     const diagrams = db.prepare(
-      `SELECT d.id, d.title, d.type, d.applies_to, d.data, d.images, d.photo, d.part_numbers, s.name AS system_name
+      `SELECT d.id, d.slug, d.title, d.type, d.applies_to, d.data, d.images, d.photo, d.part_numbers, s.name AS system_name
        FROM diagrams d LEFT JOIN systems s ON s.id = d.system_id ORDER BY s.sort, d.title`,
     ).all();
     const rows = db.prepare(
@@ -96,7 +97,7 @@ ${diagrams.length ? h`<div class="cards">${diagrams.map((d) => h`<a class="card 
 ${previews(d)}
 <span class="t">${d.title}</span>
 ${images(d.part_numbers).length ? h`<span class="pn mono">${images(d.part_numbers).slice(0, 3).map((p, i) => h`${i ? ' · ' : ''}${p.number}${p.brand && p.brand !== 'VAG' ? ` (${p.brand})` : ''}`)}</span>` : ''}
-<span class="s">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · ${d.applies_to}` : ''}</span></a>`)}</div>` : emptyState('Схемы готовятся.')}
+<span class="s">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · ${d.applies_to}` : ''}${verifyMini(getVerify(db, 'diagram', d.slug))}</span></a>`)}</div>` : emptyState('Схемы готовятся.')}
 </section>
 
 ${looseChecks.length ? h`<section data-group><h2 id="checks">Проверка датчиков</h2>
@@ -131,7 +132,7 @@ ${(data.pins ?? []).map((p) => h`<tr><td class="num"><b>${p.pin}</b></td><td>${p
       title: d.title,
       active: 'menu',
       body: h`${backLink('/schemes', 'Электросхемы')}${pageTitle(d.title)}
-<p>${statusBadge(d.status)} <span class="muted">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · относится к: ${d.applies_to}` : ''}</span></p>
+<p>${verifyBadges(getVerify(db, 'diagram', d.slug))} <span class="muted">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · относится к: ${d.applies_to}` : ''}</span></p>
 ${data.location ? h`<p><b>Где находится:</b> ${data.location}</p>` : ''}
 ${schemePics(d.images).length ? h`<h2>Схема</h2>${gallery(schemePics(d.images), '')}` : h`<p class="muted">Картинка схемы из открытых источников пока не найдена.</p>`}
 ${[...images(d.photo), ...photoPics(d.images)].length ? h`<h2>Фото</h2>${gallery([...images(d.photo), ...photoPics(d.images)], '')}` : ''}
@@ -142,6 +143,7 @@ ${specsBlock(comps)}
 <h2>${d.type === 'pinout' ? 'Распиновка' : 'Цепь'} по данным источников</h2>
 ${table}
 ${d.notes ? h`<p class="pre">${d.notes}</p>` : ''}
+${verifyBlock(getVerify(db, 'diagram', d.slug))}
 ${sourcesBlock(sources)}`,
     }));
   });

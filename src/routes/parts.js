@@ -3,6 +3,7 @@ import { h } from '../lib/html.js';
 import { page, pageTitle, backLink } from '../views/layout.js';
 import { statusBadge, sourcesBlock, emptyState, searchBox, groupBySystem } from '../lib/ui.js';
 import { icon } from '../lib/icons.js';
+import { getVerify, verifyBadges, verifyBlock, verifyMini } from '../lib/verify.js';
 
 export default function register(app) {
   app.get('/parts', async (req, reply) => {
@@ -19,7 +20,7 @@ export default function register(app) {
 ${searchBox('/search', '', 'Номер VAG, аналог или название', 'part')}
 <p class="muted">Оригинальные номера VAG и аналоги для ARG / Passat B5. Применимость часто зависит от года, номера шасси и PR-кодов — смотрите примечание у детали.</p>
 ${rows.length ? groupBySystem(rows).map(([name, list]) => h`<h2>${name}</h2><ul class="list">${list.map((p) => h`<li><a class="item" href="/parts/${p.id}">
-<span class="t">${p.name}</span><span class="s mono">${p.oem}</span>
+<span class="t">${p.name}</span><span class="s mono">${p.oem}${verifyMini(getVerify(db, 'part', p.oem))}</span>
 ${p.analogs ? h`<span class="tags">аналоги: ${p.analogs}</span>` : ''}</a></li>`)}</ul>`) : emptyState('Деталей нет.')}`,
     }));
   });
@@ -38,13 +39,14 @@ ${p.analogs ? h`<span class="tags">аналоги: ${p.analogs}</span>` : ''}</a
       active: 'menu',
       body: h`${backLink('/parts', 'Запчасти')}${pageTitle(p.name)}
 <p class="oem mono">${p.oem}</p>
-<p>${statusBadge(p.status)} <span class="muted">${p.system_name || ''}</span></p>
+<p>${verifyBadges(getVerify(db, 'part', p.oem))} <span class="muted">${p.system_name || ''}</span></p>
 ${p.maintenance_item_id ? h`<p>Регламент: <a href="/maintenance/${p.maintenance_item_id}">${p.item_name}</a></p>` : ''}
 ${p.notes ? h`<h2>Применимость</h2><p class="pre">${p.notes}</p>` : ''}
 <h2>Аналоги</h2>
 ${analogs.length ? h`<div class="table-wrap"><table><thead><tr><th>Производитель</th><th>Номер</th></tr></thead><tbody>
 ${analogs.map((a) => h`<tr><td>${a.brand}</td><td class="mono">${a.source_url ? h`<a href="${a.source_url}" target="_blank" rel="noopener noreferrer">${a.number} ${icon('external')}</a>` : a.number}</td></tr>`)}
 </tbody></table></div>` : emptyState('Аналоги с номерами не найдены.')}
+${verifyBlock(getVerify(db, 'part', p.oem))}
 ${sourcesBlock(sources, { title: 'Откуда взят номер' })}`,
     }));
   });
