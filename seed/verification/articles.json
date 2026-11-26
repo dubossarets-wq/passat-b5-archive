@@ -1,0 +1,485 @@
+[
+  {
+    "kind": "article",
+    "key": "body-drenazhi-voda-v-salone.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Оба источника открыты, пересказ верный: Kolesa пишет о двух «лягушках», воде у аккумулятора, воздухозаборника и короба ЭБУ, о водоотводе стекла, жабо, дренаже кондиционера в нишу КПП, сливе люка в заднюю часть порога, блоке комфорта под ногами водителя и блоке АКП у пассажира; VW TechConnect 2011 — о забитых cowl drains, о воде под ковром, о том, что на Passat нужно снимать АКБ, о дренаже люка во втулке передней стойки, о блоке комфорта под ковром перед передним сиденьем и прямо упоминает Passat 2000 года. Ядро статьи независимо подтверждает бюллетень Behr Hella Service для VW Passat типов 3B2/3B5 (дорестайлинг): дренаж под аккумулятором забивается листвой, ниша переполняется, вода попадает в салон, чинят снятием АКБ и чисткой слива. Дренаж кондиционера, водоотвод стекла и жабо подтверждает только Kolesa. Важно: блок комфорта, по данным VW, ставится только на машины с электростеклоподъёмниками, а блок АКП — только при автомате; у машины владельца КПП и комплектация неизвестны.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://automotivetechinfo.com/wp-content/uploads/2011/05/Volkswagen-Comfort-Systems-Getting-Comfortable.pdf",
+      "https://techtips.ie/Hella-Ireland/vw-passat---condensation-drain-blocked-in-water-box.pdf"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "body-korroziya.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Почти вся статья опирается на обзор Kolesa [1], и пересказана она верно: коррозия под накладками порогов и дверей, «задняя часть порогов» у машин с люком, передние арки (особенно до рестайлинга), стык брызговика с усилителем, рамка стекла, кромки, вырез фары, днище, антикор, срезание цинка при перекраске, слабая краска до рестайлинга в сентябре 2000 года; тормозные трубки и щитки — во втором обзоре Kolesa [2] того же издания. Независимо подтверждены только ржавые передние арки и пузыри по кромкам задних арок (Retro Rides, B5 1999 года, «typical of most B5/B5.5»); по вырезу фары, рамке стекла и порогам под накладками второго источника не нашлось. Мелкие неточности: у Kolesa облезает краска из-за окисления цинка, а не «отслаивается цинковый слой»; «кромки крыльев» в источнике — кромка заднего крыла. Машина 3B 2000 МГ дорестайлинговая, поэтому пункты про слабую заводскую краску и передние арки к ней относятся напрямую.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-nestrashnaya-podveska-vechnye-akp-i-udachnyy-daunsayzing",
+      "https://forum.retro-rides.org/thread/208956/1999-vw-passat-northants-sold"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "brakes_abs-abs-blok-datchiki.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Диагностическая часть подтверждена официальными страницами Ross-Tech: 01276 (предохранители у АКБ, массы, разъём насос–блок, J104), 00283 (зазор, повреждённый или ржавый ротор, проводка), адрес 03 по KWP-1281 у B5, OBD-II-сканер не видит ABS. Бюллетень VW TT 45-06-54 (PDF NHTSA) подтверждает кодирование 5.3 по мотору, КПП и CAN и исключение 4Motion и машин без ASR. Таблица — только 1.8T и 2.8 V6, ARG нет, статья это честно оговаривает. Внутренний обрыв связей в Bosch 5.3 («нет связи», лампа ABS/ASR) кроме Kolesa подтверждает лишь сервис absstuurapparaten.nl без привязки к модели; разделение «5.3 до / 5.7 после рестайлинга» есть только у Kolesa, а бюллетень VW для США даёт 5.3 до 2002 МГ, то есть и на 3BG. Неточность: Kolesa пишет «на ряде машин» 5.3, а не «на дорестайлинговых»; утверждение статьи, что запчасти 5.3 и 5.7 «не взаимозаменяемы», в источниках не найдено. Для 3B 2000 МГ подходит, но тип блока нужно смотреть на машине.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-nestrashnaya-podveska-vechnye-akp-i-udachnyy-daunsayzing",
+      "https://wiki.ross-tech.com/wiki/index.php/01276",
+      "https://wiki.ross-tech.com/wiki/index.php/00283",
+      "https://www.ross-tech.com/vag-com/faq_1.php",
+      "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+      "https://static.nhtsa.gov/odi/tsbs/2012/SB-10051242-8163.pdf",
+      "https://absstuurapparaten.nl/en/pages/reparatie-abs-pomp-bosch-5-3"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "brakes_abs-zadnie-supporty-ruchnik-trubki.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Все четыре источника открыты, утверждения с [1]–[4] в них есть (Kolesa: однопоршневые суппорты, закисающий винтовой механизм ручника в заднем суппорте, медные трубки без контакта с кузовом; Drive2: признаки, переборка, канавка под манжету, короткие пальцы TRW, прокачка с тестом ABS); конструкцию заднего суппорта с вворачиваемым поршнем подтверждает vwmanual.ru, а каталог Brembo для 1.8 92 кВт (06/97–11/00, т.е. ARG) даёт задние диски 245 мм и однопоршневой суппорт Lucas 38 мм. Мелкие неточности: у Kolesa диски «отгнивают по точкам крепления», а не «корродируют в местах прилегания»; самоподтяжка ручника и доступ к уравнителю — только мнение одного комментатора [4].",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-nestrashnaya-podveska-vechnye-akp-i-udachnyy-daunsayzing",
+      "https://www.drive2.ru/l/599555995118621142/",
+      "https://www.drive2.ru/l/492052070346522823/",
+      "https://www.drive2.ru/l/677206255051229293/",
+      "https://www.vwmanual.ru/en/passat/b5/chassis/brake/zamena-zadnih-tormoznyh-kolodok",
+      "https://www.bremboparts.com/europe/en/catalogue/vw-passat-b5-variant-3b5-1-8/000007933-1"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "climate-climatronic-zaslonki.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Все 6 источников открыты, ссылки соответствуют тексту. Независимо подтверждено: вход в самодиагностику кнопками рециркуляции и ECON с включением зажигания, листание кнопкой Temp+, «000» и стирание долгим нажатием ECON описаны для Passat 3B 1998 г. на Dieselschrauber; значения кодов 01272 (V70), 01273 (V2) и 00603 (V85) сходятся с Ross-Tech Wiki, а пересчёт в коды на дисплее (4F7…4FA, 25B) арифметически верен; ограничение VCDS-Lite подтверждено на сайте Ross-Tech. Неточность: статья считает «чтение группы 000» из [3] той же процедурой, что базовые установки, — это догадка, ведь Ross-Tech для приводов предписывает именно Basic Setting. Ремонт приводов (V68/V70/V85 одинаковые, у V71 другая тяга) описан одним владельцем. Блок 3B — KWP-1281, к машине 2000 года подходит.",
+    "checked": [
+      "https://www.drive2.ru/l/4899916394579163193/",
+      "https://www.drive2.ru/l/472682798633713685/",
+      "https://www.drive2.ru/l/460932592745578741/",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+      "https://www.ross-tech.com/vcds-lite/",
+      "https://wiki.ross-tech.com/index.php/01272",
+      "https://wiki.ross-tech.com/index.php/01273",
+      "https://wiki.ross-tech.com/index.php/00603",
+      "https://community.dieselschrauber.org/en/viewtopic.php?p=35854"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "climate-konditsioner-pechka.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все 3 источника открыты, утверждения в основном соответствуют. Независимо подтверждено: код на дисплее 318 — это шестнадцатеричная запись VAG 00792 (датчик давления F129), что сходится с Ross-Tech Wiki; течь пластиковых патрубков радиатора печки и снятие радиатора только с разборкой панели описаны и у Kolesa.ru, и на Drive2. Неточности: прямого совета «не заправлять вслепую» в [2] нет (автор просто проверил утечки до заправки); Ross-Tech называет причиной ошибки F129 не только утечку, но и перезаправку, засор контура и плохой обдув конденсатора. Машина в [2] — 1.8 на 150 л.с. (турбо), но контур кондиционера тот же; совет про вискомуфту и проверку кондиционера в пробке, дренаж и место F129 есть только в одном источнике каждый.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.drive2.ru/l/474629209092784650/",
+      "https://www.drive2.ru/l/661066248989181253/",
+      "https://wiki.ross-tech.com/index.php/00792"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "clutch_gearbox-korobki-peredach.md",
+    "status": "conflict",
+    "fits": "yes",
+    "note": "Все 5 источников открыты, утверждения со ссылками в них в целом есть, только в [4] не упомянуто снятие приводов. Главный вопрос — какой автомат стоял с 125-сильным 1.8 — источники решают по-разному: ADAC для Passat 1.8 5V 92 кВт Automatik 01/00–09/00 указывает 4 ступени (как и Wikipedia), а каталог MAPCO даёт для 3B5 1.8 ADR/APT/ARG коробку ZF 5HP19 (01V). Поэтому статья вводит в заблуждение: она подробно описывает 01V, а 4-ступенчатый автомат (у продольных B5 это 01N) по Cars-Expert относит «в основном» к 8-клапанным моторам, хотя для ARG 2000 года именно он, вероятно, заводской. Пятиступенчатая механика на Passat B5 подтверждена VW Classic Parts, советы по механике взяты из одного Cars-Expert, а записи о снятии КПП сделаны на турбомоторах (AWT/AWM, код коробки EGZ), что статья оговаривает.",
+    "checked": [
+      "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B5)",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/",
+      "https://gearboxlist.com/zf/5hp19/",
+      "https://www.drive2.ru/l/656981013536181368/",
+      "https://www.drive2.ru/l/529255695539766032/",
+      "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/vw/passat/b5/272452",
+      "https://www.almautomotive.ee/carparts/23777/mapco-69002-hydraulic-filter-automatic-transmission/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/012301307"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "clutch_gearbox-stseplenie.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все ссылки открыты. Гидропривод на тормозной жидкости, пластиковый штуцер рабочего цилиндра, ГЦС Sachs 6284009938 с коротким шлангом (Drive2, 1.8 125 л.с. 1998 г., скорее ADR), треснувшая опора и расплавленный фиксатор вилки, разные диски под ДМФ и одномасс, советы по штоку — каждое из одного владельческого источника, два из них про турбомоторы 1.8T (170 и 150 л.с.). Износ ДМФ на бензиновых позже, чем на дизелях, — cars-expert (≈250–300 тыс. км). Ошибки: (1) в [1] комментатор объясняет схватывание вверху педали хорошей прокачкой гидравлики, а не износом диска — в таблице статьи акцент обратный; (2) в карточке Superspares коды моторов указаны (ADR/APT 92 кВт, AEB, APU, AWT), и ARG среди них нет, так что заводской ДМФ на ARG не подтверждён. Гидравлика и вилка общие для механики B5 и к ARG применимы; тип маховика для ARG открытыми источниками установить не удалось.",
+    "checked": [
+      "https://www.drive2.ru/l/620376072424268580/",
+      "https://www.drive2.ru/l/529255695539766032/",
+      "https://www.drive2.ru/l/656981013536181368/",
+      "https://superspares.com.au/exedy-oem-replacement-dmf-clutch-kit-for-volkswage",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "cooling-techi-ventilyator-pechka.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все 7 источников открыты, ссылки соответствуют тексту. Независимо подтверждено: Febi 27153 (OE 058 121 132 / 058 121 133 B) по каталогу Winparts подходит к Passat B5 1.8 92 кВт ADR/APT/ARG; вискомуфта с дополнительным электровентилятором и снятие радиатора печки только с разборкой панели есть и у Kolesa.ru; совет Ross-Tech проверить блок или реле вентилятора есть в источнике. Проверка F18 перемычкой (контакты 1-4 и 2-3) описана на AWM, где датчик стоит в нижнем патрубке; на ADR, судя по записи о ГРМ, датчик стоит у радиатора, а место на ARG надо смотреть по схеме своей машины; статья это оговаривает. Установка корпуса термостата без герметика и развоздушивание через хомут печки — каждое из одной записи владельца.",
+    "checked": [
+      "https://www.drive2.ru/l/620376072424268580/",
+      "https://www.drive2.ru/l/689531230642767585/",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://www.drive2.ru/l/475934054517047502/",
+      "https://www.drive2.ru/l/563598391477535663/",
+      "https://www.drive2.ru/l/458108497129669690/",
+      "https://wiki.ross-tech.com/index.php/16500/P0116/000278",
+      "https://www.winparts.co.uk/cooling-system-heating/cooling-system/coolant-flange/c651/coolant-flange-27153-febi/p122472.html",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "cooling-termostat-datchik-pompa.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все 7 источников открыты, утверждения со ссылками в них есть. Признаки и проверка G62 подтверждаются независимо: Ross-Tech, ветка VWTS про ARG 2000 г. (запуск вылечили заменой датчика, «чек» не горел) и otoba (малый ресурс датчика на ARG). Признаки термостата, его замена и привод помпы отдельным ремнём с разборным шкивом взяты из записей Drive2 (в основном про ADR) и вторым открытым источником не подтверждены; для ARG этот привод правдоподобен (тот же продольный 1.8 20V), статья это честно оговаривает. MAHLE TX 14 87 D — это аналог 050 121 113 C на 87 °C, но прямого подтверждения, что он подходит к ARG, не нашлось; формулировка Ross-Tech упрощена («MY1995–2002 (?)», оригинал чёрный, замена зелёная), но не искажена.",
+    "checked": [
+      "https://www.drive2.ru/l/689531230642767585/",
+      "https://www.drive2.ru/l/458108497129669690/",
+      "https://wiki.ross-tech.com/index.php/16500/P0116/000278",
+      "https://vwts.ru/forum/topic/204570/",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://www.drive2.ru/l/475934054517047502/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "electrical-blok-komforta-tsentralnyy-zamok.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Статья VW TechConnect (PDF, текст извлечён) подтверждает всё, что помечено [1]: появление на Passat 1998, только с электростеклоподъёмниками, адреса 35/46, CAN к дверным блокам (с примером проводов «2000 Passat») и отдельная K-линия, место под ковром, вода от дренажей/люка/уплотнителей, сон по команде водительского дверного блока и разряд АКБ из-за концевиков, проверка ключом, ремонт разъёмов и кодирование нового блока; Ross-Tech, Kolesa и обе записи Drive2 совпадают со статьёй, место под ковром у левого переднего сиденья независимо подтверждает и 1810martin. Нюанс: запись [4] — про B5+ 2001 с блоком 1C0959799, поэтому совет «подбирать блок по номеру» для дорестайлинга 2000 МГ надо применять со своим номером блока; запись [5] — машина с ADR, но проводка в гофрах от мотора не зависит.",
+    "checked": [
+      "https://automotivetechinfo.com/wp-content/uploads/2011/05/Volkswagen-Comfort-Systems-Getting-Comfortable.pdf",
+      "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.drive2.ru/l/596070543258557863/",
+      "https://www.drive2.ru/l/525380191929763264/",
+      "https://www.sites.google.com/site/1810martin/b5-ccm-wiring"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "electrical-diagnostika-blokov-vcds.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Ross-Tech FAQ 1.10 (универсальный OBD-II-сканер говорит только с двигателем; ABS, подушки, АКП, замки, радио ему недоступны), страница Passat B5 (адреса 01–58, KWP-1281, шлюз 19 в щитке, 35 только с механическими стёклами вне США, 58 только W8; обновлена 21.12.2010), VCDS-Lite (до 2006 г. без CAN-диагностики, FTDI, ограничения shareware) и Immobilizer wiki совпадают со статьёй; что комфорт-систему без фирменного сканера VAG диагностировать практически невозможно, независимо подтверждает статья VW TechConnect, тот же набор адресов (17, 19, 46 и др.) виден в логе автоскана B5 2004 г. (3B3) на vagcode.info. Неточность: для иммобилайзера 2-го поколения замена ЭБУ двигателя по Ross-Tech делается без PIN, а статья пишет «с PIN-кодами» обо всех случаях; поддержка стандартного OBD/EOBD ЭБУ ARG не проверена — статья честно это оговаривает.",
+    "checked": [
+      "https://www.ross-tech.com/vag-com/faq_1.php",
+      "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+      "https://www.ross-tech.com/vcds-lite/",
+      "https://wiki.ross-tech.com/wiki/index.php/Immobilizer",
+      "https://automotivetechinfo.com/wp-content/uploads/2011/05/Volkswagen-Comfort-Systems-Getting-Comfortable.pdf",
+      "https://vagcode.info/en/brands/volkswagen/passat/3B3/log-347.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "electrical-fary-svet.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Сверены все 5 источников: Kolesa подтверждает выгорание линзованных фар рестайлинга и осыпание отражателя у дорестайлинговых со стеклом, плавление пластика салонного блока предохранителей и проводку в гофрах; Drive2 [2] (B5 1998, штатные Hella H7/H1) — слабый свет из-за отражателей; Ross-Tech — адрес 55 у штатного ксенона, а VW Classic Parts подтверждает, что двойные галогенные фары и ксенон были у дорестайлинга 1997–2000 МГ. Плавление блока предохранителей и типичность облезания отражателей подтверждает только Kolesa плюс отзывы владельцев. Неточности: в [2] автор полировал, судя по всему, стекло фар, а не отражатели; признаки «колпак мутный/жёлтый изнутри» и отзывы об аналогах из [3] относятся к пластиковым фарам 3BG, а в [4] речь о машине 2003 года. Для 3B 2000 МГ (стеклянные фары) применим блок про отражатели и ксенон.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.drive2.ru/l/716464042843060575/",
+      "https://www.drive2.ru/l/549379781985042822/",
+      "https://www.drive2.ru/l/656377106774633652/",
+      "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0998221"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "electrical-pribornaya-panel.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все шесть источников открыты, помеченные утверждения в них есть: Kolesa (Marelli в основном до рестайлинга, гаснущие FIS и на VDO, перепайка), Drive2 (сегменты вместо пробега, чужая панель не завелась, керамическая плата треснула, 3B0919890J(X), подогрев дисплея на морозе), Ross-Tech (адреса 17/19, таблица PIN для Immo 2/3 передана верно). Независимо бюллетень Hella (2007) подтверждает случайные сбои ламп и подсветки на щитках Motometer у Passat 3B из-за пайки центрального разъёма, но рекомендует ремонт, а не замену; это противоречит тезису Kolesa о бесперспективности ремонта. Утверждение «подходит панель VDO от Golf IV» есть только у Kolesa и не подтверждено. Статья упоминает лишь Immo 2/3, хотя ранние 3B, по Ross-Tech и комментариям Drive2, бывали с Immo 1 — поколение на своей машине надо смотреть в VCDS.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.drive2.ru/l/488455842689974433/",
+      "https://www.drive2.ru/l/608574739245459132/",
+      "https://www.drive2.ru/l/642781645497181463/",
+      "https://wiki.ross-tech.com/wiki/index.php/Immobilizer",
+      "https://www.ross-tech.com/vag-com/cars/passatb5.html",
+      "https://www.techtips.ie/Hella-Ireland/vw-passat----various-instrument-panel-failures.pdf"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "electrical-steklopodemniki.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Все пять источников открыты, утверждения с [1]–[5] в них есть. Обрыв троса подтверждают независимо Kolesa, vwts.ru (применимость 3B2/3B5 1997–2001 и 3B3/3B6, три ролика и ползун, снятие стекла и механизма на герметике, трос по старому образцу, трассировка) и Drive2 (держатели, сорванные стопоры, ремкомплект BSG с катушкой, смазка, выставление стекла). Поломку пластиковых держателей подтверждают CarComplaints (Passat 2000 МГ) и Drive2; управление стеклом через дверной блок и проверку ключом — статья VW TechConnect. Неточности мелкие: у CarComplaints всего три жалобы, поэтому «самая частая причина в жалобах американских владельцев» — преувеличение, а держатели у сторонних продавцов покупал один владелец; порядок отсоединения разъёма замка у vwts.ru немного другой.",
+    "checked": [
+      "https://vwts.ru/articles/body/vw-passat-b5-remont-steklopodemnika.html",
+      "https://www.drive2.ru/l/680204348382264581/",
+      "https://www.carcomplaints.com/Volkswagen/Passat/2000/windows_windshield/window_regulators_have_broken.shtml",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://automotivetechinfo.com/wp-content/uploads/2011/05/Volkswagen-Comfort-Systems-Getting-Comfortable.pdf"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "engine-arg-obzor.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Устройство (чугунный блок, алюминиевая ГБЦ, 5 клапанов/цилиндр, DOHC, распределённый впрыск, гидрокомпенсаторы, ремень+цепь, продольно) и слабые места (натяжитель-фазорегулятор, ремень с загибом клапанов, вентиляция картера и замерзание маслоотделителя, дроссель/заслонки впуска, вискомуфта, помпа, ДМРВ, датчик ОЖ) подтверждены независимо otoba.ru, mymotorlist, cars-expert, Audi-Club и Википедией; Ошибка статьи: «блок дроссельной заслонки 058 133 063 H общий для ADR/APT/ARG» — в VW Classic Parts описание детали называет только AFY и ADR, а ARG стоит лишь в строке схемы «ADR, APT, ARG, F 3B-X-000 001>>», так что общность для ARG не доказана (номер сверять по VIN). Википедия даёт ARG на Passat 02/99–08/00, что совпадает с машиной 2000 МГ. Мелочи: продольную установку и ремень+цепь в Википедии-списке [2] не нашёл (есть в [1] и [3]); про расход масла cars-expert пишет в разделе EA113, а не EA827.",
+    "checked": [
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines",
+      "https://en.wikipedia.org/wiki/Volkswagen_Passat_(B5)",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/",
+      "https://www.audi-club.ru/threads/dvigatel-1-8-adr-20v-pljusy-i-minusy.372562/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058133063H",
+      "https://www.drive2.ru/b/564115/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "engine-plavayut-oboroty-plokhoy-zapusk.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Общие пункты подтверждены Ross-Tech (симптомы G62 и чёрный/зелёный корпус замен, причины P0101 включая подсос после ДМРВ, условия и тросовый вариант адаптации дросселя, подход к пропускам), случай AWT с подсосом (в интеркулере — к ARG не относится) и отчёт по ARG на VWTS сходятся со статьёй; ARG-специфика (грязный дроссель, слабый ДТОЖ) — по сути только otoba.ru и один владелец. Ошибки: VWTS не говорит, что «чек» не горел, — наоборот, неисправный ДТОЖ нашла диагностика; Ross-Tech требует для адаптации ОЖ 5–95 °C, а не прогретый мотор; запись ADR [7] про расход топлива, а не про обороты.",
+    "checked": [
+      "https://vwts.ru/forum/topic/204570/",
+      "https://wiki.ross-tech.com/index.php/16500/P0116/000278",
+      "https://wiki.ross-tech.com/wiki/index.php/16485/P0101/000257",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://chiptuner.ru/forum/showthread.php?t=61695",
+      "https://www.drive2.ru/l/613872736023890910/",
+      "https://wiki.ross-tech.com/wiki/index.php/Misfire_Diagnosis",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://mymotorlist.com/engines/audi/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "front_suspension-rychagi.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Схема из четырёх рычагов, признаки износа шаровых и сайлентблоков, проверка на весу и на колёсах, качественные детали и развал-схождение после ремонта подтверждены независимо PMM (статья именно про Passat B5) и FCP Euro (называет B5 Passat); несъёмные шаровые, отдельные сайлентблоки и переход кулака с чугуна на алюминий в 2002 г. — только Kolesa.ru, год смены кулака другим открытым источником не подтвердить. Неточность: в статье «на алюминиевых кулаках после рестайлинга», а Kolesa даёт 2002 г.; ещё Kolesa пишет о замене «алюминиевого рычага на чугунный» (видимо, оговорка: имеется в виду кулак), статья это корректно обобщила. Для 3B 2000 МГ с ARG подходит: передняя подвеска одна для всех передне- и полноприводных B5, кулак по Kolesa чугунный.",
+    "checked": [
+      "https://pmmonline.co.uk/?p=1197",
+      "https://www.fcpeuro.com/blog/audi-multi-link-suspension-are-macpherson-struts-obsolete",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-nestrashnaya-podveska-vechnye-akp-i-udachnyy-daunsayzing",
+      "https://www.drive2.ru/l/288230376151970695/",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "fuel-nasos-regulyator-forsunki.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все 7 источников открыты, утверждения с [n] в них есть: ARG на VWTS (подгоревший контакт реле, давление ~4 атм, вылечила замена ДТОЖ), ADR на DRIVE2 (после замены РДТ и фильтров ровнее, расход прежний), распределённый впуск 4 форсунками и ARG 02/99–08/00 в Wikipedia, течь форсунок и залипший N80 у Ross-Tech. Грязные форсунки подтверждены двумя источниками (otoba ARG, cars-expert), но у cars-expert это раздел о ранних EA827, а для поздних EA113 там сказано, что форсунки живут до 300 тыс. км. Реле и регулятор давления подтверждены только одним рассказом владельца каждый; [2] — 1.8T AWM 2004 г. (B5+), в статье это оговорено. Деталей с номерами нет, к ARG 2000 МГ подходит.",
+    "checked": [
+      "https://vwts.ru/forum/topic/204570/",
+      "https://passatworld.ru/showthread.php/216469-Ne-vklyuchaetsya-benzonasos-!",
+      "https://www.drive2.ru/l/613872736023890910/",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/",
+      "https://wiki.ross-tech.com/wiki/index.php/Misfire_Diagnosis",
+      "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "ignition-katushka-i-propuski.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Сдвоенную катушку 058 905 101 A для Passat B5 с ADR/APT/ARG/AFY подтверждают VW Classic Parts, Mecatechnic и запись DRIVE2 по ADR (там же блок на 4 болтах, разъём, масса, ВВ-провода, порядок снятия, NGK 48048/U6037). ARG указан в описании, но не в таблице применимости — как и в статье; однако у уплотнения катушки 058 905 261 картина та же, а таблица там общая для раздела (включает даже TDI-коды), так что это скорее особенность каталога, а не исключение ARG; ограничений по шасси нет. Отказы катушки на ADR/APT (тройка, рывки, пропуски, отказ в дороге, микротрещины б/у, коммутатор на радиаторе при переделке на AEB) сходятся по трём независимым отчётам, подход к пропускам — Ross-Tech. Неточности: в записи APT нет «фиксировал, но не всегда» (автор лишь не смотрел память ошибок); прямого совета Ross-Tech переставлять детали между цилиндрами на странице нет — только «swap test».",
+    "checked": [
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058905101A",
+      "https://www.mecatechnic.com/en-GB/p/double-ignition-coil-for-the-passat-3b_C233869",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058905261",
+      "https://www.drive2.ru/l/484077312510263314/",
+      "https://www.drive2.ru/l/559524151140811609/",
+      "https://www.drive2.ru/l/562618451739279755/",
+      "https://wiki.ross-tech.com/wiki/index.php/Misfire_Diagnosis",
+      "https://www.audi-club.ru/threads/dvigatel-1-8-adr-20v-pljusy-i-minusy.372562/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "intake_exhaust-drossel-i-vpusknoy-kollektor.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Каталог VW Classic Parts подтверждает номера: 06B 133 213 C — коллектор для ADR/APT/ARG от 3B-X-000001 («с электронным модулем (педаль)»), это машина владельца; 058 133 213 A и привод 058 133 619 — только ADR до 3B-W-500000, то есть не эта машина (в статье это верно отнесено к раннему ADR). Но фраза «заслонкой управляет отдельный привод [5]» перенесена на все моторы по источнику, где речь только о раннем ADR. У 058 133 063 H в описании указаны только AFY и ADR; ARG есть лишь в строке схемы «ADR, APT, ARG, F 3B-X-000 001>>», так что «общий для ADR/APT/ARG» — натяжка. Тросы газа с ARG в каталоге есть, но для АКПП LHD ограничены «up to 3B-X-550000»; тип привода газа на 3B-Y так и не выяснен, верно, что статья советует сверять по VIN. У Ross-Tech TBA условие — ОЖ 5–95 °C при выключенном моторе, а не «мотор прогрет»; в [8] (Audi A4 ADR) адаптацию делали «на всякий случай», а не по необходимости.",
+    "checked": [
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058133063H",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/06B133213C",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058133213A",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058133619",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://www.drive2.ru/l/559524151140811609/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/06B133062G",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/8D1723555AP",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/8D2721555R"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "intake_exhaust-raskhodomer-i-podsosy.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Ross-Tech (16485/P0101 и 16486/P0102: симптомы, причины — датчик, подсос после ДМРВ, забитый фильтр или выпуск, масса, проводка) и Motorservice (масляный туман ВКГ, грязь через неплотности, вода, запрет продувки сжатым воздухом и отключения разъёма под зажиганием, сначала устранить причину, код не называет причину) совпадают со статьёй, общая часть подтверждена двумя независимыми источниками. Небольшой ресурс ДМРВ на ARG и ADR есть только у otoba и mymotorlist; похоже, это сайты одной редакции, причём второй — про ADR. Опыт с дымогенератором и отключённым ДМРВ (ChipTuner) — на 1.8T AWT, подсос был в бачке интеркулера; присасывание крышки горловины (PassatWorld) описано для 1.8T; в статье это оговорено. Номеров деталей нет, к ARG применимо.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16485/P0101/000257",
+      "https://wiki.ross-tech.com/wiki/index.php/16486/P0102/000258",
+      "https://www.ms-motorservice.com/en/technipedia/post/air-mass-sensors/",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://chiptuner.ru/forum/showthread.php?t=61695",
+      "https://passatworld.ru/showthread.php/160582-Ustrojstvo-i-printsip-dejstviya-sistemy-ventilyatsii-karternyh-gazov-na-primere-dvigatelya-1-8T"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "interior-tipovye-polomki.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все 4 источника открыты, содержание пересказано верно: Kolesa (список типовых поломок салона, закисание личинки, обрыв тросов, люк, потолок, «задняя часть порогов» у машин с люком), Drive2 о ремонте бардачка (сетка, смола, герметик, ось из гвоздя 3 мм, закладные гайки), vwts.ru о разборке двери и советах по сборке, Drive2 о личинке (Torx T20, ремкомплект от Bora, усики четвёртой пластины). Независимо подтверждены снятие личинки через заглушку в торце двери Torx T20 с оттянутой наружной ручкой (taligentx, B5/B5.5) и поломка ручки бардачка (CarComplaints, Passat 2002); проблемы с тросами — лишь косвенно (там это ослабление натяжения или износ троса стеклоподъёмника, а не обрыв). Остальной список (деформация панели над подушкой, подлокотник, вставки, механизмы сидений, потолок) есть только у Kolesa. Фурнитура дверей и бардачка одна на 3B и 3BG, так что к 3B 2000 МГ применимо; номеров деталей в статье нет.",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-uyazvimaya-otsinkovka-i-ne-takaya-uzh-strashnaya-elektrika",
+      "https://www.drive2.ru/l/671980001406502222/",
+      "https://vwts.ru/body_b5_door.html",
+      "https://www.drive2.ru/l/572563259534608040/",
+      "https://taligentx.com/passat/maintenance/doorlockmechanism",
+      "https://www.carcomplaints.com/Volkswagen/Passat/2002/accessories-interior/glove_compartment_handle_broke_off.shtml"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "lubrication-raskhod-masla-vkg.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все 9 источников открыты, факты с [n] в них есть. Выдавливание масла через уплотнения при забитой ВКГ подтверждено двумя разными авторами PassatWorld (ветка про ADR и статья про 1.8T). Забитую ВКГ на ARG и ADR называют otoba и mymotorlist, видимо одной редакции. Расход масла после ~200 тыс. км и замену колпачков cars-expert относит к поздним EA113, а замерзание маслоотделителя — к ранним EA827, в статье они смешаны. Кольца и колпачки [2] меняли на Audi A6 C4 с ADR на 360 тыс. км, а не на A4 B5. Порядок «течи → ВКГ → колпачки/ЦПГ» взят из спора на форуме, сама статья это оговаривает. Отдельных открытых источников по ВКГ именно ARG нет, но к ARG статья применима; номеров деталей нет.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/172580-1-8-ADR-zhryot-maslo-kuda-lezti",
+      "https://www.audi-club.ru/threads/dvigatel-1-8-adr-20v-pljusy-i-minusy.372562/",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://passatworld.ru/showthread.php/160582-Ustrojstvo-i-printsip-dejstviya-sistemy-ventilyatsii-karternyh-gazov-na-primere-dvigatelya-1-8T",
+      "https://www.ms-motorservice.com/en/technipedia/post/air-mass-sensors/",
+      "https://www.drive2.ru/l/613872736023890910/",
+      "https://www.drive2.ru/b/564115/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "lubrication-techi-masla.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Открыты все 6 источников, места течей в них есть: ARG — прокладки клапанной крышки и натяжителя, сальник распредвала, забитый дренаж, герметик; ADR — течь у масляного фильтра и лопнувшее зимой кольцо маслоохладителя; сальник распредвала подтекал, коленвала и промвала сухие; трещины поддона у болтов и давление через уплотнения при забитой ВКГ. Независимо подтвердить кольцо маслоохладителя (вероятно, 038117070A) для ARG не удалось: ECS и каталог VW не открылись, номер в статье не указан. Неточности: в [1] не сказано, что потение осталось после ремонта самого автора; в [6] заменили три одинаковых сальника (колен-, промвала и распредвала), а не «оба»; «сальники ставят без герметика» и крышка горловины взяты у 1.8T AWT [4]. Для ARG по смыслу применимо.",
+    "checked": [
+      "https://www.drive2.ru/b/564115/",
+      "https://www.drive2.ru/l/2936393/",
+      "https://passatworld.ru/showthread.php/172580-1-8-ADR-zhryot-maslo-kuda-lezti",
+      "https://www.drive2.ru/l/9541885/",
+      "https://www.drive2.ru/l/647865512386112960/",
+      "https://www.drive2.ru/l/475934054517047502/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "rear_suspension-balka-saylentbloki.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Конструкцию подтверждают независимо vwts.ru (обе статьи) и Drive2: балка на двух кронштейнах по три болта, сайлентблоки запрессованы в кронштейны, работа по одной стороне, метки, затяжка на колёсах. Применимость к 3B2/3B5 1997–2001 указана у vwts. Двухрычажная задняя подвеска 4motion с девятью сайлентблоками — только Kolesa. Ошибки статьи: (1) «источники не дают интервала» — Kolesa прямо пишет «к 250–300 тыс. км»; (2) оговорка vwts о смене конструкции относится к переходу с B3 на B5, а не к разным годам B5; (3) на Drive2 при уводе вправо сильнее изношено правое колесо и смещена балка, про более изношенный правый сайлентблок говорится лишь как о прогнозе комментатора. «Левый и правый разные» — только мнение автора vwts о BOGE; Powerflex даёт для 8D0501541D количество 2 на машину без разделения сторон, официальный каталог этот номер не открыл.",
+    "checked": [
+      "https://vwts.ru/articles/suspension/b5_zamena_sailentblokov_zadney_balki.html",
+      "https://vwts.ru/articles/suspension/vw-passat-b5-zamena-saylentblokov-zadney-balki.html",
+      "https://www.drive2.ru/l/675806301871161104/",
+      "https://www.powerflex.co.uk/product-details/Rear+Beam+Mounting+Bush/11354.html",
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-nestrashnaya-podveska-vechnye-akp-i-udachnyy-daunsayzing"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "steering-gur-reyka.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Все пять источников открыты, утверждения в них есть. Ржавый вал рейки губит сальники, мокрый пыльник означает течь рейки — независимо подтверждает sts.parts (там рейки B5 — Koyo или ZF). Высокая рейка, засорение фильтра бачка, подсос воздуха шлангами и гниение трубки в «грязевом кармане» — только Kolesa.ru, второго источника не нашёл. Неточности: насос снимали без вискомуфты, но болты шкива откручивали (статья пишет «не снимая шкив»); «тонкостенной» головки в [4] нет, есть 12-гранная на 10; о возврате вибрации после переборки ZF сообщил сам автор [5] (через ~3 тыс. км), а не только комментаторы; «смена типа жидкости» в [2] — переход с зелёной Febi на красный Dexron III, что расходится с требованием «только допущенная жидкость», и это стоит оговорить. Для ARG 3B подходит: описано общее для 4-цилиндровых B5, кроме снятия трубок на 1.6 (статья сама это оговаривает).",
+    "checked": [
+      "https://www.kolesa.ru/article/volkswagen-passat-b5-s-probegom-nestrashnaya-podveska-vechnye-akp-i-udachnyy-daunsayzing",
+      "https://www.drive2.ru/l/532093535051055388/",
+      "https://www.drive2.ru/l/568937619942015327/",
+      "https://www.drive2.ru/l/9743344/",
+      "https://www.drive2.ru/l/4751495/",
+      "https://sts.parts/en/articles/vw-passat-b5-steering-rack-repair"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "timing-natyazhitel-tsepi-raspredvalov.md",
+    "status": "partial",
+    "fits": "yes",
+    "note": "То, что натяжитель цепи совмещён с фазорегулятором и это главная болячка мотора, подтверждают независимо otoba.ru, mymotorlist, cars-expert и Audi-Club; комплект прокладок натяжителя/фазорегулятора 058 198 217 в VW Classic Parts указан для Passat B5 1.8 ADR/APT/ARG 1997–2000 без ограничения по шасси (Reinz 15-34364-01 в продавцах кросс-номер к нему). Симптомы, ремонт и отзывы о JP Group, OSSCA, FEBI и восстановленных оригиналах сверены с записями DRIVE2 — каждый факт только из одного отчёта. Номера 038 103 085 C и 058 109 229 B — из записи без кода мотора, у продавцов привязаны к 1.8T, для ARG официально не подтверждены. Проверка цепи, башмаки и «шум на горячую» [3] взяты с турбомотора AWT, статья это оговаривает.",
+    "checked": [
+      "https://www.drive2.ru/b/564115/",
+      "https://www.drive2.ru/l/647865512386112960/",
+      "https://www.drive2.ru/l/9541885/",
+      "https://otoba.ru/dvigatel/vw/arg.html",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://www.audi-club.ru/threads/dvigatel-1-8-adr-20v-pljusy-i-minusy.372562/",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_uk/part/058198217"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "article",
+    "key": "timing-zamena-remnya-grm.md",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Загиб клапанов при обрыве подтверждают mymotorlist и cars-expert; состав комплекта (ремень, натяжной ролик, обводной ролик, гидронатяжитель) — официальный бюллетень Gates TB010 (Passat ADR/APT/ARG 11/96–8/00 без ограничения по шасси: ремень 058 109 119 C, ролик 058 109 243 E, демпфер 058 109 479 B, ролик 058 109 244) и отчёты ADR/ARG; сорванные болты шкива коленвала, спецключ, Gates/подделки Conti, интервал 90 тыс. и совет менять раньше — PassatWorld и DRIVE2 совпадают со статьёй. Только из одного источника: привод помпы отдельным клиновым ремнём (ADR, для ARG не подтверждено — статья честно оговаривает); код мотора в [3] не указан, а сальник распредвала тёк там, а не в записи ADR [2]; совет сжимать натяжитель медленно — из комментария. Статья не предупреждает, что старую систему (152 зуба, термо-натяжитель 058 109 479) нельзя смешивать с новой и что ролики 058 109 243 D/E различаются толщиной шайбы.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/126901-Zamena-remnya-GRM-(1-8-ARG)",
+      "https://www.drive2.ru/l/475934054517047502/",
+      "https://www.drive2.ru/l/647865512386112960/",
+      "https://mymotorlist.com/engines/audi/adr/",
+      "https://cars-expert.com/volkswagen-passat-b5-b5-5-1996-1997-1998-1999-2000-2001-2002-2003-2004-2005-problems-review-faults-issues-weakness-reliability-information-used-engine-turbo-petrol-gasoline-diesel-automatic-gearbox-su/",
+      "https://www.techtips.ie/Gates/vag-18-20v-engines-timing-belt-replacement.pdf"
+    ],
+    "date": "2026-11-26"
+  }
+]
