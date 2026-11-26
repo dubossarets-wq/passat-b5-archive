@@ -1,0 +1,2005 @@
+[
+  {
+    "kind": "code",
+    "key": "P0100",
+    "status": "conflict",
+    "fits": "yes",
+    "note": "Ross-Tech называет 16484/P0100 «G70: Supply Voltage», а общий справочник OBD-II даёт P0100 как «неисправность цепи ДМРВ», и VAG-списки vag-coding.net и geocities относят «G70: напряжение питания» к 17554/P1146; заголовок «неисправность питания» спорный. Арифметика 16484↔P0100 верна; G70 на ARG есть (схема ADR/APT/ARG/AFY), малый ресурс ДМРВ на ARG подтверждает mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16484/P0100/000256",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0101",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16485/P0101 «G70: недостоверный сигнал» подтверждён Ross-Tech, vag-coding.net и общим OBD-II (range/performance); причины (подсос после ДМРВ, фильтр, массы, проводка) совпадают с Ross-Tech. Кратковременный эффект очистки ДМРВ описан на Drive2 (AHL); G70 на ARG — по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16485/P0101/000257",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://www.drive2.ru/l/2354451/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0102",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16486/P0102 «сигнал слишком низкий» подтверждён Ross-Tech, vag-coding.net и общим OBD-II (low input); причины совпадают. G70 на ARG — по схеме; 16486/P0102 есть в логе VCDS Passat 3B с блоком 8D0 907 558 B (1,8L R4/5V).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16486/P0102/000258",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://www.drive2.ru/b/1878095/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0103",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16487/P0103 «сигнал слишком высокий» подтверждён Ross-Tech, vag-coding.net и общим OBD-II (high input); причины совпадают. Случай «ДМРВ, КЗ на плюс» на Passat B5 (AHL) есть на Drive2.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16487/P0103/000259",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/2354451/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0104",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16488/P0104 «прерывистый сигнал» — так у Ross-Tech и в общем OBD-II (intermittent); vag-coding.net переводит иначе («нет сигнала»). Причины (контакт, подсос до/после G70, редко блок) совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16488/P0104/000260",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1144",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17552/P1144 «G70: обрыв/замыкание на массу» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (предохранитель, жгут, датчик) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17552/P1144",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1145",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17553/P1145 «G70: замыкание на плюс» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; возврат ошибки после очистки датчика описан на Drive2 (Passat B5 AHL).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17553/P1145",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/2354451/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1141",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17549/P1141 «контроль расчёта нагрузки: недостоверное значение» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (G70/G71, вакуумные трубки) совпадают. Ставит ли этот код блок ARG, источники не говорят (запись это оговаривает).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17549/P1141/004417",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0112",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16496/P0112 «G42: сигнал слишком низкий» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают. По схеме ADR/APT/ARG/AFY G42 — отдельный датчик, код к ARG применим (в applies_to записи ARG не указан).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16496/P0112/000274",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0113",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16497/P0113 «G42: сигнал слишком высокий» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают. G42 на ARG есть по схеме (в applies_to записи ARG не указан).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16497/P0113/000275",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0120",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16504/P0120 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (G70, G69, V60) совпадают. На ARG тросовый дроссель с модулем J338 (схема), адаптация группой 098 для cable-throttle — по странице TBA Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16504/P0120/000288",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0121",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16505/P0121 «G69: недостоверный сигнал» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (жгут, дроссельный узел, блок) совпадают. J338 на ARG есть по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16505",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0123",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16507/P0123 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; симптомы и причины (предохранитель, проводка, грязный/неисправный узел, G69/G88 для тросового привода) совпадают с Ross-Tech, условия адаптации — со страницей TBA.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16507/P0123/000291",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1545",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17953/P1545 «управление дроссельной заслонкой: неисправность» подтверждён Ross-Tech, vag-coding.net и geocities; причины, включая препятствия во впуске, совпадают с Ross-Tech. J338 на ARG — по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17953/P1545/005445",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1559",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17967/P1559 подтверждён Ross-Tech, vag-coding.net и geocities; причины (контакт ХХ, заслонка не закрывается, сигнал G28 во время адаптации) совпадают с Ross-Tech, роль перетянутого троса — со страницей TBA.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17967/P1559/005465",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1564",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17972/P1564 «пониженное напряжение при базовой установке» подтверждён Ross-Tech, vag-coding.net и geocities; совет подключить зарядное — из Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17972/P1564/005476",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1565",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17973/P1565 «не достигнут нижний упор» подтверждён Ross-Tech, vag-coding.net и geocities; причины (нагар, неисправный узел, туго натянутый трос) совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17973/P1565/005477",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1579",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17987/P1579 «адаптация не запущена» подтверждён Ross-Tech, vag-coding.net и geocities; процедура группой 098 и «плавающий» ХХ после чистки на тросовых машинах — по странице TBA.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17987/P1579/005497",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1581",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17989/P1581 «базовая установка не выполнена» подтверждён Ross-Tech, vag-coding.net и geocities; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17989/P1581/005505",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0507",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16891/P0507 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (J338, проводка, подсос) совпадают, забивание вентиляции картера ARG — mymotorlist. Пункт про натянутый трос на странице кода не назван (есть только в общих заметках TBA).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16891/P0507/001287",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1507",
+    "status": "partial",
+    "fits": "yes",
+    "note": "17915/P1507 «нижний предел регулирования ХХ» подтверждён Ross-Tech, vag-coding.net и geocities; главная причина (неучтённый воздух) совпадает. Причина «заслонка не закрывается до упора (трос, нагар)» на странице Ross-Tech не названа и другими открытыми источниками для этого кода не подтверждена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17915/P1507/005383",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1508",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17916/P1508 «верхний предел регулирования ХХ» подтверждён Ross-Tech, vag-coding.net и geocities; забитый впуск — по Ross-Tech, грязный дроссель как причина неустойчивого ХХ ARG — по mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17916/P1508/005384",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1582",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17990/P1582 подтверждён Ross-Tech, vag-coding.net и geocities; перечень причин (давление топлива, подсос, форсунки, N80, выпуск, дроссель) совпадает с Ross-Tech, грязный дроссель/форсунки ARG — с mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17990/P1582/005506",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1516",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17924/P1516 «N156: обрыв цепи» подтверждён Ross-Tech, vag-coding.net и geocities; клапан N156 есть на схеме ADR/APT/ARG/AFY, периодические отказы привода заслонки впуска ARG — mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17924/P1516/005398",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0171",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16555/P0171 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают, логика аддитивной/мультипликативной коррекции — со страницы Fuel Trim Info, вентиляция картера ARG — mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16555/P0171/000369",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0172",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16556/P0172 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (давление, форсунки, регулятор, адсорбер, подсос у зондов) совпадают. Деталь VW Classic Parts 050 133 787 из записи по описанию — для AFY/ADR до шасси 3B-X-400 000, не для машины владельца.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16556/P0172/000370",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1128",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17536/P1128 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (ДМРВ, лямбда-регулирование, зонды, форсунки) совпадают, трактовка мультипликативной коррекции — Fuel Trim Info.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17536/P1128/004392",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1136",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17544/P1136 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; подсос, N80, усилитель тормозов, вентиляция картера и разрежение под крышкой горловины — всё из Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17544/P1136/004406",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1137",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17545/P1137 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (регулятор давления, форсунки, адсорбер, ДМРВ, зонды) совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17545/P1137/004407",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1151",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17559/P1151 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают с перечнем Ross-Tech (в нём есть зонд после катализатора и вторичный воздух, которых на схеме ARG нет). Ставит ли код блок ARG — не подтверждено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17559/P1151/004433",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1152",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17560/P1152 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают. Применимость к блоку ARG открытыми источниками не подтверждена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17560/P1152/004434",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://wiki.ross-tech.com/wiki/index.php/Fuel_Trim_Info"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1213",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17621/P1213 «форсунка 1 (N30): замыкание на плюс» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают. Форсунки N30–N33 есть на схеме ADR/APT/ARG/AFY.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17621/P1213",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1214",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17622/P1214 подтверждён Ross-Tech, geocities и upfix (в vag-coding.net опечатка 17612); причины совпадают. N31 на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17622/P1214",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1215",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17623/P1215 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают. N32 на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17623/P1215",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1216",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17624/P1216 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают. N33 на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17624/P1216",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1237",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17645/P1237 «форсунка 1: обрыв цепи» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (предохранитель, жгут, форсунка, блок) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17645/P1237",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1238",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17646/P1238 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17646/P1238",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1239",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17647/P1239 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17647/P1239",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1240",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17648/P1240 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17648/P1240",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0440",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16824/P0440 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (негерметичность, N80, N115 где есть) совпадают. N80 есть на схеме ARG; деталь 050 133 787 из записи по описанию — для AFY/ADR до 3B-X-400 000.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16824/P0440/001088",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0441",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16825/P0441 «неправильный расход продувки» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают с Ross-Tech. N80 на ARG есть по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16825/P0441/001089",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0444",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16828/P0444 «N80: обрыв цепи» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (предохранитель, клапан, проводка) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16828/P0444/001092",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0458",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16842/P0458 «N80: замыкание на массу» подтверждён Ross-Tech и vag-coding.net; Ross-Tech называет реле J757 — запись корректно оставляет тип реле на уточнение по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16842/P0458/001112",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1426",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17834/P1426 «N80: обрыв цепи» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причина «реле J17» — из Ross-Tech, питание клапанов через реле бензонасоса описано для A4 B5 на Drive2.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17834/P1426/005158",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/510231945355985281/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0230",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16614/P0230 подтверждён Ross-Tech, vag-coding.net (реле J17) и общим OBD-II (fuel pump primary circuit); причины совпадают. Реле бензонасоса в цепи питания двигателя B5 описано на Drive2 (A4 B5).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16614/P0230",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/l/510231945355985281/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1524",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17932/P1524 «реле J17: обрыв/замыкание на массу» подтверждён Ross-Tech и vag-coding.net; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17932/P1524/005412",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.drive2.ru/l/510231945355985281/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0130",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16514/P0130 подтверждён Ross-Tech (причина — подогрев зонда), vag-coding.net и общим OBD-II. Разъём зонда за расширительным бачком на ARG — Drive2 (Passat 1.8 ARG 2000), питание подогрева через реле бензонасоса — Drive2 (A4 B5).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16514/P0130/000304",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/478343084493505179/",
+      "https://www.drive2.ru/l/510231945355985281/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0131",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16515/P0131 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (проводка, зонд, проверка на старение) совпадают; подсос запись честно помечает как общую причину. G39 на ARG — по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16515/P0131/000305",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/478343084493505179/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0133",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16517/P0133 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (старение/отравление, утечки выпуска, подсос, подогрев, топливо/ДМРВ) и совет ставить оригинальный зонд — из Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16517/P0133/000307",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/478343084493505179/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0134",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16518/P0134 «нет активности» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16518/P0134/000308",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/478343084493505179/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1103",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17511/P1103 подтверждён Ross-Tech, vag-coding.net, geocities и upfix. Неподходящий по сопротивлению нагревателя зонд, который «работает, но даёт ошибку подогрева», описан на passatworld; питание через реле — Drive2 (A4 B5).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17511/P1103/004355",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/510231945355985281/",
+      "https://passatworld.ru/showthread.php/198824-Podogrev-lyambda-zonda-i-ego-gotovnost"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1113",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17521/P1113 «внутреннее сопротивление слишком высокое» подтверждён Ross-Tech и geocities (в vag-coding.net опечатка 17511, upfix пишет о сопротивлении нагревателя); причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17521/P1113",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/478343084493505179/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1116",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17524/P1116 «подогрев G39/Z19: обрыв» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (предохранитель, проводка, зонд) совпадают, разъёмы под бачком и у блока — passatworld.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17524/P1116/004374",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/510231945355985281/",
+      "https://passatworld.ru/showthread.php/198824-Podogrev-lyambda-zonda-i-ego-gotovnost"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0140",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16524/P0140 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают, пара 17526+16524 на Passat B5 1.6 есть на Drive2. На схеме ADR/APT/ARG/AFY показан только G39, а mymotorlist пишет EURO 3 — есть ли второй зонд на ARG, не ясно.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16524/P0140/000320",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://www.drive2.ru/l/647391622874532940/",
+      "https://vwts.ru/forum/topic/122675/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0141",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16525/P0141 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают. Наличие зонда после катализатора на ARG источниками не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16525/P0141/000321",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/647391622874532940/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1114",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17522/P1114 подтверждён Ross-Tech, vag-coding.net и geocities (upfix трактует как сопротивление нагревателя); причины совпадают. Наличие второго зонда на ARG не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17522/P1114",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1117",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17525/P1117 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины (нагреватель, жгут, блок в последнюю очередь) совпадают. Наличие второго зонда на ARG не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17525/P1117",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1118",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17526/P1118 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; совместное появление с 16524/P0140 на Passat B5 подтверждено Drive2. Наличие второго зонда на ARG не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17526/P1118/004376",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/647391622874532940/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1176",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17584/P1176 подтверждён Ross-Tech, geocities и upfix (в vag-coding.net опечатка 17511); причины совпадают. Код требует зонда после катализатора, наличие которого на ARG не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17584/P1176/004470",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0420",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16804/P0420 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают, тема форума Ross-Tech (Passat B5 1.8T 4Motion) подтверждает совет следить за коррекциями и датчиком ОЖ. Для теста нужен второй зонд, его наличие на ARG не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16804/P0420/001056",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://forums.ross-tech.com/index.php?threads/4397/",
+      "https://www.drive2.ru/l/647391622874532940/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0421",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16805/P0421 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; бюллетени Ross-Tech относятся только к ATQ/APB — запись это верно оговаривает. Есть ли у ARG прогревочный катализатор и второй зонд, не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16805/P0421/001057",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0422",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16806/P0422 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают. Применимость к ARG зависит от второго зонда — не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16806/P0422/001058",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0300",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16684/P0300 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают. Зажигание ARG (катушки N и N128 с каскадом N122) — по схеме; случай с ВВ-проводами и пропусками в дождь — Drive2, Passat B5 ADR 125 л. с.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16684/P0300/000768",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/3832119/",
+      "https://www.drive2.ru/l/515229225704227313/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0301",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16685/P0301 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (зажигание, топливо, компрессия) совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16685/P0301/000769",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/3832119/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0302",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16686/P0302 подтверждён Ross-Tech, vag-coding.net и общим OBD-II. Случай со спаявшимися проводами в фишке катушки (2-й цилиндр) есть в комментариях к записи Drive2 о Passat B5 ADR.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16686/P0302/000770",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/3832119/",
+      "https://www.drive2.ru/l/515229225704227313/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0303",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16687/P0303 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16687/P0303/000771",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/3832119/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0304",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16688/P0304 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; пример с многоэлектродной свечой и нагаром — Drive2, Passat B5+ 1.8T AWM (не ARG, запись это оговаривает).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16688/P0304/000772",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/3832119/",
+      "https://www.drive2.ru/l/481779333208212258/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0325",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16709/P0325 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; симптомы и причины совпадают. Два датчика детонации на ARG и зелёный разъём G61 — по схеме ADR/APT/ARG/AFY.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16709/P0325",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://passatworld.ru/showthread.php/203572-datchik-detonatsii-G61-vysokoe-napryazhenie"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0326",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16710/P0326 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают. G61 на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16710/P0326",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://passatworld.ru/showthread.php/203572-datchik-detonatsii-G61-vysokoe-napryazhenie"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0327",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16711/P0327 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16711/P0327",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://passatworld.ru/showthread.php/203572-datchik-detonatsii-G61-vysokoe-napryazhenie"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0328",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16712/P0328 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; периодическая 16712 на B5+ 1.8T обсуждается на passatworld.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16712/P0328/000808",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://passatworld.ru/showthread.php/203572-datchik-detonatsii-G61-vysokoe-napryazhenie"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0329",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16713/P0329 подтверждён Ross-Tech и общим OBD-II (intermittent); в vag-coding.net кода нет. Причины совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16713/P0329",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0330",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16714/P0330 подтверждён Ross-Tech и общим OBD-II; в vag-coding.net кода нет. G66 (синий разъём) на ARG — по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16714/P0330",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0331",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16715/P0331 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16715/P0331/000817",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0332",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16716/P0332 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16716/P0332",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0333",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16717/P0333 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; запись верно указывает, что Ross-Tech называет только затяжку датчика.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16717/P0333/000819",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0334",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16718/P0334 подтверждён Ross-Tech и общим OBD-II; в vag-coding.net кода нет. Причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16718/P0334/000820",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1348",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17756/P1348 «выходной каскад 1: обрыв» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; на ARG по схеме катушки N/N128 с каскадом N122 — код применим.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17756/P1348/004936",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/515229225704227313/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1349",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17757/P1349 «выходной каскад 2: обрыв» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; на ARG стоит двухканальная схема N/N128 + N122.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17757/P1349/004937",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/515229225704227313/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1355",
+    "status": "confirmed",
+    "fits": "no",
+    "note": "17763/P1355 «цепь зажигания цил. 1: обрыв» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; Ross-Tech связывает код с катушками со встроенным каскадом на каждый цилиндр. На ARG по схеме две катушки N/N128 с общим каскадом N122, поцилиндровых цепей нет.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17763/P1355",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/481779333208212258/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1358",
+    "status": "confirmed",
+    "fits": "no",
+    "note": "17766/P1358 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; относится к индивидуальным катушкам с каскадом, а на ARG — N/N128 с общим N122 (схема).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17766/P1358",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1361",
+    "status": "confirmed",
+    "fits": "no",
+    "note": "17769/P1361 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; пример из Drive2 — Passat B5+ 1.8T AWM с отдельными катушками. На ARG поцилиндровых катушек нет (схема).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17769/P1361",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/l/481779333208212258/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1364",
+    "status": "confirmed",
+    "fits": "no",
+    "note": "17772/P1364 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; относится к индивидуальным катушкам, на ARG их нет (схема).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17772/P1364",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0115",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Смысл P0115 (неисправность цепи датчика ОЖ) подтверждён OBDeleven и общим справочником OBD-II; страницы Ross-Tech и VAG-кода (16499) нет ни на Ross-Tech, ни в vag-coding.net — запись это верно указывает. Ставит ли блок ARG именно P0115, неизвестно (для G62 у VAG используются 16500–16502).",
+    "checked": [
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://obdeleven.com/p0128-coolant-temperature-below-thermostat-regulating-temperature",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0116",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16500/P0116 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; симптомы, ненадёжность G2/G62 1995–2002 и проверка блока вентилятора — Ross-Tech, короткий ресурс датчика ОЖ ARG — mymotorlist. G62 (вместе с G2) на ARG — по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16500/P0116/000278",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0117",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16501/P0117 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины, включая реальный перегрев, совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16501/P0117",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0118",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16502/P0118 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; симптомы и причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16502/P0118/000280",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0125",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16509/P0125 подтверждён Ross-Tech, vag-coding.net и общим OBD-II (OBDeleven, Total Car Diagnostics); причины совпадают, проверка термостата по патрубку — OBDeleven. G62 и лямбда-регулирование на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16509/P0125",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://obdeleven.com/p0128-coolant-temperature-below-thermostat-regulating-temperature"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0128",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Общий смысл и причины P0128 подтверждены OBDeleven, Samarins и общим справочником. Утверждение «VAG-кода нет» неполное: vag-coding.net даёт 16512/P0128 как «клапан N214 в контуре охлаждения: температура ниже диапазона»; N214 на схеме ARG нет, поддержка кода блоком ARG не подтверждена.",
+    "checked": [
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://obdeleven.com/p0128-coolant-temperature-below-thermostat-regulating-temperature",
+      "https://www.samarins.com/diagnose/p0128.html",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P2181",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "18613/P2181 подтверждён Ross-Tech и vag-coding.net; причины и проверки (G62, термостат, стоп-кадр) совпадают с Ross-Tech. Код поздней серии P2xxx, поддержка блоком ARG источниками не подтверждена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18613/P2181/008577",
+      "https://www.vag-coding.net/tutorials-information/fault-codes"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P2556",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Смысл P2556 и замечание о подключении G32 к щитку/блоку бортовой сети есть только на Ross-Tech (VAG-кода на странице нет; в vag-coding.net и общем справочнике кода нет). Применимость к блоку ARG не подтверждена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/P2556"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0480",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16864/P0480 подтверждён Ross-Tech, vag-coding.net и общим OBD-II (cooling fan 1 control circuit); причины совпадают. Вязкостная муфта на ADR — mymotorlist; управляет ли блок ARG электровентилятором, не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16864/P0480/001152",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://mymotorlist.com/engines/volkswagen/ea827/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0321",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16705/P0321 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (крепление, датчик, ротор по коду 00513, ложная запись после долгой прокрутки) совпадают. G28 на ARG — по схеме.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16705/P0321/000801",
+      "https://wiki.ross-tech.com/wiki/index.php/00513",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0322",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16706/P0322 «G28: нет сигнала» подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16706/P0322/000802",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://obdeleven.com/p0335"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0335",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Общий смысл и причины P0335 подтверждены OBDeleven и общим справочником. На Ross-Tech страницы нет, но vag-coding.net даёт 16719/P0335 «G28: неисправность» — утверждение записи о «ненайденном соответствии» неполное. Ставит ли блок ARG этот код, не установлено.",
+    "checked": [
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://obdeleven.com/p0335",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0336",
+    "status": "partial",
+    "fits": "yes",
+    "note": "16720/P0336 «G28: пропуск зуба» — формулировка Ross-Tech (vag-coding.net — «no spindle», общий OBD-II — range/performance); причины (ротор, перепутанные провода) взяты из примеров Ross-Tech для других моторов. G28 на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/P0336",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0340",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16724/P0340 подтверждён Ross-Tech, vag-coding.net и общим OBD-II/OBDeleven; причины, включая сбитые фазы, совпадают. Цепь+ремень и фазорегулятор ARG — mymotorlist, натяжитель = фазорегулятор — mymotorlist (ADR).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16724/P0340",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://obdeleven.com/p0340",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0341",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16725/P0341 подтверждён Ross-Tech, vag-coding.net и общим OBD-II/Samarins; причины, включая уровень/давление масла и перескок ремня, совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16725/P0341/000833",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.samarins.com/diagnose/p0341.html",
+      "https://mymotorlist.com/engines/volkswagen/ea827/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0342",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16726/P0342 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16726/P0342/000834",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0343",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16727/P0343 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16727/P0343/000835",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1337",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17745/P1337 «G40: замыкание на массу» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; первым пунктом Ross-Tech действительно ставит проверку регулирования распредвала.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17745/P1337/004919",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1338",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17746/P1338 «G40: обрыв/замыкание на плюс» подтверждён Ross-Tech, vag-coding.net, geocities и upfix; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17746/P1338/004920",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0016",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16400/P0016 подтверждён Ross-Tech, vag-coding.net и общим OBD-II/OBDeleven; проверка числа звеньев цепи между валами — Ross-Tech, загиб клапанов при обрыве ремня ADR и натяжитель-фазорегулятор — mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16400/P0016/000022",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://www.drive2.ru/b/2482785/",
+      "https://obdeleven.com/p0016",
+      "https://mymotorlist.com/engines/volkswagen/ea827/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1340",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17748/P1340 подтверждён Ross-Tech, vag-coding.net, geocities и upfix; советы по 1.8T (маслоприёмник, G40 с 1 или 4 прорезями) — Ross-Tech, особенности ГРМ ARG/ADR — mymotorlist.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17748/P1340/004928",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://blog.upfix.com/vw-audi-factory-dtc-codes",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0011",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16395/P0011 (Retard Setpoint not Reached / Over-Advanced) подтверждён Ross-Tech, vag-coding.net и OBDeleven/общим OBD-II; причины совпадают (Ross-Tech добавляет J17). Фазорегулятор у ARG есть (mymotorlist), но контролирует ли блок ARG достижение заданной фазы этим кодом, не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16395/P0011/000017",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://obdeleven.com/p0011",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0012",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16396/P0012 подтверждён Ross-Tech, vag-coding.net и OBDeleven/общим OBD-II; причины (тугой регулятор, давление масла) совпадают. Поддержка кода блоком ARG не установлена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16396/P0012/000018",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://obdeleven.com/p0012",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1519",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17927/P1519 подтверждён Ross-Tech, vag-coding.net и geocities; причины, включая износ направляющих цепи, совпадают. N205 на схеме ADR/APT/ARG/AFY есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17927/P1519/005401",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/adr/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1527",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17935/P1527 «N205: замыкание на массу» подтверждён Ross-Tech, vag-coding.net и geocities; симптом (мало тяги внизу) — Ross-Tech. N205 на ARG есть.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17935/P1527/005415",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://mymotorlist.com/engines/volkswagen/ea827/arg/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1528",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17936/P1528 «N205: обрыв» подтверждён Ross-Tech, vag-coding.net и geocities; лог VCDS Passat 3B с блоком 8D0 907 558 B (1,8L R4/5V, атмосферный) содержит 17936/P1528.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17936/P1528/005416",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/2482785/",
+      "https://www.drive2.ru/b/1878095/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0501",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16885/P0501 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины (G22, связь АКПП–блок двигателя) совпадают. Получает ли блок ARG сигнал G22 напрямую, открытыми источниками не проверено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16885/P0501/001281",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0562",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16946/P0562 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; логика «много блоков — общая причина, один — местная» и связь с 00532 — Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16946/P0562/001378",
+      "https://wiki.ross-tech.com/wiki/index.php/00532",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1602",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "18010/P1602 подтверждён Ross-Tech, vag-coding.net и geocities; причины (снятие клемм, АКБ, генератор) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18010/P1602/005634",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1517",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17925/P1517 подтверждён Ross-Tech, vag-coding.net и geocities; причины совпадают. Какое реле (J271/J363) питает блок ARG, открытыми источниками не проверено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17925/P1517",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "00532",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "00532 «Supply Voltage B+» (слишком низкое / выше предела) подтверждён Ross-Tech и списком на форуме carnity; причины обоих вариантов совпадают с Ross-Tech. Логика «много блоков — общая причина» и связь с 16946/P0562 в других блоках — тоже Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/00532",
+      "https://carnity.com/forums/topic/250-audi-fault-codes-vag-and-sae-obd-ii/",
+      "https://wiki.ross-tech.com/wiki/index.php/16946/P0562/001378"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "00668",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "00668 «Supply Voltage Terminal 30» подтверждён Ross-Tech и списком carnity; причины совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/00668",
+      "https://carnity.com/forums/topic/250-audi-fault-codes-vag-and-sae-obd-ii/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0601",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16985/P0601 подтверждён Ross-Tech и общим OBD-II (memory check sum error), vag-coding.net даёт только «блок неисправен»; причины (блок, чип-тюнинг, напряжение) — Ross-Tech. Immo II у RoW Passat 3B — страница Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16985/P0601/001537",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0603",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16987/P0603 подтверждён Ross-Tech и общим OBD-II (KAM error); причины (блок, кодировка) совпадают с Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16987/P0603/001539",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0605",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16989/P0605 «ROM error» подтверждён Ross-Tech и общим OBD-II; замечание о ремонте блоков — Ross-Tech.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16989/P0605/001541",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0606",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16990/P0606 подтверждён Ross-Tech и общим OBD-II (processor fault); причина одна — блок.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16990/P0606/001542",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1612",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "18020/P1612 подтверждён Ross-Tech, vag-coding.net и geocities; причины (кодировка, тип круиза) совпадают. Блоки этого семейства кодируются (лог VCDS: 8D0 907 558 B, кодировка 04001).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18020/P1612/005650",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.drive2.ru/b/1878095/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1640",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "18048/P1640 «EEPROM» подтверждён Ross-Tech и geocities; причины (тюнинг, блок) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18048/P1640/005696",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1681",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "18089/P1681 подтверждён Ross-Tech, vag-coding.net и geocities; причины совпадают. Поддерживает ли блок ARG перепрошивку через диагностику (и этот код), не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18089/P1681/005761",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1560",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17968/P1560 подтверждён Ross-Tech, vag-coding.net и geocities; причины (ошибка переключения, снятый ограничитель, заедание дросселя) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17968/P1560/005472",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0513",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "16897/P0513 подтверждён Ross-Tech, vag-coding.net и общим OBD-II (incorrect immobilizer key); блокировка 10 мин при включённом зажигании и бесполезность перепривязки после разряда АКБ — Ross-Tech. У RoW Passat 3B — Immo II в щитке.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16897/P0513/001299",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1570",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "17978/P1570 подтверждён Ross-Tech, vag-coding.net и geocities; симптом «завёлся и заглох через 2–3 с» и связь с 01176 — Ross-Tech, Immo II в щитке (адрес 17) — страница Ross-Tech по Passat 3B.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17978/P1570/005488",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "01176",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "01176 «Key: Signal too Low» подтверждён Ross-Tech и списком carnity («Key»); причины и замечание о проводке катушки на Audi A4 (8D) — Ross-Tech. Хранится в иммобилайзере (щиток B5).",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/01176",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://carnity.com/forums/topic/250-audi-fault-codes-vag-and-sae-obd-ii/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "01177",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "01177 «Engine Control Unit» (Faulty/Unauthorized) подтверждён Ross-Tech и списком carnity; причины (не адаптирован, изменён, старый чип-тюнинг) совпадают.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/01177",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://carnity.com/forums/topic/250-audi-fault-codes-vag-and-sae-obd-ii/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0571",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16955/P0571 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; причины, включая лампы 21W вместо 5/21W, — Ross-Tech. Подключён ли выключатель F к блоку ARG, источниками не проверено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16955/P0571/001393",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0703",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "17087/P0703 подтверждён Ross-Tech и vag-coding.net; на машинах с тросовым дросселем выключатель F подключён к блоку АКПП и код пишется без нажатия педали — Ross-Tech. Применим только при АКПП; тип КПП машины владельца неизвестен.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17087/P0703/001795",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0568",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16952/P0568 подтверждён Ross-Tech, vag-coding.net и общим OBD-II; замечания о ранних моделях и дооснащении — Ross-Tech. Зависит от наличия круиз-контроля; для ARG не проверено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16952/P0568/001384",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings",
+      "https://wiki.ross-tech.com/wiki/index.php/Throttle_Body_Alignment_(TBA)"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P0532",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "16916/P0532 подтверждён Ross-Tech («замыкание на массу»), vag-coding.net и общим OBD-II (low input); причины совпадают. Подключён ли G65 к блоку двигателя ARG, не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/16916/P0532/001330",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/21/0/genericmanufacturer-obd2-codes-and-their-meanings"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1624",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "18032/P1624 подтверждён Ross-Tech, vag-coding.net и geocities; смысл (смотреть коды АКПП) совпадает. Код только для машин с АКПП (01V у Passat 3B есть по Ross-Tech); тип КПП машины владельца неизвестен.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18032/P1624/005668",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1625",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "18033/P1625 подтверждён Ross-Tech, vag-coding.net и geocities; причина — связь с J217. Применим только при АКПП с обменом по шине; для конкретной машины не установлено.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18033/P1625/005669",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P1650",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "18058/P1650 подтверждён Ross-Tech, vag-coding.net и geocities; причины совпадают. По таблице Ross-Tech блок двигателя B5 диагностируется по KWP-1281/2000, но шина между блоками B5 (шлюз 19 «если есть») этим не исключается — применимость к ARG не установлена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/18058/P1650/005712",
+      "https://www.vag-coding.net/tutorials-information/fault-codes",
+      "https://geocities.ws/dtmcbride/home_garden/auto/obd_dtc_vw.html",
+      "https://www.ross-tech.com/vag-com/cars/applications/passat.html",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "U0155",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "28827/U0155/049493 «нет связи со щитком» есть только на Ross-Tech (в общем справочнике и VAG-списках не найден); по таблице Ross-Tech блок двигателя B5 работает по KWP-1281/2000, CAN-диагностика указана только для B6. Появление на ARG источниками не подтверждено и прямо не опровергнуто.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/28827/U0155/049493",
+      "https://www.ross-tech.com/vag-com/cars/applications/passat.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "U0212",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "28884/U0212/049682 «нет связи с блоком рулевой колонки» есть только на Ross-Tech; примеры там для поздних машин (Tiguan 5N, MLB). Для B5 с ARG источников нет, появление маловероятно.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/28884/U0212/049682",
+      "https://www.ross-tech.com/vag-com/cars/applications/passat.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "code",
+    "key": "P2533",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "18965/P2533 подтверждён Ross-Tech и vag-coding.net; пример Ross-Tech — Audi A6 4F с двумя реле стартера. Поддержка кода блоком ARG не подтверждена.",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/P2533",
+      "https://www.vag-coding.net/tutorials-information/fault-codes"
+    ],
+    "date": "2026-11-26"
+  }
+]
