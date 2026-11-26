@@ -1,0 +1,732 @@
+[
+  {
+    "kind": "diagram",
+    "key": "b5-obd-connector",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Контакты 4 и 5 (масса), 7 (K-линия) и 16 (+12 В от АКБ) подтверждены таблицами pinouts.ru/pinoutguide (одно семейство) и allpinouts.org, а для Passat B5 — двумя постами drive2 (B5 1999 и общий пост о приборках B5). Контакт 15 (L-линия) есть только в общих таблицах; контакт 1 (зажигание) — только у pinoutguide, для B5 второго источника нет. Место между сиденьями у ручника подтверждает только Ross-Tech (фото «B5-Euro», Passat не назван); klavkarr.com для B5 пишет «под рулём», а это противоречит. Замечания к схеме: у pinoutguide K-линия на 7 помечена «Not used?»; серо-белый цвет K-линии (T23/11 — T32/25 — T16/7) на ЯПлакалъ подтверждается, но в поле wire контакта 7 его нет; фраза «номер предохранителя — по спискам предохранителей» ни к чему в схеме не относится.",
+    "checked": [
+      "https://pinouts.ru/CarElectronics/audi_obd_ii_interface.shtml",
+      "https://pinoutguide.com/CarElectronics/volkswagen_obd2_pinout.shtml",
+      "https://allpinouts.org/pinouts/connectors/car/obd-vag-vehicle-diagnostic",
+      "https://www.ross-tech.com/vag-com/cars/dlc.html",
+      "https://www.drive2.ru/l/675354/",
+      "https://www.drive2.ru/l/465383690692722734/",
+      "https://www.yaplakal.com/forum14/topic1955672.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-kline-engine-ecu",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Путь K-линии к ЭБУ двигателя через контакты реле в приборке подтверждает только kalex на PassatWorld (тема о 1.6 ANA, «у всех B5 1996–2005»). На vwts.ru косвенно сказано, что линия ЭБУ (у дизеля EDC15 — W-линия иммо, пин 45) идёт в приборку, но про реле там ничего нет; второго независимого источника нет. Набор для проверки на столе (кл. 30, масса, K-линия, кл. 15) есть на vwts.ru (дизель AHU 1998), а «питание, земля и диагностика» — на drive2 (Audi A6 C5 1997, M3.8.2). Для ARG ни путь, ни номера блока не подтверждены, отсюда fits unknown. Ошибок в схеме не найдено; на drive2 нет текста про клемму 15 и K-линию — только подпись к фото.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/246836-Pomogite-s-raspinovkoj-ebu-dvigatelya",
+      "https://vwts.ru/forum/topic/221545/",
+      "https://www.drive2.ru/b/460315766722396237/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "arg-adr-ignition-module-pinout",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Назначение контактов разъёма подтверждено тремя независимыми постами drive2 (все — ADR): 1 — сигнал на пару 1–4, 2 — плюс от клеммы 15, 3 — сигнал на пару 2–3, средний контакт — плюс. Отдельный провод массы (всего 4 провода) описан в трёх постах о переделке. Катушка 058 905 101 A для ARG указана у Winparts (Passat 3B2/3B5 до 11.2000, ADR/APT/ARG; кросс-номера BERU ZSE162 и HELLA 5DA 749 475-351 подтверждены) и у Mecatechnic; у VW Classic Parts ARG есть в описании, но не в таблице применимости — эта оговорка в part_numbers не отражена. Номер RIDEX на странице Mecatechnic действительно не указан (GC32016 — артикул магазина); у Winparts это RIDEX 689C0217. Распиновку снимали только на ADR, но катушка у ARG та же, поэтому fits yes.",
+    "checked": [
+      "https://www.drive2.ru/l/610701194733575170/",
+      "https://www.drive2.ru/l/651577463641486626/",
+      "https://www.drive2.ru/l/503080446851023797/",
+      "https://www.drive2.ru/l/665028888895692910/",
+      "https://www.drive2.ru/l/559524151140811609/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905101A",
+      "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html",
+      "https://www.mecatechnic.com/en-GB/p/ridex-ignition-coil-for-volkswagen-passat-b5-18_GC32016"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "arg-adr-ignition-circuit",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Подтверждены несколькими независимыми постами drive2: питание модуля от клеммы 15 на средний контакт 2, сигналы ЭБУ на контакты 1 (пара 1–4) и 3 (пара 2–3), парное зажигание 1–4/2–3, отдельный провод массы. Утверждение, что без массы модуля сгорает выходной каскад зажигания в ЭБУ, есть только в одном источнике (drive2 503080…, Passat B5 Variant 1.8 APT/ADR, Motronic 3). Применимость к ARG — через катушку 058 905 101 A (Winparts: ADR/APT/ARG до 11.2000). Номера контактов ЭБУ в схеме честно не указаны. Ошибок не найдено.",
+    "checked": [
+      "https://www.drive2.ru/l/610701194733575170/",
+      "https://www.drive2.ru/l/665028888895692910/",
+      "https://www.drive2.ru/l/651577463641486626/",
+      "https://www.drive2.ru/l/503080446851023797/",
+      "https://www.winparts.co.uk/engine-parts-accessories/ignition/ignition-coil/c612/ignition-coil-138435-hitachi/p1225234.html",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905101A"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "arg-adr-coils-aeb-conversion",
+    "status": "confirmed",
+    "fits": "unknown",
+    "note": "Схему переделки подтверждают два независимых отчёта: sanys1986 (Audi A4 B5 1998) и Passat B5 1996 125 л.с. Совпадает следующее: входы коммутатора 1+4 и 2+3 спаяны и идут на «5V coil A/B» старой фишки; G — масса со старого провода; на катушке 15 — плюс, 4a — масса на клапанную крышку, 1 — сигнал. Номера деталей и фишек (06B 103 475 D, 4D0 906 232 / BMW 1724478, 443 906 235, 4A0 906 234) есть только у sanys1986. 058 905 105, 8D0 905 351 и 4D0 905 351 подтверждены VW Classic Parts. Схема не заводская и испытана только на ADR: ARG автор упоминает без проверки, а оговорка про ME7.5 с электронной заслонкой для 3B-Y-2000 не проверена. Кроме того, VW Classic даёт тросик газа 8D1 723 555 AP для ARG только до шасси 3B-X-550000, так что тип дросселя у машины владельца не установлен; поэтому fits unknown. Мелочь: BERU 0 040 100 013 автор показал как неработающую катушку.",
+    "checked": [
+      "https://www.drive2.ru/l/559524151140811609/",
+      "https://www.drive2.ru/l/665028888895692910/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058905105",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/8D0905351",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/4D0905351",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/8D1723555AP"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-fuel-pump-circuit",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Предохранитель 28 насоса подтверждают FuseAndRelay («15A Fuel pump») и два независимых поста drive2 (B5 1.8 2000 и B5 1.8 1999). Реле 372 подтверждено постами drive2 и Mecatechnic (4D0 951 253 «208 или 372», место 4, Passat 3B2/3B5 1.8 125 л.с. ADR/APT/ARG); подгоревший контакт реле насоса на ARG 2000 нашёлся на vwts.ru. Цепочка «реле 30 — реле 372 — БН» есть только в одном посте (drive2 b/1398191), автор сам взял её «из интернета», а комментатор Muslim521 там же пишет, что реле под крышкой ЭБУ у него нет; это противоречие в схеме отмечено, но относится к b/1398191, а не к l/580651…. Ошибка: источник фото коробки ЭБУ (drive2 l/10497445) — Passat 2000 1.8 150 л.с. с АКПП (турбомотор), а не 125 л.с./ARG; на странице нет ни реле «373», ни маркировки выводов текстом.",
+    "checked": [
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://www.drive2.ru/l/580651541946434586/",
+      "https://www.drive2.ru/l/703284196960902378/",
+      "https://www.drive2.ru/b/1398191/",
+      "https://www.mecatechnic.com/en-GB/p/fuel-pump-relay-208-372-for-passat-3b_GC30412",
+      "https://vwts.ru/forum/topic/204570/",
+      "https://www.drive2.ru/l/10497445/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/165906381"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-ecu-power-relay-j271",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Ross-Tech Wiki подтверждает: J271/J363 — реле питания J220, код 17925/P1517; проверять реле, проводку J220–реле и сам блок. Номер 165 906 381 с кодом «30» есть у VW Classic Parts (там только B3/Golf2 и др., B5 не назван), а у Mecatechnic — для Passat 3B2/3B5 1.8 125 л.с. APT/ARG; drive2 называет это реле «30 (J271)», аналог Hans Pries 107 265 015. Ошибка применимости: отчёт drive2 l/10497445 — Passat 2000 1.8 150 л.с. с АКПП (1.8T), а не «вероятно ARG», так что для ARG номер подтверждает только Mecatechnic. Маркировку выводов 30/87/85/86/86A в тексте источников не видно (только на фото); наблюдение «включается с зажиганием, отпускает через несколько секунд» из l/580651… есть, но реле там не названо «30».",
+    "checked": [
+      "https://wiki.ross-tech.com/wiki/index.php/17925/P1517",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/165906381",
+      "https://www.mecatechnic.com/en-GB/p/calculator-relay-for-passat-35i-and-3b_GC43014",
+      "https://www.drive2.ru/l/10497445/",
+      "https://www.drive2.ru/l/580651541946434586/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-lambda-g39-bosch-4wire",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Цвета проводов Bosch подтверждены двумя независимыми источниками: Hella Technical Information 2009 (чёрный — сигнал, серый — масса, два белых — подогрев, полярность любая) и инструкция LC Engineering к 4-проводному Bosch (то же). Зонд Bosch 0 258 006 978 и разъём за бачком ОЖ — только из одного отчёта (drive2, B5 1.8 125 л.с. 2000); в каталогах применимость этого номера к ARG найти не удалось, поэтому fits unknown. Ошибка: второй источник (drive2 l/4269930) — Passat 2002 1.8 149 л.с. (турбо), а не «мотор не указан»; там стоит другой зонд, Bosch 0 258 007 090, и автор пишет про 5 контактов. Так что фраза «новый зонд Bosch шёл со своими проводами, разъём средний» к ARG и к 4-проводному зонду не относится.",
+    "checked": [
+      "https://techtips.ie/Hella-Ireland/zirconium-dioxide-lambda-sensors.pdf",
+      "https://www.lceperformance.com/content/v/vspfiles/assets/images/blog/23578/1065034 Bosch Universal 4-Wire Oxygen Sensor.pdf",
+      "https://www.drive2.ru/l/478343084493505179/",
+      "https://www.drive2.ru/l/4269930/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "hfm5-maf-pinout",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Распиновка 1 — TF (опция), 2 — бортсеть, 3 — масса, 4 — опорное, 5 — сигнал есть в статье MS Motorservice, но это общий источник без привязки к машине; второй независимой распиновки для 06B 133 471 открыть не удалось, а у Hella (8ET 009 142-131) порядок другой (2 — масса, 3 — 12 В), т. е. разводка у разных расходомеров не одинакова. Mecatechnic подтверждает 06B 133 471 для ADR/APT/ARG с шасси 3B-X-400001, Wagendass — что у 06B 133 471 (Bosch 0 280 218 013) разъём на 5 контактов; ошибка: пост drive2 про фишку 1J0 973 999 A — с Passat B5 2004 1.8T 170 л.с. 4motion, а не с атмосферного 1.8.",
+    "checked": [
+      "https://www.ms-motorservice.com/en/technipedia/post/air-mass-sensors/",
+      "https://www.mecatechnic.com/en-GB/p/air-flow-meter-for-passat-4-3b2-3b5_GC44032",
+      "https://wagendass.com/en/maf-sensor/13580-mass-air-flow-sensor-replacing-06b-133-471-06b-133-471x-0280218013-fdm654.html",
+      "https://www.hella.com/partnerworld/assets/documents/2168_KI_Air_Mass_Sensor_HELLA_DE.pdf",
+      "https://www.drive2.ru/l/573331818162425424/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-g28-crank-sensor",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Серый 3-контактный разъём под/за расширительным бачком подтверждают PassatWorld и drive2 (оба — 1.8T AWM); на PassatWorld пара «2–1» позже исправлена тем же участником на «2–3» (927 Ом), по Haltech у 1.8T два варианта датчика: AEB/APU — 1 «+», 2 «−», 3 экран, AUQ/AUM/BAM — 1 экран, 2 «−», 3 «+» (HP Academy для своего 1.8T тоже даёт 1 — экран), так что обе пары «2–1» и «2–3» возможны в зависимости от варианта, и назначение контактов можно уточнить хотя бы так. Применимость 078 906 433 A к ARG не подтверждена: Autosupply даёт только кузова 3B/3BG без моторов, а у Mecatechnic для Passat 3B найден лишь 06A 906 433 C (AHL/ANA/ARM, AZM, V6), не ARG; все источники схемы — про 1.8T, не ARG.",
+    "checked": [
+      "https://passatworld.ru/archive/index.php/t-205179.html",
+      "https://www.drive2.ru/l/533953908725252323/",
+      "https://www.hpacademy.com/forum/efi-wiring-fundamentals/show/1-8t-crank-sensor/",
+      "https://autosupply.co.za/product/vw-078906433a-crankshaft-position-sensor-senckp-1004/",
+      "https://www.mecatechnic.com/en-GB/p/crankshaft-pulser-for-vw-passat-3b_GC73070",
+      "https://support.haltech.com/portal/en/kb/articles/1-8-turbo-20v"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "apt-adr-g40-hall-sensor",
+    "status": "conflict",
+    "fits": "unknown",
+    "note": "Источники расходятся по контактам 1 и 3: PassatWorld (APT, сообщение №8) — 1 масса, 2 сигнал, 3 питание 5 В; а в теме drive2 (ADR) — «1 — 5 В, 2 — 12 В (сигнал), 3 — минус», подтверждает второй участник, плюс выводы ЭБУ для ADR 1→62, 2→76, 3→67; Haltech (1.8T 20V) даёт 1 — +12 В, 2 — сигнал, 3 — масса, и на HP Academy (058 905 161 B) «масса на 3» названа общей для всех версий, т. е. «1 — масса / 3 — питание» в схеме, вероятно, перепутаны. Ошибка в notes: владелец ADR на drive2 номера контактов всё же называет; сигнал на 2 и причина ошибки в метках ГРМ (APT) подтвердились, а Mecatechnic даёт 058 905 161 B для 3B2/3B5 1.8 ADR/APT/ARG, но распиновка именно для ARG не подтверждена.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/213234-Problemy-s-datchikom-Holla-(polozheniya-raspredvala)-G40",
+      "https://www.drive2.ru/l/642839094979737757/",
+      "https://hpacademy.com/forum/efi-wiring-fundamentals/show/cam-position-sensor-vag-1-8t-oen-058905161b-pinout-and-power-voltage",
+      "https://support.haltech.com/portal/en/kb/articles/1-8-turbo-20v",
+      "https://www.mecatechnic.com/en-GB/p/hall-transmitter-for-camshaft-rotation-speed-sensor_GC73043"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "aeb-knock-sensors-g61-g66",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Входы ЭБУ AEB 68 (KNK1, коричневый) и 60 (KNK2, зелёный) в теме MSExtra есть, но это один источник без указания, какой из них G61, а какой G66; цвета разъёмов (синий — G66 между 3 и 4 цилиндрами, зелёный — к 1–2 цилиндрам, провод длиннее) — только в одном посте drive2 (AEB 1998), второго независимого источника найти не удалось. Мелкие неточности: в посте датчик назван и G66, и «G2», а длина провода «53 см» дана с сомнением; Oemwolf для 054 905 377 G не указывает моторы и не говорит о замене 054 905 377 — оговорка «замена 054 905 377» в part_numbers источником не подтверждена. Для ARG число датчиков, цвета разъёмов и контакты ЭБУ не подтверждены.",
+    "checked": [
+      "https://www.drive2.ru/l/4040401/",
+      "https://www.msextra.com/forums/viewtopic.php?t=19455",
+      "https://oemwolf.com/oem-parts/054905377g.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "aeb-ecu-pinout-partial",
+    "status": "partial",
+    "fits": "no",
+    "note": "Таблица из темы MSExtra (A4 1.8T AEB 1998) воспроизведена верно: 26 лямбда «??», 53/54/75, форсунки 73/80/58/65, зажигание 70/78/77/71 с расхождением 70 vs 77 по 3-му каналу, детонация 68/60, Холл 76; независимо подтверждены только 73 (форсунка 1, чёрный/зелёный — PassatWorld, Passat B5 1.6 AHL) и 76 (сигнал G40 — участник drive2 для ADR: «1-62, 2-76, 3-67»), остальное — один источник. Ошибки в notes: второй участник MSExtra контакт 76 не «подтвердил», а повторил с оговоркой, что сам не проверял; в теме PassatWorld блок Simos для AHL не назван (сказано только «AHL 1,6»). Схема для AEB (1.8T), к ARG не относится — fits «no», как и указано в самой записи.",
+    "checked": [
+      "https://www.msextra.com/forums/viewtopic.php?t=19455",
+      "https://passatworld.ru/archive/index.php/t-153519.html",
+      "https://www.drive2.ru/l/642839094979737757/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-injectors-circuit",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Принцип (+12 В с зажиганием, управление «минусом» от ЭБУ, 4 отдельных провода, цилиндр 1 — контакт 73, чёрный/зелёный) есть на PassatWorld (Passat B5 1999 1.6 AHL), а 73/80/58/65 и цвета — в MSExtra (AEB); совпадение по 73 — это два независимых источника, но по разным моторам, а 80/58/65 — один источник; для ARG ни контакты, ни цвета, ни источник плюса не подтверждены. VW Classic Parts подтверждает 058 133 551 для Passat B5 1997–2000 с ARG в списке моторов (в описании — AEB) и 058 133 551 A только до шасси 3B-W-050 000, т. е. 3B-Y он не подходит; неточность: в теме PassatWorld блок Simos не назван, указан лишь мотор AHL.",
+    "checked": [
+      "https://passatworld.ru/archive/index.php/t-153519.html",
+      "https://www.msextra.com/forums/viewtopic.php?t=19455",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058133551",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058133551A"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-radiator-fan-thermoswitch-f18",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Три независимых поста drive2 подтверждают 3-контактный датчик внизу радиатора со стороны водителя (ключ на 29) и то, что перемычка одного провода с двумя другими даёт 1-ю и 2-ю скорость; номера контактов и цвета не названы нигде, а 3 контакта с кондиционером / 2 без — только один пост (ADR 1998), PassatWorld (AFN) расходится по результату перемычек. Ошибка в применимости: посты 681838222661127674 и 485422839864755068 — с 1.8 150 л.с. (1.8T), а не с атмосферного 1.8 (из «трёх владельцев B5 1.8» атмосферный только ADR); упоминание об управлении вентилятором от ЭБУ в открытых источниках не нашлось (на PassatWorld — только кондиционер). 191 959 481 A для B5 — лишь пост владельца ADR; Heritage подтверждает «то же, что 191-959-481/A», но Passat B5 в применимости нет, а в VW Classic Parts 191 959 481 — только Golf 2/Passat B3 и др., так что для ARG 2000 не подтверждено.",
+    "checked": [
+      "https://www.drive2.ru/l/4025723/",
+      "https://www.drive2.ru/l/681838222661127674/",
+      "https://www.drive2.ru/l/485422839864755068/",
+      "https://passatworld.ru/showthread.php/106066-Vklyuchenie-ventilyatora-ohlazhdeniya!",
+      "https://www.heritagepartscentre.com/us/191959481c-radiator-fan-switch-3-pin-including-seal-95-84-102-91c.html",
+      "https://volkswagen-classic-parts.com/catalog/en_de/part/191959481"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-alternator-terminals",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Назначение L (контрольная лампа) и DFM (сигнал загрузки генератора для ЭБУ) подтверждают Hella и PMM независимо от drive2; там же W описан как сигнал фазы статора, а не возбуждение — значит, трактовка W автором drive2 неверна, как и подозревалось; подключение на ADR (плюс на B1+, лампа с D+ на L, DFM свободен) и «три типа» генераторов — только по одному посту каждый. Ошибки: пост 499787134647927180 — с Passat B5 2000 1.8 150 л.с. (1.8T), а не атмосферного 1.8; в его списке деталей 06B 903 016 AE подписан как механизм свободного хода (шкив), а не генератор, SG12B075 — как «генератор для Audi A4» без бренда Valeo (Valeo там — 2542738B); 078 903 016 AB автор ADR-поста называет генератором от 2.5 TDI V6. Mapco подтверждает 06B 903 016 A (90 А) для 3B2/3B5 1.8 ADR/APT/ARG до 11/2000, но какие выводы у штатного генератора ARG — не подтверждено.",
+    "checked": [
+      "https://www.drive2.ru/l/665960999878145011/",
+      "https://www.drive2.ru/l/499787134647927180/",
+      "https://www.mapco.com/en/carparts/29629/mapco-13728-alternateur/",
+      "https://www.hella.com/techworld/uk/technical/car-electronics-and-electrics/starting-and-charging-system/check-multi-function-regulator/",
+      "https://pmmonline.co.uk/technical/regulator-terminals-what-they-mean/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-starter-circuit",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Красно-чёрный провод к втягивающему (контакт 4 10-контактного разъёма под ЭБУ, по PassatWorld — «в розовой колодке, самый толстый») независимо подтверждает комментарий в drive2 494847303782236876, позиции 12 «реле стартера» / 13 «реле блокировки стартера» совпадают у carmanz (цитата на PassatWorld) и FuseAndRelay; средняя фишка как управляющий +12 В и масса через корпус — один пост drive2. Расхождения: в drive2 494847303782236876 реле «53» один участник называет реле разгрузки, а другой пишет, что красно-чёрный провод идёт от замка прямо на стартер, — т. е. «53 = реле стартера» и порядок «замок → реле → разъём» не подтверждены; FuseAndRelay даёт «(53)» у реле дополнительного насоса ОЖ. Ошибки: пост 475454117691523126 — с AEB 1.8T 150 л.с., а не с атмосферного 1.8; на карточке Winparts 0 986 016 330 — не кросс-номер, а отдельный «похожий товар», а VW Classic Parts не пишет, что 058 911 023 BX — обменный (стартер Bosch, ARG в списке есть); источники цепи — 1.8T/1.9 TDI, для ARG не подтверждено.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/218726-Rele-startera-gde-ono",
+      "https://www.drive2.ru/l/475454117691523126",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://www.drive2.ru/l/494847303782236876/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/058911023BX",
+      "https://www.winparts.co.uk/engine-parts-accessories/starter-motor-alternator/starter-motor/c834/starter-dw-r-12v1-1kw-bosch/p495642.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-cluster-t32-blue",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение контактов T32a сверено по двум линиям: краткий список drive2/7354624 и перевод заводского списка (drive2/675354 и PassatWorld — один и тот же текст, между собой не независимы); 1, 3, 9, 12, 21, 23–25, 30 дополнительно подтверждаются распиновкой блока комфорта, отчётом о проверке приборки на столе и отчётом о ксеноне (12 — синий провод). Ошибка: у контакта 16 в обоих источниках «(автомобили ► 04.98)», по обозначениям VW это «до 04.98» (с 05.98 лампа прицепа K18 переехала на контакт 4), а в схеме написано «с 04.98». Цвета на 16, 21, 25, 30 — только из одного источника (ЯПлакалъ); отчёт о ксеноне — машина 2001 г. 1.8 150 л.с., не 2000 г.; карточки Mecatechnic 3B1 919 860 X / 880 AX называют приборки новыми деталями, а не восстановленными.",
+    "checked": [
+      "https://www.drive2.ru/l/7354624/",
+      "https://www.drive2.ru/l/675354/",
+      "https://passatworld.ru/showthread.php/116264-Raspinovka-razemov-pribornoj-paneli",
+      "https://www.yaplakal.com/forum14/topic1955672.html",
+      "https://www.drive2.ru/l/588020193997921352/",
+      "https://www.drive2.ru/l/663949993110932755/",
+      "https://www.drive2.ru/l/465383690692722734/",
+      "https://www.mecatechnic.com/en-GB/p/combi-instrument_C212299",
+      "https://www.mecatechnic.com/en-GB/p/combi-instrument_C216484"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-cluster-t32-green",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение контактов T32b (катушка иммобилайзера 2/17, W-линия 5, MFA 23–25, G17 на 26, выход скорости 30 и др.) совпадает в drive2/7354624 и в переводе заводского списка (drive2/675354 = PassatWorld); соответствие MFA 23→2, 24→1, 25→4 подрулевой колодки — только один отчёт (drive2/4058036); CAN на T32b/8 и 9 у блоков с CAN подтверждён (drive2/9498893). Ошибка в part_numbers: по drive2/4058036 контакт 000 979 133 E ставится в подрулевую колодку (и на провод массы), а в T32b вставляются концы 000 979 018 E / 118 E (в самой статье номер расходится). Ross-Tech: иммобилайзер встроен в приборку, на B5 1998–2001 для других рынков — Immo II; что ЭБУ хранит данные иммобилайзера, страница прямо не пишет (лишь советует проверять ЭБУ у Immo III).",
+    "checked": [
+      "https://www.drive2.ru/l/7354624/",
+      "https://www.drive2.ru/l/675354/",
+      "https://passatworld.ru/showthread.php/116264-Raspinovka-razemov-pribornoj-paneli",
+      "https://www.drive2.ru/l/4058036/",
+      "https://www.drive2.ru/l/9498893/",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-cluster-bench-power",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Два независимых отчёта (drive2/675354 и drive2/465383690692722734 — машина 1999 г. 2.8 4motion) сходятся: +12 В на T32a/1 и 23, K-линия на 25, подсветка на 20; масса 24 либо 7/9 — по распиновке T32a все три контакта — клемма 31, противоречия нет. Разводка OBD (4/5 — масса, 7 — K-линия, 16 — +12 В) совпадает со стандартной распиновкой; резистор на контакт 22 в источнике — 1 кОм. Приборка общая для 3B без CAN, от мотора не зависит.",
+    "checked": [
+      "https://www.drive2.ru/l/675354/",
+      "https://www.drive2.ru/l/465383690692722734/",
+      "https://pinoutguide.com/CarElectronics/volkswagen_obd2_pinout.shtml",
+      "https://www.drive2.ru/l/7354624/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-comfort-j393-t23",
+    "status": "conflict",
+    "fits": "unknown",
+    "note": "Таблица T23 есть только в ЯПлакалъ (цитата с PassatWorld); контакт 14 (сине-белый, скорость) независимо подтверждён отчётом о B5 2000 1.8 125 л.с. (drive2/663949993110932755), контакты 3, 8, 11, 15 сходятся с распиновкой приборки, 23 — масса — с комментарием drive2/683021846928433178. Конфликт: таблица блока B5 «from yr 2000» на 1810martin (блок с K-CAN, т. е. более поздний) даёт другую раскладку (коричнево-чёрный «Boot light» на 7, коричнево-жёлтый на 1, бело-синий на 15, красно-синий +12 В на 22), и отчёт об автозапуске (drive2/488724398405058756, 2001 г., 1.8 150 л.с.) тоже ставит коричнево-чёрный концевик багажника на 7, а не провод люка. Какой блок (1J0 959 799 … или поздний с CAN) стоит на машине 3B-Y 2000, не установлено — fits unknown, номер блока и контакт 7 сверить на машине.",
+    "checked": [
+      "https://www.yaplakal.com/forum14/topic1955672.html",
+      "https://www.drive2.ru/l/663949993110932755/",
+      "https://www.drive2.ru/l/488724398405058756/",
+      "https://www.drive2.ru/l/490901706305962031/",
+      "https://www.drive2.ru/l/589560609788414672/",
+      "https://www.drive2.ru/l/683021846928433178/",
+      "https://www.sites.google.com/site/1810martin/b5-ccm-wiring",
+      "https://www.drive2.ru/l/7354624/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-comfort-brown-connector",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Антенна на коричневом разъёме — 7 (экран/масса) и 10 (жила): так в отчёте о Passat 2000 г. (drive2/490901706305962031), в немецком списке T15 для того же блока 1J0 959 799 AH (Dieselschrauber, Golf/Bora до 2001) и в английской таблице 15-контактного разъёма B5; четыре провода (красно-жёлтый и красно-чёрный — предохранители, чёрно-белый и чёрно-зелёный — поворотники) подтверждает и английская таблица. Неточность: по drive2/589560609788414672 у блока F коричневое гнездо есть, но в машине не было жгута под него, а в схеме написано «без коричневого разъёма». Номера контактов поворотников в двух списках расходятся на единицу (13/14 у Dieselschrauber, 14/15 в английской таблице), поэтому без проверки их в схему не вносить.",
+    "checked": [
+      "https://www.drive2.ru/l/490901706305962031/",
+      "https://www.drive2.ru/l/589560609788414672/",
+      "https://community.dieselschrauber.org/en/viewtopic.php?p=43219",
+      "https://www.sites.google.com/site/1810martin/b5-ccm-wiring",
+      "https://www.drive2.ru/l/488724398405058756/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-rear-door-harness",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Цвета проводов задней двери (красно-белый — стеклоподъёмник, красно-жёлтый — ЦЗ, красно-чёрный — подсветка, коричневый — масса, витая пара шины) есть только в одном источнике (vwts.ru/244995, машина 1998 г. AFN); там шина названа VAN, а после 1998 г. — «оранжевый с зелёной и коричневой полосками». Что двери связаны с блоком комфорта цифровой шиной, подтверждают vwts.ru/5469 и drive2/683021846928433178 (сгнившая витая пара, ошибка «шина данных комфорт»); оранжево-зелёный/оранжево-коричневый как пара CAN High/Low в жгуте VW видны в распиновке Climatronic (drive2/9498893). Кузовная проводка от мотора не зависит; для 2000 г. действует вариант «после 1998».",
+    "checked": [
+      "https://vwts.ru/forum/topic/244995/",
+      "https://vwts.ru/forum/topic/5469/",
+      "https://www.drive2.ru/l/683021846928433178/",
+      "https://www.yaplakal.com/forum14/topic1955672.html",
+      "https://www.drive2.ru/l/9498893/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-body-hookup-wires",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Двумя-тремя независимыми отчётами подтверждены: ЦЗ красно-синий (открытие) / красно-зелёный (закрытие) в водительской двери (1998, 2001; пара цветов — 1997), концевики коричнево-белый, багажник коричнево-чёрный, поворотники чёрно-белый (левый) / чёрно-зелёный (правый) — их подтверждает и английская таблица блока комфорта, синий провод генератора (возбуждение, T32a/12). Только по одному источнику: габариты зелёно-красный/зелёно-чёрный (drive2/470625612378145172) и тормоз красно-чёрный (drive2/488724398405058756). Ошибок не найдено; отчёты по кузову 3B 1997–2001 г., к машине подходят.",
+    "checked": [
+      "https://www.drive2.ru/l/470625612378145172/",
+      "https://www.drive2.ru/l/488724398405058756/",
+      "https://www.drive2.ru/l/582469859300975325/",
+      "https://vwts.ru/forum/topic/5469/",
+      "https://www.drive2.ru/l/588020193997921352/",
+      "https://www.sites.google.com/site/1810martin/b5-ccm-wiring"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-ignition-switch-wires",
+    "status": "unconfirmed",
+    "fits": "unknown",
+    "note": "Цвета (красный — 30, чёрный — 15, жёлто-чёрный — X, красно-чёрный — 50, красно-серый — «положение ключа») есть только в одном отчёте (drive2/488724398405058756, машина 2001 г. 1.8 150 л.с. АКПП, 3B или 3BG — неясно); второго источника найти не удалось (the12volt блокирует доступ). Ошибка: источник drive2/500840191909429331 про Fiat Punto, а не Passat, — «две колодки на 3 и 4 контакта» для B5 не подтверждены; кроме того, в отчёте провод не назван S-контактом, а S-провод у блока комфорта и приборки по распиновке жёлто-красный. Подтверждено: контактная группа 4B0 905 849 подходит к 3B с 1998 г. (Mecatechnic), симптомы неисправности (тусклая приборка, ошибки шины) — по drive2/2584983.",
+    "checked": [
+      "https://www.drive2.ru/l/488724398405058756/",
+      "https://www.drive2.ru/l/2584983/",
+      "https://www.mecatechnic.com/en-GB/p/starter-motor-contact-switch-for-passat-3b-febi-bilstein-quality_GB11636"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-immobilizer",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Контакты зелёного разъёма приборки T32b/2 и T32b/17 (катушка D2) и T32b/5 (W-линия) подтверждены двумя независимыми постами drive2 (7354624 и 675354); Ross-Tech подтверждает иммобилайзер в приборке (адрес 17), различие Immo II/III по полю Extra и наличие Immo-ID в ЭБУ двигателя (блок 081), для B5 1998–2001 вне США — как правило Immo II. То, что W-линия идёт к J220, ни в одном открытом источнике прямо не указано (в схеме это честно отмечено); в посте 1415739 разряд АКБ упомянут лишь как предыстория, а не как причина мигания лампы — это оценка владельцев, а не вывод источника. Схема кузовная, от мотора не зависит — для 3B 2000 подходит; номера приборок для 3B-Y 2000 не подтверждены.",
+    "checked": [
+      "https://www.drive2.ru/l/7354624/",
+      "https://www.drive2.ru/l/675354/",
+      "https://wiki.ross-tech.com/wiki/index.php/VW_Passat_(3B)_Immobilizer",
+      "https://www.drive2.ru/l/1415739/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-mfa-stalk",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение контактов приборки T32b/23–25 (MFA вверх/назад, вниз/вперёд, сброс; E86/E109) подтверждено двумя независимыми постами drive2 (7354624 и 675354). Соответствие контактам 2/1/4 средней колодки переключателя и масса на контакте 3 есть только в отчёте 4058036 — второго источника не найдено. VW Classic Parts подтверждает 4B0 953 503 G 01C как переключатель стеклоочистителя с бортовым компьютером для Passat B5 1997–2000, «только седан»; для 4B0 953 503 H (универсал) есть только магазинные карточки, страница VW Classic не открылась (404). Схема кузовная, от мотора не зависит — для 3B 2000 подходит.",
+    "checked": [
+      "https://www.drive2.ru/l/4058036/",
+      "https://www.drive2.ru/l/7354624/",
+      "https://www.drive2.ru/l/675354/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/4B0953503G%2001C"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-speed-signal",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Выход скорости T32a/3 (выходной сигнал 1 спидометра G21) и вход T32a/28 подтверждены двумя независимыми постами drive2 (7354624 и 675354); связь блок комфорта T23/14 (сине-белый) → T32/3 подтверждена ЯПлакалъ и постом владельца B5 2000 1.8 125 л. с. (663949993110932755); Climatronic C/4 (T16b) — сигнал спидометра, бело-синий, в CAN-версии не используется — подтверждено drive2 9498893 и тем же владельцем. Только из одного источника: ЭБУ двигателя T80/20 и контакт 1 разъёма магнитолы; в ЯПлакалъ сама функция «сигнал скорости» для T23/14 не названа (только соединение с T32/3), датчик скорости на входе T32a/28 ни в одном источнике не назван. Схема с машины того же года и мотора (B5 2000, 1.8 125 л. с.) — подходит; номер приборки 3B0 919 861 B для 3B-Y 2000 не подтверждён.",
+    "checked": [
+      "https://www.drive2.ru/l/663949993110932755/",
+      "https://www.yaplakal.com/forum14/topic1955672.html",
+      "https://www.drive2.ru/l/9498893/",
+      "https://www.drive2.ru/l/7354624/",
+      "https://www.drive2.ru/l/675354/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-fuses-main",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Места 1–40 и 44 совпадают у двух независимых drive2-источников (список по карточке B5/B5.5 и сводный список владельца 3BG 1.8T AWM 2002, США); часть мест (1, 2, 4, 12, 13, 18–24, 27, 28, 30, 33, 35, 36, 38–40, 44) подтверждает и агрегатор fuseandrelay.com, но на местах 3, 5, 7, 10, 14, 17 у него другие потребители (у агрегатора смесь годов, достоверность низкая). Мелкие неточности схемы: у места 41 первый источник пишет «гидромодулятор/насос/прикуриватель», а не «насос ABS»; деталь 3B0 010 241 F в источнике указана лишь как «Табличка» в списке запчастей, что это именно карточка предохранителей — вывод по контексту. S244 (30 А) для обогрева сидений подтверждён постом на passatworld (контакт 4 кнопки, красно-белый), но другой участник там же пишет, что на его кнопке контакта 4 нет. Блок общий для всех B5 3B, от мотора не зависит — для 3B 2000 подходит, состав по комплектации.",
+    "checked": [
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://www.drive2.ru/l/465482371861315832/",
+      "https://passatworld.ru/archive/index.php/t-99005-p-3.html",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-relay-numbers",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Реле 377 — реле дворников под рулём подтверждено тремя независимыми владельцами (vwts.ru, B5 1998 1.8T; passatworld — за боковым кожухом блока предохранителей, два реле и плата внутри; drive2 664328774866711176, B5 1999); 377 ↔ 4B0 955 531 A — только объявления магазинов (prom.ua, остальные магазины не открылись), каталогом VW не подтверждено. Номера 389 и 192 названы одним участником vwts.ru; номер 197 встречается не на vwts.ru, а в теме passatworld (автор пишет «377 или 197 или ещё какая»), — в заметке схемы источник «одной темы» не указан. Реле 53 — стартера и такое же на ПТФ — только подписи к фото одного поста (B5 2001 1.9 TDI); номера 384, 167, 202, 377 в тексте поста не названы (лишь видны на фото, по словам схемы), а агрегатор fuseandrelay приписывает 53 насосу ОЖ и 167 — питанию Motronic, т. е. функция 53 не подтверждена. Реле дворников кузовное — для 3B 2000 подходит.",
+    "checked": [
+      "https://vwts.ru/forum/topic/142001/",
+      "https://passatworld.ru/showthread.php/230004-Razbor-i-remont-rele-stekloochistitelya",
+      "https://www.drive2.ru/l/664328774866711176/",
+      "https://www.drive2.ru/l/494847303782236876/",
+      "https://prom.ua/Rele-dvornikov-a2.html",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-hazard-switch",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Распиновка (COM 1, T1 2, T2 3, масса 5, +12 В 6; у Golf 4 масса 6, плюс 7) в посте drive2 456170607885681663 есть дословно, с предупреждением проверить тестером, но второго независимого источника найти не удалось — пины держатся на одном авторе (и это его нумерация для модуля, а не заводская схема). Номера 3B0 953 235 B/D и Febi 24742 подтверждены карточкой carparts247, но в схеме применимость указана неточно: там Passat B5 3B2 1996–2001 и 3B5 1997–2001, а 1996–2005 — это вместе с B5.5 3B3/3B6; страница URO (frsport) не открылась (429). Узел кузовной, но какой суффикс и нумерация контактов именно у 3B-Y 2000 — не подтверждено, поэтому fits — unknown.",
+    "checked": [
+      "https://www.drive2.ru/l/456170607885681663/",
+      "https://carparts247.co.uk/febi-bilstein-165875.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-headlight-leveling-motor",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Обозначения клемм корректора 56b (плюс), G (сигнал), 31 (масса) подтверждены двумя независимыми источниками (passatworld 197012 и drive2 6457314, B5 2000 1.8). Номера контактов 1/2/3 на моторе и цвета (жёлтый/коричнево-белый/коричневый) есть только на passatworld, там же — замечание о двух контактах с цифрой 2 (в drive2 6457314 его нет, хотя в схеме это подано как слова того же владельца). Корпуса разъёмов фары (8D0 971 966, 357 972 753, 813 972 923) — только drive2 570230920494186627 (B5 1999 2.3 V5), причём 813 972 923 в его же списке запчастей назван «кожух плоского контакта», а не круглой фишкой. VW Classic Parts даёт 3B0 941 295 для Passat B5 1997–2000 с пометкой «Halogen twin headlights with gas discharge bulb» (т. е. возможно фары с ксеноном), а 1H0 941 295 C у владельца — деталь Golf; какой мотор стоит на галогеновой фаре 3B-Y 2000, не подтверждено — fits unknown.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
+      "https://www.drive2.ru/l/6457314/",
+      "https://www.drive2.ru/l/570230920494186627/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941295"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-dimmer-leveling-switch",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение клемм 31/G/56b/58/58d и цвета (коричневый, коричнево-белый, серый от контакта 16 выключателя света, жёлтый от контакта 4, серо-синий) есть только в одной теме passatworld 197012; обозначения 56b/31/G подтверждает drive2 6457314, а разделение на корректор (31, G, 56b) и подсветку (58/58d) — независимо drive2 719549 (Octavia, общий для VAG регулятор). Питание корректора от клеммы 75 — в drive2 6457314 (на passatworld его нет). VW Classic Parts подтверждает: 3B0 941 333 A 01C — подсветка + корректор, зелёный, B5 1997–2000; C 01C — то же, красный, B5 1997–2000 и B5 GP; B 01C — только подсветка, зелёный; ксенон/США на странице B 01C не упомянуты, а цвет подсветки в посте 6457314 не указан — пометка схемы «красная, как в посте владельца 6457314» источником не подтверждена. Регулятор кузовной, для B5 2000 по каталогу подходит.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
+      "https://www.drive2.ru/l/6457314/",
+      "https://www.drive2.ru/l/719549/",
+      "https://www.drive2.ru/l/588020193997921352/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941333A%2001C",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941333C%2001C",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941333B%2001C"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-headlight-leveling-circuit",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Подтверждено: регулятор получает 56b (жёлтый) с контакта 4 выключателя света и выдаёт G (коричнево-белый) на корректоры, корректор питается 56b/31/G (passatworld + drive2 588020193997921352, где контакт 4 = клемма 56); предохранители 20/21 — ближний свет и корректор (drive2-блог + fuseandrelay); регулятор 3B0 941 333 A/C по VW Classic Parts — B5 1997–2000, т. е. подходит 3B 2000 с галогеном. Не подтверждено ни одним источником: номера контактов мотора «1 (56b), 2 (G), 3 (31)» (в passatworld их нет, автор пишет о двух контактах с меткой «2»); в самой теме passatworld есть противоречие (плюс на 4-й или 5-й контакт регулятора, исходная таблица признана ошибочной). Ошибки: мотор 3B0 941 295 по VW Classic Parts числится для фар «с газоразрядной лампой», для галогена не подтверждён (автор drive2 6457314 ставил 1H0941295C), и в drive2 6457314 плюс брали не с 56b, а с клеммы 75.",
+    "checked": [
+      "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
+      "https://www.drive2.ru/l/6457314/",
+      "https://www.drive2.ru/l/588020193997921352/",
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941333C%2001C",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941333A%2001C",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941295"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-headlight-3bg-10pin",
+    "status": "partial",
+    "fits": "no",
+    "note": "Назначение всех 10 контактов в посте drive2 570230920494186627 совпадает со схемой (прозвонка автора, B5 1999), но второго независимого открытого источника распиновки найти не удалось — пины остаются на одном источнике. Номера корпусов подтверждены отдельно: 8D0 971 966 — круглая 5-контактная фишка фары B5/B5GP (VW Classic Parts), 6R0 973 735 — 10-контактная фишка галогеновой фары VAG (autohausaz, применимость указана с Passat 2003, B5+ 2001–2002 там не названа). Штатно на 3B 2000 этого разъёма нет — схема нужна только при установке фар B5+.",
+    "checked": [
+      "https://www.drive2.ru/l/570230920494186627/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/8D0971966",
+      "https://www.autohausaz.com/pn/VW-6R0973735"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-light-switch",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Контакт 4 = 56/ближний подтверждён тремя постами разных авторов (passatworld 197012, passatworld 176910 «4 ближний», drive2 588020193997921352 «на штекере 4 = 56 на выключателе»), контакт 16 = 58/подсветка — двумя (197012 и 176910 «16 салон, номер»); контакты 2 (+12 В) и 8 (реле ПТФ) — только одно сообщение Seregas в 176910. Номер 3B0 941 531 C 01C (зелёная подсветка, B5 1997–2000) подтверждён VW Classic Parts — подходит 3B 2000. Неточности: в теме 176910 названы ещё контакты 13 и 14 (габариты), а схема пишет, что остальные номера не найдены; пост drive2 588020193997921352 — машина 2001 г. (150 л. с.), а не 2000; в drive2 10249038 автор окисления не нашёл, про окисленные контакты лишь «все пишут».",
+    "checked": [
+      "https://passatworld.ru/archive/index.php/t-176910.html",
+      "https://passatworld.ru/showthread.php/197012-Raspinovka-regulyatora-podsvetki-pribornoj-paneli",
+      "https://www.drive2.ru/l/588020193997921352/",
+      "https://www.drive2.ru/l/470625612378145172/",
+      "https://www.drive2.ru/l/10249038/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0941531C%2001C"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-rear-lamp-connector-3bg",
+    "status": "partial",
+    "fits": "no",
+    "note": "Контакты 3 (стоп), 5 (масса, коричневый), 6 (задняя ПТФ, серо-белый), счёт сверху вниз и замыкание 3–6 на «американских» платах есть в drive2 9355932, но это единственный источник распиновки — второго не нашлось; кузов там не указан (B5 2002, 1.9 TDI), так что «седан» в схеме не подтверждён. Держатель ламп 3B5 945 257 по VW Classic Parts — седан B5 1997–2000 (подтверждено); у 3B5 945 257 C на oemwolf седан не указан, применимость 2001–2005 дана для рынков Бразилии, Китая, Мексики, США, ЮАР и т. п. Для 3B 2000 распиновку как есть применять нельзя: по drive2 513687160646271720 (Variant 2000) порядок проводов у фонарей до и после рестайлинга разный — правда, это сказано про универсал, не про седан. Сам 6-контактный разъём фонаря у седана B5 с 11/2000 подтверждает инструкция Brink 756404, но назначения контактов в ней нет.",
+    "checked": [
+      "https://www.drive2.ru/l/9355932/",
+      "https://www.drive2.ru/l/513687160646271720/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B5945257",
+      "https://oemwolf.com/oem-parts/3b5945257c.html",
+      "https://sk-handels-gmbh.de/montageanleitungen/756404.pdf"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-towbar-lamp-taps",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Назначение и цвета контактов 4- и 2-контактного отводов, номера 893 971 634 / 893 971 632 / N 906 844 05 совпадают с подписями на фото в drive2 532850548806779092 (B5 2002), но это один источник; drive2 567643219878217784 (Variant 2001) подтверждает лишь три фишки на левом и одну на правом фонаре, без распиновки. Предохранитель 35 (розетка прицепа, 30 А) подтверждён fuseandrelay и autogenius, хотя в тексте поста 532850 его нет; 3B5 055 203/204 — электрокомплекты для прицепа (oemwolf). Для 3B 2000 наличие таких отводов не подтверждено: инструкция Brink для седана B5 с 11/2000 подключает жгут через 6-контактные разъёмы фонарей, а не через отводы. Цвет «серо-красный = задний ход» независимо не подтверждён (в жгуте Brink серо-красный — правый габарит, задний ход — сине-красный, но это цвета чужого жгута).",
+    "checked": [
+      "https://www.drive2.ru/l/532850548806779092/",
+      "https://www.drive2.ru/l/567643219878217784/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://www.autogenius.info/volkswagen-passat-b5-1996-2005-fuse-box-diagram/amp/",
+      "https://oemwolf.com/oem-parts/3b5055204.html",
+      "https://sk-handels-gmbh.de/montageanleitungen/756404.pdf"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-trailer-socket-7pin",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Назначение контактов 1–7 (1 — левый поворот, 2 — задняя ПТФ, 3 — масса, 4 — правый поворот, 5 — правый габарит, 6 — стоп, 7 — левый габарит) из схемы drive2 567643219878217784 совпадает с инструкцией производителя Brink (жгут 756404 для седана B5, контакты 1–7 13-контактной розетки) и с таблицей в Wikipedia; цвета на схеме автора — стандартная цветовая маркировка ISO 1724 (жёлтый, синий, белый, зелёный, коричневый, красный, чёрный), а не цвета жгута VW, как и сказано в схеме. Розетка стандартная, от мотора и года не зависит. Ошибка: прикреплённая к схеме картинка-таблица из drive2 532850548806779092 описывает розетку прицепов «ЛАВ» по другому стандарту (5 — задний ход, 7 — все габариты) и противоречит распиновке схемы. Кроме того, в посте 532850 штатной названа 13-контактная розетка, а номера жгутов 3B5 055 203/204 подтверждены лишь как электрокомплекты прицепа (oemwolf).",
+    "checked": [
+      "https://www.drive2.ru/l/567643219878217784/",
+      "https://www.drive2.ru/l/532850548806779092/",
+      "https://sk-handels-gmbh.de/montageanleitungen/756404.pdf",
+      "https://en.wikipedia.org/wiki/Trailer_connectors_in_Europe",
+      "https://oemwolf.com/oem-parts/3b5055204.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-radio-power-connector",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение 1–8 и бело-синий провод скорости на контакте 1 есть в drive2 663949993110932755 — пост с B5 2000 1.8 125 л. с., т. е. такой же машины, как у владельца. Общая ISO-распиновка (pinouts.ru) независимо подтверждает 1 — скорость/GALA, 2 — mute, 6 — подсветка, 8 — масса; там же сказано, что A4/A7 у части машин переставлены и что на VW с 1998 г. на A5 может быть +12 В. Схема VW (4 — S-контакт, 7 — +30), а также 3 — диагностика и 5 — SAFE остаются на одном источнике. Неточности: обозначения «T32a/3» в источнике нет (там «синий разъём приборки, 3 пин»); в drive2 493806066270733010 сказано лишь, что жёлтый и красный провода скручены и посажены на АКБ, а что это сделал прежний хозяин — только из комментария.",
+    "checked": [
+      "https://www.drive2.ru/l/663949993110932755/",
+      "https://www.drive2.ru/l/493806066270733010/",
+      "https://pinouts.ru/CarAudio/car_audio_iso.shtml"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-climatronic-3b",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Все перечисленные контакты, назначения и цвета разъёмов A/B/C/D (без CAN), а также отличия CAN-версии совпадают с drive2 9498893. Это единственный источник, автор которого сам пишет, что собрал данные с passatplus.de, из ELSA и с passat-b5.ru, а машина у него — B5+ 2002 1.8T. Независимо подтверждён только C/4 (бело-синий, сигнал скорости, разъём T16b контакт 4) — в drive2 663949993110932755 у другого автора; открытой второй распиновки (не копии ELSA или мануалов) найти не удалось. Номера блоков 3B1 907 044 B (B5 1998) и 3B1 907 044 H (Variant 2001) в указанных постах есть, но то, что H — без CAN, прямо не сказано, это вывод из ответа автора («этот кановый» о блоке J). Подходит ли схема к 3B 2000, зависит от того, стоит ли Climatronic вообще и без CAN ли блок — сверять номер блока на своей машине.",
+    "checked": [
+      "https://www.drive2.ru/l/9498893/",
+      "https://www.drive2.ru/l/663949993110932755/",
+      "https://www.drive2.ru/l/460932592745578741/",
+      "https://www.drive2.ru/l/552318776566088273/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-abs-bosch53",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Назначение всех 31 контакта дословно совпадает с drive2 7498544, но это единственный найденный открытый источник распиновки (Ross-Tech wiki по Bosch 5.3 распиновки не содержит); независимо подтверждено только питание блока от предохранителя 7 (10 А, «блок ABS») по двум спискам предохранителей; там же в источнике указаны номиналы S7 10 А и S53 50 А, хотя в notes сказано, что номиналы не приводятся. Источник распиновки — Passat B5 Variant 2001 1.8T с блоком 8E0 614 111 B, фото-источник — Variant 2000 1.8T (номера 8E0 614 111 B, 0 265 220 405, 0 273 004 283 там есть, но слово «Bosch 5.3» нет); стоит ли такой же блок на ARG 2000 без ESP, не подтверждено — сверять по табличке. Ошибка в notes: владелец с 42-контактной колодкой ABS (drive2 588020193997921352) — машина 2001 г., 1.8 150 л.с., а не «3B 2000».",
+    "checked": [
+      "https://www.drive2.ru/l/7498544/",
+      "https://www.drive2.ru/l/504176110188102455/",
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://www.drive2.ru/l/588020193997921352/"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-seat-heating-button",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение контактов 1–6 подтверждено двумя независимыми источниками: пост на passatworld (с цветами) и схема alekshulk (изображение на drive2: 1 — подсветка, 4 — F44 30 А, 5 — F5 10 А, 6 — масса, 2→разъём сиденья 4, 3→2); предохранители 44 (30 А) и 5 (10 А) «подогрев сидений» подтверждены списками предохранителей. Цвета проводов (серо-синий, чёрно-жёлтый, чёрно-белый, красно-белый, чёрно-красный, коричневый) — только passatworld; на форуме предохранитель назван S244 (30 А), что соответствует ячейке 44. Применимость: VW Classic Parts даёт левый выключатель подогрева 3B0 963 563 01C для Passat B5 1997–2000; номер 3B0 963 563 D подтверждён oemwolf (Passat 1997–2002) и drive2 9426724; текст drive2 509807258989756478 номеров контактов не содержит — они только на картинке.",
+    "checked": [
+      "https://passatworld.ru/archive/index.php/t-99005-p-3.html",
+      "https://a1.drive-data.ru/HQAAAgKMyOA-960.jpg",
+      "https://www.drive2.ru/l/509807258989756478/",
+      "https://www.drive2.ru/l/9426724/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0963563%20%2001C",
+      "https://oemwolf.com/oem-parts/3b0963563d.html",
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-seat-heating-seat-connector",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Назначение контактов (1 и 3 — масса, 2 — от контакта 3 кнопки, 4 — от контакта 2 кнопки) подтверждено passatworld и схемой alekshulk; цвета проводов на стороне кузова — только passatworld. Неточность: зелёная колодка 6-местная (на схеме alekshulk контакты 1–6, на фото drive2 414865 шесть гнёзд), используются 4 — заголовок «4 контакта» стоит уточнить. Фото в схеме (drive2 414865, B5 2001) подписано цветами проводов со стороны сиденья, они другие: зелёно-чёрный и коричневый — нагрев, коричнево-чёрный и бело-чёрный — датчик; подпись «цвета проводов» без пояснения сбивает с толку.",
+    "checked": [
+      "https://passatworld.ru/archive/index.php/t-99005-p-3.html",
+      "https://a1.drive-data.ru/HQAAAgKMyOA-960.jpg",
+      "https://www.drive2.ru/l/509807258989756478/",
+      "https://www.drive2.ru/l/414865/",
+      "https://a1.drive-data.ru/418af7u-960.jpg"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-seat-heating-circuit",
+    "status": "confirmed",
+    "fits": "yes",
+    "note": "Цепь подтверждена независимо: passatworld (кнопка 4 — постоянный +12 В с S244 30 А, 5 — +12 В зажигание, 6 — масса, 2/3 — к нагревателю и датчику; разъём сиденья 1/3 — масса, 4 — подушка, масса через спинку) и схема alekshulk (обе кнопки от F44 30 А и F5 10 А, общая масса); назначение F44 и F5 («обогрев сидений») — по двум спискам предохранителей. Цвета проводов — только из passatworld. Подходит для 3B 1997–2000 (VW Classic Parts: левый выключатель подогрева для Passat B5 1997–2000).",
+    "checked": [
+      "https://passatworld.ru/archive/index.php/t-99005-p-3.html",
+      "https://a1.drive-data.ru/HQAAAgKMyOA-960.jpg",
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://car-box.info/volkswagen/passat/b5-1997-2005.html",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0963563%20%2001C"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-rear-window-heater",
+    "status": "partial",
+    "fits": "yes",
+    "note": "Предохранитель 26 (30 А, обогрев заднего стекла) подтверждён тремя списками предохранителей (по fuseandrelay/car-box тот же предохранитель питает обогрев зеркал и заслонку рециркуляции). Толстый белый провод на синей колодке у ног водителя (+12 В при нажатой кнопке) — только drive2 664328774866711176 (B5 1999, дизель); T23/1 чёрно-коричневый → T7/3 выключателя — только ЯПлакалъ (Passat B5 1.8T 1998, блок 1J0 959 799 AH, распиновка перепечатана с passatworld), независимого подтверждения нет. Кнопка 3B0 959 621 B 01C подтверждена VW Classic Parts для Passat B5 1997–2000 (в классификации «Control unit for air condit.»); на машинах с Climatronic кнопка может быть другой — не проверено.",
+    "checked": [
+      "https://www.drive2.ru/l/664328774866711176/",
+      "https://www.yaplakal.com/forum14/topic1955672.html",
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html",
+      "https://car-box.info/volkswagen/passat/b5-1997-2005.html",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/3B0959621B%2001C"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-wiper-stalk",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Назначение контактов 1–6 и цвета проводов есть в drive2 523320806650940281 (седан B5 1996 1.6 без бортового компьютера), но других открытых источников распиновки не нашлось (сайты со сканами руководств не использовались); реле 377 с подгоревшим контактом — по vwts.ru (B5 1.8T AEB 1998; там же как варианты названы 389 и 192). По VW Classic Parts 4B0 953 503 G 01C — переключатель с бортовым компьютером, «Limousine only» (только седан), для Passat B5 1997–2000 и B5 GP; это ограничение по кузову в part_numbers не указано. Подходит ли распиновка для 2000 г. в комплектации владельца (с MFA или без), не подтверждено.",
+    "checked": [
+      "https://www.drive2.ru/l/523320806650940281/",
+      "https://vwts.ru/forum/topic/142001/",
+      "https://www.volkswagen-classic-parts.com/catalog/en_de/part/4B0953503G%2001C",
+      "https://oemwolf.com/oem-parts/4b0953503f.html"
+    ],
+    "date": "2026-11-26"
+  },
+  {
+    "kind": "diagram",
+    "key": "b5-xenon-j431",
+    "status": "partial",
+    "fits": "unknown",
+    "note": "Контакты 9–20 блока 4Z7 907 357 совпадают с drive2 588020193997921352, но это единственный источник распиновки блока; там же есть контакты 14 (K-линия) и 15 (сигнал переднего датчика), которых в схеме нет. Контакты датчика G78 (1 — минус, 5 — +5 В, 4 — сигнал), разъёмы T10s/T15y/T20 и номер 4Z7 907 357 подтверждены drive2 4326590; ячейка 8 (5 А, «корректор фар при газоразрядных лампах, телефон») — по drive2-списку, а fuseandrelay даёт для ячейки 8 только телефон (5 А). Ошибка применимости: в обоих источниках машина 2001 г. 1.8 150 л.с., а не «3B, 2000» (в 588020193997921352 2000 год не упоминается); 42-контактная колодка ABS с контактом 34 не относится к 31-контактному Bosch 5.3, поэтому для машины с таким блоком сигнал скорости брать оттуда нельзя.",
+    "checked": [
+      "https://www.drive2.ru/l/588020193997921352/",
+      "https://www.drive2.ru/l/4326590/",
+      "https://www.drive2.ru/b/594871250950616064/",
+      "https://fuseandrelay.com/volkswagen/b5-passat.html"
+    ],
+    "date": "2026-11-26"
+  }
+]
