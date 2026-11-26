@@ -77,7 +77,7 @@ export default function register(app) {
       active: 'menu',
       body: h`${pageTitle('Электросхемы')}
 ${searchBox('/search', '', 'Фары, ЭБУ, предохранители, стеклоподъёмник…', 'scheme')}
-<p class="muted">Passat B5 3B, 2000, ARG. Полные заводские схемы — erWin (платно).</p>
+<p class="muted">Passat B5 3B, 2000, ARG, передний привод. Полные заводские схемы — erWin (платно).</p>
 <nav class="chips" id="where-filter" aria-label="Где смотреть">
 <a href="?where=" data-where="">Все · ${onSite + offSite}</a>
 <a href="?where=site" data-where="site">На сайте · ${onSite}</a>

@@ -31,7 +31,7 @@ export function verifyBlock(v) {
   return h`<section class="card verify"><h3>Проверка ${verifyBadges(v)}</h3>
 ${v.note ? h`<p>${v.note}</p>` : ''}
 ${checked.length ? h`<p class="note">Сверено по: ${checked.map((u, i) => h`${i ? ', ' : ''}<a href="${u}" target="_blank" rel="noopener noreferrer">${(() => { try { return new URL(u).host.replace(/^www\./, ''); } catch { return u; } })()}</a>`)}</p>` : ''}
-<p class="note">Машина: Passat B5 3B, 2000 модельный год, ARG. Сверка по открытым источникам не заменяет официальную документацию VW.</p></section>`;
+<p class="note">Машина: Passat B5 3B, 2000 модельный год, ARG, передний привод. Сверка по открытым источникам не заменяет официальную документацию VW.</p></section>`;
 }
 
 // Короткая метка для списков: только то, что важно увидеть сразу.
