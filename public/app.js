@@ -31,3 +31,25 @@ document.addEventListener('error', function (e) {
   });
   if (best) { best.a.classList.add('on'); best.a.setAttribute('aria-current', 'page'); }
 })();
+
+// Фильтр «Все / На сайте / За пределами» на странице схем (?where=site|ext).
+(function () {
+  var bar = document.getElementById('where-filter');
+  if (!bar) return;
+  var where = new URLSearchParams(location.search).get('where') || '';
+  bar.querySelectorAll('a').forEach(function (a) {
+    a.classList.toggle('on', (a.getAttribute('data-where') || '') === where);
+  });
+  if (!where) return;
+  document.querySelectorAll('[data-where]').forEach(function (el) {
+    if (bar.contains(el)) return;
+    el.hidden = el.getAttribute('data-where') !== where;
+  });
+  // Скрыть заголовки разделов и групп, в которых ничего не осталось.
+  var groups = Array.prototype.slice.call(document.querySelectorAll('[data-group]')).reverse();
+  groups.forEach(function (g) {
+    var items = g.querySelectorAll('[data-where]');
+    var visible = Array.prototype.some.call(items, function (i) { return !i.hidden; });
+    g.hidden = !visible;
+  });
+})();

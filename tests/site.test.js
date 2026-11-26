@@ -51,6 +51,11 @@ test('страница схемы: оригинальные фото схемы 
   assert.match(detail, /obd.jpg/);
   assert.doesNotMatch(detail, /box.jpg/);
   assert.match(body, /Уточнить по официальной документации/);
+  // фильтр «на сайте / за пределами»
+  assert.match(list, /id="where-filter"/);
+  assert.match(list, /href="\?where=site"/);
+  assert.match(list, /href="\?where=ext"/);
+  assert.match(list, /data-where="site"/);
   assert.match(list, /1J0 972 977/, 'номер детали на карточке');
   assert.match(list, /src="https:\/\/example.org\/pin.png"/);
 });

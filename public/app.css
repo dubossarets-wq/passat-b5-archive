@@ -298,3 +298,9 @@ details.check[open] > summary::before { content: '▾ '; }
   th, td { border-color: #999; }
   .badge, .st { background: none !important; color: #000 !important; }
 }
+
+/* где смотреть: на сайте или по внешней ссылке */
+[hidden] { display: none !important; }
+.where { display: inline-block; font-size: 11px; padding: 1px 6px; border-radius: var(--radius-2); margin-right: 4px; vertical-align: 1px; }
+.w-site { background: var(--green-a3); color: var(--green-a11); }
+.w-ext { background: var(--gray-a3); color: var(--gray-a11); }

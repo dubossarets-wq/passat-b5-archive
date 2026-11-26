@@ -68,37 +68,50 @@ export default function register(app) {
       ...diagrams.flatMap((d) => schemePics(d.images).map((im) => ({ im, title: d.title, href: `/diagrams/${d.id}`, src: im.source_url || '' }))),
       ...rows.flatMap((r) => schemePics(r.images).map((im) => ({ im, title: r.title, href: r.url, src: r.url, ext: true }))),
     ].filter((t, i, all) => all.findIndex((x) => x.im.src === t.im.src) === i);
+    // «На сайте» — видно прямо в справочнике; «за пределами» — ссылки без картинок.
+    const onSite = tiles.length + diagrams.length + looseChecks.length + withImages;
+    const offSite = rows.length - withImages;
     return reply.html(page({
       title: 'Электросхемы',
       active: 'menu',
       body: h`${pageTitle('Электросхемы')}
 ${searchBox('/search', '', 'Фары, ЭБУ, предохранители, стеклоподъёмник…', 'scheme')}
 <p class="muted">Passat B5 3B, 2000, ARG. Полные заводские схемы — erWin (платно).</p>
+<nav class="chips" id="where-filter" aria-label="Где смотреть">
+<a href="?where=" data-where="">Все · ${onSite + offSite}</a>
+<a href="?where=site" data-where="site">На сайте · ${onSite}</a>
+<a href="?where=ext" data-where="ext">За пределами · ${offSite}</a>
+</nav>
 
+<section data-group>
 <h2>Схемы <span class="muted" style="font-weight:400">· ${tiles.length}</span></h2>
-${tiles.length ? h`<div class="gallery">${tiles.map((t) => h`<a class="g-tile" href="${t.href}"${t.ext ? h` target="_blank" rel="noopener noreferrer"` : ''}>
+${tiles.length ? h`<div class="gallery">${tiles.map((t) => h`<a class="g-tile" data-where="site" href="${t.href}"${t.ext ? h` target="_blank" rel="noopener noreferrer"` : ''}>
 <span class="g-img"><img src="${t.im.src}" alt="${t.im.caption || t.title}" loading="lazy" referrerpolicy="no-referrer"></span>
 <span class="g-t">${t.im.caption || t.title}</span><span class="g-s">${host(t.src || t.im.src)}</span></a>`)}</div>` : emptyState('Схемы разбираются — скоро появятся.')}
+</section>
 
+<section data-group>
 <h2>По компонентам <span class="muted" style="font-weight:400">· ${diagrams.length}</span></h2>
-${diagrams.length ? h`<div class="cards">${diagrams.map((d) => h`<a class="card diag-card" href="/diagrams/${d.id}">
+${diagrams.length ? h`<div class="cards">${diagrams.map((d) => h`<a class="card diag-card" data-where="site" href="/diagrams/${d.id}">
 ${previews(d)}
 <span class="t">${d.title}</span>
 ${images(d.part_numbers).length ? h`<span class="pn mono">${images(d.part_numbers).slice(0, 3).map((p, i) => h`${i ? ' · ' : ''}${p.number}${p.brand && p.brand !== 'VAG' ? ` (${p.brand})` : ''}`)}</span>` : ''}
 <span class="s">${TYPE_LABEL[d.type]}${d.system_name ? ` · ${d.system_name}` : ''}${d.applies_to ? ` · ${d.applies_to}` : ''}</span></a>`)}</div>` : emptyState('Схемы готовятся.')}
+</section>
 
-${looseChecks.length ? h`<h2 id="checks">Проверка датчиков</h2>
-${looseChecks.map((c) => h`<details class="check"><summary>${c.component}${c.part_number ? h` <span class="muted mono">${c.part_number}</span>` : ''}</summary>
+${looseChecks.length ? h`<section data-group><h2 id="checks">Проверка датчиков</h2>
+${looseChecks.map((c) => h`<details class="check" data-where="site"><summary>${c.component}${c.part_number ? h` <span class="muted mono">${c.part_number}</span>` : ''}</summary>
 <ol class="plain">${images(c.checks).map((x) => h`<li>${x}</li>`)}</ol>
-<p class="note">Заводские значения: уточнить по официальной документации (erWin).${c.check_source_url ? h` <a href="${c.check_source_url}" target="_blank" rel="noopener noreferrer">Откуда методика</a>` : ''}</p></details>`)}` : ''}
+<p class="note">Заводские значения: уточнить по официальной документации (erWin).${c.check_source_url ? h` <a href="${c.check_source_url}" target="_blank" rel="noopener noreferrer">Откуда методика</a>` : ''}</p></details>`)}</section>` : ''}
 
+<section data-group>
 <h2>Из открытых источников <span class="muted" style="font-weight:400">· ${rows.length}, с картинками ${withImages}</span></h2>
-${rows.length ? groupBySystem(rows).map(([name, list]) => h`<h3 class="grp">${name}</h3><ul class="list">${list.map((s) => h`<li id="s${s.id}"><div class="item">
+${rows.length ? groupBySystem(rows).map(([name, list]) => h`<div data-group><h3 class="grp">${name}</h3><ul class="list">${list.map((s) => h`<li id="s${s.id}" data-where="${s.images ? 'site' : 'ext'}"><div class="item">
 <a class="t" href="${s.url}" target="_blank" rel="noopener noreferrer">${s.title} ${icon('external')}</a>
 ${s.description ? h`<span class="snip">${s.description}</span>` : ''}
-<span class="s">${SCHEME_KIND_LABEL[s.kind] ?? s.kind} · ${SOURCE_LABEL[s.source_type] ?? s.source_type}${s.applies_to ? ` · ${s.applies_to}` : ''}</span>
+<span class="s"><span class="where ${s.images ? 'w-site' : 'w-ext'}">${s.images ? 'картинки на сайте' : 'только по ссылке'}</span> ${SCHEME_KIND_LABEL[s.kind] ?? s.kind} · ${SOURCE_LABEL[s.source_type] ?? s.source_type}${s.applies_to ? ` · ${s.applies_to}` : ''}</span>
 ${gallery(images(s.images), s.url)}
-</div></li>`)}</ul>`) : emptyState('Ссылок на схемы пока нет.')}`,
+</div></li>`)}</ul></div>`) : emptyState('Ссылок на схемы пока нет.')}</section>`,
     }));
   });
 
